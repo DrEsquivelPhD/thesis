@@ -6,7 +6,7 @@
 %\documentclass[hyperpdf,nobind,draft,hidefrontback]{hepthesis}
 
 %%For Cambridge soft-bound version
-\documentclass[hyperpdf,bindnopdf]{hepthesis}
+\documentclass[hyperpdf,bindnopdf,usenames,dvipsnames,svgnames,table]{hepthesis}
 %% For Cambridge hard-bound version (must be one-sided)
 %\documentclass[hyperpdf,oneside]{hepthesis}
 
@@ -15,27 +15,33 @@
 \usepackage{mathpazo}
 %\usepackage{euler}
 
+
 %% Put package includes etc. into preamble.tex for convenience
 \input{preamble}
 
+\usepackage{floatrow}
+% Table float box with bottom caption, box width adjusted to content
+\newfloatcommand{capbtabbox}{table}[][\FBwidth]
+
+\newcommand{\mc}[2]{\multicolumn{#1}{c}{#2}}
+\definecolor{Gray}{gray}{0.85}
+\definecolor{LightCyan}{rgb}{0.8,1,1}
+\newcolumntype{a}{>{\columncolor{LightCyan}}c}
 %% You can set the line spacing this way
 %\setallspacing{double}
 %% or a section at a time like this
 %\setfrontmatterspacing{double}
 
 
-%% Define the thesis title and author
-\title{A study of \BToKPi decays with\\ the \LHCb experiment}
-\author{Andrew Gordon Buckley}
 
 %% Doc-specific PDF metadata
 \makeatletter
 \@ifpackageloaded{hyperref}{%
 \hypersetup{%
-  pdftitle = {Studying B to K pi decays with LHCb},
-  pdfsubject = {Andy Buckley's PhD thesis},
-  pdfkeywords = {LHCb, B, physics, LHC, heavy flavour},
-  pdfauthor = {\textcopyright\ Andy Buckley}
+  pdftitle = {$\mu/\pi$ separation using Convolutional Neural Networks for the MicroBooNE Charged Current Inclusive Cross Section Measurement},
+  pdfsubject = {Jessica Esquivel's P.hD Thesis},
+  pdfkeywords = {MicroBooNE, CC-Inclusive, physics, FNAL, CNN},
+  pdfauthor = {\textcopyright\ Jessica Esquivel}
 }}{}
 \makeatother
 
@@ -43,17 +49,72 @@
 %% Start the document
 \begin{document}
 
-%% Define the un-numbered front matter (cover pages, rubrik and table of contents)
 \begin{frontmatter}
+\begin{center}
+\vspace*{0.2cm}
+\noindent\makebox[\linewidth]{\rule{\textwidth}{0.3pt}}
+{\huge %[Update Title]\\
+$\mu/\pi$ separation using Convolutional Neural Networks for the MicroBooNE Charged Current Inclusive Cross Section Measurement 
+%Put in your Title\\[-0.3cm]
+%in titlepage.tex\\[0.4cm]
+}
+\noindent\makebox[\linewidth]{\rule{\textwidth}{0.3pt}}\\ % fix spacing here
+\vspace{0.5cm}
+%by (fix spacing above and at top)\\
+\vspace{0.5cm}
+\tracked{\large Jessica Nicole Esquivel}\\[6pt]
+Bachelor of Science in Electrical Engineering and Applied Physics\\
+St. Mary's University\\
+San Antonio, TX, USA 2011\\
+\vspace{1.3cm}
+\tracked{\large DISSERTATION}\\[6pt]
+Submitted in partial fulfillment\\
+of the requirements for the degree\\
+\emph{Doctor of Philosophy in Physics}\\
+\ifthenelse{\boolean{isdraft}}{
+\vspace{1.5cm}
+- * - \tracked{DRAFT \today}~- * -\\[0.5cm]
+}{
+\vspace{1.5cm}
+}
+December, 2017\\
+Syracuse University\\
+Syracuse, New York
+%SYRACUSE UNIVERSITY MMXIII
+
+\end{center}
+%\setcounter{page}{2}
+\thispagestyle{empty}
+\clearpage
+
+\vspace*{5cm}
+\begin{center}
+    Copyright 2017\\
+    Jessica Nicole Esquivel\\
+    All Rights Reserved\\
+    Syracuse University\\
+\end{center}
+\thispagestyle{empty}
+%\setcounter{page}{3}
+
+ \input{seals}
+%% Define the un-numbered front matter (cover pages, rubrik and table of contents)
   \input{frontmatter}
 \end{frontmatter}
 
 %% Start the content body of the thesis
 \begin{mainmatter}
   %% Actually, more semantic chapter filenames are better, like "chap-bgtheory.tex"
-  \input{chap1}
-  \input{chap2}
-  \input{chap3}
+  \input{intro}
+  \input{neutrinos}
+  \input{MicroBooNE}
+  \input{neutrinoID}
+  \input{meas}
+  \input{mupiseparation}
+  \input{cnn}
+  \input{data}
+  \input{selImodcompare}
+  \input{conclusion}
   %% To ignore a specific chapter while working on another, making the build faster, comment it out:
   %\input{chap4}
 \end{mainmatter}

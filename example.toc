@@ -1,0 +1,37 @@
+\select@language {english}
+\select@language {english}
+{\pdfbookmark [0]{Contents}{toc}}
+\contentsline {chapter}{List of figures}{xiii}{chapter*.2}
+\contentsline {chapter}{List of tables}{xv}{chapter*.3}
+\contentsline {chapter}{\numberline {1}Introduction}{1}{chapter.1}
+\contentsline {chapter}{\numberline {2}Neutrinos}{3}{chapter.2}
+\contentsline {section}{\numberline {2.1}What are Neutrinos}{3}{section.2.1}
+\contentsline {section}{\numberline {2.2}History of Neutrinos}{4}{section.2.2}
+\contentsline {section}{\numberline {2.3}Neutrino Oscillations}{4}{section.2.3}
+\contentsline {section}{\numberline {2.4}Solar Oscillations and the Solar Neutrino Problem}{5}{section.2.4}
+\contentsline {subsection}{\numberline {2.4.1}MSW Effect}{7}{subsection.2.4.1}
+\contentsline {section}{\numberline {2.5}Atmospheric Oscillations and the Atmospheric Neutrino Anomaly}{7}{section.2.5}
+\contentsline {section}{\numberline {2.6}Two Flavour Neutrino Oscillation Formulation}{9}{section.2.6}
+\contentsline {section}{\numberline {2.7}Three Flavour Neutrino Oscillation Formulation}{12}{section.2.7}
+\contentsline {section}{\numberline {2.8}Unanswered questions about Neutrinos}{13}{section.2.8}
+\contentsline {section}{\numberline {2.9}Final Thoughts}{13}{section.2.9}
+\contentsline {chapter}{\numberline {3}The MicroBooNE Experiment}{15}{chapter.3}
+\contentsline {section}{\numberline {3.1}Introduction}{15}{section.3.1}
+\contentsline {section}{\numberline {3.2}Time Projection Chamber}{16}{section.3.2}
+\contentsline {section}{\numberline {3.3}Light Collection System}{17}{section.3.3}
+\contentsline {section}{\numberline {3.4}Electronics System}{17}{section.3.4}
+\contentsline {chapter}{\numberline {4}Finding the first Neutrinos in MicroBooNE}{19}{chapter.4}
+\contentsline {chapter}{\numberline {5}CC-Inclusive Cross Section Selection Filter}{21}{chapter.5}
+\contentsline {chapter}{\numberline {6}The importance of $\mymath {\@Oldmu }\xspace /\mymath {\@Oldpi }\xspace $ separation in MicroBooNE}{23}{chapter.6}
+\contentsline {chapter}{\numberline {7}Using Convolutional Neural Networks to separate ${\mymath {\@Oldmu }\xspace }'s$ from ${\mymath {\@Oldpi }\xspace }'s$}{25}{chapter.7}
+\contentsline {section}{\numberline {7.1}Image Making Scheme}{25}{section.7.1}
+\contentsline {section}{\numberline {7.2}Convolutional Neural Network Training}{27}{section.7.2}
+\contentsline {section}{\numberline {7.3}Classification of MC data using Selection I Original CC-Inclusive Filter}{28}{section.7.3}
+\contentsline {section}{\numberline {7.4}Classification of MC data using Selection I Modified CC-Inclusive Filter}{33}{section.7.4}
+\contentsline {section}{\numberline {7.5}Conclusions and Future Work}{41}{section.7.5}
+\contentsline {chapter}{\numberline {8}Using Convolutional Neural Networks on MicroBooNE Data}{45}{chapter.8}
+\contentsline {chapter}{\numberline {9}Comparing two CC-Inclusive Cross Section Selection Filters}{47}{chapter.9}
+\contentsline {chapter}{\numberline {10}Conclusion}{49}{chapter.10}
+\contentsline {chapter}{\numberline {A}Pointless extras}{51}{appendix.A}
+\contentsline {section}{\numberline {A.1}Like, duh}{51}{section.A.1}
+\contentsline {section}{\numberline {A.2}$y = \mymath {\@Oldalpha }\xspace x^2$}{51}{section.A.2}

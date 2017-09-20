@@ -1,8 +1,16 @@
 \usepackage{xspace}
 \usepackage{tikz}
-\usepackage{morefloats,subfig,afterpage}
+\usepackage{morefloats,afterpage,subcaption}
 \usepackage{mathrsfs} % script font
 \usepackage{verbatim}
+
+\usepackage{graphicx}
+\usepackage{wrapfig}
+\usepackage[rightcaption]{sidecap}
+\usepackage{pgfgantt}
+\usepackage{rotating}
+\usepackage[usenames,dvipsnames,svgnames,table]{xcolor}
+
 
 %% Using Babel allows other languages to be used and mixed-in easily
 %\usepackage[ngerman,english]{babel}
@@ -68,3 +76,44 @@
 \DeclareRobustCommand{\Xzerobar}{\HepGenAntiParticle{X}{}{0}\xspace}
 \DeclareRobustCommand{\epluseminus}{\Ppositron\!\Pelectron\xspace}
 \DeclareRobustCommand{\protonproton}{\Pproton\APantiproton\xspace}
+
+
+% su style guidelines
+% http://www.syr.edu/gradschool/em/pdfs/emdissertation/Doctoral%20Dissertation%20%20Masters%20theses%20Format%20Guidelines.pdf
+% https://en.wikipedia.org/wiki/Book_design
+
+%\usepackage[T1]{fontenc}
+
+\usepackage{ifthen}
+
+\newboolean{isdraft}
+\setboolean{isdraft}{true} % change to false when final version is ready
+
+\usepackage{adjustbox} % for clipping seal images in xelatex
+\usepackage{rotating} % for sidewaysfigure
+
+\usepackage[tracking=true]{microtype}
+\SetTracking
+ [ no ligatures = {f},
+ spacing = {600*,-100*, },
+ outer spacing = {450,250,150},
+ outer kerning = {*,*} ]
+ { encoding = * }
+ { 160 }
+\newcommand\tracked[1]{\textls{#1}}
+
+% if using xelatex, will also format math
+%\usepackage[Numbers=OldStyle,Ligatures=TeX,Scale=MatchLowercase]{mathspec}
+%\setallmainfonts{Source Sans Pro Light}
+%\newfontfamily\semibold{Source Sans Pro}
+%\newcommand\tracked[1]{{\addfontfeature{LetterSpace=12}#1}} % for all caps words
+%\usepackage{xunicode}
+%\defaultfontfeatures{Mapping=tex-text}
+%\usepackage{unicode-math}
+%\usepackage{hvmath}
+%\usepackage[Euler]{upgreek}
+
+
+
+
+
