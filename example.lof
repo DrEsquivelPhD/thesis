@@ -9,25 +9,27 @@
 \contentsline {figure}{\numberline {\relax 2.5}{\ignorespaces The flavour eigenstates are rotated by an angle $\mymath {\@Oldtheta }\xspace $ with respect to the mass eigenstates\relax }}{10}{figure.caption.8}
 \addvspace {10\p@ }
 \addvspace {10\p@ }
+\contentsline {figure}{\numberline {\relax 4.1}{\ignorespaces \ref {fig:bnbflux} Flux of BNB at FNAL.\relax }}{18}{figure.caption.9}
+\addvspace {10\p@ }
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {\relax 6.1}{\ignorespaces \ref {fig:track} Track range distribution for selection I. The track range is defined as the 3D distance between the start and end of the muon candidate track. No data is shown below 75 cm due to the track length cut described previously. \ref {fig:eff} Efficiency of the selected events by process quasi-elastic (QE), resonant (RES), and deep-inelastic (DIS). Statistical uncertainty is shown in the bands and the distributions are a function of true muon momentum. The rise of the efficiency between 0 GeV and 0.5 GeV is due to the minimum track length cut and the decreasing efficiency for higher momentum tracks is caused by the containment requirement.\relax }}{25}{figure.caption.10}
 \addvspace {10\p@ }
 \addvspace {10\p@ }
 \addvspace {10\p@ }
-\addvspace {10\p@ }
-\addvspace {10\p@ }
-\contentsline {figure}{\numberline {\relax 9.1}{\ignorespaces Accuracy vs. Loss of ImageNet 2-output $\mymath {\@Oldmu }\xspace /\mymath {\@Oldpi }\xspace $ sample consisting of ~10000 images each.\relax }}{30}{figure.caption.9}
-\contentsline {figure}{\numberline {\relax 9.2}{\ignorespaces \ref {fig:confusion} \ref {fig:confusion_test} Description of confusion matrix varables: False pion rate = $false \mymath {\@Oldpi }\xspace / total \mymath {\@Oldpi }\xspace $ True pion rate = $true \mymath {\@Oldpi }\xspace /total \mymath {\@Oldpi }\xspace $ Accuracy = $(true \mymath {\@Oldpi }\xspace rate + true \mymath {\@Oldmu }\xspace rate)/2$ Pion prediction value = $true \mymath {\@Oldpi }\xspace /(true \mymath {\@Oldpi }\xspace + false \mymath {\@Oldpi }\xspace )$ Muon prediction value = $true \mymath {\@Oldmu }\xspace /(true \mymath {\@Oldmu }\xspace + false \mymath {\@Oldmu }\xspace )$ \ref {fig:prob_plot} The probability plot includes muons and pions that are classified as primary particles.\relax }}{31}{figure.caption.10}
-\contentsline {figure}{\numberline {\relax 9.3}{\ignorespaces Snapshot of passing rates of Selection I from CC-Inclusive Filter\relax }}{32}{figure.caption.11}
-\contentsline {figure}{\numberline {\relax 9.4}{\ignorespaces Results of CNN10000 classification of track candidate images output from cc-inclusive filter.\relax }}{33}{figure.caption.12}
-\contentsline {figure}{\numberline {\relax 9.5}{\ignorespaces CNN10000 distributions of track candidate images output from Selection I Original cc-inclusive filter with different image data normalizations\relax }}{34}{figure.caption.13}
-\contentsline {figure}{\numberline {\relax 9.6}{\ignorespaces Snapshot of passing rates of all cuts from Selection I Modified cc-inclusive filter\relax }}{35}{figure.caption.14}
-\contentsline {figure}{\numberline {\relax 9.7}{\ignorespaces Confusion matrix and probability plot of events passing selection I modified cc-inclusive cuts right before 75cm track length cut\relax }}{37}{figure.caption.15}
-\contentsline {figure}{\numberline {\relax 9.8}{\ignorespaces CNN10000 distributions of track candidate images output from Selection I Modified cc-inclusive filter\relax }}{38}{figure.caption.16}
-\contentsline {figure}{\numberline {\relax 9.9}{\ignorespaces CNN10000 stacked signal/background track range distributions of track candidate images output from Selection I Modified cc-inclusive filter\relax }}{39}{figure.caption.17}
-\contentsline {figure}{\numberline {\relax 9.10}{\ignorespaces CNN10000 momentum distributions of track candidate images output from Selection I Modified cc-inclusive filter\relax }}{40}{figure.caption.18}
-\contentsline {figure}{\numberline {\relax 9.11}{\ignorespaces Track distribution comparisons of true CC muons plotted vs true CC muons and pions plotted\relax }}{41}{figure.caption.19}
-\contentsline {figure}{\numberline {\relax 9.12}{\ignorespaces Images of true CC events where the pion was the tagged track candidate\relax }}{41}{figure.caption.20}
-\contentsline {figure}{\numberline {\relax 9.13}{\ignorespaces Snapshot of signal and background event numbers of Selection I modified from cc-inclusive note \cite {cc-inclusive}\relax }}{44}{figure.caption.23}
-\contentsline {figure}{\numberline {\relax 9.14}{\ignorespaces CNN performance of classified muons and pions compared to the already implemented 75 cm track length cut\relax }}{44}{figure.caption.24}
+\contentsline {figure}{\numberline {\relax 9.1}{\ignorespaces Accuracy vs. Loss of ImageNet 2-output $\mymath {\@Oldmu }\xspace /\mymath {\@Oldpi }\xspace $ sample consisting of ~10000 images each.\relax }}{34}{figure.caption.11}
+\contentsline {figure}{\numberline {\relax 9.2}{\ignorespaces \ref {fig:confusion} \ref {fig:confusion_test} Description of confusion matrix varables: False pion rate = $false \mymath {\@Oldpi }\xspace / total \mymath {\@Oldpi }\xspace $ True pion rate = $true \mymath {\@Oldpi }\xspace /total \mymath {\@Oldpi }\xspace $ Accuracy = $(true \mymath {\@Oldpi }\xspace rate + true \mymath {\@Oldmu }\xspace rate)/2$ Pion prediction value = $true \mymath {\@Oldpi }\xspace /(true \mymath {\@Oldpi }\xspace + false \mymath {\@Oldpi }\xspace )$ Muon prediction value = $true \mymath {\@Oldmu }\xspace /(true \mymath {\@Oldmu }\xspace + false \mymath {\@Oldmu }\xspace )$ \ref {fig:prob_plot} The probability plot includes muons and pions that are classified as primary particles.\relax }}{35}{figure.caption.12}
+\contentsline {figure}{\numberline {\relax 9.3}{\ignorespaces Snapshot of passing rates of Selection I from CC-Inclusive Filter\relax }}{36}{figure.caption.13}
+\contentsline {figure}{\numberline {\relax 9.4}{\ignorespaces Results of CNN10000 classification of track candidate images output from cc-inclusive filter.\relax }}{37}{figure.caption.14}
+\contentsline {figure}{\numberline {\relax 9.5}{\ignorespaces CNN10000 distributions of track candidate images output from Selection I Original cc-inclusive filter with different image data normalizations\relax }}{38}{figure.caption.15}
+\contentsline {figure}{\numberline {\relax 9.6}{\ignorespaces Snapshot of passing rates of all cuts from Selection I Modified cc-inclusive filter\relax }}{39}{figure.caption.16}
+\contentsline {figure}{\numberline {\relax 9.7}{\ignorespaces Confusion matrix and probability plot of events passing selection I modified cc-inclusive cuts right before 75cm track length cut\relax }}{41}{figure.caption.17}
+\contentsline {figure}{\numberline {\relax 9.8}{\ignorespaces CNN10000 distributions of track candidate images output from Selection I Modified cc-inclusive filter\relax }}{42}{figure.caption.18}
+\contentsline {figure}{\numberline {\relax 9.9}{\ignorespaces CNN10000 stacked signal/background track range distributions of track candidate images output from Selection I Modified cc-inclusive filter\relax }}{43}{figure.caption.19}
+\contentsline {figure}{\numberline {\relax 9.10}{\ignorespaces CNN10000 momentum distributions of track candidate images output from Selection I Modified cc-inclusive filter\relax }}{44}{figure.caption.20}
+\contentsline {figure}{\numberline {\relax 9.11}{\ignorespaces Track distribution comparisons of true CC muons plotted vs true CC muons and pions plotted\relax }}{45}{figure.caption.21}
+\contentsline {figure}{\numberline {\relax 9.12}{\ignorespaces Images of true CC events where the pion was the tagged track candidate\relax }}{45}{figure.caption.22}
+\contentsline {figure}{\numberline {\relax 9.13}{\ignorespaces Snapshot of signal and background event numbers of Selection I modified from cc-inclusive note \cite {cc-inclusive}\relax }}{48}{figure.caption.25}
+\contentsline {figure}{\numberline {\relax 9.14}{\ignorespaces CNN performance of classified muons and pions compared to the already implemented 75 cm track length cut\relax }}{48}{figure.caption.26}
 \addvspace {10\p@ }
 \addvspace {10\p@ }
 \addvspace {10\p@ }
