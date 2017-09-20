@@ -4,9 +4,9 @@
 
 %% For short draft builds (breaks citations by necessity)
 %\documentclass[hyperpdf,nobind,draft,hidefrontback]{hepthesis}
-
-%%For Cambridge soft-bound version
 \documentclass[hyperpdf,bindnopdf,usenames,dvipsnames,svgnames,table]{hepthesis}
+
+%%For Cambridge soft-bound version \documentclass[hyperpdf,bindnopdf,usenames,dvipsnames,svgnames,table]{hepthesis}
 %% For Cambridge hard-bound version (must be one-sided)
 %\documentclass[hyperpdf,oneside]{hepthesis}
 
@@ -54,7 +54,8 @@
 \vspace*{0.2cm}
 \noindent\makebox[\linewidth]{\rule{\textwidth}{0.3pt}}
 {\huge %[Update Title]\\
-$\mu/\pi$ separation using Convolutional Neural Networks for the MicroBooNE Charged Current Inclusive Cross Section Measurement 
+$\mu/\pi$ separation using\\ Convolutional Neural Networks \\for the MicroBooNE\\Charged Current Inclusive Cross Section Measurement 
+%Muon/Pion separation using Convolutional Neural Networks for the MicroBooNE Charged Current Inclusive Cross Section Measurement 
 %Put in your Title\\[-0.3cm]
 %in titlepage.tex\\[0.4cm]
 }
@@ -108,10 +109,12 @@ Syracuse, New York
   \input{intro}
   \input{neutrinos}
   \input{MicroBooNE}
+  \input{beam}
   \input{neutrinoID}
   \input{meas}
   \input{mupiseparation}
   \input{cnn}
+  \input{cnn_results}
   \input{data}
   \input{selImodcompare}
   \input{conclusion}

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2017.8.22)  19 SEP 2017 21:54
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2017.8.22)  19 SEP 2017 23:05
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1392,7 +1392,7 @@ See the caption package documentation for explanation.
 
 
 LaTeX Warning: Reference `fig:confusion' on page xiii undefined on input line 1
-6.
+8.
 
 
 Package caption Warning: \label without proper reference on input line 56.
@@ -1400,7 +1400,7 @@ See the caption package documentation for explanation.
 
 
 LaTeX Warning: Reference `fig:confusion_test' on page xiii undefined on input l
-ine 16.
+ine 18.
 
 
 Package caption Warning: \label without proper reference on input line 62.
@@ -1408,10 +1408,10 @@ See the caption package documentation for explanation.
 
 
 LaTeX Warning: Reference `fig:prob_plot' on page xiii undefined on input line 1
-6.
+8.
 
 
-Overfull \hbox (31.5433pt too wide) in paragraph at lines 16--16
+Overfull \hbox (31.5433pt too wide) in paragraph at lines 18--18
  [][] [][][][][][][][] [][][][][] \T1/ppl/m/n/12 (-20) De-scrip-tion of con-fu-
 sion ma-trix varables: False pion rate = $\OML/zplm/m/it/12 false^^Y\OT1/zplm/m
 /n/12 /\OML/zplm/m/it/12 total^^Y$ 
@@ -1421,7 +1421,7 @@ sion ma-trix varables: False pion rate = $\OML/zplm/m/it/12 false^^Y\OT1/zplm/m
 
 ]
 
-LaTeX Warning: Citation `cc-inclusive' on page xiv undefined on input line 27.
+LaTeX Warning: Citation `cc-inclusive' on page xiv undefined on input line 29.
 
 )
 \tf@lof=\write7
@@ -1429,7 +1429,7 @@ LaTeX Warning: Citation `cc-inclusive' on page xiv undefined on input line 27.
 
  [14] (./example.lot
 
-LaTeX Warning: Citation `cc-inclusive' on page xv undefined on input line 10.
+LaTeX Warning: Citation `cc-inclusive' on page xv undefined on input line 12.
 
 )
 \tf@lot=\write8
@@ -1560,42 +1560,46 @@ Overfull \hbox (0.82588pt too wide) in paragraph at lines 233--233
 [] 
  []
 
-[12] [13]) (./MicroBooNE.tex [14
-
-]
+) (./MicroBooNE.tex [12]
 chapter 3.
-[15
+[13
 
 ]
 
-LaTeX Warning: Citation `dune' on page 16 undefined on input line 7.
+LaTeX Warning: Citation `dune' on page 14 undefined on input line 7.
 
 
-LaTeX Warning: Citation `noisechar' on page 16 undefined on input line 7.
+LaTeX Warning: Citation `noisechar' on page 14 undefined on input line 7.
 
 
-LaTeX Warning: Citation `michel' on page 16 undefined on input line 7.
+LaTeX Warning: Citation `michel' on page 14 undefined on input line 7.
 
 
-LaTeX Warning: Reference `fig:tpc' on page 16 undefined on input line 9.
+LaTeX Warning: Reference `fig:tpc' on page 14 undefined on input line 9.
 
 
-LaTeX Warning: Citation `microboone' on page 16 undefined on input line 9.
+LaTeX Warning: Citation `microboone' on page 14 undefined on input line 9.
 
-[16]) (./neutrinoID.tex [17] [18
+[14]) (./beam.tex [15] [16
 
 ]
 chapter 4.
-[19]) (./meas.tex [20
+[17]) (./neutrinoID.tex [18
 
 ]
 chapter 5.
+[19
+
+]) (./meas.tex [20
+
+]
+chapter 6.
 [21
 
 ]) (./mupiseparation.tex [22
 
 ]
-chapter 6.
+chapter 7.
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 (hyperref)                removing `math shift' on input line 1.
@@ -1617,7 +1621,13 @@ Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 ]) (./cnn.tex [24
 
 ]
-chapter 7.
+chapter 8.
+[25
+
+]) (./cnn_results.tex [26
+
+]
+chapter 9.
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 (hyperref)                removing `math shift' on input line 2.
@@ -1643,13 +1653,13 @@ Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 (hyperref)                removing `math shift' on input line 2.
 
 
-LaTeX Warning: Citation `priorwork' on page 25 undefined on input line 5.
+LaTeX Warning: Citation `priorwork' on page 27 undefined on input line 5.
 
-[25
+[27
 
 ]
 
-LaTeX Warning: Citation `cc-inclusive' on page 26 undefined on input line 12.
+LaTeX Warning: Citation `cc-inclusive' on page 28 undefined on input line 12.
 
 
 Overfull \hbox (122.19907pt too wide) in paragraph at lines 12--13
@@ -1658,7 +1668,7 @@ Overfull \hbox (122.19907pt too wide) in paragraph at lines 12--13
 cc7_reco2.
  []
 
-[26]
+[28]
 LaTeX Font Info:    Try loading font information for T1+cmtt on input line 20.
  (/usr/share/texlive/texmf-dist/tex/latex/base/t1cmtt.fd
 File: t1cmtt.fd 2014/09/29 v2.5h Standard LaTeX font definitions
@@ -1669,16 +1679,16 @@ Package microtype Info: Loading generic settings for font family
 (microtype)             See the microtype manual for details.
 
 
-LaTeX Warning: Citation `caffe' on page 27 undefined on input line 37.
+LaTeX Warning: Citation `caffe' on page 29 undefined on input line 37.
 
-<figs/acc_loss_10000_062117.png, id=519, 619.31375pt x 472.76625pt>
+<figs/acc_loss_10000_062117.png, id=527, 619.31375pt x 472.76625pt>
 File: figs/acc_loss_10000_062117.png Graphic file (type png)
 
 <use figs/acc_loss_10000_062117.png>
 Package pdftex.def Info: figs/acc_loss_10000_062117.png used on input line 41.
 (pdftex.def)             Requested size: 340.62361pt x 260.02223pt.
- [27]
-<figs/train_confusion-9-14-16.png, id=525, 833.1125pt x 964.60374pt>
+ [29]
+<figs/train_confusion-9-14-16.png, id=533, 833.1125pt x 964.60374pt>
 File: figs/train_confusion-9-14-16.png Graphic file (type png)
 
 <use figs/train_confusion-9-14-16.png>
@@ -1686,14 +1696,14 @@ Package pdftex.def Info: figs/train_confusion-9-14-16.png used on input line 49
 .
 (pdftex.def)             Requested size: 179.22676pt x 207.50351pt.
 
-<figs/val_confusion_9-14-16.png, id=526, 971.63pt x 930.47626pt>
+<figs/val_confusion_9-14-16.png, id=534, 971.63pt x 930.47626pt>
 File: figs/val_confusion_9-14-16.png Graphic file (type png)
 
 <use figs/val_confusion_9-14-16.png>
 Package pdftex.def Info: figs/val_confusion_9-14-16.png used on input line 55.
 (pdftex.def)             Requested size: 179.22676pt x 171.62428pt.
 
-<figs/mitch_hw.png, id=527, 1672.2475pt x 673.51625pt>
+<figs/mitch_hw.png, id=535, 1672.2475pt x 673.51625pt>
 File: figs/mitch_hw.png Graphic file (type png)
  <use figs/mitch_hw.png>
 Package pdftex.def Info: figs/mitch_hw.png used on input line 61.
@@ -1704,7 +1714,7 @@ Package caption Warning: \label without proper reference on input line 50.
 See the caption package documentation for explanation.
 
 
-LaTeX Warning: Reference `fig:confusion' on page 28 undefined on input line 65.
+LaTeX Warning: Reference `fig:confusion' on page 30 undefined on input line 65.
 
 
 
@@ -1712,7 +1722,7 @@ Package caption Warning: \label without proper reference on input line 56.
 See the caption package documentation for explanation.
 
 
-LaTeX Warning: Reference `fig:confusion_test' on page 28 undefined on input lin
+LaTeX Warning: Reference `fig:confusion_test' on page 30 undefined on input lin
 e 65.
 
 
@@ -1720,7 +1730,7 @@ Package caption Warning: \label without proper reference on input line 62.
 See the caption package documentation for explanation.
 
 
-LaTeX Warning: Reference `fig:prob_plot' on page 28 undefined on input line 65.
+LaTeX Warning: Reference `fig:prob_plot' on page 30 undefined on input line 65.
 
 
 
@@ -1728,7 +1738,7 @@ Package caption Warning: \label without proper reference on input line 50.
 See the caption package documentation for explanation.
 
 
-LaTeX Warning: Reference `fig:confusion' on page 28 undefined on input line 65.
+LaTeX Warning: Reference `fig:confusion' on page 30 undefined on input line 65.
 
 
 
@@ -1736,7 +1746,7 @@ Package caption Warning: \label without proper reference on input line 56.
 See the caption package documentation for explanation.
 
 
-LaTeX Warning: Reference `fig:confusion_test' on page 28 undefined on input lin
+LaTeX Warning: Reference `fig:confusion_test' on page 30 undefined on input lin
 e 65.
 
 
@@ -1744,7 +1754,7 @@ Package caption Warning: \label without proper reference on input line 62.
 See the caption package documentation for explanation.
 
 
-LaTeX Warning: Reference `fig:prob_plot' on page 28 undefined on input line 65.
+LaTeX Warning: Reference `fig:prob_plot' on page 30 undefined on input line 65.
 
 
 
@@ -1752,7 +1762,7 @@ Package caption Warning: \label without proper reference on input line 50.
 See the caption package documentation for explanation.
 
 
-LaTeX Warning: Reference `fig:confusion' on page 28 undefined on input line 69.
+LaTeX Warning: Reference `fig:confusion' on page 30 undefined on input line 69.
 
 
 
@@ -1760,7 +1770,7 @@ Package caption Warning: \label without proper reference on input line 56.
 See the caption package documentation for explanation.
 
 
-LaTeX Warning: Reference `fig:confusion_test' on page 28 undefined on input lin
+LaTeX Warning: Reference `fig:confusion_test' on page 30 undefined on input lin
 e 69.
 
 
@@ -1768,17 +1778,17 @@ Package caption Warning: \label without proper reference on input line 62.
 See the caption package documentation for explanation.
 
 
-LaTeX Warning: Reference `fig:prob_plot' on page 28 undefined on input line 69.
+LaTeX Warning: Reference `fig:prob_plot' on page 30 undefined on input line 69.
 
 
-<figs/sel1_cuts.png, id=537, 1566.85374pt x 914.41624pt>
+<figs/sel1_cuts.png, id=545, 1566.85374pt x 914.41624pt>
 File: figs/sel1_cuts.png Graphic file (type png)
 
 <use figs/sel1_cuts.png>
 Package pdftex.def Info: figs/sel1_cuts.png used on input line 83.
 (pdftex.def)             Requested size: 403.26366pt x 235.34273pt.
 
-<figs/confusion_0621_wrongnorm.png, id=538, 790.955pt x 764.8575pt>
+<figs/confusion_0621_wrongnorm.png, id=546, 790.955pt x 764.8575pt>
 File: figs/confusion_0621_wrongnorm.png Graphic file (type png)
 
 <use figs/confusion_0621_wrongnorm.png>
@@ -1790,7 +1800,7 @@ Overfull \hbox (15.17545pt too wide) in paragraph at lines 91--93
 [][]
  []
 
-<figs/prob_0706_wrongnorm_sel1.png, id=539, 735.74875pt x 575.14874pt>
+<figs/prob_0706_wrongnorm_sel1.png, id=547, 735.74875pt x 575.14874pt>
 File: figs/prob_0706_wrongnorm_sel1.png Graphic file (type png)
 
 <use figs/prob_0706_wrongnorm_sel1.png>
@@ -1802,7 +1812,7 @@ Overfull \hbox (15.17642pt too wide) in paragraph at lines 97--99
 [][]
  []
 
-<figs/confusion_rightnorm_0621.png, id=540, 1018.80624pt x 887.315pt>
+<figs/confusion_rightnorm_0621.png, id=548, 1018.80624pt x 887.315pt>
 File: figs/confusion_rightnorm_0621.png Graphic file (type png)
 
 <use figs/confusion_rightnorm_0621.png>
@@ -1814,7 +1824,7 @@ Overfull \hbox (15.16867pt too wide) in paragraph at lines 103--105
 [][]
  []
 
-<figs/prob_0706_rightnorm_sel1.png, id=541, 737.75626pt x 554.07pt>
+<figs/prob_0706_rightnorm_sel1.png, id=549, 737.75626pt x 554.07pt>
 File: figs/prob_0706_rightnorm_sel1.png Graphic file (type png)
 
 <use figs/prob_0706_rightnorm_sel1.png>
@@ -1827,7 +1837,7 @@ Overfull \hbox (15.17136pt too wide) in paragraph at lines 109--111
  []
 
 
-<figs/sel1_trackrange_wrongnorm_acc70_0706.png, id=542, 744.7825pt x 585.18625p
+<figs/sel1_trackrange_wrongnorm_acc70_0706.png, id=550, 744.7825pt x 585.18625p
 t>
 File: figs/sel1_trackrange_wrongnorm_acc70_0706.png Graphic file (type png)
  <use figs/sel1_trackrange_wrongnorm_acc70_0706.png>
@@ -1840,7 +1850,7 @@ Overfull \hbox (15.17917pt too wide) in paragraph at lines 121--123
  []
 
 
-<figs/sel1_trackrange_rightnorm_acc70_0706.png, id=543, 740.7675pt x 570.13pt>
+<figs/sel1_trackrange_rightnorm_acc70_0706.png, id=551, 740.7675pt x 570.13pt>
 File: figs/sel1_trackrange_rightnorm_acc70_0706.png Graphic file (type png)
 
 <use figs/sel1_trackrange_rightnorm_acc70_0706.png>
@@ -1852,7 +1862,7 @@ Overfull \hbox (15.1746pt too wide) in paragraph at lines 127--129
 [][]
  []
 
-<figs/sel1_parP_wrongnorm_acc70_0706.png, id=544, 733.74126pt x 558.085pt>
+<figs/sel1_parP_wrongnorm_acc70_0706.png, id=552, 733.74126pt x 558.085pt>
 File: figs/sel1_parP_wrongnorm_acc70_0706.png Graphic file (type png)
 
 <use figs/sel1_parP_wrongnorm_acc70_0706.png>
@@ -1864,7 +1874,7 @@ Overfull \hbox (15.17824pt too wide) in paragraph at lines 133--135
 [][]
  []
 
-<figs/sel1_parP_rightnorm_acc70_0706.png, id=545, 735.74875pt x 563.10374pt>
+<figs/sel1_parP_rightnorm_acc70_0706.png, id=553, 735.74875pt x 563.10374pt>
 File: figs/sel1_parP_rightnorm_acc70_0706.png Graphic file (type png)
 
 <use figs/sel1_parP_rightnorm_acc70_0706.png>
@@ -1877,16 +1887,16 @@ Overfull \hbox (15.17642pt too wide) in paragraph at lines 139--141
  []
 
 
-LaTeX Warning: Citation `cc-inclusive' on page 28 undefined on input line 148.
+LaTeX Warning: Citation `cc-inclusive' on page 30 undefined on input line 148.
 
-[28 <./figs/acc_loss_10000_062117.png>] [29 <./figs/train_confusion-9-14-16.png
+[30 <./figs/acc_loss_10000_062117.png>] [31 <./figs/train_confusion-9-14-16.png
 > <./figs/val_confusion_9-14-16.png> <./figs/mitch_hw.png>]
 
 Package caption Warning: \label without proper reference on input line 92.
 See the caption package documentation for explanation.
 
 
-LaTeX Warning: Reference `fig:confusion_wrongnorm' on page 30 undefined on inpu
+LaTeX Warning: Reference `fig:confusion_wrongnorm' on page 32 undefined on inpu
 t line 150.
 
 
@@ -1894,7 +1904,7 @@ Package caption Warning: \label without proper reference on input line 98.
 See the caption package documentation for explanation.
 
 
-LaTeX Warning: Reference `fig:prob_wrongnorm' on page 30 undefined on input lin
+LaTeX Warning: Reference `fig:prob_wrongnorm' on page 32 undefined on input lin
 e 150.
 
 
@@ -1902,7 +1912,7 @@ Package caption Warning: \label without proper reference on input line 104.
 See the caption package documentation for explanation.
 
 
-LaTeX Warning: Reference `fig:confusion_rightnorm' on page 30 undefined on inpu
+LaTeX Warning: Reference `fig:confusion_rightnorm' on page 32 undefined on inpu
 t line 150.
 
 
@@ -1910,7 +1920,7 @@ Package caption Warning: \label without proper reference on input line 110.
 See the caption package documentation for explanation.
 
 
-LaTeX Warning: Reference `fig:prob_rightnorm' on page 30 undefined on input lin
+LaTeX Warning: Reference `fig:prob_rightnorm' on page 32 undefined on input lin
 e 150.
 
 
@@ -1918,7 +1928,7 @@ Package caption Warning: \label without proper reference on input line 98.
 See the caption package documentation for explanation.
 
 
-LaTeX Warning: Reference `fig:prob_wrongnorm' on page 30 undefined on input lin
+LaTeX Warning: Reference `fig:prob_wrongnorm' on page 32 undefined on input lin
 e 150.
 
 
@@ -1926,7 +1936,7 @@ Package caption Warning: \label without proper reference on input line 110.
 See the caption package documentation for explanation.
 
 
-LaTeX Warning: Reference `fig:prob_rightnorm' on page 30 undefined on input lin
+LaTeX Warning: Reference `fig:prob_rightnorm' on page 32 undefined on input lin
 e 150.
 
 
@@ -1934,7 +1944,7 @@ Package caption Warning: \label without proper reference on input line 62.
 See the caption package documentation for explanation.
 
 
-LaTeX Warning: Reference `fig:prob_plot' on page 30 undefined on input line 150
+LaTeX Warning: Reference `fig:prob_plot' on page 32 undefined on input line 150
 .
 
 
@@ -1942,7 +1952,7 @@ Package caption Warning: \label without proper reference on input line 98.
 See the caption package documentation for explanation.
 
 
-LaTeX Warning: Reference `fig:prob_wrongnorm' on page 30 undefined on input lin
+LaTeX Warning: Reference `fig:prob_wrongnorm' on page 32 undefined on input lin
 e 150.
 
 
@@ -1950,7 +1960,7 @@ Package caption Warning: \label without proper reference on input line 110.
 See the caption package documentation for explanation.
 
 
-LaTeX Warning: Reference `fig:prob_rightnorm' on page 30 undefined on input lin
+LaTeX Warning: Reference `fig:prob_rightnorm' on page 32 undefined on input lin
 e 150.
 
 
@@ -1958,7 +1968,7 @@ Package caption Warning: \label without proper reference on input line 122.
 See the caption package documentation for explanation.
 
 
-LaTeX Warning: Reference `fig:track_wrongnorm' on page 30 undefined on input li
+LaTeX Warning: Reference `fig:track_wrongnorm' on page 32 undefined on input li
 ne 150.
 
 
@@ -1966,7 +1976,7 @@ Package caption Warning: \label without proper reference on input line 128.
 See the caption package documentation for explanation.
 
 
-LaTeX Warning: Reference `fig:track_rightnorm' on page 30 undefined on input li
+LaTeX Warning: Reference `fig:track_rightnorm' on page 32 undefined on input li
 ne 150.
 
 
@@ -1974,7 +1984,7 @@ Package caption Warning: \label without proper reference on input line 134.
 See the caption package documentation for explanation.
 
 
-LaTeX Warning: Reference `fig:momentum_wrongnorm' on page 30 undefined on input
+LaTeX Warning: Reference `fig:momentum_wrongnorm' on page 32 undefined on input
  line 150.
 
 
@@ -1982,15 +1992,15 @@ Package caption Warning: \label without proper reference on input line 140.
 See the caption package documentation for explanation.
 
 
-LaTeX Warning: Reference `fig:momentum_rightnorm' on page 30 undefined on input
+LaTeX Warning: Reference `fig:momentum_rightnorm' on page 32 undefined on input
  line 150.
 
-[30 <./figs/sel1_cuts.png>] [31 <./figs/confusion_0621_wrongnorm.png> <./figs/p
+[32 <./figs/sel1_cuts.png>] [33 <./figs/confusion_0621_wrongnorm.png> <./figs/p
 rob_0706_wrongnorm_sel1.png> <./figs/confusion_rightnorm_0621.png> <./figs/prob
-_0706_rightnorm_sel1.png>] [32 <./figs/sel1_trackrange_wrongnorm_acc70_0706.png
+_0706_rightnorm_sel1.png>] [34 <./figs/sel1_trackrange_wrongnorm_acc70_0706.png
 > <./figs/sel1_trackrange_rightnorm_acc70_0706.png> <./figs/sel1_parP_wrongnorm
 _acc70_0706.png> <./figs/sel1_parP_rightnorm_acc70_0706.png>]
-<figs/cuttable_sel1mod.png, id=596, 736.7525pt x 452.69125pt>
+<figs/cuttable_sel1mod.png, id=604, 736.7525pt x 452.69125pt>
 File: figs/cuttable_sel1mod.png Graphic file (type png)
 
 <use figs/cuttable_sel1mod.png>
@@ -1998,14 +2008,14 @@ Package pdftex.def Info: figs/cuttable_sel1mod.png used on input line 156.
 (pdftex.def)             Requested size: 358.46039pt x 220.25264pt.
 
 
-LaTeX Warning: Citation `cc-inclusive' on page 33 undefined on input line 161.
+LaTeX Warning: Citation `cc-inclusive' on page 35 undefined on input line 161.
 
 
 Package caption Warning: \label without proper reference on input line 170.
 See the caption package documentation for explanation.
 
 
-LaTeX Warning: Reference `fig:confusion_sel1mod' on page 33 undefined on input 
+LaTeX Warning: Reference `fig:confusion_sel1mod' on page 35 undefined on input 
 line 161.
 
 
@@ -2013,7 +2023,7 @@ Package caption Warning: \label without proper reference on input line 176.
 See the caption package documentation for explanation.
 
 
-LaTeX Warning: Reference `fig:prob_sel1mod' on page 33 undefined on input line 
+LaTeX Warning: Reference `fig:prob_sel1mod' on page 35 undefined on input line 
 161.
 
 
@@ -2021,7 +2031,7 @@ Package caption Warning: \label without proper reference on input line 188.
 See the caption package documentation for explanation.
 
 
-LaTeX Warning: Reference `fig:sel1mod_track' on page 33 undefined on input line
+LaTeX Warning: Reference `fig:sel1mod_track' on page 35 undefined on input line
  162.
 
 
@@ -2029,7 +2039,7 @@ Package caption Warning: \label without proper reference on input line 188.
 See the caption package documentation for explanation.
 
 
-LaTeX Warning: Reference `fig:sel1mod_track' on page 33 undefined on input line
+LaTeX Warning: Reference `fig:sel1mod_track' on page 35 undefined on input line
  162.
 
 
@@ -2037,7 +2047,7 @@ Package caption Warning: \label without proper reference on input line 194.
 See the caption package documentation for explanation.
 
 
-LaTeX Warning: Reference `fig:sel1mod_stackedcnn' on page 33 undefined on input
+LaTeX Warning: Reference `fig:sel1mod_stackedcnn' on page 35 undefined on input
  line 162.
 
 
@@ -2045,16 +2055,16 @@ Package caption Warning: \label without proper reference on input line 200.
 See the caption package documentation for explanation.
 
 
-LaTeX Warning: Reference `fig:sel1mod_stackedoriginal' on page 33 undefined on 
+LaTeX Warning: Reference `fig:sel1mod_stackedoriginal' on page 35 undefined on 
 input line 162.
 
-[33 <./figs/cuttable_sel1mod.png>]
+[35 <./figs/cuttable_sel1mod.png>]
 
 Package caption Warning: \label without proper reference on input line 206.
 See the caption package documentation for explanation.
 
 
-LaTeX Warning: Reference `fig:sel1mod_mupi_70stackedcnn' on page 34 undefined o
+LaTeX Warning: Reference `fig:sel1mod_mupi_70stackedcnn' on page 36 undefined o
 n input line 164.
 
 
@@ -2062,10 +2072,10 @@ Package caption Warning: \label without proper reference on input line 244.
 See the caption package documentation for explanation.
 
 
-LaTeX Warning: Reference `fig:sel1mod_mupi_90stackedcnn' on page 34 undefined o
+LaTeX Warning: Reference `fig:sel1mod_mupi_90stackedcnn' on page 36 undefined o
 n input line 164.
 
-<figs/sel1mod_confusion_wrongnorm.png, id=613, 614.295pt x 639.38875pt>
+<figs/sel1mod_confusion_wrongnorm.png, id=621, 614.295pt x 639.38875pt>
 File: figs/sel1mod_confusion_wrongnorm.png Graphic file (type png)
 
 <use figs/sel1mod_confusion_wrongnorm.png>
@@ -2077,7 +2087,7 @@ Overfull \hbox (15.17433pt too wide) in paragraph at lines 169--171
 [][]
  []
 
-<figs/probplot_wrongnorm_selImod.png, id=614, 733.74126pt x 582.175pt>
+<figs/probplot_wrongnorm_selImod.png, id=622, 733.74126pt x 582.175pt>
 File: figs/probplot_wrongnorm_selImod.png Graphic file (type png)
 
 <use figs/probplot_wrongnorm_selImod.png>
@@ -2090,7 +2100,7 @@ Overfull \hbox (15.17824pt too wide) in paragraph at lines 175--177
  []
 
 
-<figs/sel1mod_trackrange_wrongnorm_acc70_0706.png, id=615, 741.77126pt x 573.14
+<figs/sel1mod_trackrange_wrongnorm_acc70_0706.png, id=623, 741.77126pt x 573.14
 125pt>
 File: figs/sel1mod_trackrange_wrongnorm_acc70_0706.png Graphic file (type png)
  <use figs/sel1mod_trackrange_wrongnorm_acc70_0706.png>
@@ -2102,7 +2112,7 @@ Overfull \hbox (42.64395pt too wide) in paragraph at lines 187--189
 [][]
  []
 
-<figs/sel1mod_cnn_stackedevent_0707.png, id=616, 739.76375pt x 565.11125pt>
+<figs/sel1mod_cnn_stackedevent_0707.png, id=624, 739.76375pt x 565.11125pt>
 File: figs/sel1mod_cnn_stackedevent_0707.png Graphic file (type png)
 
 <use figs/sel1mod_cnn_stackedevent_0707.png>
@@ -2110,7 +2120,7 @@ Package pdftex.def Info: figs/sel1mod_cnn_stackedevent_0707.png used on input l
 ine 193.
 (pdftex.def)             Requested size: 179.22676pt x 136.91428pt.
 
-<figs/sel1mod_original_stackedevents_0707.png, id=617, 733.74126pt x 559.08875p
+<figs/sel1mod_original_stackedevents_0707.png, id=625, 733.74126pt x 559.08875p
 t>
 File: figs/sel1mod_original_stackedevents_0707.png Graphic file (type png)
  <use figs/sel1mod_original_stackedevents_0707.png>
@@ -2118,7 +2128,7 @@ Package pdftex.def Info: figs/sel1mod_original_stackedevents_0707.png used on i
 nput line 199.
 (pdftex.def)             Requested size: 179.22676pt x 136.56418pt.
 
-<figs/sel1mod_cnn_trackrange_mupi_acc70_0707.png, id=618, 737.75626pt x 571.133
+<figs/sel1mod_cnn_trackrange_mupi_acc70_0707.png, id=626, 737.75626pt x 571.133
 74pt>
 File: figs/sel1mod_cnn_trackrange_mupi_acc70_0707.png Graphic file (type png)
  <use figs/sel1mod_cnn_trackrange_mupi_acc70_0707.png>
@@ -2131,7 +2141,7 @@ Underfull \hbox (badness 3049) in paragraph at lines 207--207
  []
 
 
-<figs/sel1mod_original_trackrange_mupi_acc70_0707.png, id=619, 734.745pt x 551.
+<figs/sel1mod_original_trackrange_mupi_acc70_0707.png, id=627, 734.745pt x 551.
 05875pt>
 File: figs/sel1mod_original_trackrange_mupi_acc70_0707.png Graphic file (type p
 ng)
@@ -2147,7 +2157,7 @@ Underfull \hbox (badness 3826) in paragraph at lines 213--213
 
 LaTeX Warning: Float too large for page by 67.30757pt on input line 218.
 
-<figs/sel1mod_cnn_trackrange_acc75_0707.png, id=620, 738.76pt x 551.05875pt>
+<figs/sel1mod_cnn_trackrange_acc75_0707.png, id=628, 738.76pt x 551.05875pt>
 File: figs/sel1mod_cnn_trackrange_acc75_0707.png Graphic file (type png)
 
 <use figs/sel1mod_cnn_trackrange_acc75_0707.png>
@@ -2159,7 +2169,7 @@ Underfull \hbox (badness 3826) in paragraph at lines 227--227
 \T1/ppl/m/n/10.95 (+20) ground muons/pions of track
  []
 
-<figs/sel1mod_cnn_trackrange_acc80_0707.png, id=621, 734.745pt x 550.055pt>
+<figs/sel1mod_cnn_trackrange_acc80_0707.png, id=629, 734.745pt x 550.055pt>
 File: figs/sel1mod_cnn_trackrange_acc80_0707.png Graphic file (type png)
 
 <use figs/sel1mod_cnn_trackrange_acc80_0707.png>
@@ -2171,7 +2181,7 @@ Underfull \hbox (badness 3049) in paragraph at lines 233--233
 \T1/ppl/m/n/10.95 (+20) ground muons/pions of track
  []
 
-<figs/sel1mod_cnn_trackrange_acc85_0707.png, id=622, 732.7375pt x 564.1075pt>
+<figs/sel1mod_cnn_trackrange_acc85_0707.png, id=630, 732.7375pt x 564.1075pt>
 File: figs/sel1mod_cnn_trackrange_acc85_0707.png Graphic file (type png)
 
 <use figs/sel1mod_cnn_trackrange_acc85_0707.png>
@@ -2184,7 +2194,7 @@ Underfull \hbox (badness 4266) in paragraph at lines 239--239
  []
 
 
-<figs/sel1mod_cnn_trackrange_acc90_0707.png, id=623, 739.76375pt x 564.1075pt>
+<figs/sel1mod_cnn_trackrange_acc90_0707.png, id=631, 739.76375pt x 564.1075pt>
 File: figs/sel1mod_cnn_trackrange_acc90_0707.png Graphic file (type png)
 
 <use figs/sel1mod_cnn_trackrange_acc90_0707.png>
@@ -2196,7 +2206,7 @@ Underfull \hbox (badness 3049) in paragraph at lines 245--245
 \T1/ppl/m/n/10.95 (+20) ground muons/pions of track
  []
 
-<figs/sel1mod_parP_wrongnorm_acc70_0706.png, id=624, 726.715pt x 560.0925pt>
+<figs/sel1mod_parP_wrongnorm_acc70_0706.png, id=632, 726.715pt x 560.0925pt>
 File: figs/sel1mod_parP_wrongnorm_acc70_0706.png Graphic file (type png)
 
 <use figs/sel1mod_parP_wrongnorm_acc70_0706.png>
@@ -2204,7 +2214,7 @@ Package pdftex.def Info: figs/sel1mod_parP_wrongnorm_acc70_0706.png used on inp
 ut line 256.
 (pdftex.def)             Requested size: 201.63182pt x 155.39758pt.
 
-<figs/sel1mod_cnn_parP_stackedevents_0707.png, id=625, 731.73375pt x 555.07375p
+<figs/sel1mod_cnn_parP_stackedevents_0707.png, id=633, 731.73375pt x 555.07375p
 t>
 File: figs/sel1mod_cnn_parP_stackedevents_0707.png Graphic file (type png)
  <use figs/sel1mod_cnn_parP_stackedevents_0707.png>
@@ -2212,7 +2222,7 @@ Package pdftex.def Info: figs/sel1mod_cnn_parP_stackedevents_0707.png used on i
 nput line 262.
 (pdftex.def)             Requested size: 201.63182pt x 152.95488pt.
 
-<figs/sel1mod_original_parP_stackedevents_0707.png, id=626, 731.73375pt x 563.1
+<figs/sel1mod_original_parP_stackedevents_0707.png, id=634, 731.73375pt x 563.1
 0374pt>
 File: figs/sel1mod_original_parP_stackedevents_0707.png Graphic file (type png)
 
@@ -2226,7 +2236,7 @@ Package caption Warning: \label without proper reference on input line 300.
 See the caption package documentation for explanation.
 
 
-LaTeX Warning: Reference `fig:longer_muon_badreco' on page 34 undefined on inpu
+LaTeX Warning: Reference `fig:longer_muon_badreco' on page 36 undefined on inpu
 t line 277.
 
 
@@ -2234,10 +2244,10 @@ Package caption Warning: \label without proper reference on input line 306.
 See the caption package documentation for explanation.
 
 
-LaTeX Warning: Reference `fig:longer_pion' on page 34 undefined on input line 2
+LaTeX Warning: Reference `fig:longer_pion' on page 36 undefined on input line 2
 77.
 
-[34]
+[36]
 File: figs/sel1mod_cnn_trackrange_mupi_acc70_0707.png Graphic file (type png)
  <use figs/sel1mod_cnn_trackrange_mupi_acc70_0707.png>
 Package pdftex.def Info: figs/sel1mod_cnn_trackrange_mupi_acc70_0707.png used o
@@ -2248,7 +2258,7 @@ Overfull \hbox (5.88pt too wide) in paragraph at lines 282--283
 [][]\T1/ppl/m/n/12 (-20) a 
  []
 
-<figs/sel1mod_mupi_trackrange_acc70.png, id=636, 740.7675pt x 561.09625pt>
+<figs/sel1mod_mupi_trackrange_acc70.png, id=644, 740.7675pt x 561.09625pt>
 File: figs/sel1mod_mupi_trackrange_acc70.png Graphic file (type png)
 
 <use figs/sel1mod_mupi_trackrange_acc70.png>
@@ -2256,7 +2266,7 @@ Package pdftex.def Info: figs/sel1mod_mupi_trackrange_acc70.png used on input l
 ine 287.
 (pdftex.def)             Requested size: 201.63182pt x 152.72232pt.
 
-<figs/interesting_event.png, id=637, 500.87125pt x 344.28625pt>
+<figs/interesting_event.png, id=645, 500.87125pt x 344.28625pt>
 File: figs/interesting_event.png Graphic file (type png)
 
 <use figs/interesting_event.png>
@@ -2272,36 +2282,36 @@ Underfull \hbox (badness 10000) in paragraph at lines 301--301
 \T1/ppl/m/n/10.95 (+20) re-con-structed track
  []
 
-<figs/event2.png, id=638, 516.93124pt x 442.65375pt>
+<figs/event2.png, id=646, 516.93124pt x 442.65375pt>
 File: figs/event2.png Graphic file (type png)
  <use figs/event2.png>
 Package pdftex.def Info: figs/event2.png used on input line 305.
 (pdftex.def)             Requested size: 134.4235pt x 115.10751pt.
 
-<figs/mupievent.png, id=639, 585.18625pt x 400.49625pt>
+<figs/mupievent.png, id=647, 585.18625pt x 400.49625pt>
 File: figs/mupievent.png Graphic file (type png)
 
 <use figs/mupievent.png>
 Package pdftex.def Info: figs/mupievent.png used on input line 312.
 (pdftex.def)             Requested size: 134.4235pt x 91.99608pt.
- [35 <./figs/sel1mod_confusion_wrongnorm.png> <./figs/probplot_wrongnorm_selImo
-d.png>] [36 <./figs/sel1mod_trackrange_wrongnorm_acc70_0706.png> <./figs/sel1mo
+ [37 <./figs/sel1mod_confusion_wrongnorm.png> <./figs/probplot_wrongnorm_selImo
+d.png>] [38 <./figs/sel1mod_trackrange_wrongnorm_acc70_0706.png> <./figs/sel1mo
 d_cnn_stackedevent_0707.png> <./figs/sel1mod_original_stackedevents_0707.png> <
 ./figs/sel1mod_cnn_trackrange_mupi_acc70_0707.png> <./figs/sel1mod_original_tra
-ckrange_mupi_acc70_0707.png>] [37 <./figs/sel1mod_cnn_trackrange_acc75_0707.png
+ckrange_mupi_acc70_0707.png>] [39 <./figs/sel1mod_cnn_trackrange_acc75_0707.png
 > <./figs/sel1mod_cnn_trackrange_acc80_0707.png> <./figs/sel1mod_cnn_trackrange
-_acc85_0707.png> <./figs/sel1mod_cnn_trackrange_acc90_0707.png>] [38 <./figs/se
+_acc85_0707.png> <./figs/sel1mod_cnn_trackrange_acc90_0707.png>] [40 <./figs/se
 l1mod_parP_wrongnorm_acc70_0706.png> <./figs/sel1mod_cnn_parP_stackedevents_070
-7.png> <./figs/sel1mod_original_parP_stackedevents_0707.png>] [39 <./figs/sel1m
+7.png> <./figs/sel1mod_original_parP_stackedevents_0707.png>] [41 <./figs/sel1m
 od_mupi_trackrange_acc70.png> <./figs/interesting_event.png> <./figs/event2.png
 > <./figs/mupievent.png>]
 
-LaTeX Warning: Citation `cc-inclusive' on page 40 undefined on input line 346.
+LaTeX Warning: Citation `cc-inclusive' on page 42 undefined on input line 346.
 
 
-LaTeX Warning: Citation `cc-inclusive' on page 40 undefined on input line 346.
+LaTeX Warning: Citation `cc-inclusive' on page 42 undefined on input line 346.
 
-[40] <figs/purity_sel1mod.png, id=684, 751.80875pt x 354.32375pt>
+[42] <figs/purity_sel1mod.png, id=692, 751.80875pt x 354.32375pt>
 File: figs/purity_sel1mod.png Graphic file (type png)
 
 <use figs/purity_sel1mod.png>
@@ -2309,41 +2319,41 @@ Package pdftex.def Info: figs/purity_sel1mod.png used on input line 392.
 (pdftex.def)             Requested size: 289.08589pt x 180.67567pt.
 
 
-LaTeX Warning: Citation `cc-inclusive' on page 41 undefined on input line 394.
+LaTeX Warning: Citation `cc-inclusive' on page 43 undefined on input line 394.
 
 
-LaTeX Warning: Citation `cc-inclusive' on page 41 undefined on input line 394.
+LaTeX Warning: Citation `cc-inclusive' on page 43 undefined on input line 394.
 
-<figs/cnn_performance.png, id=685, 746.79pt x 576.1525pt>
+<figs/cnn_performance.png, id=693, 746.79pt x 576.1525pt>
 File: figs/cnn_performance.png Graphic file (type png)
 
 <use figs/cnn_performance.png>
 Package pdftex.def Info: figs/cnn_performance.png used on input line 399.
 (pdftex.def)             Requested size: 216.80284pt x 180.67139pt.
- [41] [42 <./figs/purity_sel1mod.png> <./figs/cnn_performance.png>] [43]) (./da
-ta.tex [44
+ [43] [44 <./figs/purity_sel1mod.png> <./figs/cnn_performance.png>] [45]) (./da
+ta.tex [46
 
-
-]
-chapter 8.
-[45]) (./selImodcompare.tex [46
-
-]
-chapter 9.
-[47
-
-]) (./conclusion.tex [48
 
 ]
 chapter 10.
+[47]) (./selImodcompare.tex [48
+
+]
+chapter 11.
+[49
+
+]) (./conclusion.tex [50
+
+]
+chapter 12.
 )) Processing 'appendices' comment.
 \openout3 = `comment.cut'.
 
 
 Comment 'appendices' writing to comment.cut. Straight input of comment.cut.
-(./comment.cut (./appendices.tex [49
+(./comment.cut (./appendices.tex [51
 
-] [50
+] [52
 
 ]
 chapter A.
@@ -2368,34 +2378,34 @@ Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 
 
 Comment 'backmatter' writing to comment.cut. Straight input of comment.cut.
-(./comment.cut (./backmatter.tex [51] [52
+(./comment.cut (./backmatter.tex [53] [54
 
 ]
 
-LaTeX Warning: Citation `hepthesis' on page 53 undefined on input line 2.
+LaTeX Warning: Citation `hepthesis' on page 55 undefined on input line 2.
 
 No file example.bbl.
-)) [53]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 134.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 134.
+)) [55]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 137.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 137.
  (./example.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 134.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 134.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 137.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 137.
 Package rerunfilecheck Info: File `example.out' has not changed.
-(rerunfilecheck)             Checksum: 247DF11CCD62866FA20B3A67649891F8;2539.
+(rerunfilecheck)             Checksum: D9B500DD77C25B9CE6107BD47A3DDB03;2523.
 
 
 LaTeX Warning: There were undefined references.
 
  ) 
 Here is how much of TeX's memory you used:
- 30101 strings out of 494953
- 535683 string characters out of 6180977
- 724491 words of memory out of 5000000
- 32222 multiletter control sequences out of 15000+600000
+ 30115 strings out of 494953
+ 535847 string characters out of 6180977
+ 725491 words of memory out of 5000000
+ 32228 multiletter control sequences out of 15000+600000
  107820 words of font info for 394 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
- 75i,22n,80p,2699b,922s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 75i,22n,80p,2707b,926s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texmf/fonts/enc/dvips/cm-super/cm-super-t1.enc}{/usr/share/texliv
 e/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/share/texlive/texmf-dist/fonts/t
 ype1/public/amsfonts/cm/cmbsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/
@@ -2411,10 +2421,10 @@ urw/palatino/uplb8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/palatino
 /uplbi8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/palatino/uplr8a.pfb
 ></usr/share/texlive/texmf-dist/fonts/type1/urw/palatino/uplr8a.pfb></usr/share
 /texlive/texmf-dist/fonts/type1/urw/palatino/uplri8a.pfb>
-Output written on example.pdf (71 pages, 2893767 bytes).
+Output written on example.pdf (73 pages, 2893133 bytes).
 PDF statistics:
- 830 PDF objects out of 1000 (max. 8388607)
- 656 compressed objects within 7 object streams
- 150 named destinations out of 1000 (max. 500000)
+ 841 PDF objects out of 1000 (max. 8388607)
+ 665 compressed objects within 7 object streams
+ 152 named destinations out of 1000 (max. 500000)
  60417 words of extra memory for PDF output out of 61914 (max. 10000000)
 

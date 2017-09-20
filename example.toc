@@ -13,25 +13,25 @@
 \contentsline {section}{\numberline {2.5}Atmospheric Oscillations and the Atmospheric Neutrino Anomaly}{7}{section.2.5}
 \contentsline {section}{\numberline {2.6}Two Flavour Neutrino Oscillation Formulation}{9}{section.2.6}
 \contentsline {section}{\numberline {2.7}Three Flavour Neutrino Oscillation Formulation}{12}{section.2.7}
-\contentsline {section}{\numberline {2.8}Unanswered questions about Neutrinos}{13}{section.2.8}
-\contentsline {section}{\numberline {2.9}Final Thoughts}{13}{section.2.9}
-\contentsline {chapter}{\numberline {3}The MicroBooNE Experiment}{15}{chapter.3}
-\contentsline {section}{\numberline {3.1}Introduction}{15}{section.3.1}
-\contentsline {section}{\numberline {3.2}Time Projection Chamber}{16}{section.3.2}
-\contentsline {section}{\numberline {3.3}Light Collection System}{17}{section.3.3}
-\contentsline {section}{\numberline {3.4}Electronics System}{17}{section.3.4}
-\contentsline {chapter}{\numberline {4}Finding the first Neutrinos in MicroBooNE}{19}{chapter.4}
-\contentsline {chapter}{\numberline {5}CC-Inclusive Cross Section Selection Filter}{21}{chapter.5}
-\contentsline {chapter}{\numberline {6}The importance of $\mymath {\@Oldmu }\xspace /\mymath {\@Oldpi }\xspace $ separation in MicroBooNE}{23}{chapter.6}
-\contentsline {chapter}{\numberline {7}Using Convolutional Neural Networks to separate ${\mymath {\@Oldmu }\xspace }'s$ from ${\mymath {\@Oldpi }\xspace }'s$}{25}{chapter.7}
-\contentsline {section}{\numberline {7.1}Image Making Scheme}{25}{section.7.1}
-\contentsline {section}{\numberline {7.2}Convolutional Neural Network Training}{27}{section.7.2}
-\contentsline {section}{\numberline {7.3}Classification of MC data using Selection I Original CC-Inclusive Filter}{28}{section.7.3}
-\contentsline {section}{\numberline {7.4}Classification of MC data using Selection I Modified CC-Inclusive Filter}{33}{section.7.4}
-\contentsline {section}{\numberline {7.5}Conclusions and Future Work}{41}{section.7.5}
-\contentsline {chapter}{\numberline {8}Using Convolutional Neural Networks on MicroBooNE Data}{45}{chapter.8}
-\contentsline {chapter}{\numberline {9}Comparing two CC-Inclusive Cross Section Selection Filters}{47}{chapter.9}
-\contentsline {chapter}{\numberline {10}Conclusion}{49}{chapter.10}
-\contentsline {chapter}{\numberline {A}Pointless extras}{51}{appendix.A}
-\contentsline {section}{\numberline {A.1}Like, duh}{51}{section.A.1}
-\contentsline {section}{\numberline {A.2}$y = \mymath {\@Oldalpha }\xspace x^2$}{51}{section.A.2}
+\contentsline {chapter}{\numberline {3}The MicroBooNE Experiment}{13}{chapter.3}
+\contentsline {section}{\numberline {3.1}Introduction}{13}{section.3.1}
+\contentsline {section}{\numberline {3.2}Time Projection Chamber}{14}{section.3.2}
+\contentsline {section}{\numberline {3.3}Light Collection System}{15}{section.3.3}
+\contentsline {section}{\numberline {3.4}Electronics System}{15}{section.3.4}
+\contentsline {chapter}{\numberline {4}The Booster Neutrino Beam}{17}{chapter.4}
+\contentsline {chapter}{\numberline {5}Finding the first Neutrinos in MicroBooNE}{19}{chapter.5}
+\contentsline {chapter}{\numberline {6}CC-Inclusive Cross Section Selection Filter}{21}{chapter.6}
+\contentsline {chapter}{\numberline {7}The importance of $\mymath {\@Oldmu }\xspace /\mymath {\@Oldpi }\xspace $ separation in MicroBooNE}{23}{chapter.7}
+\contentsline {chapter}{\numberline {8}Convolutional Neural Networks}{25}{chapter.8}
+\contentsline {chapter}{\numberline {9}Using Convolutional Neural Networks to separate ${\mymath {\@Oldmu }\xspace }'s$ from ${\mymath {\@Oldpi }\xspace }'s$}{27}{chapter.9}
+\contentsline {section}{\numberline {9.1}Image Making Scheme}{27}{section.9.1}
+\contentsline {section}{\numberline {9.2}Convolutional Neural Network Training}{29}{section.9.2}
+\contentsline {section}{\numberline {9.3}Classification of MC data using Selection I Original CC-Inclusive Filter}{30}{section.9.3}
+\contentsline {section}{\numberline {9.4}Classification of MC data using Selection I Modified CC-Inclusive Filter}{35}{section.9.4}
+\contentsline {section}{\numberline {9.5}Conclusions and Future Work}{43}{section.9.5}
+\contentsline {chapter}{\numberline {10}Using Convolutional Neural Networks on MicroBooNE Data}{47}{chapter.10}
+\contentsline {chapter}{\numberline {11}Comparing two CC-Inclusive Cross Section Selection Filters}{49}{chapter.11}
+\contentsline {chapter}{\numberline {12}Conclusion}{51}{chapter.12}
+\contentsline {chapter}{\numberline {A}Pointless extras}{53}{appendix.A}
+\contentsline {section}{\numberline {A.1}Like, duh}{53}{section.A.1}
+\contentsline {section}{\numberline {A.2}$y = \mymath {\@Oldalpha }\xspace x^2$}{53}{section.A.2}
