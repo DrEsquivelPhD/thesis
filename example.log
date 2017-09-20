@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2017.8.22)  20 SEP 2017 00:24
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2017.8.22)  20 SEP 2017 13:39
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -661,6 +661,11 @@ File: pgfmodulematrix.code.tex 2013/09/17  (rcs-revision 1.8)
 zlibrarytopaths.code.tex
 File: tikzlibrarytopaths.code.tex 2008/06/17 v3.0.1a (rcs-revision 1.2)
 )))
+(/usr/share/texlive/texmf-dist/tex/latex/caption/subcaption.sty
+Package: subcaption 2016/02/20 v1.1-142 Sub-captions (AR)
+\c@subfigure=\count134
+\c@subtable=\count135
+)
 (/usr/share/texlive/texmf-dist/tex/latex/morefloats/morefloats.sty
 Package: morefloats 2015/07/22 v1.0h Raise limit of unprocessed floats (HMM)
 
@@ -686,11 +691,6 @@ Package morefloats Info: Maximum number of possible floats asked for: 36
 (morefloats)             (i.e. 18 more floats).
 (morefloats)             LaTeX might run out of memory before this
 (morefloats)             (in which case it will notify you).
-)
-(/usr/share/texlive/texmf-dist/tex/latex/caption/subcaption.sty
-Package: subcaption 2016/02/20 v1.1-142 Sub-captions (AR)
-\c@subfigure=\count134
-\c@subtable=\count135
 )
 (/usr/share/texlive/texmf-dist/tex/latex/jknapltx/mathrsfs.sty
 Package: mathrsfs 1996/01/01 Math RSFS package v1.0 (jk)
@@ -835,7 +835,7 @@ LaTeX Info: Redefining \Re on input line 179.
 LaTeX Info: Redefining \d on input line 240.
 LaTeX Info: Redefining \exclude on input line 247.
 )
-LaTeX Info: Redefining \mymath on input line 29.
+LaTeX Info: Redefining \mymath on input line 31.
 
 (/usr/share/texlive/texmf-dist/tex/latex/manualclassinput/abhep.sty
 Package: abhep 2005/01/17
@@ -935,12 +935,12 @@ File: ursfs.fd 1998/03/24 rsfs font definition file (jk)
 (/usr/share/texlive/texmf-dist/tex/latex/manualclassinput/hepnames.sty
 Package: hepnames 2014/12/01 Pre-defined HEP particle symbols (version 2.0)
 )
-LaTeX Info: Redefining \CP on input line 56.
-LaTeX Info: Redefining \CPv on input line 58.
-LaTeX Info: Redefining \LHCb on input line 59.
-LaTeX Info: Redefining \LHC on input line 60.
-LaTeX Info: Redefining \LEP on input line 61.
-LaTeX Info: Redefining \CERN on input line 62.
+LaTeX Info: Redefining \CP on input line 58.
+LaTeX Info: Redefining \CPv on input line 60.
+LaTeX Info: Redefining \LHCb on input line 61.
+LaTeX Info: Redefining \LHC on input line 62.
+LaTeX Info: Redefining \LEP on input line 63.
+LaTeX Info: Redefining \CERN on input line 64.
 
 (/usr/share/texlive/texmf-dist/tex/latex/adjustbox/adjustbox.sty
 Package: adjustbox 2012/05/21 v1.0 Adjusting TeX boxes (trim, clip, ...)
@@ -1365,7 +1365,7 @@ Package caption Warning: \label without proper reference on input line 15.
 See the caption package documentation for explanation.
 
 
-LaTeX Warning: Reference `fig:bnbflux' on page xiii undefined on input line 12.
+LaTeX Warning: Reference `fig:bnbflux' on page xiii undefined on input line 15.
 
 
 
@@ -1373,74 +1373,51 @@ Package caption Warning: \label without proper reference on input line 14.
 See the caption package documentation for explanation.
 
 
-LaTeX Warning: Reference `fig:track' on page xiii undefined on input line 15.
+LaTeX Warning: Reference `fig:track' on page xiii undefined on input line 20.
 
 
 Package caption Warning: \label without proper reference on input line 20.
 See the caption package documentation for explanation.
 
 
-LaTeX Warning: Reference `fig:eff' on page xiii undefined on input line 15.
-
-
-Package caption Warning: \label without proper reference on input line 50.
-See the caption package documentation for explanation.
-
-
-LaTeX Warning: Reference `fig:confusion' on page xiii undefined on input line 2
-0.
-
-
-Package caption Warning: \label without proper reference on input line 56.
-See the caption package documentation for explanation.
-
-
-LaTeX Warning: Reference `fig:confusion_test' on page xiii undefined on input l
-ine 20.
-
-
-Package caption Warning: \label without proper reference on input line 62.
-See the caption package documentation for explanation.
-
-
-LaTeX Warning: Reference `fig:prob_plot' on page xiii undefined on input line 2
-0.
-
-
-Overfull \hbox (31.5433pt too wide) in paragraph at lines 20--20
- [][] [][][][][][][][] [][][][][] \T1/ppl/m/n/12 (-20) De-scrip-tion of con-fu-
-sion ma-trix varables: False pion rate = $\OML/zplm/m/it/12 false^^Y\OT1/zplm/m
-/n/12 /\OML/zplm/m/it/12 total^^Y$ 
- []
+LaTeX Warning: Reference `fig:eff' on page xiii undefined on input line 20.
 
 [13
 
 ]
+Overfull \hbox (5.67154pt too wide) in paragraph at lines 27--27
+ [][] [][][]\T1/ppl/m/n/12 (-20) Description of con-fu-sion ma-trix varables: F
+alse pion rate = $\OML/zplm/m/it/12 false^^Y\OT1/zplm/m/n/12 /\OML/zplm/m/it/12
+ total^^Y$ 
+ []
 
-LaTeX Warning: Citation `cc-inclusive' on page xiv undefined on input line 31.
+[14] [15] [16]
+
+LaTeX Warning: Citation `cc-inclusive' on page xvii undefined on input line 68.
+
 
 )
 \tf@lof=\write7
 \openout7 = `example.lof'.
 
- [14] (./example.lot
+ [17] [18
 
-LaTeX Warning: Citation `cc-inclusive' on page xv undefined on input line 12.
+] (./example.lot
+
+LaTeX Warning: Citation `cc-inclusive' on page xix undefined on input line 12.
 
 )
 \tf@lot=\write8
 \openout8 = `example.lot'.
 
- [15
+ [19] [20
 
-] [16
-
-] [17])) Processing 'mainmatter' comment.
+] [21])) Processing 'mainmatter' comment.
 \openout3 = `comment.cut'.
 
 
 Comment 'mainmatter' writing to comment.cut. Straight input of comment.cut.
-(./comment.cut (./intro.tex [18
+(./comment.cut (./intro.tex [22
 
 
 ]
@@ -1481,7 +1458,7 @@ LaTeX Warning: Citation `neutrinooscillation' on page 4 undefined on input line
 
 LaTeX Warning: Citation `bnl' on page 4 undefined on input line 19.
 
-<figs/solarmodel.jpg, id=395, 469.00218pt x 362.10281pt>
+<figs/solarmodel.jpg, id=490, 469.00218pt x 362.10281pt>
 File: figs/solarmodel.jpg Graphic file (type jpg)
 
 <use figs/solarmodel.jpg>
@@ -1493,13 +1470,13 @@ LaTeX Font Info:    Font shape `T1/ppl/bx/n' in size <10.95> not available
 
 LaTeX Warning: Citation `fnal' on page 5 undefined on input line 27.
 
-<figs/homestake.jpg, id=401, 680.3016pt x 539.616pt>
+<figs/homestake.jpg, id=496, 680.3016pt x 539.616pt>
 File: figs/homestake.jpg Graphic file (type jpg)
  <use figs/homestake.jpg>
 Package pdftex.def Info: figs/homestake.jpg used on input line 34.
 (pdftex.def)             Requested size: 134.4235pt x 106.62033pt.
 
-<figs/kamiokande.jpg, id=402, 276.03125pt x 184.69pt>
+<figs/kamiokande.jpg, id=497, 276.03125pt x 184.69pt>
 File: figs/kamiokande.jpg Graphic file (type jpg)
 
 <use figs/kamiokande.jpg>
@@ -1510,11 +1487,13 @@ Underfull \hbox (badness 10000) in paragraph at lines 41--41
 [][]|\T1/ppl/m/n/10.95 (+20) Kamiokande Ex-per-i-
  []
 
-<figs/sno.jpg, id=403, 176.66pt x 235.88126pt>
+<figs/sno.jpg, id=498, 176.66pt x 235.88126pt>
 File: figs/sno.jpg Graphic file (type jpg)
  <use figs/sno.jpg>
 Package pdftex.def Info: figs/sno.jpg used on input line 46.
 (pdftex.def)             Requested size: 134.4235pt x 179.48756pt.
+Package hyperref Info: bookmark level for unknown subfigure defaults to 0 on in
+put line 50.
  [5 <./figs/solarmodel.jpg>]
 LaTeX Font Info:    Font shape `T1/ppl/bx/n' in size <14.4> not available
 (Font)              Font shape `T1/ppl/b/n' tried instead on input line 53.
@@ -1523,20 +1502,20 @@ LaTeX Font Info:    Font shape `T1/ppl/bx/n' in size <14.4> not available
 LaTeX Warning: Citation `Smirnov:2003da' on page 6 undefined on input line 54.
 
 [6 <./figs/homestake.jpg> <./figs/kamiokande.jpg> <./figs/sno.jpg>]
-<figs/cosmicray.jpg, id=414, 401.5pt x 197.73875pt>
+<figs/cosmicray.jpg, id=509, 401.5pt x 197.73875pt>
 File: figs/cosmicray.jpg Graphic file (type jpg)
  <use figs/cosmicray.jpg>
 Package pdftex.def Info: figs/cosmicray.jpg used on input line 72.
 (pdftex.def)             Requested size: 200.7495pt x 98.86913pt.
 
-[7] <figs/ratio.jpg, id=426, 287.57437pt x 94.10156pt>
+[7] <figs/ratio.jpg, id=520, 287.57437pt x 94.10156pt>
 File: figs/ratio.jpg Graphic file (type jpg)
  <use figs/ratio.jpg>
 Package pdftex.def Info: figs/ratio.jpg used on input line 93.
 (pdftex.def)             Requested size: 287.57367pt x 94.10132pt.
 
 [8 <./figs/cosmicray.jpg> <./figs/ratio.jpg>]
-<figs/mixingangle.jpg, id=435, 224.33812pt x 142.28156pt>
+<figs/mixingangle.jpg, id=529, 224.33812pt x 142.28156pt>
 File: figs/mixingangle.jpg Graphic file (type jpg)
 
 <use figs/mixingangle.jpg>
@@ -1589,13 +1568,13 @@ LaTeX Warning: Citation `dune' on page 17 undefined on input line 2.
 
 LaTeX Warning: Citation `SBN' on page 17 undefined on input line 2.
 
-<figs/lee.png, id=490, 364.36125pt x 435.12563pt>
+<figs/lee.png, id=585, 364.36125pt x 435.12563pt>
 File: figs/lee.png Graphic file (type png)
  <use figs/lee.png>
 Package pdftex.def Info: figs/lee.png used on input line 8.
 (pdftex.def)             Requested size: 179.22676pt x 214.03008pt.
 
-<figs/bnbflux.png, id=491, 471.7625pt x 431.6125pt>
+<figs/bnbflux.png, id=586, 471.7625pt x 431.6125pt>
 File: figs/bnbflux.png Graphic file (type png)
  <use figs/bnbflux.png>
 Package pdftex.def Info: figs/bnbflux.png used on input line 14.
@@ -1652,14 +1631,14 @@ See the caption package documentation for explanation.
 
 LaTeX Warning: Reference `fig:eff' on page 24 undefined on input line 7.
 
-<figs/track_distribution.png, id=525, 991.705pt x 747.79375pt>
+<figs/track_distribution.png, id=620, 991.705pt x 747.79375pt>
 File: figs/track_distribution.png Graphic file (type png)
 
 <use figs/track_distribution.png>
 Package pdftex.def Info: figs/track_distribution.png used on input line 13.
 (pdftex.def)             Requested size: 179.22676pt x 135.14476pt.
 
-<figs/efficiencyvsmom.png, id=526, 887.315pt x 652.4375pt>
+<figs/efficiencyvsmom.png, id=621, 887.315pt x 652.4375pt>
 File: figs/efficiencyvsmom.png Graphic file (type png)
 
 <use figs/efficiencyvsmom.png>
@@ -1778,114 +1757,42 @@ Package microtype Info: Loading generic settings for font family
 
 LaTeX Warning: Citation `caffe' on page 33 undefined on input line 37.
 
-<figs/acc_loss_10000_062117.png, id=572, 619.31375pt x 472.76625pt>
+<figs/acc_loss_10000_062117.png, id=665, 619.31375pt x 472.76625pt>
 File: figs/acc_loss_10000_062117.png Graphic file (type png)
 
 <use figs/acc_loss_10000_062117.png>
 Package pdftex.def Info: figs/acc_loss_10000_062117.png used on input line 41.
 (pdftex.def)             Requested size: 340.62361pt x 260.02223pt.
  [33]
-<figs/train_confusion-9-14-16.png, id=578, 833.1125pt x 964.60374pt>
+<figs/train_confusion-9-14-16.png, id=673, 833.1125pt x 964.60374pt>
 File: figs/train_confusion-9-14-16.png Graphic file (type png)
 
 <use figs/train_confusion-9-14-16.png>
 Package pdftex.def Info: figs/train_confusion-9-14-16.png used on input line 49
 .
-(pdftex.def)             Requested size: 179.22676pt x 207.50351pt.
+(pdftex.def)             Requested size: 179.21739pt x 216.8057pt.
 
-<figs/val_confusion_9-14-16.png, id=579, 971.63pt x 930.47626pt>
+<figs/val_confusion_9-14-16.png, id=674, 971.63pt x 930.47626pt>
 File: figs/val_confusion_9-14-16.png Graphic file (type png)
 
 <use figs/val_confusion_9-14-16.png>
 Package pdftex.def Info: figs/val_confusion_9-14-16.png used on input line 55.
-(pdftex.def)             Requested size: 179.22676pt x 171.62428pt.
+(pdftex.def)             Requested size: 179.215pt x 216.80202pt.
 
-<figs/mitch_hw.png, id=580, 1672.2475pt x 673.51625pt>
+<figs/mitch_hw.png, id=675, 1672.2475pt x 673.51625pt>
 File: figs/mitch_hw.png Graphic file (type png)
  <use figs/mitch_hw.png>
 Package pdftex.def Info: figs/mitch_hw.png used on input line 61.
-(pdftex.def)             Requested size: 179.22676pt x 72.18576pt.
+(pdftex.def)             Requested size: 448.06815pt x 180.66995pt.
 
-
-Package caption Warning: \label without proper reference on input line 50.
-See the caption package documentation for explanation.
-
-
-LaTeX Warning: Reference `fig:confusion' on page 34 undefined on input line 65.
-
-
-
-Package caption Warning: \label without proper reference on input line 56.
-See the caption package documentation for explanation.
-
-
-LaTeX Warning: Reference `fig:confusion_test' on page 34 undefined on input lin
-e 65.
-
-
-Package caption Warning: \label without proper reference on input line 62.
-See the caption package documentation for explanation.
-
-
-LaTeX Warning: Reference `fig:prob_plot' on page 34 undefined on input line 65.
-
-
-
-Package caption Warning: \label without proper reference on input line 50.
-See the caption package documentation for explanation.
-
-
-LaTeX Warning: Reference `fig:confusion' on page 34 undefined on input line 65.
-
-
-
-Package caption Warning: \label without proper reference on input line 56.
-See the caption package documentation for explanation.
-
-
-LaTeX Warning: Reference `fig:confusion_test' on page 34 undefined on input lin
-e 65.
-
-
-Package caption Warning: \label without proper reference on input line 62.
-See the caption package documentation for explanation.
-
-
-LaTeX Warning: Reference `fig:prob_plot' on page 34 undefined on input line 65.
-
-
-
-Package caption Warning: \label without proper reference on input line 50.
-See the caption package documentation for explanation.
-
-
-LaTeX Warning: Reference `fig:confusion' on page 34 undefined on input line 69.
-
-
-
-Package caption Warning: \label without proper reference on input line 56.
-See the caption package documentation for explanation.
-
-
-LaTeX Warning: Reference `fig:confusion_test' on page 34 undefined on input lin
-e 69.
-
-
-Package caption Warning: \label without proper reference on input line 62.
-See the caption package documentation for explanation.
-
-
-LaTeX Warning: Reference `fig:prob_plot' on page 34 undefined on input line 69.
-
-
-<figs/sel1_cuts.png, id=590, 1566.85374pt x 914.41624pt>
+<figs/sel1_cuts.png, id=679, 1566.85374pt x 914.41624pt>
 File: figs/sel1_cuts.png Graphic file (type png)
 
 <use figs/sel1_cuts.png>
 Package pdftex.def Info: figs/sel1_cuts.png used on input line 83.
 (pdftex.def)             Requested size: 403.26366pt x 235.34273pt.
 
-<figs/confusion_0621_wrongnorm.png, id=591, 790.955pt x 764.8575pt>
+<figs/confusion_0621_wrongnorm.png, id=680, 790.955pt x 764.8575pt>
 File: figs/confusion_0621_wrongnorm.png Graphic file (type png)
 
 <use figs/confusion_0621_wrongnorm.png>
@@ -1897,7 +1804,7 @@ Overfull \hbox (15.17545pt too wide) in paragraph at lines 91--93
 [][]
  []
 
-<figs/prob_0706_wrongnorm_sel1.png, id=592, 735.74875pt x 575.14874pt>
+<figs/prob_0706_wrongnorm_sel1.png, id=681, 735.74875pt x 575.14874pt>
 File: figs/prob_0706_wrongnorm_sel1.png Graphic file (type png)
 
 <use figs/prob_0706_wrongnorm_sel1.png>
@@ -1909,7 +1816,7 @@ Overfull \hbox (15.17642pt too wide) in paragraph at lines 97--99
 [][]
  []
 
-<figs/confusion_rightnorm_0621.png, id=593, 1018.80624pt x 887.315pt>
+<figs/confusion_rightnorm_0621.png, id=682, 1018.80624pt x 887.315pt>
 File: figs/confusion_rightnorm_0621.png Graphic file (type png)
 
 <use figs/confusion_rightnorm_0621.png>
@@ -1921,7 +1828,7 @@ Overfull \hbox (15.16867pt too wide) in paragraph at lines 103--105
 [][]
  []
 
-<figs/prob_0706_rightnorm_sel1.png, id=594, 737.75626pt x 554.07pt>
+<figs/prob_0706_rightnorm_sel1.png, id=683, 737.75626pt x 554.07pt>
 File: figs/prob_0706_rightnorm_sel1.png Graphic file (type png)
 
 <use figs/prob_0706_rightnorm_sel1.png>
@@ -1934,7 +1841,7 @@ Overfull \hbox (15.17136pt too wide) in paragraph at lines 109--111
  []
 
 
-<figs/sel1_trackrange_wrongnorm_acc70_0706.png, id=595, 744.7825pt x 585.18625p
+<figs/sel1_trackrange_wrongnorm_acc70_0706.png, id=684, 744.7825pt x 585.18625p
 t>
 File: figs/sel1_trackrange_wrongnorm_acc70_0706.png Graphic file (type png)
  <use figs/sel1_trackrange_wrongnorm_acc70_0706.png>
@@ -1947,7 +1854,7 @@ Overfull \hbox (15.17917pt too wide) in paragraph at lines 121--123
  []
 
 
-<figs/sel1_trackrange_rightnorm_acc70_0706.png, id=596, 740.7675pt x 570.13pt>
+<figs/sel1_trackrange_rightnorm_acc70_0706.png, id=685, 740.7675pt x 570.13pt>
 File: figs/sel1_trackrange_rightnorm_acc70_0706.png Graphic file (type png)
 
 <use figs/sel1_trackrange_rightnorm_acc70_0706.png>
@@ -1959,7 +1866,7 @@ Overfull \hbox (15.1746pt too wide) in paragraph at lines 127--129
 [][]
  []
 
-<figs/sel1_parP_wrongnorm_acc70_0706.png, id=597, 733.74126pt x 558.085pt>
+<figs/sel1_parP_wrongnorm_acc70_0706.png, id=686, 733.74126pt x 558.085pt>
 File: figs/sel1_parP_wrongnorm_acc70_0706.png Graphic file (type png)
 
 <use figs/sel1_parP_wrongnorm_acc70_0706.png>
@@ -1971,7 +1878,7 @@ Overfull \hbox (15.17824pt too wide) in paragraph at lines 133--135
 [][]
  []
 
-<figs/sel1_parP_rightnorm_acc70_0706.png, id=598, 735.74875pt x 563.10374pt>
+<figs/sel1_parP_rightnorm_acc70_0706.png, id=687, 735.74875pt x 563.10374pt>
 File: figs/sel1_parP_rightnorm_acc70_0706.png Graphic file (type png)
 
 <use figs/sel1_parP_rightnorm_acc70_0706.png>
@@ -2037,14 +1944,6 @@ LaTeX Warning: Reference `fig:prob_rightnorm' on page 36 undefined on input lin
 e 150.
 
 
-Package caption Warning: \label without proper reference on input line 62.
-See the caption package documentation for explanation.
-
-
-LaTeX Warning: Reference `fig:prob_plot' on page 36 undefined on input line 150
-.
-
-
 Package caption Warning: \label without proper reference on input line 98.
 See the caption package documentation for explanation.
 
@@ -2097,7 +1996,7 @@ rob_0706_wrongnorm_sel1.png> <./figs/confusion_rightnorm_0621.png> <./figs/prob
 _0706_rightnorm_sel1.png>] [38 <./figs/sel1_trackrange_wrongnorm_acc70_0706.png
 > <./figs/sel1_trackrange_rightnorm_acc70_0706.png> <./figs/sel1_parP_wrongnorm
 _acc70_0706.png> <./figs/sel1_parP_rightnorm_acc70_0706.png>]
-<figs/cuttable_sel1mod.png, id=648, 736.7525pt x 452.69125pt>
+<figs/cuttable_sel1mod.png, id=736, 736.7525pt x 452.69125pt>
 File: figs/cuttable_sel1mod.png Graphic file (type png)
 
 <use figs/cuttable_sel1mod.png>
@@ -2172,7 +2071,7 @@ See the caption package documentation for explanation.
 LaTeX Warning: Reference `fig:sel1mod_mupi_90stackedcnn' on page 40 undefined o
 n input line 164.
 
-<figs/sel1mod_confusion_wrongnorm.png, id=665, 614.295pt x 639.38875pt>
+<figs/sel1mod_confusion_wrongnorm.png, id=754, 614.295pt x 639.38875pt>
 File: figs/sel1mod_confusion_wrongnorm.png Graphic file (type png)
 
 <use figs/sel1mod_confusion_wrongnorm.png>
@@ -2184,7 +2083,7 @@ Overfull \hbox (15.17433pt too wide) in paragraph at lines 169--171
 [][]
  []
 
-<figs/probplot_wrongnorm_selImod.png, id=666, 733.74126pt x 582.175pt>
+<figs/probplot_wrongnorm_selImod.png, id=755, 733.74126pt x 582.175pt>
 File: figs/probplot_wrongnorm_selImod.png Graphic file (type png)
 
 <use figs/probplot_wrongnorm_selImod.png>
@@ -2197,7 +2096,7 @@ Overfull \hbox (15.17824pt too wide) in paragraph at lines 175--177
  []
 
 
-<figs/sel1mod_trackrange_wrongnorm_acc70_0706.png, id=667, 741.77126pt x 573.14
+<figs/sel1mod_trackrange_wrongnorm_acc70_0706.png, id=756, 741.77126pt x 573.14
 125pt>
 File: figs/sel1mod_trackrange_wrongnorm_acc70_0706.png Graphic file (type png)
  <use figs/sel1mod_trackrange_wrongnorm_acc70_0706.png>
@@ -2209,7 +2108,7 @@ Overfull \hbox (42.64395pt too wide) in paragraph at lines 187--189
 [][]
  []
 
-<figs/sel1mod_cnn_stackedevent_0707.png, id=668, 739.76375pt x 565.11125pt>
+<figs/sel1mod_cnn_stackedevent_0707.png, id=757, 739.76375pt x 565.11125pt>
 File: figs/sel1mod_cnn_stackedevent_0707.png Graphic file (type png)
 
 <use figs/sel1mod_cnn_stackedevent_0707.png>
@@ -2217,7 +2116,7 @@ Package pdftex.def Info: figs/sel1mod_cnn_stackedevent_0707.png used on input l
 ine 193.
 (pdftex.def)             Requested size: 179.22676pt x 136.91428pt.
 
-<figs/sel1mod_original_stackedevents_0707.png, id=669, 733.74126pt x 559.08875p
+<figs/sel1mod_original_stackedevents_0707.png, id=758, 733.74126pt x 559.08875p
 t>
 File: figs/sel1mod_original_stackedevents_0707.png Graphic file (type png)
  <use figs/sel1mod_original_stackedevents_0707.png>
@@ -2225,7 +2124,7 @@ Package pdftex.def Info: figs/sel1mod_original_stackedevents_0707.png used on i
 nput line 199.
 (pdftex.def)             Requested size: 179.22676pt x 136.56418pt.
 
-<figs/sel1mod_cnn_trackrange_mupi_acc70_0707.png, id=670, 737.75626pt x 571.133
+<figs/sel1mod_cnn_trackrange_mupi_acc70_0707.png, id=759, 737.75626pt x 571.133
 74pt>
 File: figs/sel1mod_cnn_trackrange_mupi_acc70_0707.png Graphic file (type png)
  <use figs/sel1mod_cnn_trackrange_mupi_acc70_0707.png>
@@ -2238,7 +2137,7 @@ Underfull \hbox (badness 3049) in paragraph at lines 207--207
  []
 
 
-<figs/sel1mod_original_trackrange_mupi_acc70_0707.png, id=671, 734.745pt x 551.
+<figs/sel1mod_original_trackrange_mupi_acc70_0707.png, id=760, 734.745pt x 551.
 05875pt>
 File: figs/sel1mod_original_trackrange_mupi_acc70_0707.png Graphic file (type p
 ng)
@@ -2254,7 +2153,7 @@ Underfull \hbox (badness 3826) in paragraph at lines 213--213
 
 LaTeX Warning: Float too large for page by 67.30757pt on input line 218.
 
-<figs/sel1mod_cnn_trackrange_acc75_0707.png, id=672, 738.76pt x 551.05875pt>
+<figs/sel1mod_cnn_trackrange_acc75_0707.png, id=761, 738.76pt x 551.05875pt>
 File: figs/sel1mod_cnn_trackrange_acc75_0707.png Graphic file (type png)
 
 <use figs/sel1mod_cnn_trackrange_acc75_0707.png>
@@ -2266,7 +2165,7 @@ Underfull \hbox (badness 3826) in paragraph at lines 227--227
 \T1/ppl/m/n/10.95 (+20) ground muons/pions of track
  []
 
-<figs/sel1mod_cnn_trackrange_acc80_0707.png, id=673, 734.745pt x 550.055pt>
+<figs/sel1mod_cnn_trackrange_acc80_0707.png, id=762, 734.745pt x 550.055pt>
 File: figs/sel1mod_cnn_trackrange_acc80_0707.png Graphic file (type png)
 
 <use figs/sel1mod_cnn_trackrange_acc80_0707.png>
@@ -2278,7 +2177,7 @@ Underfull \hbox (badness 3049) in paragraph at lines 233--233
 \T1/ppl/m/n/10.95 (+20) ground muons/pions of track
  []
 
-<figs/sel1mod_cnn_trackrange_acc85_0707.png, id=674, 732.7375pt x 564.1075pt>
+<figs/sel1mod_cnn_trackrange_acc85_0707.png, id=763, 732.7375pt x 564.1075pt>
 File: figs/sel1mod_cnn_trackrange_acc85_0707.png Graphic file (type png)
 
 <use figs/sel1mod_cnn_trackrange_acc85_0707.png>
@@ -2291,7 +2190,7 @@ Underfull \hbox (badness 4266) in paragraph at lines 239--239
  []
 
 
-<figs/sel1mod_cnn_trackrange_acc90_0707.png, id=675, 739.76375pt x 564.1075pt>
+<figs/sel1mod_cnn_trackrange_acc90_0707.png, id=764, 739.76375pt x 564.1075pt>
 File: figs/sel1mod_cnn_trackrange_acc90_0707.png Graphic file (type png)
 
 <use figs/sel1mod_cnn_trackrange_acc90_0707.png>
@@ -2303,7 +2202,7 @@ Underfull \hbox (badness 3049) in paragraph at lines 245--245
 \T1/ppl/m/n/10.95 (+20) ground muons/pions of track
  []
 
-<figs/sel1mod_parP_wrongnorm_acc70_0706.png, id=676, 726.715pt x 560.0925pt>
+<figs/sel1mod_parP_wrongnorm_acc70_0706.png, id=765, 726.715pt x 560.0925pt>
 File: figs/sel1mod_parP_wrongnorm_acc70_0706.png Graphic file (type png)
 
 <use figs/sel1mod_parP_wrongnorm_acc70_0706.png>
@@ -2311,7 +2210,7 @@ Package pdftex.def Info: figs/sel1mod_parP_wrongnorm_acc70_0706.png used on inp
 ut line 256.
 (pdftex.def)             Requested size: 201.63182pt x 155.39758pt.
 
-<figs/sel1mod_cnn_parP_stackedevents_0707.png, id=677, 731.73375pt x 555.07375p
+<figs/sel1mod_cnn_parP_stackedevents_0707.png, id=766, 731.73375pt x 555.07375p
 t>
 File: figs/sel1mod_cnn_parP_stackedevents_0707.png Graphic file (type png)
  <use figs/sel1mod_cnn_parP_stackedevents_0707.png>
@@ -2319,7 +2218,7 @@ Package pdftex.def Info: figs/sel1mod_cnn_parP_stackedevents_0707.png used on i
 nput line 262.
 (pdftex.def)             Requested size: 201.63182pt x 152.95488pt.
 
-<figs/sel1mod_original_parP_stackedevents_0707.png, id=678, 731.73375pt x 563.1
+<figs/sel1mod_original_parP_stackedevents_0707.png, id=767, 731.73375pt x 563.1
 0374pt>
 File: figs/sel1mod_original_parP_stackedevents_0707.png Graphic file (type png)
 
@@ -2355,7 +2254,7 @@ Overfull \hbox (5.88pt too wide) in paragraph at lines 282--283
 [][]\T1/ppl/m/n/12 (-20) a 
  []
 
-<figs/sel1mod_mupi_trackrange_acc70.png, id=688, 740.7675pt x 561.09625pt>
+<figs/sel1mod_mupi_trackrange_acc70.png, id=777, 740.7675pt x 561.09625pt>
 File: figs/sel1mod_mupi_trackrange_acc70.png Graphic file (type png)
 
 <use figs/sel1mod_mupi_trackrange_acc70.png>
@@ -2363,7 +2262,7 @@ Package pdftex.def Info: figs/sel1mod_mupi_trackrange_acc70.png used on input l
 ine 287.
 (pdftex.def)             Requested size: 201.63182pt x 152.72232pt.
 
-<figs/interesting_event.png, id=689, 500.87125pt x 344.28625pt>
+<figs/interesting_event.png, id=778, 500.87125pt x 344.28625pt>
 File: figs/interesting_event.png Graphic file (type png)
 
 <use figs/interesting_event.png>
@@ -2379,13 +2278,13 @@ Underfull \hbox (badness 10000) in paragraph at lines 301--301
 \T1/ppl/m/n/10.95 (+20) re-con-structed track
  []
 
-<figs/event2.png, id=690, 516.93124pt x 442.65375pt>
+<figs/event2.png, id=779, 516.93124pt x 442.65375pt>
 File: figs/event2.png Graphic file (type png)
  <use figs/event2.png>
 Package pdftex.def Info: figs/event2.png used on input line 305.
 (pdftex.def)             Requested size: 134.4235pt x 115.10751pt.
 
-<figs/mupievent.png, id=691, 585.18625pt x 400.49625pt>
+<figs/mupievent.png, id=780, 585.18625pt x 400.49625pt>
 File: figs/mupievent.png Graphic file (type png)
 
 <use figs/mupievent.png>
@@ -2408,7 +2307,7 @@ LaTeX Warning: Citation `cc-inclusive' on page 46 undefined on input line 346.
 
 LaTeX Warning: Citation `cc-inclusive' on page 46 undefined on input line 346.
 
-[46] <figs/purity_sel1mod.png, id=737, 751.80875pt x 354.32375pt>
+[46] <figs/purity_sel1mod.png, id=825, 751.80875pt x 354.32375pt>
 File: figs/purity_sel1mod.png Graphic file (type png)
 
 <use figs/purity_sel1mod.png>
@@ -2421,7 +2320,7 @@ LaTeX Warning: Citation `cc-inclusive' on page 47 undefined on input line 394.
 
 LaTeX Warning: Citation `cc-inclusive' on page 47 undefined on input line 394.
 
-<figs/cnn_performance.png, id=738, 746.79pt x 576.1525pt>
+<figs/cnn_performance.png, id=826, 746.79pt x 576.1525pt>
 File: figs/cnn_performance.png Graphic file (type png)
 
 <use figs/cnn_performance.png>
@@ -2496,11 +2395,11 @@ LaTeX Warning: There were undefined references.
 
  ) 
 Here is how much of TeX's memory you used:
- 30156 strings out of 494953
- 536417 string characters out of 6180977
- 726283 words of memory out of 5000000
- 32253 multiletter control sequences out of 15000+600000
- 108138 words of font info for 398 fonts, out of 8000000 for 9000
+ 30164 strings out of 494953
+ 536483 string characters out of 6180977
+ 732439 words of memory out of 5000000
+ 32254 multiletter control sequences out of 15000+600000
+ 108297 words of font info for 400 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
  75i,22n,80p,2707b,930s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texmf/fonts/enc/dvips/cm-super/cm-super-t1.enc}{/usr/share/texliv
@@ -2518,10 +2417,10 @@ urw/palatino/uplb8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/palatino
 /uplbi8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/palatino/uplr8a.pfb
 ></usr/share/texlive/texmf-dist/fonts/type1/urw/palatino/uplr8a.pfb></usr/share
 /texlive/texmf-dist/fonts/type1/urw/palatino/uplri8a.pfb>
-Output written on example.pdf (77 pages, 3198450 bytes).
+Output written on example.pdf (81 pages, 3182847 bytes).
 PDF statistics:
- 885 PDF objects out of 1000 (max. 8388607)
- 698 compressed objects within 7 object streams
- 158 named destinations out of 1000 (max. 500000)
+ 974 PDF objects out of 1000 (max. 8388607)
+ 784 compressed objects within 8 object streams
+ 162 named destinations out of 1000 (max. 500000)
  60437 words of extra memory for PDF output out of 61914 (max. 10000000)
 

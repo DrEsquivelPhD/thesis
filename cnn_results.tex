@@ -46,27 +46,27 @@ The same architecure that was used to train CNN1075 was employed on CNN10000, Im
 \begin{figure}[htp!]
 \centering
 	\begin{subfigure}[b]{.4\textwidth}
-	\includegraphics[width=\textwidth]{figs/train_confusion-9-14-16.png}
-	\label{fig:confusion}
+	\includegraphics[width=\textwidth,height=3in]{figs/train_confusion-9-14-16.png}
 	\caption{Confusion Matrix showing Accuracy of CNN using training data}
+	\label{fig:confusion}
 	\end{subfigure}
 	\quad
 	\begin{subfigure}[b]{.4\textwidth}
-	\includegraphics[width=\textwidth]{figs/val_confusion_9-14-16.png}
-	\label{fig:confusion_test}
+	\includegraphics[width=\textwidth,height=3in]{figs/val_confusion_9-14-16.png}
 	\caption{Confusion Matrix showing Accuracy of CNN using testing data}
+	\label{fig:confusion_test}
 	\end{subfigure}
 	\quad
-	\begin{subfigure}[b]{.4\textwidth}
-	\includegraphics[width=\textwidth]{figs/mitch_hw.png}
-	\label{fig:prob_plot}
+	\begin{subfigure}[b]{\textwidth}
+	\includegraphics[width=\textwidth,height=2.5in]{figs/mitch_hw.png}
 	\caption{Probability plot of muons and pions from testing set. Images surrounding histogram are a random event from lowest bin and highest bin for each particle.}
+	\label{fig:prob_plot}
 	\end{subfigure}
-\caption{\ref{fig:confusion} \ref{fig:confusion_test} Description of confusion matrix varables: False pion rate = $false \pi/ total \pi$ True pion rate = $true \pi/total \pi$ Accuracy = $(true \pi rate + true \mu rate)/2$ Pion prediction value = $true \pi/(true \pi + false \pi)$ Muon prediction value = $true \mu/(true \mu + false \mu)$ \ref{fig:prob_plot} The probability plot includes muons and pions that are classified as primary particles.}
+\caption{Description of confusion matrix varables: False pion rate = $false \pi/ total \pi$ True pion rate = $true \pi/total \pi$ Accuracy = $(true \pi rate + true \mu rate)/2$ Pion prediction value = $true \pi/(true \pi + false \pi)$ Muon prediction value = $true \mu/(true \mu + false \mu)$ \ref{fig:prob_plot} The probability plot includes muons and pions that are classified as primary particles.}
 \label{fig:CNN_train}
 \end{figure}
 
-Figures \ref{fig:confusion}, \ref{fig:confusion_test} and \ref{fig:prob_plot} shows a breakdown of $\mu/\pi$ separation for CNN10000. It also shows the network is not being overtrained due to the Accuracy of both the training and testing datasets being within .01\% of eachother. The CNN is doing a very good job of classifying true muons as muons, and our loss increase from CNN1075 is due to the increase in accuratly classifing pions as pions. 
+Figure \ref{fig:CNN_train} show a breakdown of $\mu/\pi$ separation for CNN10000. It also shows the network is not being overtrained due to the Accuracy of both the training and testing datasets being within .01\% of eachother. The CNN is doing a very good job of classifying true muons as muons, and our loss increase from CNN1075 is due to the increase in accuratly classifing pions as pions. 
 
 
 %\begin{figure}[htp]
