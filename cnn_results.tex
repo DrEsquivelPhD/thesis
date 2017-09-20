@@ -89,26 +89,26 @@ Figure \ref{fig:CNN_train} show a breakdown of $\mu/\pi$ separation for CNN10000
 \centering
 	\begin{subfigure}[b]{.45\textwidth}
 	\includegraphics[width=3in,height=3in]{figs/confusion_0621_wrongnorm.png}
-	\label{fig:confusion_wrongnorm}
 	\caption{Confusion Matrix showing Accuracy of CNN using data with wrong normilazion}
+	\label{fig:confusion_wrongnorm}
 	\end{subfigure}
 	\quad
 	\begin{subfigure}[b]{.45\textwidth}
 	\includegraphics[width=3in,height=3in]{figs/prob_0706_wrongnorm_sel1.png}
-	\label{fig:prob_wrongnorm}
 	\caption{Probability plot showing $\mu/\pi$ separation of CNN using wrong normalization}
+	\label{fig:prob_wrongnorm}
 	\end{subfigure}
 	\quad
 	\begin{subfigure}[b]{.45\textwidth}
 	\includegraphics[width=3in,height=3in]{figs/confusion_rightnorm_0621.png}
-	\label{fig:confusion_rightnorm}
 	\caption{Confusion Matrix showing Accuracy of CNN using data with correct normilazion}
+	\label{fig:confusion_rightnorm}
 	\end{subfigure}
 	\quad
 	\begin{subfigure}[b]{.45\textwidth}
 	\includegraphics[width=3in,height=3in]{figs/prob_0706_rightnorm_sel1.png}
-	\label{fig:prob_rightnorm}
 	\caption{Probability plot showing $\mu/\pi$ separation of CNN using correct normalization}
+	\label{fig:prob_rightnorm}
 	\end{subfigure}
 	\quad
 \caption{Results of CNN10000 classification of track candidate images output from cc-inclusive filter.}
@@ -119,26 +119,26 @@ Figure \ref{fig:CNN_train} show a breakdown of $\mu/\pi$ separation for CNN10000
 \centering
 	\begin{subfigure}[b]{.45\textwidth}
 	\includegraphics[width=3in,height=3in]{figs/sel1_trackrange_wrongnorm_acc70_0706.png}
-	\label{fig:track_wrongnorm}
 	\caption{Track range distribution of events from Selection I Original passing CNN with 70\% accuracy using image data with wrong normilazion}
+	\label{fig:track_wrongnorm}
 	\end{subfigure}
 	\quad
 	\begin{subfigure}[b]{.45\textwidth}
 	\includegraphics[width=3in,height=3in]{figs/sel1_trackrange_rightnorm_acc70_0706.png}
-	\label{fig:track_rightnorm}
 	\caption{Track range distribution of events from Selection I Original passing CNN with 70\% accuracy using image data with correct normilazion}
+	\label{fig:track_rightnorm}
 	\end{subfigure}
 	\quad
 	\begin{subfigure}[b]{.45\textwidth}
 	\includegraphics[width=3in,height=3in]{figs/sel1_parP_wrongnorm_acc70_0706.png}
-	\label{fig:momentum_wrongnorm}
 	\caption{Momentum distribution of events from Selection I Original passing CNN with 70\% accuracy using image data with wrong normilazion}
+	\label{fig:momentum_wrongnorm}
 	\end{subfigure}
 	\quad
 	\begin{subfigure}[b]{.45\textwidth}
 	\includegraphics[width=3in,height=3in]{figs/sel1_parP_rightnorm_acc70_0706.png}
-	\label{fig:momentum_rightnorm}
 	\caption{Momentum distribution of events from Selection I Original passing CNN with 70\% accuracy using image data with correct normilazion}
+	\label{fig:momentum_rightnorm}
 	\end{subfigure}
 	\quad
 \caption{CNN10000 distributions of track candidate images output from Selection I Original cc-inclusive filter with different image data normalizations}
@@ -167,14 +167,14 @@ To gain an even deeper understanding on how CNN10000 is performing, plotting the
 \centering
 	\begin{subfigure}[b]{.45\textwidth}
 	\includegraphics[width=3in,height=3in]{figs/sel1mod_confusion_wrongnorm.png}
-	\label{fig:confusion_sel1mod}
 	\caption{Confusion Matrix for CNN10000 classified events from selection I modified}
+	\label{fig:confusion_sel1mod}
 	\end{subfigure}
 	\quad
 	\begin{subfigure}[b]{.45\textwidth}
 	\includegraphics[width=3in,height=3in]{figs/probplot_wrongnorm_selImod.png}
-	\label{fig:prob_sel1mod}
 	\caption{Probability plot for CNN10000 classified events from selection I modified}  
+	\label{fig:prob_sel1mod}
 	\end{subfigure}
 	\quad
 \caption{Confusion matrix and probability plot of events passing selection I modified cc-inclusive cuts right before 75cm track length cut}
@@ -183,34 +183,35 @@ To gain an even deeper understanding on how CNN10000 is performing, plotting the
 
 \begin{figure}[htp!]
 \centering
-	\begin{subfigure}[b]{.55\textwidth}
+	\begin{subfigure}[b]{.9\textwidth}
+	\centering
 	\includegraphics[width=4in,height=2.5in]{figs/sel1mod_trackrange_wrongnorm_acc70_0706.png}
-	\label{fig:sel1mod_track}
 	\caption{Track range distribution of events from Selection I Modified passing CNN with 70\% accuracy}
+	\label{fig:sel1mod_track}
 	\end{subfigure}
 	\quad
-	\begin{subfigure}[b]{.4\textwidth}
-	\includegraphics[width=\textwidth]{figs/sel1mod_cnn_stackedevent_0707.png}
-	\label{fig:sel1mod_stackedcnn}
+	\begin{subfigure}[b]{.45\textwidth}
+	\includegraphics[width=\textwidth, height=2in]{figs/sel1mod_cnn_stackedevent_0707.png}
 	\caption{Stacked signal and background track range distributions from Selection I Modified passing CNN with 70\% accuracy}
+	\label{fig:sel1mod_stackedcnn}
 	\end{subfigure}
 	\quad
-	\begin{subfigure}[b]{.4\textwidth}
-	\includegraphics[width=\textwidth]{figs/sel1mod_original_stackedevents_0707.png}
-	\label{fig:sel1mod_stackedoriginal}
+	\begin{subfigure}[b]{.45\textwidth}
+	\includegraphics[width=\textwidth, height=2in]{figs/sel1mod_original_stackedevents_0707.png}
 	\caption{Stacked signal and background track range distributions from Selection I Modified passing 75 cm track length cut}
+	\label{fig:sel1mod_stackedoriginal}
 	\end{subfigure}
 	\quad
-	\begin{subfigure}[b]{.4\textwidth}
-	\includegraphics[width=\textwidth]{figs/sel1mod_cnn_trackrange_mupi_acc70_0707.png}
-	\label{fig:sel1mod_mupi_70stackedcnn}
+	\begin{subfigure}[b]{.45\textwidth}
+	\includegraphics[width=\textwidth, height=2in]{figs/sel1mod_cnn_trackrange_mupi_acc70_0707.png}
 	\caption{Stacked signal muons and background muons/pions of track range distributions from Selection I Modified passing CNN with 70\% accuracy}
+	\label{fig:sel1mod_mupi_70stackedcnn}
 	\end{subfigure}
 	\quad
-	\begin{subfigure}[b]{.4\textwidth}
-	\includegraphics[width=\textwidth]{figs/sel1mod_original_trackrange_mupi_acc70_0707.png}
-	\label{fig:sel1mod_mupi_70stackedoriginal}
+	\begin{subfigure}[b]{.45\textwidth}
+	\includegraphics[width=\textwidth, height=2in]{figs/sel1mod_original_trackrange_mupi_acc70_0707.png}
 	\caption{Stacked signal muons and background muons/pions of track range distributions from Selection I Modified passing 75 cm track length cut}
+	\label{fig:sel1mod_mupi_70stackedoriginal}
 	\end{subfigure}
 	\quad
 \caption{CNN10000 distributions of track candidate images output from Selection I Modified cc-inclusive filter}
@@ -221,28 +222,28 @@ To gain an even deeper understanding on how CNN10000 is performing, plotting the
 
 \begin{figure}[htp!]
 \centering
-	\begin{subfigure}[b]{.4\textwidth}
-	\includegraphics[width=\textwidth]{figs/sel1mod_cnn_trackrange_acc75_0707.png}
-	\label{fig:sel1mod_mupi_75stackedcnn}
+	\begin{subfigure}[b]{.45\textwidth}
+	\includegraphics[width=\textwidth, height=2.5in]{figs/sel1mod_cnn_trackrange_acc75_0707.png}
 	\caption{Stacked signal muons and background muons/pions of track range distributions from Selection I Modified passing CNN with 75\% accuracy}
+	\label{fig:sel1mod_mupi_75stackedcnn}
 	\end{subfigure}
 	\quad
-	\begin{subfigure}[b]{.4\textwidth}
-	\includegraphics[width=\textwidth]{figs/sel1mod_cnn_trackrange_acc80_0707.png}
-	\label{fig:sel1mod_mupi_80stackedcnn}
+	\begin{subfigure}[b]{.45\textwidth}
+	\includegraphics[width=\textwidth, height=2.5in]{figs/sel1mod_cnn_trackrange_acc80_0707.png}
 	\caption{Stacked signal muons and background muons/pions of track range distributions from Selection I Modified passing CNN with 80\% accuracy}
+	\label{fig:sel1mod_mupi_80stackedcnn}
 	\end{subfigure}
 	\quad
-	\begin{subfigure}[b]{.4\textwidth}
-	\includegraphics[width=\textwidth]{figs/sel1mod_cnn_trackrange_acc85_0707.png}
-	\label{fig:sel1mod_mupi_85stackedcnn}
+	\begin{subfigure}[b]{.45\textwidth}
+	\includegraphics[width=\textwidth, height=2.5in]{figs/sel1mod_cnn_trackrange_acc85_0707.png}
 	\caption{Stacked signal muons and background muons/pions of track range distributions from Selection I Modified passing CNN with 85\% accuracy}
+	\label{fig:sel1mod_mupi_85stackedcnn}
 	\end{subfigure}
 	\quad
-	\begin{subfigure}[b]{.4\textwidth}
-	\includegraphics[width=\textwidth]{figs/sel1mod_cnn_trackrange_acc90_0707.png}
-	\label{fig:sel1mod_mupi_90stackedcnn}
+	\begin{subfigure}[b]{.45\textwidth}
+	\includegraphics[width=\textwidth, height=2.5in]{figs/sel1mod_cnn_trackrange_acc90_0707.png}
 	\caption{Stacked signal muons and background muons/pions of track range distributions from Selection I Modified passing CNN with 90\% accuracy}
+	\label{fig:sel1mod_mupi_90stackedcnn}
 	\end{subfigure}
 	\quad
 \caption{CNN10000 stacked signal/background track range distributions of track candidate images output from Selection I Modified cc-inclusive filter}
@@ -252,22 +253,23 @@ To gain an even deeper understanding on how CNN10000 is performing, plotting the
 
 \begin{figure}[htp!]
 \centering
-	\begin{subfigure}[b]{.45\textwidth}
-	\includegraphics[width=\textwidth]{figs/sel1mod_parP_wrongnorm_acc70_0706.png}
-	\label{fig:sel1mod_momentum}
+	\begin{subfigure}[b]{.9\textwidth}
+	\centering
+	\includegraphics[width=\textwidth,height=3.5in]{figs/sel1mod_parP_wrongnorm_acc70_0706.png}
 	\caption{Momentum distribution of events from Selection I Modified passing CNN with 70\% accuracy}
+	\label{fig:sel1mod_momentum}
 	\end{subfigure}
 	\quad
 	\begin{subfigure}[b]{.45\textwidth}
-	\includegraphics[width=\textwidth]{figs/sel1mod_cnn_parP_stackedevents_0707.png}
+	\includegraphics[width=\textwidth,height=2.5in]{figs/sel1mod_cnn_parP_stackedevents_0707.png}
 	\caption{Stacked signal and background momentum distributions from Selection I Modified passing CNN with 70\% accuracy}
 	\label{fig:sel1mod_momentum_stackedcnn}
 	\end{subfigure}
 	\quad
 	\begin{subfigure}[b]{.45\textwidth}
-	\includegraphics[width=\textwidth]{figs/sel1mod_original_parP_stackedevents_0707.png}
-	\label{fig:sel1mod_momentum_stackedoriginal}
+	\includegraphics[width=\textwidth,height=2.5in]{figs/sel1mod_original_parP_stackedevents_0707.png}
 	\caption{Stacked signal and background momentum distributions from Selection I Modified passing 75 cm track length cut}
+	\label{fig:sel1mod_momentum_stackedoriginal}
 	\end{subfigure}
 	\quad
 \caption{CNN10000 momentum distributions of track candidate images output from Selection I Modified cc-inclusive filter}
@@ -279,13 +281,13 @@ Another check was to see if any true CC pions were passing through the cut right
 \begin{figure}[htp!]
 \centering
 	\begin{subfigure}[b]{.45\textwidth}
-	\includegraphics[width=\textwidth]{figs/sel1mod_cnn_trackrange_mupi_acc70_0707.png}a
-	\caption{Stacked signal $\mu$ / backround $\mu and \pi$ track range distribution of CNN @ 70\%}
+	\includegraphics[width=\textwidth,height=2.5in]{figs/sel1mod_cnn_trackrange_mupi_acc70_0707.png}
+	\caption{Stacked signal $\mu$/backround $\mu$ and $\pi$ track range distribution of CNN @ 70\%}
 	\end{subfigure}
 	\quad
 	\begin{subfigure}[b]{.45\textwidth}
-	\includegraphics[width=\textwidth]{figs/sel1mod_mupi_trackrange_acc70.png}
-	\caption{Stacked  signal $\mu$ and$ \pi$ / backround $\mu$ and $\pi$  track range distribution of CNN @ 70\%}
+	\includegraphics[width=\textwidth,height=2.5in]{figs/sel1mod_mupi_trackrange_acc70.png}
+	\caption{Stacked signal $\mu \& \pi$/backround $\mu \& \pi$ track range distribution of CNN @ 70\%}
 	\end{subfigure}
 	\quad
 \caption{Track distribution comparisons of true CC muons plotted vs true CC muons and pions plotted}
@@ -296,24 +298,23 @@ Another check was to see if any true CC pions were passing through the cut right
 \begin{figure}[htp!]
 \centering
 	\begin{subfigure}[b]{.3\textwidth}
-	\includegraphics[width=\textwidth]{figs/interesting_event.png}
+	\includegraphics[width=\textwidth,height=2.5in]{figs/interesting_event.png}
+	\caption{Pion recontructed track range is less than 75 cm and longer than muon reconstructed track due to dead wires}
 	\label{fig:longer_muon_badreco}
-	\caption{Pion recontructed track range is less than 75 cm and larger than muon reconstructed track because of dead wires through muon track}
 	\end{subfigure}
 	\quad
 	\begin{subfigure}[b]{.3\textwidth}
-	\includegraphics[width=\textwidth]{figs/event2.png}
-	\label{fig:longer_pion}
+	\includegraphics[width=\textwidth,height=2.5in]{figs/event2.png}
 	\caption{Pion recontructed track range is less than 75 cm and larger than muon reconstructed track}
+	\label{fig:longer_pion}
 	\end{subfigure}
 	\quad
 	\begin{subfigure}[b]{.3\textwidth}
+	\includegraphics[width=\textwidth,height=2.5in]{figs/mupievent.png}
 	\caption{Pion reconstructed track range is greater than 75 cm and larger than muon reconstructed track}
-	\includegraphics[width=\textwidth]{figs/mupievent.png}
 	\label{fig:verylongpion}
 	\end{subfigure}
 	\quad
-
 \caption{Images of true CC events where the pion was the tagged track candidate}
 \label{fig:evd}
 \end{figure}
@@ -390,8 +391,8 @@ Lastly, figure \ref{fig:sel1mod_cnnperformance} shows a more representative perf
 \begin{figure}[htp!]
 \centering
 \includegraphics[width=4in,height=2.5in]{figs/purity_sel1mod.png}
-\label{fig:pur_sel1mod}
 \caption{Snapshot of signal and background event numbers of Selection I modified from cc-inclusive note \cite{cc-inclusive}}
+\label{fig:pur_sel1mod}
 \end{figure}
 
 \begin{figure}[htp!]

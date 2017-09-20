@@ -23,15 +23,18 @@
 \contentsline {chapter}{\numberline {6}CC-Inclusive Cross Section Selection Filter}{23}{chapter.6}
 \contentsline {chapter}{\numberline {7}The importance of $\mymath {\@Oldmu }\xspace /\mymath {\@Oldpi }\xspace $ separation in MicroBooNE}{27}{chapter.7}
 \contentsline {chapter}{\numberline {8}Convolutional Neural Networks}{29}{chapter.8}
-\contentsline {chapter}{\numberline {9}Using Convolutional Neural Networks to separate ${\mymath {\@Oldmu }\xspace }'s$ from ${\mymath {\@Oldpi }\xspace }'s$}{31}{chapter.9}
-\contentsline {section}{\numberline {9.1}Image Making Scheme}{31}{section.9.1}
-\contentsline {section}{\numberline {9.2}Convolutional Neural Network Training}{33}{section.9.2}
-\contentsline {section}{\numberline {9.3}Classification of MC data using Selection I Original CC-Inclusive Filter}{34}{section.9.3}
-\contentsline {section}{\numberline {9.4}Classification of MC data using Selection I Modified CC-Inclusive Filter}{39}{section.9.4}
-\contentsline {section}{\numberline {9.5}Conclusions and Future Work}{47}{section.9.5}
-\contentsline {chapter}{\numberline {10}Using Convolutional Neural Networks on MicroBooNE Data}{51}{chapter.10}
-\contentsline {chapter}{\numberline {11}Comparing two CC-Inclusive Cross Section Selection Filters}{53}{chapter.11}
-\contentsline {chapter}{\numberline {12}Conclusion}{55}{chapter.12}
-\contentsline {chapter}{\numberline {A}Pointless extras}{57}{appendix.A}
-\contentsline {section}{\numberline {A.1}Like, duh}{57}{section.A.1}
-\contentsline {section}{\numberline {A.2}$y = \mymath {\@Oldalpha }\xspace x^2$}{57}{section.A.2}
+\contentsline {chapter}{\numberline {9}Hardware Frameworks}{31}{chapter.9}
+\contentsline {section}{\numberline {9.1}Syracuse CPU Machine setup}{31}{section.9.1}
+\contentsline {section}{\numberline {9.2}Syracuse University GPU Cluster Setup}{31}{section.9.2}
+\contentsline {chapter}{\numberline {10}Using Convolutional Neural Networks to separate ${\mymath {\@Oldmu }\xspace }'s$ from ${\mymath {\@Oldpi }\xspace }'s$}{33}{chapter.10}
+\contentsline {section}{\numberline {10.1}Image Making Scheme}{33}{section.10.1}
+\contentsline {section}{\numberline {10.2}Convolutional Neural Network Training}{35}{section.10.2}
+\contentsline {section}{\numberline {10.3}Classification of MC data using Selection I Original CC-Inclusive Filter}{36}{section.10.3}
+\contentsline {section}{\numberline {10.4}Classification of MC data using Selection I Modified CC-Inclusive Filter}{41}{section.10.4}
+\contentsline {section}{\numberline {10.5}Conclusions and Future Work}{49}{section.10.5}
+\contentsline {chapter}{\numberline {11}Using Convolutional Neural Networks on MicroBooNE Data}{53}{chapter.11}
+\contentsline {chapter}{\numberline {12}Comparing two CC-Inclusive Cross Section Selection Filters}{55}{chapter.12}
+\contentsline {chapter}{\numberline {13}Conclusion}{57}{chapter.13}
+\contentsline {chapter}{\numberline {A}Pointless extras}{59}{appendix.A}
+\contentsline {section}{\numberline {A.1}Like, duh}{59}{section.A.1}
+\contentsline {section}{\numberline {A.2}$y = \mymath {\@Oldalpha }\xspace x^2$}{59}{section.A.2}
