@@ -1,5 +1,5 @@
 
-\chapter{Using Convolutional Neural Networks to separate ${\mu}'s$ from ${\pi}'s$}
+\chapter{Using Convolutional Neural Networks to separate ${\mu}'s$ from ${\pi}'s$}\label{ch:cnn_results}
 
 
 The work shown in these next sections are based on the previous work done described in \cite{priorwork}. That CNN (now referred to as CNN1075) was trained using single generated isotropic muons and pions from 0-2 GeV energy range. 1,075 muons and pions were used to train the network and 1,075 $\mu/\pi$ were used as a validation set. The accuracy is how well CNN1075 is doing by epoch and was 74.5\%. The loss is gradient descent or minimization of the error of the weights and biases used in each neuron of each layer of CNN1075 and was 58\% with a trend sloping downwards on the loss curve as well as a trend sloping upward in the accuracy curve. Due to the depth of the neural network framework, it was necessary to train with a larger dataset and for more epochs, however, the downward slope of the loss curve is an indication that once trained for longer with a higher training sample, neural networks can be used for $\mu/\pi$ separation. Updates in the image making and downsampling algorithm were made to fix issues that arose in CNN1075. 
