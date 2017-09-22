@@ -9,7 +9,6 @@ Warning--I didn't find a database entry for "neutrinooscillation"
 Warning--I didn't find a database entry for "bnl"
 Warning--I didn't find a database entry for "fnal"
 Warning--I didn't find a database entry for "Smirnov:2003da"
-Warning--I didn't find a database entry for "dune"
 Warning--I didn't find a database entry for "noisechar"
 Warning--I didn't find a database entry for "michel"
 Warning--I didn't find a database entry for "microboone"
@@ -19,45 +18,45 @@ Warning--I didn't find a database entry for "cnn"
 Warning--I didn't find a database entry for "mcccinclusive"
 Warning--I didn't find a database entry for "priorwork"
 Warning--I didn't find a database entry for "caffe"
-You've used 1 entry,
+You've used 2 entries,
             1946 wiz_defined-function locations,
-            617 strings with 4871 characters,
-and the built_in function-call counts, 150 in all, are:
-= -- 8
-> -- 6
+            622 strings with 5005 characters,
+and the built_in function-call counts, 290 in all, are:
+= -- 19
+> -- 12
 < -- 0
-+ -- 2
-- -- 1
-* -- 3
-:= -- 26
-add.period$ -- 1
-call.type$ -- 1
++ -- 4
+- -- 2
+* -- 10
+:= -- 47
+add.period$ -- 2
+call.type$ -- 2
 change.case$ -- 1
 chr.to.int$ -- 0
-cite$ -- 1
-duplicate$ -- 7
-empty$ -- 20
-format.name$ -- 2
-if$ -- 32
+cite$ -- 2
+duplicate$ -- 17
+empty$ -- 35
+format.name$ -- 4
+if$ -- 63
 int.to.chr$ -- 0
-int.to.str$ -- 1
-missing$ -- 0
-newline$ -- 7
-num.names$ -- 1
-pop$ -- 8
+int.to.str$ -- 2
+missing$ -- 1
+newline$ -- 12
+num.names$ -- 2
+pop$ -- 14
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 0
-skip$ -- 8
+skip$ -- 11
 stack$ -- 0
 substring$ -- 0
-swap$ -- 1
+swap$ -- 3
 text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 0
 warning$ -- 0
-while$ -- 1
-width$ -- 2
-write$ -- 9
-(There were 16 warnings)
+while$ -- 2
+width$ -- 3
+write$ -- 19
+(There were 15 warnings)
