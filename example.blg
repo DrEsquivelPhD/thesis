@@ -4,59 +4,51 @@ The top-level auxiliary file: example.aux
 The style file: h-physrev.bst
 Database file #1: example.bib
 Warning--I didn't find a database entry for "cc-inclusive"
-Warning--I didn't find a database entry for "neutrino"
-Warning--I didn't find a database entry for "neutrinooscillation"
-Warning--I didn't find a database entry for "bnl"
-Warning--I didn't find a database entry for "fnal"
-Warning--I didn't find a database entry for "Smirnov:2003da"
-Warning--I didn't find a database entry for "noisechar"
-Warning--I didn't find a database entry for "michel"
-Warning--I didn't find a database entry for "microboone"
 Warning--I didn't find a database entry for "SBN"
 Warning--I didn't find a database entry for "ccinclusive"
 Warning--I didn't find a database entry for "cnn"
 Warning--I didn't find a database entry for "mcccinclusive"
 Warning--I didn't find a database entry for "priorwork"
 Warning--I didn't find a database entry for "caffe"
-You've used 2 entries,
+You've used 9 entries,
             1946 wiz_defined-function locations,
-            622 strings with 5005 characters,
-and the built_in function-call counts, 290 in all, are:
-= -- 19
-> -- 12
-< -- 0
-+ -- 4
-- -- 2
-* -- 10
-:= -- 47
-add.period$ -- 2
-call.type$ -- 2
-change.case$ -- 1
+            646 strings with 5661 characters,
+and the built_in function-call counts, 1325 in all, are:
+= -- 101
+> -- 54
+< -- 1
++ -- 18
+- -- 9
+* -- 56
+:= -- 196
+add.period$ -- 9
+call.type$ -- 9
+change.case$ -- 4
 chr.to.int$ -- 0
-cite$ -- 2
-duplicate$ -- 17
-empty$ -- 35
-format.name$ -- 4
-if$ -- 63
+cite$ -- 9
+duplicate$ -- 80
+empty$ -- 157
+format.name$ -- 18
+if$ -- 303
 int.to.chr$ -- 0
-int.to.str$ -- 2
-missing$ -- 1
-newline$ -- 12
-num.names$ -- 2
-pop$ -- 14
+int.to.str$ -- 9
+missing$ -- 5
+newline$ -- 46
+num.names$ -- 9
+pop$ -- 64
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 0
-skip$ -- 11
+skip$ -- 36
 stack$ -- 0
-substring$ -- 0
-swap$ -- 3
-text.length$ -- 0
+substring$ -- 7
+swap$ -- 16
+text.length$ -- 1
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 0
 warning$ -- 0
-while$ -- 2
-width$ -- 3
-write$ -- 19
-(There were 15 warnings)
+while$ -- 10
+width$ -- 10
+write$ -- 87
+(There were 7 warnings)

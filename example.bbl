@@ -1,12 +1,46 @@
 \begin{thebibliography}{1}
 
+\bibitem{neutrino}
+Wikipedia,
+\newblock Neutrino,
+\newblock \url{http://wikipedia.org/wiki/Neutrino}, 2013.
+
+\bibitem{neutrinooscillation}
+Wikipedia,
+\newblock Neutrino oscillation,
+\newblock \url{http://en.wikipedia.org/wiki/Neutrino_oscillation}, 2013.
+
+\bibitem{bnl}
+B.~N. Laboratory,
+\newblock Neutrinos and nuclear chemistry,
+\newblock \url{http://www.chemistry.bnl.gov/sciandtech/sn/default.htm}, 2010.
+
+\bibitem{fnal}
+K.~Heeger,
+\newblock Big world of small neutrinos,
+\newblock \url{http://conferences.fnal.gov/lp2003/forthepublic/neutrinos/}.
+
+\bibitem{Smirnov:2003da}
+A.~Y. Smirnov,
+\newblock p.~23 (2003), hep-ph/0305106.
+
 \bibitem{dune}
-MicroBooNE, R.~e.~a. Acciari,
+The MicroBooNE Collaboration, R.~e.~a. Acciari,
 \newblock (2015),
 \newblock arXiv:1512.06148.
 
-\bibitem{hepthesis}
-A.~Buckley,
-\newblock The hepthesis {\LaTeX} class.
+\bibitem{noisechar}
+The MicroBooNE Collaboration, R.~e.~a. Acciari,
+\newblock (2016),
+\newblock arXiv:1705.07341.
+
+\bibitem{michel}
+The MicroBooNE Collaboration, R.~e.~a. Acciari,
+\newblock (2017),
+\newblock arXiv:1704.02927.
+
+\bibitem{microboone}
+The MicroBooNE Collaboration, R.~e.~a. Acciari,
+\newblock JINST {\textbf 12} (2017).
 
 \end{thebibliography}
