@@ -10,32 +10,32 @@
 \contentsline {section}{\numberline {2.3}Neutrino Oscillations}{4}{section.2.3}
 \contentsline {section}{\numberline {2.4}Solar Oscillations and the Solar Neutrino Problem}{5}{section.2.4}
 \contentsline {subsection}{\numberline {2.4.1}MSW Effect}{7}{subsection.2.4.1}
-\contentsline {section}{\numberline {2.5}Atmospheric Oscillations and the Atmospheric Neutrino Anomaly}{7}{section.2.5}
-\contentsline {section}{\numberline {2.6}Two Flavour Neutrino Oscillation Formulation}{9}{section.2.6}
-\contentsline {section}{\numberline {2.7}Three Flavour Neutrino Oscillation Formulation}{12}{section.2.7}
-\contentsline {chapter}{\numberline {3}The MicroBooNE Experiment}{13}{chapter.3}
-\contentsline {section}{\numberline {3.1}Introduction}{13}{section.3.1}
-\contentsline {section}{\numberline {3.2}Time Projection Chamber}{14}{section.3.2}
-\contentsline {section}{\numberline {3.3}Light Collection System}{15}{section.3.3}
-\contentsline {section}{\numberline {3.4}Electronics System}{15}{section.3.4}
-\contentsline {chapter}{\numberline {4}The Booster Neutrino Beam}{17}{chapter.4}
-\contentsline {chapter}{\numberline {5}Finding the first Neutrinos in MicroBooNE}{21}{chapter.5}
-\contentsline {chapter}{\numberline {6}CC-Inclusive Cross Section Selection Filter}{23}{chapter.6}
-\contentsline {chapter}{\numberline {7}The importance of $\mymath {\@Oldmu }\xspace /\mymath {\@Oldpi }\xspace $ separation in MicroBooNE}{27}{chapter.7}
-\contentsline {chapter}{\numberline {8}Convolutional Neural Networks}{29}{chapter.8}
-\contentsline {chapter}{\numberline {9}Hardware Frameworks}{33}{chapter.9}
-\contentsline {section}{\numberline {9.1}Syracuse CPU Machine setup}{33}{section.9.1}
-\contentsline {section}{\numberline {9.2}Syracuse University GPU Cluster Setup}{33}{section.9.2}
-\contentsline {chapter}{\numberline {10}Using Convolutional Neural Networks to separate ${\mymath {\@Oldmu }\xspace }'s$ from ${\mymath {\@Oldpi }\xspace }'s$}{35}{chapter.10}
-\contentsline {section}{\numberline {10.1}Image Making Scheme}{35}{section.10.1}
-\contentsline {section}{\numberline {10.2}Convolutional Neural Network Training}{37}{section.10.2}
-\contentsline {section}{\numberline {10.3}Classification of MC data using Selection I Original CC-Inclusive Filter}{38}{section.10.3}
-\contentsline {section}{\numberline {10.4}Classification of MC data using Selection I Modified CC-Inclusive Filter}{43}{section.10.4}
-\contentsline {section}{\numberline {10.5}Conclusions and Future Work}{51}{section.10.5}
-\contentsline {chapter}{\numberline {11}Using Convolutional Neural Networks on MicroBooNE Data}{55}{chapter.11}
-\contentsline {chapter}{\numberline {12}Comparing two CC-Inclusive Cross Section Selection Filters}{57}{chapter.12}
-\contentsline {chapter}{\numberline {13}Conclusion}{59}{chapter.13}
-\contentsline {chapter}{\numberline {A}Pointless extras}{61}{appendix.A}
-\contentsline {section}{\numberline {A.1}Like, duh}{61}{section.A.1}
-\contentsline {section}{\numberline {A.2}$y = \mymath {\@Oldalpha }\xspace x^2$}{61}{section.A.2}
-\contentsline {chapter}{Bibliography}{65}{chapter*.30}
+\contentsline {section}{\numberline {2.5}Atmospheric Oscillations and the Atmospheric Neutrino Anomaly}{8}{section.2.5}
+\contentsline {section}{\numberline {2.6}Two Flavour Neutrino Oscillation Formulation}{10}{section.2.6}
+\contentsline {section}{\numberline {2.7}Three Flavour Neutrino Oscillation Formulation}{13}{section.2.7}
+\contentsline {chapter}{\numberline {3}The MicroBooNE Experiment}{15}{chapter.3}
+\contentsline {section}{\numberline {3.1}Introduction}{15}{section.3.1}
+\contentsline {section}{\numberline {3.2}Time Projection Chamber}{16}{section.3.2}
+\contentsline {section}{\numberline {3.3}Light Collection System}{17}{section.3.3}
+\contentsline {section}{\numberline {3.4}Electronics System}{17}{section.3.4}
+\contentsline {chapter}{\numberline {4}The Booster Neutrino Beam}{19}{chapter.4}
+\contentsline {chapter}{\numberline {5}Finding the first Neutrinos in MicroBooNE}{23}{chapter.5}
+\contentsline {chapter}{\numberline {6}CC-Inclusive Cross Section Selection Filter}{25}{chapter.6}
+\contentsline {chapter}{\numberline {7}The importance of $\mymath {\@Oldmu }\xspace /\mymath {\@Oldpi }\xspace $ separation in MicroBooNE}{29}{chapter.7}
+\contentsline {chapter}{\numberline {8}Convolutional Neural Networks}{31}{chapter.8}
+\contentsline {chapter}{\numberline {9}Hardware Frameworks}{35}{chapter.9}
+\contentsline {section}{\numberline {9.1}Syracuse CPU Machine setup}{35}{section.9.1}
+\contentsline {section}{\numberline {9.2}Syracuse University GPU Cluster Setup}{35}{section.9.2}
+\contentsline {chapter}{\numberline {10}Using Convolutional Neural Networks to separate ${\mymath {\@Oldmu }\xspace }'s$ from ${\mymath {\@Oldpi }\xspace }'s$}{37}{chapter.10}
+\contentsline {section}{\numberline {10.1}Image Making Scheme}{37}{section.10.1}
+\contentsline {section}{\numberline {10.2}Convolutional Neural Network Training}{39}{section.10.2}
+\contentsline {section}{\numberline {10.3}Classification of MC data using Selection I Original CC-Inclusive Filter}{40}{section.10.3}
+\contentsline {section}{\numberline {10.4}Classification of MC data using Selection I Modified CC-Inclusive Filter}{45}{section.10.4}
+\contentsline {section}{\numberline {10.5}Conclusions and Future Work}{53}{section.10.5}
+\contentsline {chapter}{\numberline {11}Using Convolutional Neural Networks on MicroBooNE Data}{57}{chapter.11}
+\contentsline {chapter}{\numberline {12}Comparing two CC-Inclusive Cross Section Selection Filters}{59}{chapter.12}
+\contentsline {chapter}{\numberline {13}Conclusion}{61}{chapter.13}
+\contentsline {chapter}{\numberline {A}Pointless extras}{63}{appendix.A}
+\contentsline {section}{\numberline {A.1}Like, duh}{63}{section.A.1}
+\contentsline {section}{\numberline {A.2}$y = \mymath {\@Oldalpha }\xspace x^2$}{63}{section.A.2}
+\contentsline {chapter}{Bibliography}{67}{chapter*.30}
