@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2017.8.22)  22 SEP 2017 11:43
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2017.8.22)  6 OCT 2017 14:39
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1505,15 +1505,15 @@ File: figs/mixingangle.jpg Graphic file (type jpg)
 <use figs/mixingangle.jpg>
 Package pdftex.def Info: figs/mixingangle.jpg used on input line 132.
 (pdftex.def)             Requested size: 179.47073pt x 113.8254pt.
- [9 <./figs/ratio.jpg>] [10 <./figs/mixingangle.jpg>] [11]
+ [9 <./figs/ratio.jpg>] [10 <./figs/mixingangle.jpg>]
 LaTeX Font Info:    Try loading font information for OMS+ppl on input line 214.
 
- (/usr/share/texlive/texmf-dist/tex/latex/psnfss/omsppl.fd
+(/usr/share/texlive/texmf-dist/tex/latex/psnfss/omsppl.fd
 File: omsppl.fd 
 )
 LaTeX Font Info:    Font shape `OMS/ppl/m/n' in size <12> not available
 (Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 214.
-
+ [11]
 Overfull \hbox (0.82588pt too wide) in paragraph at lines 240--240
 [] 
  []
@@ -2088,7 +2088,7 @@ Package atveryend Info: Empty hook `AfterLastShipout' on input line 138.
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 138.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 138.
 Package rerunfilecheck Info: File `example.out' has not changed.
-(rerunfilecheck)             Checksum: A12FA180A8404ADCA09A244E5F13FD97;2833.
+(rerunfilecheck)             Checksum: 0B189FB50DE16EA2D7DB2A81AA7283AC;2831.
 
 
 LaTeX Warning: There were undefined references.
@@ -2099,7 +2099,7 @@ Here is how much of TeX's memory you used:
  537476 string characters out of 6180977
  734280 words of memory out of 5000000
  32283 multiletter control sequences out of 15000+600000
- 108784 words of font info for 406 fonts, out of 8000000 for 9000
+ 108774 words of font info for 406 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
  75i,22n,80p,2707b,937s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texmf/fonts/enc/dvips/cm-super/cm-super-t1.enc}{/usr/share/texliv
@@ -2117,7 +2117,7 @@ urw/palatino/uplb8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/palatino
 /uplbi8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/palatino/uplr8a.pfb
 ></usr/share/texlive/texmf-dist/fonts/type1/urw/palatino/uplr8a.pfb></usr/share
 /texlive/texmf-dist/fonts/type1/urw/palatino/uplri8a.pfb>
-Output written on example.pdf (85 pages, 3614180 bytes).
+Output written on example.pdf (85 pages, 3829228 bytes).
 PDF statistics:
  1067 PDF objects out of 1200 (max. 8388607)
  869 compressed objects within 9 object streams
