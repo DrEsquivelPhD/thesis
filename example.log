@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2017.8.22)  13 OCT 2017 00:22
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2017.8.22)  13 OCT 2017 01:49
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1557,26 +1557,27 @@ LaTeX Warning: Citation `icarus_t600' on page 15 undefined on input line 7.
 
 LaTeX Warning: Reference `fig:tpc' on page 16 undefined on input line 11.
 
-[16] [17]) (./beam.tex [18] [19] [20
+[16] [17]
+
+LaTeX Warning: Citation `SBN' on page 18 undefined on input line 22.
+
+[18]) (./beam.tex [19] [20
 
 ]
 chapter 4.
 
-LaTeX Warning: Citation `SBN' on page 21 undefined on input line 2.
-
-
-LaTeX Warning: Citation `SBN' on page 21 undefined on input line 2.
+LaTeX Warning: Reference `fig:generator' on page 21 undefined on input line 6.
 
 <figs/lee.png, id=675, 364.36125pt x 435.12563pt>
 File: figs/lee.png Graphic file (type png)
  <use figs/lee.png>
-Package pdftex.def Info: figs/lee.png used on input line 8.
+Package pdftex.def Info: figs/lee.png used on input line 15.
 (pdftex.def)             Requested size: 179.22676pt x 214.03008pt.
 
 <figs/bnbflux.png, id=676, 471.7625pt x 431.6125pt>
 File: figs/bnbflux.png Graphic file (type png)
  <use figs/bnbflux.png>
-Package pdftex.def Info: figs/bnbflux.png used on input line 14.
+Package pdftex.def Info: figs/bnbflux.png used on input line 21.
 (pdftex.def)             Requested size: 179.22676pt x 163.97493pt.
 )
 (./neutrinoID.tex [21] [22 <./figs/lee.png (PNG copy)> <./figs/bnbflux.png>]
@@ -2125,8 +2126,8 @@ Package rerunfilecheck Warning: File `example.out' has changed.
 (rerunfilecheck)                or use package `bookmark'.
 
 Package rerunfilecheck Info: Checksums for `example.out':
-(rerunfilecheck)             Before: B013AE31704947BD3AE9594D5FFA9F38;3114
-(rerunfilecheck)             After:  DC5FFA42D80A1AFCACA43D1E3F55044C;3114.
+(rerunfilecheck)             Before: DC5FFA42D80A1AFCACA43D1E3F55044C;3114
+(rerunfilecheck)             After:  F1D68B54C370F3F90D07683A470D38B6;3134.
 
 LaTeX Warning: There were undefined references.
 
@@ -2135,13 +2136,13 @@ LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
 
  ) 
 Here is how much of TeX's memory you used:
- 30247 strings out of 494953
- 537710 string characters out of 6180977
- 734281 words of memory out of 5000000
- 32296 multiletter control sequences out of 15000+600000
- 108774 words of font info for 406 fonts, out of 8000000 for 9000
+ 30251 strings out of 494953
+ 537752 string characters out of 6180977
+ 734282 words of memory out of 5000000
+ 32297 multiletter control sequences out of 15000+600000
+ 108923 words of font info for 408 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
- 75i,22n,80p,2707b,937s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 75i,22n,80p,2707b,938s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texmf/fonts/enc/dvips/cm-super/cm-super-t1.enc}{/usr/share/texliv
 e/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/share/texlive/texmf-dist/fonts/t
 ype1/public/amsfonts/cm/cmbsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/
@@ -2157,7 +2158,7 @@ urw/palatino/uplb8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/palatino
 /uplbi8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/palatino/uplr8a.pfb
 ></usr/share/texlive/texmf-dist/fonts/type1/urw/palatino/uplr8a.pfb></usr/share
 /texlive/texmf-dist/fonts/type1/urw/palatino/uplri8a.pfb>
-Output written on example.pdf (87 pages, 3834033 bytes).
+Output written on example.pdf (87 pages, 3834856 bytes).
 PDF statistics:
  1091 PDF objects out of 1200 (max. 8388607)
  891 compressed objects within 9 object streams

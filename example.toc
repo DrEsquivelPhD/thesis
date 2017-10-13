@@ -23,7 +23,7 @@
 \contentsline {subsection}{\numberline {3.3.3}Astroparticle physics}{19}{subsection.3.3.3}
 \contentsline {subsection}{\numberline {3.3.4}Liquid argon detector development}{19}{subsection.3.3.4}
 \contentsline {chapter}{\numberline {4}The Booster Neutrino Beam}{21}{chapter.4}
-\contentsline {chapter}{\numberline {5}Finding the first Neutrinos in MicroBooNE}{23}{chapter.5}
+\contentsline {chapter}{\numberline {5}Neutrino Identification: Finding MicroBooNE's first Neutrinos}{23}{chapter.5}
 \contentsline {chapter}{\numberline {6}CC-Inclusive Cross Section Selection Filter}{25}{chapter.6}
 \contentsline {chapter}{\numberline {7}The importance of $\mymath {\@Oldmu }\xspace /\mymath {\@Oldpi }\xspace $ separation in MicroBooNE}{29}{chapter.7}
 \contentsline {chapter}{\numberline {8}Convolutional Neural Networks}{31}{chapter.8}
