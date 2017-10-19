@@ -20,23 +20,24 @@
 \BOOKMARK [2][-]{subsection.3.3.3}{Astroparticle physics}{section.3.3}% 20
 \BOOKMARK [2][-]{subsection.3.3.4}{Liquid argon detector development}{section.3.3}% 21
 \BOOKMARK [0][-]{chapter.4}{The Booster Neutrino Beam}{}% 22
-\BOOKMARK [0][-]{chapter.5}{Neutrino Identification: Finding MicroBooNE's first Neutrinos}{}% 23
-\BOOKMARK [0][-]{chapter.6}{CC-Inclusive Cross Section Selection Filter}{}% 24
-\BOOKMARK [0][-]{chapter.7}{The importance of / separation in MicroBooNE}{}% 25
-\BOOKMARK [0][-]{chapter.8}{Convolutional Neural Networks}{}% 26
-\BOOKMARK [0][-]{chapter.9}{Hardware Frameworks}{}% 27
-\BOOKMARK [1][-]{section.9.1}{Syracuse CPU Machine setup}{chapter.9}% 28
-\BOOKMARK [1][-]{section.9.2}{Syracuse University GPU Cluster Setup}{chapter.9}% 29
-\BOOKMARK [0][-]{chapter.10}{Using Convolutional Neural Networks to separate 's from 's}{}% 30
-\BOOKMARK [1][-]{section.10.1}{Image Making Scheme}{chapter.10}% 31
-\BOOKMARK [1][-]{section.10.2}{Convolutional Neural Network Training}{chapter.10}% 32
-\BOOKMARK [1][-]{section.10.3}{Classification of MC data using Selection I Original CC-Inclusive Filter}{chapter.10}% 33
-\BOOKMARK [1][-]{section.10.4}{Classification of MC data using Selection I Modified CC-Inclusive Filter}{chapter.10}% 34
-\BOOKMARK [1][-]{section.10.5}{Conclusions and Future Work}{chapter.10}% 35
-\BOOKMARK [0][-]{chapter.11}{Using Convolutional Neural Networks on MicroBooNE Data}{}% 36
-\BOOKMARK [0][-]{chapter.12}{Comparing two CC-Inclusive Cross Section Selection Filters}{}% 37
-\BOOKMARK [0][-]{chapter.13}{Conclusion}{}% 38
-\BOOKMARK [0][-]{appendix.A}{Pointless extras}{}% 39
-\BOOKMARK [1][-]{section.A.1}{Like, duh}{appendix.A}% 40
-\BOOKMARK [1][-]{section.A.2}{y = \040x2}{appendix.A}% 41
-\BOOKMARK [0][-]{chapter*.30}{Bibliography}{}% 42
+\BOOKMARK [1][-]{section.4.1}{Creating the Booster Neutrino Beam}{chapter.4}% 23
+\BOOKMARK [0][-]{chapter.5}{Neutrino Identification: Finding MicroBooNE's first Neutrinos}{}% 24
+\BOOKMARK [0][-]{chapter.6}{CC-Inclusive Cross Section Selection Filter}{}% 25
+\BOOKMARK [0][-]{chapter.7}{The importance of / separation in MicroBooNE}{}% 26
+\BOOKMARK [0][-]{chapter.8}{Convolutional Neural Networks}{}% 27
+\BOOKMARK [0][-]{chapter.9}{Hardware Frameworks}{}% 28
+\BOOKMARK [1][-]{section.9.1}{Syracuse CPU Machine setup}{chapter.9}% 29
+\BOOKMARK [1][-]{section.9.2}{Syracuse University GPU Cluster Setup}{chapter.9}% 30
+\BOOKMARK [0][-]{chapter.10}{Using Convolutional Neural Networks to separate 's from 's}{}% 31
+\BOOKMARK [1][-]{section.10.1}{Image Making Scheme}{chapter.10}% 32
+\BOOKMARK [1][-]{section.10.2}{Convolutional Neural Network Training}{chapter.10}% 33
+\BOOKMARK [1][-]{section.10.3}{Classification of MC data using Selection I Original CC-Inclusive Filter}{chapter.10}% 34
+\BOOKMARK [1][-]{section.10.4}{Classification of MC data using Selection I Modified CC-Inclusive Filter}{chapter.10}% 35
+\BOOKMARK [1][-]{section.10.5}{Conclusions and Future Work}{chapter.10}% 36
+\BOOKMARK [0][-]{chapter.11}{Using Convolutional Neural Networks on MicroBooNE Data}{}% 37
+\BOOKMARK [0][-]{chapter.12}{Comparing two CC-Inclusive Cross Section Selection Filters}{}% 38
+\BOOKMARK [0][-]{chapter.13}{Conclusion}{}% 39
+\BOOKMARK [0][-]{appendix.A}{Pointless extras}{}% 40
+\BOOKMARK [1][-]{section.A.1}{Like, duh}{appendix.A}% 41
+\BOOKMARK [1][-]{section.A.2}{y = \040x2}{appendix.A}% 42
+\BOOKMARK [0][-]{chapter*.30}{Bibliography}{}% 43

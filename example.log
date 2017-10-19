@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2017.8.22)  13 OCT 2017 01:49
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2017.8.22)  18 OCT 2017 22:28
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1559,28 +1559,72 @@ LaTeX Warning: Reference `fig:tpc' on page 16 undefined on input line 11.
 
 [16] [17]
 
-LaTeX Warning: Citation `SBN' on page 18 undefined on input line 22.
+LaTeX Warning: Citation `argoneut' on page 18 undefined on input line 21.
 
-[18]) (./beam.tex [19] [20
 
-]
+LaTeX Warning: Reference `fig:egamma' on page 18 undefined on input line 21.
+
+[18]
+
+LaTeX Warning: Citation `snews' on page 19 undefined on input line 25.
+
+
+LaTeX Warning: Citation `noise' on page 19 undefined on input line 27.
+
+) (./beam.tex [19] [20]
 chapter 4.
 
 LaTeX Warning: Reference `fig:generator' on page 21 undefined on input line 6.
 
-<figs/lee.png, id=675, 364.36125pt x 435.12563pt>
+LaTeX Font Info:    Try loading font information for TS1+ppl on input line 6.
+(/usr/share/texlive/texmf-dist/tex/latex/psnfss/ts1ppl.fd
+File: ts1ppl.fd 2001/06/04 font definitions for TS1/ppl.
+)
+
+Package microtype Warning: Unknown slot number of character
+(microtype)                `\textminus '
+(microtype)                in font encoding `TS1' in protrusion list
+(microtype)                `ppl-textcomp'.
+
+
+Package microtype Warning: Unknown slot number of character
+(microtype)                `\texttrademark '
+(microtype)                in font encoding `TS1' in protrusion list
+(microtype)                `ppl-textcomp'.
+
+
+Package microtype Warning: Unknown slot number of character
+(microtype)                `\textcopyright '
+(microtype)                in font encoding `TS1' in protrusion list
+(microtype)                `ppl-textcomp'.
+
+
+Package microtype Warning: Unknown slot number of character
+(microtype)                `\textregistered '
+(microtype)                in font encoding `TS1' in protrusion list
+(microtype)                `ppl-textcomp'.
+
+
+Package microtype Warning: Unknown slot number of character
+(microtype)                `\textdegree '
+(microtype)                in font encoding `TS1' in protrusion list
+(microtype)                `ppl-textcomp'.
+
+[21
+
+] <figs/lee.png, id=682, 364.36125pt x 435.12563pt>
 File: figs/lee.png Graphic file (type png)
  <use figs/lee.png>
 Package pdftex.def Info: figs/lee.png used on input line 15.
 (pdftex.def)             Requested size: 179.22676pt x 214.03008pt.
 
-<figs/bnbflux.png, id=676, 471.7625pt x 431.6125pt>
+<figs/bnbflux.png, id=683, 471.7625pt x 431.6125pt>
 File: figs/bnbflux.png Graphic file (type png)
  <use figs/bnbflux.png>
 Package pdftex.def Info: figs/bnbflux.png used on input line 21.
 (pdftex.def)             Requested size: 179.22676pt x 163.97493pt.
 )
-(./neutrinoID.tex [21] [22 <./figs/lee.png (PNG copy)> <./figs/bnbflux.png>]
+(./neutrinoID.tex [22 <./figs/lee.png (PNG copy)> <./figs/bnbflux.png>]
 chapter 5.
 [23
 
@@ -1599,14 +1643,14 @@ LaTeX Warning: Citation `mcccinclusive' on page 25 undefined on input line 5.
 
 [25
 
-] <figs/track_distribution.png, id=703, 991.705pt x 747.79375pt>
+] <figs/track_distribution.png, id=704, 991.705pt x 747.79375pt>
 File: figs/track_distribution.png Graphic file (type png)
 
 <use figs/track_distribution.png>
 Package pdftex.def Info: figs/track_distribution.png used on input line 13.
 (pdftex.def)             Requested size: 179.22676pt x 135.14476pt.
 
-<figs/efficiencyvsmom.png, id=704, 887.315pt x 652.4375pt>
+<figs/efficiencyvsmom.png, id=705, 887.315pt x 652.4375pt>
 File: figs/efficiencyvsmom.png Graphic file (type png)
 
 <use figs/efficiencyvsmom.png>
@@ -1637,7 +1681,7 @@ Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 
 ]
 chapter 8.
-<figs/convolution.png, id=730, 610.28pt x 592.2125pt>
+<figs/convolution.png, id=731, 610.28pt x 592.2125pt>
 File: figs/convolution.png Graphic file (type png)
 
 <use figs/convolution.png>
@@ -1646,7 +1690,7 @@ Package pdftex.def Info: figs/convolution.png used on input line 7.
  [31
 
 ]
-<figs/facialDetection.png, id=737, 469.755pt x 164.11313pt>
+<figs/facialDetection.png, id=738, 469.755pt x 164.11313pt>
 File: figs/facialDetection.png Graphic file (type png)
 
 <use figs/facialDetection.png>
@@ -1712,14 +1756,14 @@ Package microtype Info: Loading generic settings for font family
 
 LaTeX Warning: Citation `caffe' on page 39 undefined on input line 37.
 
-<figs/acc_loss_10000_062117.png, id=770, 619.31375pt x 472.76625pt>
+<figs/acc_loss_10000_062117.png, id=771, 619.31375pt x 472.76625pt>
 File: figs/acc_loss_10000_062117.png Graphic file (type png)
 
 <use figs/acc_loss_10000_062117.png>
 Package pdftex.def Info: figs/acc_loss_10000_062117.png used on input line 41.
 (pdftex.def)             Requested size: 340.62361pt x 260.02223pt.
  [39]
-<figs/train_confusion-9-14-16.png, id=777, 833.1125pt x 964.60374pt>
+<figs/train_confusion-9-14-16.png, id=778, 833.1125pt x 964.60374pt>
 File: figs/train_confusion-9-14-16.png Graphic file (type png)
 
 <use figs/train_confusion-9-14-16.png>
@@ -1727,27 +1771,27 @@ Package pdftex.def Info: figs/train_confusion-9-14-16.png used on input line 49
 .
 (pdftex.def)             Requested size: 179.21739pt x 216.8057pt.
 
-<figs/val_confusion_9-14-16.png, id=778, 971.63pt x 930.47626pt>
+<figs/val_confusion_9-14-16.png, id=779, 971.63pt x 930.47626pt>
 File: figs/val_confusion_9-14-16.png Graphic file (type png)
 
 <use figs/val_confusion_9-14-16.png>
 Package pdftex.def Info: figs/val_confusion_9-14-16.png used on input line 55.
 (pdftex.def)             Requested size: 179.215pt x 216.80202pt.
 
-<figs/mitch_hw.png, id=779, 1672.2475pt x 673.51625pt>
+<figs/mitch_hw.png, id=780, 1672.2475pt x 673.51625pt>
 File: figs/mitch_hw.png Graphic file (type png)
  <use figs/mitch_hw.png>
 Package pdftex.def Info: figs/mitch_hw.png used on input line 61.
 (pdftex.def)             Requested size: 448.06815pt x 180.66995pt.
 
-<figs/sel1_cuts.png, id=783, 1566.85374pt x 914.41624pt>
+<figs/sel1_cuts.png, id=784, 1566.85374pt x 914.41624pt>
 File: figs/sel1_cuts.png Graphic file (type png)
 
 <use figs/sel1_cuts.png>
 Package pdftex.def Info: figs/sel1_cuts.png used on input line 83.
 (pdftex.def)             Requested size: 403.26366pt x 235.34273pt.
 
-<figs/confusion_0621_wrongnorm.png, id=784, 790.955pt x 764.8575pt>
+<figs/confusion_0621_wrongnorm.png, id=785, 790.955pt x 764.8575pt>
 File: figs/confusion_0621_wrongnorm.png Graphic file (type png)
 
 <use figs/confusion_0621_wrongnorm.png>
@@ -1759,7 +1803,7 @@ Overfull \hbox (15.17545pt too wide) in paragraph at lines 91--92
 [][] 
  []
 
-<figs/prob_0706_wrongnorm_sel1.png, id=785, 735.74875pt x 575.14874pt>
+<figs/prob_0706_wrongnorm_sel1.png, id=786, 735.74875pt x 575.14874pt>
 File: figs/prob_0706_wrongnorm_sel1.png Graphic file (type png)
 
 <use figs/prob_0706_wrongnorm_sel1.png>
@@ -1771,7 +1815,7 @@ Overfull \hbox (15.17642pt too wide) in paragraph at lines 97--98
 [][] 
  []
 
-<figs/confusion_rightnorm_0621.png, id=786, 1018.80624pt x 887.315pt>
+<figs/confusion_rightnorm_0621.png, id=787, 1018.80624pt x 887.315pt>
 File: figs/confusion_rightnorm_0621.png Graphic file (type png)
 
 <use figs/confusion_rightnorm_0621.png>
@@ -1783,7 +1827,7 @@ Overfull \hbox (15.16867pt too wide) in paragraph at lines 103--104
 [][] 
  []
 
-<figs/prob_0706_rightnorm_sel1.png, id=787, 737.75626pt x 554.07pt>
+<figs/prob_0706_rightnorm_sel1.png, id=788, 737.75626pt x 554.07pt>
 File: figs/prob_0706_rightnorm_sel1.png Graphic file (type png)
 
 <use figs/prob_0706_rightnorm_sel1.png>
@@ -1796,7 +1840,7 @@ Overfull \hbox (15.17136pt too wide) in paragraph at lines 109--110
  []
 
 
-<figs/sel1_trackrange_wrongnorm_acc70_0706.png, id=788, 744.7825pt x 585.18625p
+<figs/sel1_trackrange_wrongnorm_acc70_0706.png, id=789, 744.7825pt x 585.18625p
 t>
 File: figs/sel1_trackrange_wrongnorm_acc70_0706.png Graphic file (type png)
  <use figs/sel1_trackrange_wrongnorm_acc70_0706.png>
@@ -1809,7 +1853,7 @@ Overfull \hbox (15.17917pt too wide) in paragraph at lines 121--122
  []
 
 
-<figs/sel1_trackrange_rightnorm_acc70_0706.png, id=789, 740.7675pt x 570.13pt>
+<figs/sel1_trackrange_rightnorm_acc70_0706.png, id=790, 740.7675pt x 570.13pt>
 File: figs/sel1_trackrange_rightnorm_acc70_0706.png Graphic file (type png)
 
 <use figs/sel1_trackrange_rightnorm_acc70_0706.png>
@@ -1821,7 +1865,7 @@ Overfull \hbox (15.1746pt too wide) in paragraph at lines 127--128
 [][] 
  []
 
-<figs/sel1_parP_wrongnorm_acc70_0706.png, id=790, 733.74126pt x 558.085pt>
+<figs/sel1_parP_wrongnorm_acc70_0706.png, id=791, 733.74126pt x 558.085pt>
 File: figs/sel1_parP_wrongnorm_acc70_0706.png Graphic file (type png)
 
 <use figs/sel1_parP_wrongnorm_acc70_0706.png>
@@ -1833,7 +1877,7 @@ Overfull \hbox (15.17824pt too wide) in paragraph at lines 133--134
 [][] 
  []
 
-<figs/sel1_parP_rightnorm_acc70_0706.png, id=791, 735.74875pt x 563.10374pt>
+<figs/sel1_parP_rightnorm_acc70_0706.png, id=792, 735.74875pt x 563.10374pt>
 File: figs/sel1_parP_rightnorm_acc70_0706.png Graphic file (type png)
 
 <use figs/sel1_parP_rightnorm_acc70_0706.png>
@@ -1855,7 +1899,7 @@ sel1.png> <./figs/confusion_rightnorm_0621.png> <./figs/prob_0706_rightnorm_sel
 1.png>] [44 <./figs/sel1_trackrange_wrongnorm_acc70_0706.png> <./figs/sel1_trac
 krange_rightnorm_acc70_0706.png> <./figs/sel1_parP_wrongnorm_acc70_0706.png> <.
 /figs/sel1_parP_rightnorm_acc70_0706.png>]
-<figs/cuttable_sel1mod.png, id=841, 736.7525pt x 452.69125pt>
+<figs/cuttable_sel1mod.png, id=842, 736.7525pt x 452.69125pt>
 File: figs/cuttable_sel1mod.png Graphic file (type png)
 
 <use figs/cuttable_sel1mod.png>
@@ -1866,7 +1910,7 @@ Package pdftex.def Info: figs/cuttable_sel1mod.png used on input line 156.
 LaTeX Warning: Citation `cc-inclusive' on page 45 undefined on input line 161.
 
 [45 <./figs/cuttable_sel1mod.png>]
-<figs/sel1mod_confusion_wrongnorm.png, id=859, 614.295pt x 639.38875pt>
+<figs/sel1mod_confusion_wrongnorm.png, id=860, 614.295pt x 639.38875pt>
 File: figs/sel1mod_confusion_wrongnorm.png Graphic file (type png)
 
 <use figs/sel1mod_confusion_wrongnorm.png>
@@ -1878,7 +1922,7 @@ Overfull \hbox (15.17433pt too wide) in paragraph at lines 169--170
 [][] 
  []
 
-<figs/probplot_wrongnorm_selImod.png, id=860, 733.74126pt x 582.175pt>
+<figs/probplot_wrongnorm_selImod.png, id=861, 733.74126pt x 582.175pt>
 File: figs/probplot_wrongnorm_selImod.png Graphic file (type png)
 
 <use figs/probplot_wrongnorm_selImod.png>
@@ -1891,7 +1935,7 @@ Overfull \hbox (15.17824pt too wide) in paragraph at lines 175--176
  []
 
 
-<figs/sel1mod_trackrange_wrongnorm_acc70_0706.png, id=861, 741.77126pt x 573.14
+<figs/sel1mod_trackrange_wrongnorm_acc70_0706.png, id=862, 741.77126pt x 573.14
 125pt>
 File: figs/sel1mod_trackrange_wrongnorm_acc70_0706.png Graphic file (type png)
  <use figs/sel1mod_trackrange_wrongnorm_acc70_0706.png>
@@ -1899,7 +1943,7 @@ Package pdftex.def Info: figs/sel1mod_trackrange_wrongnorm_acc70_0706.png used
 on input line 188.
 (pdftex.def)             Requested size: 289.08589pt x 180.67163pt.
 
-<figs/sel1mod_cnn_stackedevent_0707.png, id=862, 739.76375pt x 565.11125pt>
+<figs/sel1mod_cnn_stackedevent_0707.png, id=863, 739.76375pt x 565.11125pt>
 File: figs/sel1mod_cnn_stackedevent_0707.png Graphic file (type png)
 
 <use figs/sel1mod_cnn_stackedevent_0707.png>
@@ -1907,7 +1951,7 @@ Package pdftex.def Info: figs/sel1mod_cnn_stackedevent_0707.png used on input l
 ine 194.
 (pdftex.def)             Requested size: 201.62395pt x 144.53691pt.
 
-<figs/sel1mod_original_stackedevents_0707.png, id=863, 733.74126pt x 559.08875p
+<figs/sel1mod_original_stackedevents_0707.png, id=864, 733.74126pt x 559.08875p
 t>
 File: figs/sel1mod_original_stackedevents_0707.png Graphic file (type png)
  <use figs/sel1mod_original_stackedevents_0707.png>
@@ -1915,7 +1959,7 @@ Package pdftex.def Info: figs/sel1mod_original_stackedevents_0707.png used on i
 nput line 200.
 (pdftex.def)             Requested size: 201.62833pt x 144.54066pt.
 
-<figs/sel1mod_cnn_trackrange_mupi_acc70_0707.png, id=864, 737.75626pt x 571.133
+<figs/sel1mod_cnn_trackrange_mupi_acc70_0707.png, id=865, 737.75626pt x 571.133
 74pt>
 File: figs/sel1mod_cnn_trackrange_mupi_acc70_0707.png Graphic file (type png)
  <use figs/sel1mod_cnn_trackrange_mupi_acc70_0707.png>
@@ -1923,7 +1967,7 @@ Package pdftex.def Info: figs/sel1mod_cnn_trackrange_mupi_acc70_0707.png used o
 n input line 206.
 (pdftex.def)             Requested size: 201.62842pt x 144.53476pt.
 
-<figs/sel1mod_original_trackrange_mupi_acc70_0707.png, id=865, 734.745pt x 551.
+<figs/sel1mod_original_trackrange_mupi_acc70_0707.png, id=866, 734.745pt x 551.
 05875pt>
 File: figs/sel1mod_original_trackrange_mupi_acc70_0707.png Graphic file (type p
 ng)
@@ -1935,7 +1979,7 @@ sed on input line 212.
 
 LaTeX Warning: Float too large for page by 12.52388pt on input line 219.
 
-<figs/sel1mod_cnn_trackrange_acc75_0707.png, id=866, 738.76pt x 551.05875pt>
+<figs/sel1mod_cnn_trackrange_acc75_0707.png, id=867, 738.76pt x 551.05875pt>
 File: figs/sel1mod_cnn_trackrange_acc75_0707.png Graphic file (type png)
 
 <use figs/sel1mod_cnn_trackrange_acc75_0707.png>
@@ -1943,7 +1987,7 @@ Package pdftex.def Info: figs/sel1mod_cnn_trackrange_acc75_0707.png used on inp
 ut line 226.
 (pdftex.def)             Requested size: 201.63219pt x 180.67276pt.
 
-<figs/sel1mod_cnn_trackrange_acc80_0707.png, id=867, 734.745pt x 550.055pt>
+<figs/sel1mod_cnn_trackrange_acc80_0707.png, id=868, 734.745pt x 550.055pt>
 File: figs/sel1mod_cnn_trackrange_acc80_0707.png Graphic file (type png)
 
 <use figs/sel1mod_cnn_trackrange_acc80_0707.png>
@@ -1951,7 +1995,7 @@ Package pdftex.def Info: figs/sel1mod_cnn_trackrange_acc80_0707.png used on inp
 ut line 232.
 (pdftex.def)             Requested size: 201.62386pt x 180.67099pt.
 
-<figs/sel1mod_cnn_trackrange_acc85_0707.png, id=868, 732.7375pt x 564.1075pt>
+<figs/sel1mod_cnn_trackrange_acc85_0707.png, id=869, 732.7375pt x 564.1075pt>
 File: figs/sel1mod_cnn_trackrange_acc85_0707.png Graphic file (type png)
 
 <use figs/sel1mod_cnn_trackrange_acc85_0707.png>
@@ -1959,7 +2003,7 @@ Package pdftex.def Info: figs/sel1mod_cnn_trackrange_acc85_0707.png used on inp
 ut line 238.
 (pdftex.def)             Requested size: 201.632pt x 180.67302pt.
 
-<figs/sel1mod_cnn_trackrange_acc90_0707.png, id=869, 739.76375pt x 564.1075pt>
+<figs/sel1mod_cnn_trackrange_acc90_0707.png, id=870, 739.76375pt x 564.1075pt>
 File: figs/sel1mod_cnn_trackrange_acc90_0707.png Graphic file (type png)
 
 <use figs/sel1mod_cnn_trackrange_acc90_0707.png>
@@ -1967,7 +2011,7 @@ Package pdftex.def Info: figs/sel1mod_cnn_trackrange_acc90_0707.png used on inp
 ut line 244.
 (pdftex.def)             Requested size: 201.62395pt x 180.67302pt.
 
-<figs/sel1mod_parP_wrongnorm_acc70_0706.png, id=870, 726.715pt x 560.0925pt>
+<figs/sel1mod_parP_wrongnorm_acc70_0706.png, id=871, 726.715pt x 560.0925pt>
 File: figs/sel1mod_parP_wrongnorm_acc70_0706.png Graphic file (type png)
 
 <use figs/sel1mod_parP_wrongnorm_acc70_0706.png>
@@ -1975,7 +2019,7 @@ Package pdftex.def Info: figs/sel1mod_parP_wrongnorm_acc70_0706.png used on inp
 ut line 258.
 (pdftex.def)             Requested size: 403.27615pt x 252.9452pt.
 
-<figs/sel1mod_cnn_parP_stackedevents_0707.png, id=871, 731.73375pt x 555.07375p
+<figs/sel1mod_cnn_parP_stackedevents_0707.png, id=872, 731.73375pt x 555.07375p
 t>
 File: figs/sel1mod_cnn_parP_stackedevents_0707.png Graphic file (type png)
  <use figs/sel1mod_cnn_parP_stackedevents_0707.png>
@@ -1983,7 +2027,7 @@ Package pdftex.def Info: figs/sel1mod_cnn_parP_stackedevents_0707.png used on i
 nput line 264.
 (pdftex.def)             Requested size: 201.63493pt x 180.67632pt.
 
-<figs/sel1mod_original_parP_stackedevents_0707.png, id=872, 731.73375pt x 563.1
+<figs/sel1mod_original_parP_stackedevents_0707.png, id=873, 731.73375pt x 563.1
 0374pt>
 File: figs/sel1mod_original_parP_stackedevents_0707.png Graphic file (type png)
 
@@ -1999,7 +2043,7 @@ Package pdftex.def Info: figs/sel1mod_cnn_trackrange_mupi_acc70_0707.png used o
 n input line 284.
 (pdftex.def)             Requested size: 201.62842pt x 180.67497pt.
 
-<figs/sel1mod_mupi_trackrange_acc70.png, id=882, 740.7675pt x 561.09625pt>
+<figs/sel1mod_mupi_trackrange_acc70.png, id=883, 740.7675pt x 561.09625pt>
 File: figs/sel1mod_mupi_trackrange_acc70.png Graphic file (type png)
 
 <use figs/sel1mod_mupi_trackrange_acc70.png>
@@ -2016,20 +2060,20 @@ ge_acc80_0707.png> <./figs/sel1mod_cnn_trackrange_acc85_0707.png> <./figs/sel1m
 od_cnn_trackrange_acc90_0707.png>] [50 <./figs/sel1mod_parP_wrongnorm_acc70_070
 6.png> <./figs/sel1mod_cnn_parP_stackedevents_0707.png> <./figs/sel1mod_origina
 l_parP_stackedevents_0707.png>]
-<figs/interesting_event.png, id=913, 500.87125pt x 344.28625pt>
+<figs/interesting_event.png, id=914, 500.87125pt x 344.28625pt>
 File: figs/interesting_event.png Graphic file (type png)
 
 <use figs/interesting_event.png>
 Package pdftex.def Info: figs/interesting_event.png used on input line 301.
 (pdftex.def)             Requested size: 134.41927pt x 180.67418pt.
 
-<figs/event2.png, id=914, 516.93124pt x 442.65375pt>
+<figs/event2.png, id=915, 516.93124pt x 442.65375pt>
 File: figs/event2.png Graphic file (type png)
  <use figs/event2.png>
 Package pdftex.def Info: figs/event2.png used on input line 307.
 (pdftex.def)             Requested size: 134.4226pt x 180.67868pt.
 
-<figs/mupievent.png, id=915, 585.18625pt x 400.49625pt>
+<figs/mupievent.png, id=916, 585.18625pt x 400.49625pt>
 File: figs/mupievent.png Graphic file (type png)
 
 <use figs/mupievent.png>
@@ -2043,7 +2087,7 @@ LaTeX Warning: Citation `cc-inclusive' on page 52 undefined on input line 347.
 
 LaTeX Warning: Citation `cc-inclusive' on page 52 undefined on input line 347.
 
-[52] <figs/purity_sel1mod.png, id=930, 751.80875pt x 354.32375pt>
+[52] <figs/purity_sel1mod.png, id=931, 751.80875pt x 354.32375pt>
 File: figs/purity_sel1mod.png Graphic file (type png)
 
 <use figs/purity_sel1mod.png>
@@ -2056,7 +2100,7 @@ LaTeX Warning: Citation `cc-inclusive' on page 53 undefined on input line 394.
 
 LaTeX Warning: Citation `cc-inclusive' on page 53 undefined on input line 394.
 
-<figs/cnn_performance.png, id=931, 746.79pt x 576.1525pt>
+<figs/cnn_performance.png, id=932, 746.79pt x 576.1525pt>
 File: figs/cnn_performance.png Graphic file (type png)
 
 <use figs/cnn_performance.png>
@@ -2126,8 +2170,8 @@ Package rerunfilecheck Warning: File `example.out' has changed.
 (rerunfilecheck)                or use package `bookmark'.
 
 Package rerunfilecheck Info: Checksums for `example.out':
-(rerunfilecheck)             Before: DC5FFA42D80A1AFCACA43D1E3F55044C;3114
-(rerunfilecheck)             After:  F1D68B54C370F3F90D07683A470D38B6;3134.
+(rerunfilecheck)             Before: F1D68B54C370F3F90D07683A470D38B6;3134
+(rerunfilecheck)             After:  193468E3B6D2C5CBFFD1892B9B6DBECC;3215.
 
 LaTeX Warning: There were undefined references.
 
@@ -2136,13 +2180,13 @@ LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
 
  ) 
 Here is how much of TeX's memory you used:
- 30251 strings out of 494953
- 537752 string characters out of 6180977
- 734282 words of memory out of 5000000
- 32297 multiletter control sequences out of 15000+600000
- 108923 words of font info for 408 fonts, out of 8000000 for 9000
+ 30295 strings out of 494953
+ 538354 string characters out of 6180977
+ 734384 words of memory out of 5000000
+ 32327 multiletter control sequences out of 15000+600000
+ 110309 words of font info for 417 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
- 75i,22n,80p,2707b,938s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 75i,22n,80p,2707b,939s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texmf/fonts/enc/dvips/cm-super/cm-super-t1.enc}{/usr/share/texliv
 e/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/share/texlive/texmf-dist/fonts/t
 ype1/public/amsfonts/cm/cmbsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/
@@ -2158,10 +2202,10 @@ urw/palatino/uplb8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/palatino
 /uplbi8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/palatino/uplr8a.pfb
 ></usr/share/texlive/texmf-dist/fonts/type1/urw/palatino/uplr8a.pfb></usr/share
 /texlive/texmf-dist/fonts/type1/urw/palatino/uplri8a.pfb>
-Output written on example.pdf (87 pages, 3834856 bytes).
+Output written on example.pdf (87 pages, 3623429 bytes).
 PDF statistics:
- 1091 PDF objects out of 1200 (max. 8388607)
- 891 compressed objects within 9 object streams
- 187 named destinations out of 1000 (max. 500000)
+ 1092 PDF objects out of 1200 (max. 8388607)
+ 892 compressed objects within 9 object streams
+ 188 named destinations out of 1000 (max. 500000)
  60503 words of extra memory for PDF output out of 61914 (max. 10000000)
 
