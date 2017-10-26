@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2017.8.22)  19 OCT 2017 11:08
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2017.8.22)  25 OCT 2017 21:28
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1631,7 +1631,7 @@ Package pdftex.def Info: figs/bnbflux.png used on input line 24.
 
 ]
 chapter 5.
-[25]) (./meas.tex [26
+) (./meas.tex [25] [26
 
 ]
 chapter 6.
@@ -1644,9 +1644,7 @@ LaTeX Warning: Citation `cnn' on page 27 undefined on input line 5.
 
 LaTeX Warning: Citation `mcccinclusive' on page 27 undefined on input line 5.
 
-[27
-
-] <figs/track_distribution.png, id=846, 991.705pt x 747.79375pt>
+[27] <figs/track_distribution.png, id=846, 991.705pt x 747.79375pt>
 File: figs/track_distribution.png Graphic file (type png)
 
 <use figs/track_distribution.png>
@@ -2165,7 +2163,7 @@ lb8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/palatino/uplbi8a.pfb></
 usr/share/texlive/texmf-dist/fonts/type1/urw/palatino/uplr8a.pfb></usr/share/te
 xlive/texmf-dist/fonts/type1/urw/palatino/uplr8a.pfb></usr/share/texlive/texmf-
 dist/fonts/type1/urw/palatino/uplri8a.pfb>
-Output written on example.pdf (87 pages, 3934112 bytes).
+Output written on example.pdf (87 pages, 3934685 bytes).
 PDF statistics:
  1233 PDF objects out of 1440 (max. 8388607)
  1031 compressed objects within 11 object streams
