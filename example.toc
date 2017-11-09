@@ -1,8 +1,8 @@
 \select@language {english}
 \select@language {english}
 {\pdfbookmark [0]{Contents}{toc}}
-\contentsline {chapter}{List of figures}{xiii}{chapter*.2}
-\contentsline {chapter}{List of tables}{xix}{chapter*.3}
+\contentsline {chapter}{List of figures}{xv}{chapter*.2}
+\contentsline {chapter}{List of tables}{xxi}{chapter*.3}
 \contentsline {chapter}{\numberline {1}Introduction}{1}{chapter.1}
 \contentsline {chapter}{\numberline {2}Neutrinos}{3}{chapter.2}
 \contentsline {section}{\numberline {2.1}What are Neutrinos}{3}{section.2.1}
@@ -25,6 +25,8 @@
 \contentsline {section}{\numberline {3.4}The Booster Neutrino Beam}{20}{section.3.4}
 \contentsline {subsection}{\numberline {3.4.1}Creating the Booster Neutrino Beam}{20}{subsection.3.4.1}
 \contentsline {chapter}{\numberline {4}Neutrino Identification: Finding MicroBooNE's first Neutrinos}{23}{chapter.4}
+\contentsline {section}{\numberline {4.1}Flash Finding}{23}{section.4.1}
+\contentsline {subsection}{\numberline {4.1.1}Flash recinstruction}{24}{subsection.4.1.1}
 \contentsline {chapter}{\numberline {5}CC-Inclusive Cross Section Selection Filter}{25}{chapter.5}
 \contentsline {section}{\numberline {5.1}The importance of $\mymath {\@Oldmu }\xspace /\mymath {\@Oldpi }\xspace $ separation}{26}{section.5.1}
 \contentsline {chapter}{\numberline {6}Background on Convolutional Neural Networks}{29}{chapter.6}
@@ -34,7 +36,7 @@
 \contentsline {subsection}{\numberline {7.1.2}Syracuse University GPU Cluster Setup}{34}{subsection.7.1.2}
 \contentsline {section}{\numberline {7.2}Convolutional Neural Network Training}{34}{section.7.2}
 \contentsline {subsection}{\numberline {7.2.1}Image Making Scheme}{34}{subsection.7.2.1}
-\contentsline {subsubsection}{\nonumberline Images used for Traing/Validation of Convolutional Neural Networks}{34}{section*.14}
+\contentsline {subsubsection}{\nonumberline Images used for Traing/Validation of Convolutional Neural Networks}{34}{section*.15}
 \contentsline {subsection}{\numberline {7.2.2}Training CNN1075}{35}{subsection.7.2.2}
 \contentsline {subsection}{\numberline {7.2.3}Training CNN10000}{35}{subsection.7.2.3}
 \contentsline {subsection}{\numberline {7.2.4}Training CNN100000}{37}{subsection.7.2.4}
@@ -51,4 +53,4 @@
 \contentsline {chapter}{\numberline {A}Pointless extras}{61}{appendix.A}
 \contentsline {section}{\numberline {A.1}Like, duh}{61}{section.A.1}
 \contentsline {section}{\numberline {A.2}$y = \mymath {\@Oldalpha }\xspace x^2$}{61}{section.A.2}
-\contentsline {chapter}{Bibliography}{63}{chapter*.31}
+\contentsline {chapter}{Bibliography}{63}{chapter*.32}
