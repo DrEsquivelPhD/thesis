@@ -41,4 +41,66 @@ It is necessary to get the specific time from flashes if one uses flashes to fil
 \subsection{Event Rates}
 Applying a 50 PE threshold cut inside a 1.6 $\micro s$ window reduces the cosmic-ray passing rate to 0.8\%. With a 5 Hz beam rate, this corresponds to 135 cosmics passing per hour. The neutrino passing rate for this filter is about 22 events per hour. To further increase the neutrino to cosmic ratio, TPC topology cuts were implemented and will be discussed in the following section.
 \section{TPC Topology Selection}  
-In order to further reduce the background of cosmic events, two independent selection streams using TPC wire data reconstruction was implemented. The first using 2D reconstructed clusters, and the second using 3D resonctructed tracks.
+In order to further reduce the background of cosmic events, two independent selection streams using TPC wire data reconstruction was implemented. The first using 2D reconstructed clusters, and the second using 3D resonctructed tracks. Both streams look for neutrino interactions in the active TPC volume which are identifiable by two or more tracks originating from the same vertex.
+
+Both 2D and 3D channels were optimized using monte carlo simulation which used a 128 kV cathode voltage. Passing rates were calculated using a 0.008 efficiency factor for cosmic events passing to simulate the flash finding described in section \ref{sec:flashfinding}. This efficiency factor was an overestimation and was just used to get a general feel of what signal and background rates we would actually see in data. 
+\subsection{Cosmic Tagging}
+The first step in TPC selection was based on the geometry of cosmic tracks in an event. The cosmic ray muon geometry tagger runs on 3D tracks and assigns a score to each reconstructed track on the likeliness of the track originating from a cosmic. The cosmic scores are detailed below:
+\begin{itemize}
+\item 1: The track is tagged as entering or entering the TPC
+\item 0.95: The track is a delta ray associated with a tagged track
+\item 0.5: The track is either entering or exiting, but not both
+\item 0.4: The track is entering or exiting through the Z boundary
+\item 0: The track isn't tagged
+\end{itemize}
+Clusters are assigned either a 0 or 1, 1 being a cosmic. In simulation, 90\% of cosmics are tagged as cosmics. These tracks are no longer considered when looking for a neutrino topology. Requiring that the tracks be contained in turn affects the neutrino efficiency by 20\%. The algorithm checks that each track is contained within a boundary region of 10 cm from all sides of the TPC. This boundary region was optimized via handscanning of experimental data.
+
+As can be expected, cosmic tagging is more efficient in the 3D channel (tracks) than the 2D channel (clusters) because the reconstructed tracks can use the full 3D position information of the entering and exiting points while the 2D channel mainly use the reconstructed x position of the cluster which is associated to timing. 
+
+Cosmic tagging uses timing information to reject tracks and clusters that are outside of drift window. The drift window for 128 kV is 1.6 $\micro s$ while for 70 kv, the actual voltage MicroBooNE is running at, is 2.3 $\micro s$. Due to this variation between simulation and data, we expect to see $2.3/1.6 = 1.44$ times more cosmic induced tracks or clusters in the drift window. 
+\subsection{2D Cluster Selection}
+This selection was spearheaded by myself and Katherine Woodruff. After looking at experimental cosmics data, 2D clustering performs well, while 3D track reconstruction is affected by more variations in simulation, for example noise filters. This was the motivation for having a selction only on 2D clusters in the collection (Y) plane. As stated previously, the goal of this analysis was to find identifiable neutrino interactions for use in public event displays, in future analyses, the 3D track reconstruction has been modified to further increase the tracking efficiency and has more information that just the clusters. For this analysis, however, 2D cluster information was sufficient enough for neutrino selection. 
+\subsubsection{Primary Cuts}
+The first cuts were used to select which clusters to consider. First the clusters must have at least ten hits on the collection plane and have a cosmic tagging score < 0.4. Only events that have at least two clusters that satisfy these primary cuts continue on.
+
+After the initial cosmic tagging is applied, the following cuts are used to furture separate identifiable neutrinos for background cosmics. 
+
+The next cut was to remove long, vertical clusters. This was applied after seeing that most cosmic induced clusters passing were long with high angles, while neutrino induced clusters were mainly forward going. We required a good cluster to either have a projected start angle less than 30 degrees from the z axis or be less than 200 wires long. The length cut was added to make sure we don't cut any short high angle clusters that can correspond with a proton, or other highly ionizing particle associated with a long muon cluster. The 200 wire cut roughly equates to 0.6 m in the z direction, with a 3 mm wire pitch. Also, the projected angle is defined by tan $\alpha$ = $\Delta T / \Delta W$ where T is the time ticks and W is the wires. 
+
+The last cut requires the clusters to be either 30 time ticks or 30 wires. This cut was applied to reduce small delta rays associated with a cosmic without removing proton clusters associated with a long muon cluster, which saves ideal neutrino events that have both a long minimum ionizing muon like cluster and a short highly ionizing proton like cluster.
+
+\subsubsection{Secondary Cuts}
+The secondary cuts look to match long, low-angle clusters with short, high-charge clusters. Only clusters that have passed previous cuts are used. First clusters with length greater than 100 wires are chosen, which is approximately 0.3 m in the z direction. Then we search for any cluster that is within approximately 3 cm ( 10 wires and 30 time ticks) away from the low-z end of the long cluster. This cluster must also be shorter than the first. In our reconstruction, the start and end point of a cluster can be swapped so both ends of the short cluster are compared to the long cluster. 
+
+Now that there is a vertex match, cuts based on charge and projected opening angle are implemented. We require the short cluster to have a higher start charge than the long cluster or the long cluster be longer than 500 wires. Start charge is defined as the charge on the first wire in ADC counts. The projected opening angle must also be between 11 and 90 degrees. This last cut is intended to remove clusters that are entirely overlapping or are part of the same long track. 
+\begin{table}
+\begin{center}
+\begin{tabular}{c c c c}
+\hline
+Cluster set & No Cuts & Primary Cuts & Secondary Cuts \\
+\hline
+Neutrinos only & 570 & 303 & 32 \\
+Cosmics only ( no flash) & 308,016 & 291,879 & 602 \\
+Cosmics only (w/ flash) & 2464 & 2335 & 5 \\
+\hline
+Neutrinos/Cosmics & 0.23 & 0.13 & 6.4 \\
+\end{tabular}
+\caption{Passing rates for 2D cluster cuts for neutrino on MC set and a cosmic only MC set. First column shows event rates with no cuts applied to both sets. Columns two and three show event rates after primary and secondary cuts are applied. Line three shows the seccond line scaled with the flash finding factor of 0.008. All events are normalized to per day assuming we are running at 5 Hz.}
+\label{table:eventrate}
+\end{center}
+\end{table}
+The resulting neutrino/cosmic event rate per day is shown in table \ref{table:eventrate}. Figures \ref{fig:2dprimarycut} and \ref{fig:2dsecondarycuts} shows the percentages of clusters that pass each primary and secondary cuts.     
+
+\begin{figure}[htp!]
+\centering
+\includegraphics[width=\textwidth]{figs/2dprimarycut.png}
+\caption{Percent of good clusters remaining for neutrinos and cosmics after the primary cuts were applied. This is relative to total number of initial clusters.}
+\label{fig:2dprimarycut}
+\end{figure}
+
+\begin{figure}[htp!]
+\centering
+\includegraphics[width=\textwidth]{figs/2dsecondarycut.png}
+\caption{Percent matched cluster pairs remaining for neutrinos and cosmics after secondary cuts applied. This is relative to the number of events that contain clusters which pass the primary cuts.}
+\label{fig:2dsecondarycuts}
+\end{figure}
