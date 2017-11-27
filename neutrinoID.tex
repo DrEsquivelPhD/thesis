@@ -105,5 +105,25 @@ The resulting neutrino/cosmic event rate per day is shown in table \ref{table:ev
 \label{fig:2dsecondarycuts}
 \end{figure}
 
-\section{3D Tracks and vertices Selection}
-The neutrino selection for the 3D channel was based on trios of a reconstructed vertex and two tracks. 
+\subsection{3D Tracks and vertices Selection}
+The neutrino selection for the 3D channel was based on a reconstructed vertex and two tracks. All vertices and tracks were looped over that had a cosmic tag score < 0.4 and the distances below were calculated:
+\begin{itemize}
+\item d: distance between the start points of the two tracks.
+\item $d_1$: distance between vertex and start of track 1.
+\item $d_2$: distance between vertex and start of track 2.
+\end{itemize}
+The maximum distance of all three is then selected as the important characteristic per trio. The best trio is the one that has the smallest maximum distance. The $min(max_{d})$ for all trios in an event were plotted for BNB neutrino events and for cosmics to find the best cut value for each tracking algorithm. The distribution of $min(max_{d,i})$ is smaller for neutrinos than for cosmics. The cut values for different tracking and clustering algorithms are shown below. These cut values were chosen to minimize the cosmic background to 20\%. 
+\begin{itemize}
+\item trackkalmanhit with cccluster $min(max_{d,i})$ < 3 cm.
+\item trackkalmanhit with pandoraNu $min(max_{d,i})$ < 4.5 cm.
+\item pandoraNu with cccluster $min(max_{d,i})$ < 5 cm.
+\end{itemize}
+
+\subsection{TPC Updates}
+After doing a visual hand-scanning of the first beam data processed with the filters detailed above, the events passing had a larger contamination of background than expected. This was mainly in part due to the reconstruction performing better on simulation than on data. Due to this, additional cuts on both streams needed to be implemented in order to increase signal/background ratio. These cuts were added on top of the filters described above and further reduce the event count. 
+\subsubsection{2D Filter Updates}
+The main background observed in the 2D filter were Michel events, where the muon and electron formed two connected clusters. These events were rejected by comparing the start and end charge deposition of the long cluster (i.e muon particle). The start charge deposition must be less than the end charge deposition. This cut is implemented because muons have a higher ionizaiton loss at the end. 
+\subsubsection{3D Filter Updates}
+It was seen that cosmic tracks can often originate or end at the same point, therefore faking a signal. Cosmic tracks, however, are mostly vertical. By requiring the angle of the longer track have a cosine greater than 0.85 with respect to the z-axis as well as requiring the longer track to have a length greater than 10 cm, we can reduce this background. 
+\section{Conclusion}
+After proccesing these filters in parallel, it was shown that the 3D filter had a higher purity than the 2D filter because of the higher cosmic rejection being used due to 3D reconstruction. The 2D filter is blind to track entering/exiting from the top or bottom of the TPC. Although the 3D filter had a higher purity, the 2D filter was still able to find identifiable events in data that were used as public event displays. A sample of event displays are shown in figures \ref{fig:2dimage} and \ref{fig:3dimage}.
