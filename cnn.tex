@@ -1,6 +1,4 @@
 \chapter{Background on Convolutional Neural Networks}\label{ch:cnn}
-Image processing is processing of images by using any form of signal processing. Most image processing techniques treat an image like a 2-dimensional signal and apply standard signal processing techniques to it. Examples of image processing include Gaussian smoothing, edge detection, contouring and pattern recognition or high-level image processing like computer vision. By transforming each sample value for a single wire into a pixel value, it is possible to create an 2-D image from each LArTPC anode plane and hence apply image processing techniques. Gaussian smoothing is used to reduce the noise in an image. Edge detection algorithms look for discontinuities in an image and is the fundamental stage in pattern recognition or any higher level image processing, machine learning and computer vision due to the fact that it extracts the important features in an image. Once edge detection is applied to an image, a contouring algorithm can then be applied. A contour in image processing is an outline bounding an object of interest. A contour must be a closed line outlining in this case the edges found during edge detection. Once we have a bounded object, it is then possible to use these extracted features to train a computer vision algorithm like a Convolutional Neural Network (CNN) to learn that these features describe certain objects, and to then use these computer vision algorithms on random images.
-
 
 \begin{figure}[t!]
 \centering
@@ -18,3 +16,6 @@ When used for image recognition, convolutional neural networks consist of multip
 \caption{Pictorial Representation of Convolutional Neural Networks as well as a visual representation on CNN's complexity of layer feature extraction}
 \label{fig:featuremaps}
 \end{figure}
+
+\section{AlexNet}
+\section{GoogleNet}
