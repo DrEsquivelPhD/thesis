@@ -28,7 +28,7 @@
 \@writefile{toc}{\contentsline {chapter}{List of figures}{xv}{chapter*.2}}
 \citation{cc-inclusive}
 \citation{cc-inclusive}
-\@writefile{toc}{\contentsline {chapter}{List of tables}{xxi}{chapter*.3}}
+\@writefile{toc}{\contentsline {chapter}{List of tables}{xxiii}{chapter*.3}}
 \@writefile{toc}{\contentsline {chapter}{\numberline {1}Introduction}{1}{chapter.1}}
 \@writefile{lof}{\addvspace {10\p@ }}
 \@writefile{lot}{\addvspace {10\p@ }}
@@ -183,6 +183,7 @@
 \newlabel{fig:convolution}{{\relax 6.3}{40}{Applying a feature mask over a set of fashion items to extract necessary information for auto-encoding. Unnecessary information for example color or brand emblems are not saved. This feature map is an edge detection mask that leaves only shape information which helps to distinguish between different types of clothes.\relax }{figure.caption.23}{}}
 \@writefile{lof}{\contentsline {figure}{\numberline {\relax 6.4}{\ignorespaces Pictorial Representation of Convolutional Neural Networks as well as a visual representation on CNN's complexity of layer feature extraction\relax }}{40}{figure.caption.24}}
 \newlabel{fig:featuremaps}{{\relax 6.4}{40}{Pictorial Representation of Convolutional Neural Networks as well as a visual representation on CNN's complexity of layer feature extraction\relax }{figure.caption.24}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {6.1.2}Backpropagation}{41}{subsection.6.1.2}}
 \@writefile{toc}{\contentsline {section}{\numberline {6.2}AlexNet}{41}{section.6.2}}
 \@writefile{toc}{\contentsline {section}{\numberline {6.3}GoogleNet}{41}{section.6.3}}
 \@writefile{toc}{\contentsline {chapter}{\numberline {7}Training Convolutional Neural Networks on particles \leavevmode {\color  {red}\textbf  {WORKING TITLE}}}{43}{chapter.7}}
@@ -216,139 +217,183 @@
 \@writefile{lof}{\contentsline {subfigure}{\numberline {\relax 7.2b}{\ignorespaces Confusion Matrix showing Accuracy of CNN using testing data\relax }}{48}{figure.caption.27}}
 \@writefile{lof}{\contentsline {subfigure}{\numberline {\relax 7.2c}{\ignorespaces Probability plot of muons and pions from testing set. Images surrounding histogram are a random event from lowest bin and highest bin for each particle.\relax }}{48}{figure.caption.27}}
 \newlabel{fig:CNN_train}{{\relax 7.2}{48}{Description of confusion matrix varables: False pion rate = $false \pi / total \pi $ True pion rate = $true \pi /total \pi $ Accuracy = $(true \pi rate + true \mu rate)/2$ Pion prediction value = $true \pi /(true \pi + false \pi )$ Muon prediction value = $true \mu /(true \mu + false \mu )$ \ref {fig:prob_plot} The probability plot includes muons and pions that are classified as primary particles.\relax }{figure.caption.27}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {\relax 7.3}{\ignorespaces Confusion Matrix of all five particles \relax }}{49}{figure.caption.28}}
+\newlabel{fig:confusion100000}{{\relax 7.3}{49}{Confusion Matrix of all five particles \relax }{figure.caption.28}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {\relax 7.4}{\ignorespaces Training and testing accuracy of CNN trained on 100,000 images of \mymath  {\@Oldmu }\xspace  /\mymath  {\@Oldpi }\xspace  /p/\mymath  {\@Oldgamma }\xspace  /e with 20,000 images of each particle. Each image was a size of 576x576 and the images per particle were split 90\% use for training and 10\% used for testing the network\relax }}{49}{figure.caption.29}}
+\newlabel{fig:gpuacc}{{\relax 7.4}{49}{Training and testing accuracy of CNN trained on 100,000 images of \mu /\pi /p/\gamma /e with 20,000 images of each particle. Each image was a size of 576x576 and the images per particle were split 90\% use for training and 10\% used for testing the network\relax }{figure.caption.29}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {\relax 7.5}{\ignorespaces Training and testing loss oc CNN trained on 100,000 images of \mymath  {\@Oldmu }\xspace  /\mymath  {\@Oldpi }\xspace  /p/\mymath  {\@Oldgamma }\xspace  /e\relax }}{50}{figure.caption.30}}
+\newlabel{fig:gpuloss}{{\relax 7.5}{50}{Training and testing loss oc CNN trained on 100,000 images of \mu /\pi /p/\gamma /e\relax }{figure.caption.30}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {\relax 7.6}{\ignorespaces t-SNE of CNN\relax }}{51}{figure.caption.31}}
+\newlabel{fig:tsne}{{\relax 7.6}{51}{t-SNE of CNN\relax }{figure.caption.31}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {\relax 7.7}{\ignorespaces Muon Prob\relax }}{52}{figure.caption.32}}
+\newlabel{fig:muonprob}{{\relax 7.7}{52}{Muon Prob\relax }{figure.caption.32}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {\relax 7.8}{\ignorespaces Pion Prob\relax }}{52}{figure.caption.33}}
+\newlabel{fig:piprob}{{\relax 7.8}{52}{Pion Prob\relax }{figure.caption.33}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {\relax 7.9}{\ignorespaces Proton Prob\relax }}{53}{figure.caption.34}}
+\newlabel{fig:protonprob}{{\relax 7.9}{53}{Proton Prob\relax }{figure.caption.34}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {\relax 7.10}{\ignorespaces Electron Prob\relax }}{53}{figure.caption.35}}
+\newlabel{fig:eminusprob}{{\relax 7.10}{53}{Electron Prob\relax }{figure.caption.35}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {\relax 7.11}{\ignorespaces Gamma Prob\relax }}{54}{figure.caption.36}}
+\newlabel{fig:gammaprob}{{\relax 7.11}{54}{Gamma Prob\relax }{figure.caption.36}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {\relax 7.12}{\ignorespaces Prob\relax }}{54}{figure.caption.37}}
+\newlabel{fig:prob}{{\relax 7.12}{54}{Prob\relax }{figure.caption.37}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {\relax 7.13}{\ignorespaces mupi\relax }}{55}{figure.caption.38}}
+\newlabel{fig:mu_pi}{{\relax 7.13}{55}{mupi\relax }{figure.caption.38}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {\relax 7.14}{\ignorespaces mupi\relax }}{55}{figure.caption.39}}
+\newlabel{fig:mu_pi}{{\relax 7.14}{55}{mupi\relax }{figure.caption.39}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {\relax 7.15}{\ignorespaces mupi\relax }}{56}{figure.caption.40}}
+\newlabel{fig:mu_pi}{{\relax 7.15}{56}{mupi\relax }{figure.caption.40}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {\relax 7.16}{\ignorespaces mup\relax }}{56}{figure.caption.41}}
+\newlabel{fig:mu_p}{{\relax 7.16}{56}{mup\relax }{figure.caption.41}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {\relax 7.17}{\ignorespaces mup\relax }}{57}{figure.caption.42}}
+\newlabel{fig:mu_p}{{\relax 7.17}{57}{mup\relax }{figure.caption.42}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {\relax 7.18}{\ignorespaces mup\relax }}{57}{figure.caption.43}}
+\newlabel{fig:mu_p}{{\relax 7.18}{57}{mup\relax }{figure.caption.43}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {\relax 7.19}{\ignorespaces mue\relax }}{58}{figure.caption.44}}
+\newlabel{fig:mu_e}{{\relax 7.19}{58}{mue\relax }{figure.caption.44}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {\relax 7.20}{\ignorespaces mue\relax }}{58}{figure.caption.45}}
+\newlabel{fig:mu_e}{{\relax 7.20}{58}{mue\relax }{figure.caption.45}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {\relax 7.21}{\ignorespaces mue\relax }}{59}{figure.caption.46}}
+\newlabel{fig:mu_e}{{\relax 7.21}{59}{mue\relax }{figure.caption.46}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {\relax 7.22}{\ignorespaces mug\relax }}{59}{figure.caption.47}}
+\newlabel{fig:mu_g}{{\relax 7.22}{59}{mug\relax }{figure.caption.47}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {\relax 7.23}{\ignorespaces mug\relax }}{60}{figure.caption.48}}
+\newlabel{fig:mu_g}{{\relax 7.23}{60}{mug\relax }{figure.caption.48}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {\relax 7.24}{\ignorespaces mug\relax }}{60}{figure.caption.49}}
+\newlabel{fig:mu_g}{{\relax 7.24}{60}{mug\relax }{figure.caption.49}{}}
 \citation{cc-inclusive}
-\@writefile{toc}{\contentsline {chapter}{\numberline {8}Results of Convolutional Neural Networks on particles \leavevmode {\color  {red}\textbf  {WORKING TITLE}}}{49}{chapter.8}}
+\@writefile{toc}{\contentsline {chapter}{\numberline {8}Results of Convolutional Neural Networks on particles \leavevmode {\color  {red}\textbf  {WORKING TITLE}}}{61}{chapter.8}}
 \@writefile{lof}{\addvspace {10\p@ }}
 \@writefile{lot}{\addvspace {10\p@ }}
-\newlabel{ch:cnn_results}{{8}{49}{Results of Convolutional Neural Networks on particles \textcolor {red}{\textbf {WORKING TITLE}}}{chapter.8}{}}
-\@writefile{toc}{\contentsline {section}{\numberline {8.1}Classification using CNN10000}{49}{section.8.1}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {8.1.1}Classification of MC data using Selection I Original CC-Inclusive Filter}{49}{subsection.8.1.1}}
-\newlabel{sel1orig}{{8.1.1}{49}{Classification of MC data using Selection I Original CC-Inclusive Filter}{subsection.8.1.1}{}}
-\@writefile{lof}{\contentsline {figure}{\numberline {\relax 8.1}{\ignorespaces Snapshot of passing rates of Selection I from CC-Inclusive Filter\relax }}{50}{figure.caption.28}}
-\newlabel{fig:cuttable}{{\relax 8.1}{50}{Snapshot of passing rates of Selection I from CC-Inclusive Filter\relax }{figure.caption.28}{}}
-\newlabel{fig:confusion_wrongnorm}{{\relax 8.2a}{51}{Confusion Matrix showing Accuracy of CNN using data with wrong normilazion\relax }{figure.caption.29}{}}
-\newlabel{sub@fig:confusion_wrongnorm}{{a}{51}{Confusion Matrix showing Accuracy of CNN using data with wrong normilazion\relax }{figure.caption.29}{}}
-\newlabel{fig:prob_wrongnorm}{{\relax 8.2b}{51}{Probability plot showing $\mu /\pi $ separation of CNN using wrong normalization\relax }{figure.caption.29}{}}
-\newlabel{sub@fig:prob_wrongnorm}{{b}{51}{Probability plot showing $\mu /\pi $ separation of CNN using wrong normalization\relax }{figure.caption.29}{}}
-\newlabel{fig:confusion_rightnorm}{{\relax 8.2c}{51}{Confusion Matrix showing Accuracy of CNN using data with correct normilazion\relax }{figure.caption.29}{}}
-\newlabel{sub@fig:confusion_rightnorm}{{c}{51}{Confusion Matrix showing Accuracy of CNN using data with correct normilazion\relax }{figure.caption.29}{}}
-\newlabel{fig:prob_rightnorm}{{\relax 8.2d}{51}{Probability plot showing $\mu /\pi $ separation of CNN using correct normalization\relax }{figure.caption.29}{}}
-\newlabel{sub@fig:prob_rightnorm}{{d}{51}{Probability plot showing $\mu /\pi $ separation of CNN using correct normalization\relax }{figure.caption.29}{}}
-\@writefile{lof}{\contentsline {figure}{\numberline {\relax 8.2}{\ignorespaces Results of CNN10000 classification of track candidate images output from cc-inclusive filter.\relax }}{51}{figure.caption.29}}
-\@writefile{lof}{\contentsline {subfigure}{\numberline {\relax 8.2a}{\ignorespaces Confusion Matrix showing Accuracy of CNN using data with wrong normilazion\relax }}{51}{figure.caption.29}}
-\@writefile{lof}{\contentsline {subfigure}{\numberline {\relax 8.2b}{\ignorespaces Probability plot showing $\mymath  {\@Oldmu }\xspace  /\mymath  {\@Oldpi }\xspace  $ separation of CNN using wrong normalization\relax }}{51}{figure.caption.29}}
-\@writefile{lof}{\contentsline {subfigure}{\numberline {\relax 8.2c}{\ignorespaces Confusion Matrix showing Accuracy of CNN using data with correct normilazion\relax }}{51}{figure.caption.29}}
-\@writefile{lof}{\contentsline {subfigure}{\numberline {\relax 8.2d}{\ignorespaces Probability plot showing $\mymath  {\@Oldmu }\xspace  /\mymath  {\@Oldpi }\xspace  $ separation of CNN using correct normalization\relax }}{51}{figure.caption.29}}
-\newlabel{fig:CNN_ccnc}{{\relax 8.2}{51}{Results of CNN10000 classification of track candidate images output from cc-inclusive filter.\relax }{figure.caption.29}{}}
-\newlabel{fig:track_wrongnorm}{{\relax 8.3a}{52}{Track range distribution of events from Selection I Original passing CNN with 70\% accuracy using image data with wrong normilazion\relax }{figure.caption.30}{}}
-\newlabel{sub@fig:track_wrongnorm}{{a}{52}{Track range distribution of events from Selection I Original passing CNN with 70\% accuracy using image data with wrong normilazion\relax }{figure.caption.30}{}}
-\newlabel{fig:track_rightnorm}{{\relax 8.3b}{52}{Track range distribution of events from Selection I Original passing CNN with 70\% accuracy using image data with correct normilazion\relax }{figure.caption.30}{}}
-\newlabel{sub@fig:track_rightnorm}{{b}{52}{Track range distribution of events from Selection I Original passing CNN with 70\% accuracy using image data with correct normilazion\relax }{figure.caption.30}{}}
-\newlabel{fig:momentum_wrongnorm}{{\relax 8.3c}{52}{Momentum distribution of events from Selection I Original passing CNN with 70\% accuracy using image data with wrong normilazion\relax }{figure.caption.30}{}}
-\newlabel{sub@fig:momentum_wrongnorm}{{c}{52}{Momentum distribution of events from Selection I Original passing CNN with 70\% accuracy using image data with wrong normilazion\relax }{figure.caption.30}{}}
-\newlabel{fig:momentum_rightnorm}{{\relax 8.3d}{52}{Momentum distribution of events from Selection I Original passing CNN with 70\% accuracy using image data with correct normilazion\relax }{figure.caption.30}{}}
-\newlabel{sub@fig:momentum_rightnorm}{{d}{52}{Momentum distribution of events from Selection I Original passing CNN with 70\% accuracy using image data with correct normilazion\relax }{figure.caption.30}{}}
-\@writefile{lof}{\contentsline {figure}{\numberline {\relax 8.3}{\ignorespaces CNN10000 distributions of track candidate images output from Selection I Original cc-inclusive filter with different image data normalizations\relax }}{52}{figure.caption.30}}
-\@writefile{lof}{\contentsline {subfigure}{\numberline {\relax 8.3a}{\ignorespaces Track range distribution of events from Selection I Original passing CNN with 70\% accuracy using image data with wrong normilazion\relax }}{52}{figure.caption.30}}
-\@writefile{lof}{\contentsline {subfigure}{\numberline {\relax 8.3b}{\ignorespaces Track range distribution of events from Selection I Original passing CNN with 70\% accuracy using image data with correct normilazion\relax }}{52}{figure.caption.30}}
-\@writefile{lof}{\contentsline {subfigure}{\numberline {\relax 8.3c}{\ignorespaces Momentum distribution of events from Selection I Original passing CNN with 70\% accuracy using image data with wrong normilazion\relax }}{52}{figure.caption.30}}
-\@writefile{lof}{\contentsline {subfigure}{\numberline {\relax 8.3d}{\ignorespaces Momentum distribution of events from Selection I Original passing CNN with 70\% accuracy using image data with correct normilazion\relax }}{52}{figure.caption.30}}
-\newlabel{fig:CNN_dist}{{\relax 8.3}{52}{CNN10000 distributions of track candidate images output from Selection I Original cc-inclusive filter with different image data normalizations\relax }{figure.caption.30}{}}
+\newlabel{ch:cnn_results}{{8}{61}{Results of Convolutional Neural Networks on particles \textcolor {red}{\textbf {WORKING TITLE}}}{chapter.8}{}}
+\@writefile{toc}{\contentsline {section}{\numberline {8.1}Classification using CNN10000}{61}{section.8.1}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {8.1.1}Classification of MC data using Selection I Original CC-Inclusive Filter}{61}{subsection.8.1.1}}
+\newlabel{sel1orig}{{8.1.1}{61}{Classification of MC data using Selection I Original CC-Inclusive Filter}{subsection.8.1.1}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {\relax 8.1}{\ignorespaces Snapshot of passing rates of Selection I from CC-Inclusive Filter\relax }}{62}{figure.caption.50}}
+\newlabel{fig:cuttable}{{\relax 8.1}{62}{Snapshot of passing rates of Selection I from CC-Inclusive Filter\relax }{figure.caption.50}{}}
+\newlabel{fig:confusion_wrongnorm}{{\relax 8.2a}{63}{Confusion Matrix showing Accuracy of CNN using data with wrong normilazion\relax }{figure.caption.51}{}}
+\newlabel{sub@fig:confusion_wrongnorm}{{a}{63}{Confusion Matrix showing Accuracy of CNN using data with wrong normilazion\relax }{figure.caption.51}{}}
+\newlabel{fig:prob_wrongnorm}{{\relax 8.2b}{63}{Probability plot showing $\mu /\pi $ separation of CNN using wrong normalization\relax }{figure.caption.51}{}}
+\newlabel{sub@fig:prob_wrongnorm}{{b}{63}{Probability plot showing $\mu /\pi $ separation of CNN using wrong normalization\relax }{figure.caption.51}{}}
+\newlabel{fig:confusion_rightnorm}{{\relax 8.2c}{63}{Confusion Matrix showing Accuracy of CNN using data with correct normilazion\relax }{figure.caption.51}{}}
+\newlabel{sub@fig:confusion_rightnorm}{{c}{63}{Confusion Matrix showing Accuracy of CNN using data with correct normilazion\relax }{figure.caption.51}{}}
+\newlabel{fig:prob_rightnorm}{{\relax 8.2d}{63}{Probability plot showing $\mu /\pi $ separation of CNN using correct normalization\relax }{figure.caption.51}{}}
+\newlabel{sub@fig:prob_rightnorm}{{d}{63}{Probability plot showing $\mu /\pi $ separation of CNN using correct normalization\relax }{figure.caption.51}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {\relax 8.2}{\ignorespaces Results of CNN10000 classification of track candidate images output from cc-inclusive filter.\relax }}{63}{figure.caption.51}}
+\@writefile{lof}{\contentsline {subfigure}{\numberline {\relax 8.2a}{\ignorespaces Confusion Matrix showing Accuracy of CNN using data with wrong normilazion\relax }}{63}{figure.caption.51}}
+\@writefile{lof}{\contentsline {subfigure}{\numberline {\relax 8.2b}{\ignorespaces Probability plot showing $\mymath  {\@Oldmu }\xspace  /\mymath  {\@Oldpi }\xspace  $ separation of CNN using wrong normalization\relax }}{63}{figure.caption.51}}
+\@writefile{lof}{\contentsline {subfigure}{\numberline {\relax 8.2c}{\ignorespaces Confusion Matrix showing Accuracy of CNN using data with correct normilazion\relax }}{63}{figure.caption.51}}
+\@writefile{lof}{\contentsline {subfigure}{\numberline {\relax 8.2d}{\ignorespaces Probability plot showing $\mymath  {\@Oldmu }\xspace  /\mymath  {\@Oldpi }\xspace  $ separation of CNN using correct normalization\relax }}{63}{figure.caption.51}}
+\newlabel{fig:CNN_ccnc}{{\relax 8.2}{63}{Results of CNN10000 classification of track candidate images output from cc-inclusive filter.\relax }{figure.caption.51}{}}
+\newlabel{fig:track_wrongnorm}{{\relax 8.3a}{64}{Track range distribution of events from Selection I Original passing CNN with 70\% accuracy using image data with wrong normilazion\relax }{figure.caption.52}{}}
+\newlabel{sub@fig:track_wrongnorm}{{a}{64}{Track range distribution of events from Selection I Original passing CNN with 70\% accuracy using image data with wrong normilazion\relax }{figure.caption.52}{}}
+\newlabel{fig:track_rightnorm}{{\relax 8.3b}{64}{Track range distribution of events from Selection I Original passing CNN with 70\% accuracy using image data with correct normilazion\relax }{figure.caption.52}{}}
+\newlabel{sub@fig:track_rightnorm}{{b}{64}{Track range distribution of events from Selection I Original passing CNN with 70\% accuracy using image data with correct normilazion\relax }{figure.caption.52}{}}
+\newlabel{fig:momentum_wrongnorm}{{\relax 8.3c}{64}{Momentum distribution of events from Selection I Original passing CNN with 70\% accuracy using image data with wrong normilazion\relax }{figure.caption.52}{}}
+\newlabel{sub@fig:momentum_wrongnorm}{{c}{64}{Momentum distribution of events from Selection I Original passing CNN with 70\% accuracy using image data with wrong normilazion\relax }{figure.caption.52}{}}
+\newlabel{fig:momentum_rightnorm}{{\relax 8.3d}{64}{Momentum distribution of events from Selection I Original passing CNN with 70\% accuracy using image data with correct normilazion\relax }{figure.caption.52}{}}
+\newlabel{sub@fig:momentum_rightnorm}{{d}{64}{Momentum distribution of events from Selection I Original passing CNN with 70\% accuracy using image data with correct normilazion\relax }{figure.caption.52}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {\relax 8.3}{\ignorespaces CNN10000 distributions of track candidate images output from Selection I Original cc-inclusive filter with different image data normalizations\relax }}{64}{figure.caption.52}}
+\@writefile{lof}{\contentsline {subfigure}{\numberline {\relax 8.3a}{\ignorespaces Track range distribution of events from Selection I Original passing CNN with 70\% accuracy using image data with wrong normilazion\relax }}{64}{figure.caption.52}}
+\@writefile{lof}{\contentsline {subfigure}{\numberline {\relax 8.3b}{\ignorespaces Track range distribution of events from Selection I Original passing CNN with 70\% accuracy using image data with correct normilazion\relax }}{64}{figure.caption.52}}
+\@writefile{lof}{\contentsline {subfigure}{\numberline {\relax 8.3c}{\ignorespaces Momentum distribution of events from Selection I Original passing CNN with 70\% accuracy using image data with wrong normilazion\relax }}{64}{figure.caption.52}}
+\@writefile{lof}{\contentsline {subfigure}{\numberline {\relax 8.3d}{\ignorespaces Momentum distribution of events from Selection I Original passing CNN with 70\% accuracy using image data with correct normilazion\relax }}{64}{figure.caption.52}}
+\newlabel{fig:CNN_dist}{{\relax 8.3}{64}{CNN10000 distributions of track candidate images output from Selection I Original cc-inclusive filter with different image data normalizations\relax }{figure.caption.52}{}}
 \citation{cc-inclusive}
-\@writefile{toc}{\contentsline {subsection}{\numberline {8.1.2}Classification of MC data using Selection I Modified CC-Inclusive Filter}{53}{subsection.8.1.2}}
-\@writefile{lof}{\contentsline {figure}{\numberline {\relax 8.4}{\ignorespaces Snapshot of passing rates of all cuts from Selection I Modified cc-inclusive filter\relax }}{53}{figure.caption.31}}
-\newlabel{fig:table1}{{\relax 8.4}{53}{Snapshot of passing rates of all cuts from Selection I Modified cc-inclusive filter\relax }{figure.caption.31}{}}
-\newlabel{fig:confusion_sel1mod}{{\relax 8.5a}{54}{Confusion Matrix for CNN10000 classified events from selection I modified\relax }{figure.caption.32}{}}
-\newlabel{sub@fig:confusion_sel1mod}{{a}{54}{Confusion Matrix for CNN10000 classified events from selection I modified\relax }{figure.caption.32}{}}
-\newlabel{fig:prob_sel1mod}{{\relax 8.5b}{54}{Probability plot for CNN10000 classified events from selection I modified\relax }{figure.caption.32}{}}
-\newlabel{sub@fig:prob_sel1mod}{{b}{54}{Probability plot for CNN10000 classified events from selection I modified\relax }{figure.caption.32}{}}
-\@writefile{lof}{\contentsline {figure}{\numberline {\relax 8.5}{\ignorespaces Confusion matrix and probability plot of events passing selection I modified cc-inclusive cuts right before 75cm track length cut\relax }}{54}{figure.caption.32}}
-\@writefile{lof}{\contentsline {subfigure}{\numberline {\relax 8.5a}{\ignorespaces Confusion Matrix for CNN10000 classified events from selection I modified\relax }}{54}{figure.caption.32}}
-\@writefile{lof}{\contentsline {subfigure}{\numberline {\relax 8.5b}{\ignorespaces Probability plot for CNN10000 classified events from selection I modified\relax }}{54}{figure.caption.32}}
-\newlabel{probplots}{{\relax 8.5}{54}{Confusion matrix and probability plot of events passing selection I modified cc-inclusive cuts right before 75cm track length cut\relax }{figure.caption.32}{}}
-\newlabel{fig:sel1mod_track}{{\relax 8.6a}{55}{Track range distribution of events from Selection I Modified passing CNN with 70\% accuracy\relax }{figure.caption.33}{}}
-\newlabel{sub@fig:sel1mod_track}{{a}{55}{Track range distribution of events from Selection I Modified passing CNN with 70\% accuracy\relax }{figure.caption.33}{}}
-\newlabel{fig:sel1mod_stackedcnn}{{\relax 8.6b}{55}{Stacked signal and background track range distributions from Selection I Modified passing CNN with 70\% accuracy\relax }{figure.caption.33}{}}
-\newlabel{sub@fig:sel1mod_stackedcnn}{{b}{55}{Stacked signal and background track range distributions from Selection I Modified passing CNN with 70\% accuracy\relax }{figure.caption.33}{}}
-\newlabel{fig:sel1mod_stackedoriginal}{{\relax 8.6c}{55}{Stacked signal and background track range distributions from Selection I Modified passing 75 cm track length cut\relax }{figure.caption.33}{}}
-\newlabel{sub@fig:sel1mod_stackedoriginal}{{c}{55}{Stacked signal and background track range distributions from Selection I Modified passing 75 cm track length cut\relax }{figure.caption.33}{}}
-\newlabel{fig:sel1mod_mupi_70stackedcnn}{{\relax 8.6d}{55}{Stacked signal muons and background muons/pions of track range distributions from Selection I Modified passing CNN with 70\% accuracy\relax }{figure.caption.33}{}}
-\newlabel{sub@fig:sel1mod_mupi_70stackedcnn}{{d}{55}{Stacked signal muons and background muons/pions of track range distributions from Selection I Modified passing CNN with 70\% accuracy\relax }{figure.caption.33}{}}
-\newlabel{fig:sel1mod_mupi_70stackedoriginal}{{\relax 8.6e}{55}{Stacked signal muons and background muons/pions of track range distributions from Selection I Modified passing 75 cm track length cut\relax }{figure.caption.33}{}}
-\newlabel{sub@fig:sel1mod_mupi_70stackedoriginal}{{e}{55}{Stacked signal muons and background muons/pions of track range distributions from Selection I Modified passing 75 cm track length cut\relax }{figure.caption.33}{}}
-\@writefile{lof}{\contentsline {figure}{\numberline {\relax 8.6}{\ignorespaces CNN10000 distributions of track candidate images output from Selection I Modified cc-inclusive filter\relax }}{55}{figure.caption.33}}
-\@writefile{lof}{\contentsline {subfigure}{\numberline {\relax 8.6a}{\ignorespaces Track range distribution of events from Selection I Modified passing CNN with 70\% accuracy\relax }}{55}{figure.caption.33}}
-\@writefile{lof}{\contentsline {subfigure}{\numberline {\relax 8.6b}{\ignorespaces Stacked signal and background track range distributions from Selection I Modified passing CNN with 70\% accuracy\relax }}{55}{figure.caption.33}}
-\@writefile{lof}{\contentsline {subfigure}{\numberline {\relax 8.6c}{\ignorespaces Stacked signal and background track range distributions from Selection I Modified passing 75 cm track length cut\relax }}{55}{figure.caption.33}}
-\@writefile{lof}{\contentsline {subfigure}{\numberline {\relax 8.6d}{\ignorespaces Stacked signal muons and background muons/pions of track range distributions from Selection I Modified passing CNN with 70\% accuracy\relax }}{55}{figure.caption.33}}
-\@writefile{lof}{\contentsline {subfigure}{\numberline {\relax 8.6e}{\ignorespaces Stacked signal muons and background muons/pions of track range distributions from Selection I Modified passing 75 cm track length cut\relax }}{55}{figure.caption.33}}
-\newlabel{fig:sel1mod_CNN_dist}{{\relax 8.6}{55}{CNN10000 distributions of track candidate images output from Selection I Modified cc-inclusive filter\relax }{figure.caption.33}{}}
-\newlabel{fig:sel1mod_mupi_75stackedcnn}{{\relax 8.7a}{56}{Stacked signal muons and background muons/pions of track range distributions from Selection I Modified passing CNN with 75\% accuracy\relax }{figure.caption.34}{}}
-\newlabel{sub@fig:sel1mod_mupi_75stackedcnn}{{a}{56}{Stacked signal muons and background muons/pions of track range distributions from Selection I Modified passing CNN with 75\% accuracy\relax }{figure.caption.34}{}}
-\newlabel{fig:sel1mod_mupi_80stackedcnn}{{\relax 8.7b}{56}{Stacked signal muons and background muons/pions of track range distributions from Selection I Modified passing CNN with 80\% accuracy\relax }{figure.caption.34}{}}
-\newlabel{sub@fig:sel1mod_mupi_80stackedcnn}{{b}{56}{Stacked signal muons and background muons/pions of track range distributions from Selection I Modified passing CNN with 80\% accuracy\relax }{figure.caption.34}{}}
-\newlabel{fig:sel1mod_mupi_85stackedcnn}{{\relax 8.7c}{56}{Stacked signal muons and background muons/pions of track range distributions from Selection I Modified passing CNN with 85\% accuracy\relax }{figure.caption.34}{}}
-\newlabel{sub@fig:sel1mod_mupi_85stackedcnn}{{c}{56}{Stacked signal muons and background muons/pions of track range distributions from Selection I Modified passing CNN with 85\% accuracy\relax }{figure.caption.34}{}}
-\newlabel{fig:sel1mod_mupi_90stackedcnn}{{\relax 8.7d}{56}{Stacked signal muons and background muons/pions of track range distributions from Selection I Modified passing CNN with 90\% accuracy\relax }{figure.caption.34}{}}
-\newlabel{sub@fig:sel1mod_mupi_90stackedcnn}{{d}{56}{Stacked signal muons and background muons/pions of track range distributions from Selection I Modified passing CNN with 90\% accuracy\relax }{figure.caption.34}{}}
-\@writefile{lof}{\contentsline {figure}{\numberline {\relax 8.7}{\ignorespaces CNN10000 stacked signal/background track range distributions of track candidate images output from Selection I Modified cc-inclusive filter\relax }}{56}{figure.caption.34}}
-\@writefile{lof}{\contentsline {subfigure}{\numberline {\relax 8.7a}{\ignorespaces Stacked signal muons and background muons/pions of track range distributions from Selection I Modified passing CNN with 75\% accuracy\relax }}{56}{figure.caption.34}}
-\@writefile{lof}{\contentsline {subfigure}{\numberline {\relax 8.7b}{\ignorespaces Stacked signal muons and background muons/pions of track range distributions from Selection I Modified passing CNN with 80\% accuracy\relax }}{56}{figure.caption.34}}
-\@writefile{lof}{\contentsline {subfigure}{\numberline {\relax 8.7c}{\ignorespaces Stacked signal muons and background muons/pions of track range distributions from Selection I Modified passing CNN with 85\% accuracy\relax }}{56}{figure.caption.34}}
-\@writefile{lof}{\contentsline {subfigure}{\numberline {\relax 8.7d}{\ignorespaces Stacked signal muons and background muons/pions of track range distributions from Selection I Modified passing CNN with 90\% accuracy\relax }}{56}{figure.caption.34}}
-\newlabel{fig:sel1modCNNdistacc}{{\relax 8.7}{56}{CNN10000 stacked signal/background track range distributions of track candidate images output from Selection I Modified cc-inclusive filter\relax }{figure.caption.34}{}}
-\newlabel{fig:sel1mod_momentum}{{\relax 8.8a}{57}{Momentum distribution of events from Selection I Modified passing CNN with 70\% accuracy\relax }{figure.caption.35}{}}
-\newlabel{sub@fig:sel1mod_momentum}{{a}{57}{Momentum distribution of events from Selection I Modified passing CNN with 70\% accuracy\relax }{figure.caption.35}{}}
-\newlabel{fig:sel1mod_momentum_stackedcnn}{{\relax 8.8b}{57}{Stacked signal and background momentum distributions from Selection I Modified passing CNN with 70\% accuracy\relax }{figure.caption.35}{}}
-\newlabel{sub@fig:sel1mod_momentum_stackedcnn}{{b}{57}{Stacked signal and background momentum distributions from Selection I Modified passing CNN with 70\% accuracy\relax }{figure.caption.35}{}}
-\newlabel{fig:sel1mod_momentum_stackedoriginal}{{\relax 8.8c}{57}{Stacked signal and background momentum distributions from Selection I Modified passing 75 cm track length cut\relax }{figure.caption.35}{}}
-\newlabel{sub@fig:sel1mod_momentum_stackedoriginal}{{c}{57}{Stacked signal and background momentum distributions from Selection I Modified passing 75 cm track length cut\relax }{figure.caption.35}{}}
-\@writefile{lof}{\contentsline {figure}{\numberline {\relax 8.8}{\ignorespaces CNN10000 momentum distributions of track candidate images output from Selection I Modified cc-inclusive filter\relax }}{57}{figure.caption.35}}
-\@writefile{lof}{\contentsline {subfigure}{\numberline {\relax 8.8a}{\ignorespaces Momentum distribution of events from Selection I Modified passing CNN with 70\% accuracy\relax }}{57}{figure.caption.35}}
-\@writefile{lof}{\contentsline {subfigure}{\numberline {\relax 8.8b}{\ignorespaces Stacked signal and background momentum distributions from Selection I Modified passing CNN with 70\% accuracy\relax }}{57}{figure.caption.35}}
-\@writefile{lof}{\contentsline {subfigure}{\numberline {\relax 8.8c}{\ignorespaces Stacked signal and background momentum distributions from Selection I Modified passing 75 cm track length cut\relax }}{57}{figure.caption.35}}
-\newlabel{fig:sel1mod_parP}{{\relax 8.8}{57}{CNN10000 momentum distributions of track candidate images output from Selection I Modified cc-inclusive filter\relax }{figure.caption.35}{}}
-\@writefile{lof}{\contentsline {figure}{\numberline {\relax 8.9}{\ignorespaces Track distribution comparisons of true CC muons plotted vs true CC muons and pions plotted\relax }}{59}{figure.caption.36}}
-\@writefile{lof}{\contentsline {subfigure}{\numberline {\relax 8.9a}{\ignorespaces Stacked signal $\mymath  {\@Oldmu }\xspace  $/backround $\mymath  {\@Oldmu }\xspace  $ and $\mymath  {\@Oldpi }\xspace  $ track range distribution of CNN @ 70\%\relax }}{59}{figure.caption.36}}
-\@writefile{lof}{\contentsline {subfigure}{\numberline {\relax 8.9b}{\ignorespaces Stacked signal $\mymath  {\@Oldmu }\xspace  \& \mymath  {\@Oldpi }\xspace  $/backround $\mymath  {\@Oldmu }\xspace  \& \mymath  {\@Oldpi }\xspace  $ track range distribution of CNN @ 70\%\relax }}{59}{figure.caption.36}}
-\newlabel{fig:mupi}{{\relax 8.9}{59}{Track distribution comparisons of true CC muons plotted vs true CC muons and pions plotted\relax }{figure.caption.36}{}}
-\newlabel{fig:longer_muon_badreco}{{\relax 8.10a}{59}{Pion recontructed track range is less than 75 cm and longer than muon track due to dead wires\relax }{figure.caption.37}{}}
-\newlabel{sub@fig:longer_muon_badreco}{{a}{59}{Pion recontructed track range is less than 75 cm and longer than muon track due to dead wires\relax }{figure.caption.37}{}}
-\newlabel{fig:longer_pion}{{\relax 8.10b}{59}{Pion recontructed track range is less than 75 cm and larger than muon reconstructed track\relax }{figure.caption.37}{}}
-\newlabel{sub@fig:longer_pion}{{b}{59}{Pion recontructed track range is less than 75 cm and larger than muon reconstructed track\relax }{figure.caption.37}{}}
-\newlabel{fig:verylongpion}{{\relax 8.10c}{59}{Pion reconstructed track range is greater than 75 cm and larger than muon reconstructed track\relax }{figure.caption.37}{}}
-\newlabel{sub@fig:verylongpion}{{c}{59}{Pion reconstructed track range is greater than 75 cm and larger than muon reconstructed track\relax }{figure.caption.37}{}}
-\@writefile{lof}{\contentsline {figure}{\numberline {\relax 8.10}{\ignorespaces Images of true CC events where the pion was the tagged track candidate\relax }}{59}{figure.caption.37}}
-\@writefile{lof}{\contentsline {subfigure}{\numberline {\relax 8.10a}{\ignorespaces Pion recontructed track range is less than 75 cm and longer than muon track due to dead wires\relax }}{59}{figure.caption.37}}
-\@writefile{lof}{\contentsline {subfigure}{\numberline {\relax 8.10b}{\ignorespaces Pion recontructed track range is less than 75 cm and larger than muon reconstructed track\relax }}{59}{figure.caption.37}}
-\@writefile{lof}{\contentsline {subfigure}{\numberline {\relax 8.10c}{\ignorespaces Pion reconstructed track range is greater than 75 cm and larger than muon reconstructed track\relax }}{59}{figure.caption.37}}
-\newlabel{fig:evd}{{\relax 8.10}{59}{Images of true CC events where the pion was the tagged track candidate\relax }{figure.caption.37}{}}
-\citation{cc-inclusive}
-\citation{cc-inclusive}
-\@writefile{lot}{\contentsline {table}{\numberline {\relax 8.1}{\ignorespaces Comparing passing rates of CNN at different probabilities versus 75 cm track length cut: Numbers are absolute event counts and Cosmic background is not scaled appropriately. The BNB+Cosmic sample contains all events. The numbers in brackets give the passing rate wrt the step before (first percentage) and wrt the generated events (second percentage). In the BNB+Cosmic MC Truth column shows how many true $\mymath  {\@Oldnu }\xspace  _{\mymath  {\@Oldmu }\xspace  }$ CC-inclusive events (in FV) are left in the sample. This number includes possible mis-identifications where a cosmic track is picked by the selection instead of the neutrino interaction in the same event.The CNN MC True generated events were scaled wrt the MC True generated events for the 75 cm cut passing rates due to only running over 188,880 generated events versus the 191362 generated events. The last column Signal:Cosmic only gives an estimate of the $\mymath  {\@Oldnu }\xspace  _{\mymath  {\@Oldmu }\xspace  }$ CC events wrt the cosmic only background at each step. For this number, the cosmic background has been scaled as described in \cite  {cc-inclusive}. Note that these numbers are not a purity, since other backgrounds can’t be determined at this step.\relax }}{60}{table.caption.38}}
-\newlabel{table:passingrates}{{\relax 8.1}{60}{Comparing passing rates of CNN at different probabilities versus 75 cm track length cut: Numbers are absolute event counts and Cosmic background is not scaled appropriately. The BNB+Cosmic sample contains all events. The numbers in brackets give the passing rate wrt the step before (first percentage) and wrt the generated events (second percentage). In the BNB+Cosmic MC Truth column shows how many true $\nu _{\mu }$ CC-inclusive events (in FV) are left in the sample. This number includes possible mis-identifications where a cosmic track is picked by the selection instead of the neutrino interaction in the same event.The CNN MC True generated events were scaled wrt the MC True generated events for the 75 cm cut passing rates due to only running over 188,880 generated events versus the 191362 generated events. The last column Signal:Cosmic only gives an estimate of the $\nu _{\mu }$ CC events wrt the cosmic only background at each step. For this number, the cosmic background has been scaled as described in \cite {cc-inclusive}. Note that these numbers are not a purity, since other backgrounds can’t be determined at this step.\relax }{table.caption.38}{}}
-\@writefile{lot}{\contentsline {table}{\numberline {\relax 8.2}{\ignorespaces Signal and background event numbers at modified selection level with CNN cut estimated from a BNB+Cosmic sample and Cosmic only sample normalized to $5*10^{19}$ PoT. The last column gives the fraction of this signal or background type to the total selected events per CNN probability.\relax }}{60}{table.caption.39}}
-\newlabel{table:purity}{{\relax 8.2}{60}{Signal and background event numbers at modified selection level with CNN cut estimated from a BNB+Cosmic sample and Cosmic only sample normalized to $5*10^{19}$ PoT. The last column gives the fraction of this signal or background type to the total selected events per CNN probability.\relax }{table.caption.39}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {8.1.2}Classification of MC data using Selection I Modified CC-Inclusive Filter}{65}{subsection.8.1.2}}
+\@writefile{lof}{\contentsline {figure}{\numberline {\relax 8.4}{\ignorespaces Snapshot of passing rates of all cuts from Selection I Modified cc-inclusive filter\relax }}{65}{figure.caption.53}}
+\newlabel{fig:table1}{{\relax 8.4}{65}{Snapshot of passing rates of all cuts from Selection I Modified cc-inclusive filter\relax }{figure.caption.53}{}}
+\newlabel{fig:confusion_sel1mod}{{\relax 8.5a}{66}{Confusion Matrix for CNN10000 classified events from selection I modified\relax }{figure.caption.54}{}}
+\newlabel{sub@fig:confusion_sel1mod}{{a}{66}{Confusion Matrix for CNN10000 classified events from selection I modified\relax }{figure.caption.54}{}}
+\newlabel{fig:prob_sel1mod}{{\relax 8.5b}{66}{Probability plot for CNN10000 classified events from selection I modified\relax }{figure.caption.54}{}}
+\newlabel{sub@fig:prob_sel1mod}{{b}{66}{Probability plot for CNN10000 classified events from selection I modified\relax }{figure.caption.54}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {\relax 8.5}{\ignorespaces Confusion matrix and probability plot of events passing selection I modified cc-inclusive cuts right before 75cm track length cut\relax }}{66}{figure.caption.54}}
+\@writefile{lof}{\contentsline {subfigure}{\numberline {\relax 8.5a}{\ignorespaces Confusion Matrix for CNN10000 classified events from selection I modified\relax }}{66}{figure.caption.54}}
+\@writefile{lof}{\contentsline {subfigure}{\numberline {\relax 8.5b}{\ignorespaces Probability plot for CNN10000 classified events from selection I modified\relax }}{66}{figure.caption.54}}
+\newlabel{probplots}{{\relax 8.5}{66}{Confusion matrix and probability plot of events passing selection I modified cc-inclusive cuts right before 75cm track length cut\relax }{figure.caption.54}{}}
+\newlabel{fig:sel1mod_track}{{\relax 8.6a}{67}{Track range distribution of events from Selection I Modified passing CNN with 70\% accuracy\relax }{figure.caption.55}{}}
+\newlabel{sub@fig:sel1mod_track}{{a}{67}{Track range distribution of events from Selection I Modified passing CNN with 70\% accuracy\relax }{figure.caption.55}{}}
+\newlabel{fig:sel1mod_stackedcnn}{{\relax 8.6b}{67}{Stacked signal and background track range distributions from Selection I Modified passing CNN with 70\% accuracy\relax }{figure.caption.55}{}}
+\newlabel{sub@fig:sel1mod_stackedcnn}{{b}{67}{Stacked signal and background track range distributions from Selection I Modified passing CNN with 70\% accuracy\relax }{figure.caption.55}{}}
+\newlabel{fig:sel1mod_stackedoriginal}{{\relax 8.6c}{67}{Stacked signal and background track range distributions from Selection I Modified passing 75 cm track length cut\relax }{figure.caption.55}{}}
+\newlabel{sub@fig:sel1mod_stackedoriginal}{{c}{67}{Stacked signal and background track range distributions from Selection I Modified passing 75 cm track length cut\relax }{figure.caption.55}{}}
+\newlabel{fig:sel1mod_mupi_70stackedcnn}{{\relax 8.6d}{67}{Stacked signal muons and background muons/pions of track range distributions from Selection I Modified passing CNN with 70\% accuracy\relax }{figure.caption.55}{}}
+\newlabel{sub@fig:sel1mod_mupi_70stackedcnn}{{d}{67}{Stacked signal muons and background muons/pions of track range distributions from Selection I Modified passing CNN with 70\% accuracy\relax }{figure.caption.55}{}}
+\newlabel{fig:sel1mod_mupi_70stackedoriginal}{{\relax 8.6e}{67}{Stacked signal muons and background muons/pions of track range distributions from Selection I Modified passing 75 cm track length cut\relax }{figure.caption.55}{}}
+\newlabel{sub@fig:sel1mod_mupi_70stackedoriginal}{{e}{67}{Stacked signal muons and background muons/pions of track range distributions from Selection I Modified passing 75 cm track length cut\relax }{figure.caption.55}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {\relax 8.6}{\ignorespaces CNN10000 distributions of track candidate images output from Selection I Modified cc-inclusive filter\relax }}{67}{figure.caption.55}}
+\@writefile{lof}{\contentsline {subfigure}{\numberline {\relax 8.6a}{\ignorespaces Track range distribution of events from Selection I Modified passing CNN with 70\% accuracy\relax }}{67}{figure.caption.55}}
+\@writefile{lof}{\contentsline {subfigure}{\numberline {\relax 8.6b}{\ignorespaces Stacked signal and background track range distributions from Selection I Modified passing CNN with 70\% accuracy\relax }}{67}{figure.caption.55}}
+\@writefile{lof}{\contentsline {subfigure}{\numberline {\relax 8.6c}{\ignorespaces Stacked signal and background track range distributions from Selection I Modified passing 75 cm track length cut\relax }}{67}{figure.caption.55}}
+\@writefile{lof}{\contentsline {subfigure}{\numberline {\relax 8.6d}{\ignorespaces Stacked signal muons and background muons/pions of track range distributions from Selection I Modified passing CNN with 70\% accuracy\relax }}{67}{figure.caption.55}}
+\@writefile{lof}{\contentsline {subfigure}{\numberline {\relax 8.6e}{\ignorespaces Stacked signal muons and background muons/pions of track range distributions from Selection I Modified passing 75 cm track length cut\relax }}{67}{figure.caption.55}}
+\newlabel{fig:sel1mod_CNN_dist}{{\relax 8.6}{67}{CNN10000 distributions of track candidate images output from Selection I Modified cc-inclusive filter\relax }{figure.caption.55}{}}
+\newlabel{fig:sel1mod_mupi_75stackedcnn}{{\relax 8.7a}{68}{Stacked signal muons and background muons/pions of track range distributions from Selection I Modified passing CNN with 75\% accuracy\relax }{figure.caption.56}{}}
+\newlabel{sub@fig:sel1mod_mupi_75stackedcnn}{{a}{68}{Stacked signal muons and background muons/pions of track range distributions from Selection I Modified passing CNN with 75\% accuracy\relax }{figure.caption.56}{}}
+\newlabel{fig:sel1mod_mupi_80stackedcnn}{{\relax 8.7b}{68}{Stacked signal muons and background muons/pions of track range distributions from Selection I Modified passing CNN with 80\% accuracy\relax }{figure.caption.56}{}}
+\newlabel{sub@fig:sel1mod_mupi_80stackedcnn}{{b}{68}{Stacked signal muons and background muons/pions of track range distributions from Selection I Modified passing CNN with 80\% accuracy\relax }{figure.caption.56}{}}
+\newlabel{fig:sel1mod_mupi_85stackedcnn}{{\relax 8.7c}{68}{Stacked signal muons and background muons/pions of track range distributions from Selection I Modified passing CNN with 85\% accuracy\relax }{figure.caption.56}{}}
+\newlabel{sub@fig:sel1mod_mupi_85stackedcnn}{{c}{68}{Stacked signal muons and background muons/pions of track range distributions from Selection I Modified passing CNN with 85\% accuracy\relax }{figure.caption.56}{}}
+\newlabel{fig:sel1mod_mupi_90stackedcnn}{{\relax 8.7d}{68}{Stacked signal muons and background muons/pions of track range distributions from Selection I Modified passing CNN with 90\% accuracy\relax }{figure.caption.56}{}}
+\newlabel{sub@fig:sel1mod_mupi_90stackedcnn}{{d}{68}{Stacked signal muons and background muons/pions of track range distributions from Selection I Modified passing CNN with 90\% accuracy\relax }{figure.caption.56}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {\relax 8.7}{\ignorespaces CNN10000 stacked signal/background track range distributions of track candidate images output from Selection I Modified cc-inclusive filter\relax }}{68}{figure.caption.56}}
+\@writefile{lof}{\contentsline {subfigure}{\numberline {\relax 8.7a}{\ignorespaces Stacked signal muons and background muons/pions of track range distributions from Selection I Modified passing CNN with 75\% accuracy\relax }}{68}{figure.caption.56}}
+\@writefile{lof}{\contentsline {subfigure}{\numberline {\relax 8.7b}{\ignorespaces Stacked signal muons and background muons/pions of track range distributions from Selection I Modified passing CNN with 80\% accuracy\relax }}{68}{figure.caption.56}}
+\@writefile{lof}{\contentsline {subfigure}{\numberline {\relax 8.7c}{\ignorespaces Stacked signal muons and background muons/pions of track range distributions from Selection I Modified passing CNN with 85\% accuracy\relax }}{68}{figure.caption.56}}
+\@writefile{lof}{\contentsline {subfigure}{\numberline {\relax 8.7d}{\ignorespaces Stacked signal muons and background muons/pions of track range distributions from Selection I Modified passing CNN with 90\% accuracy\relax }}{68}{figure.caption.56}}
+\newlabel{fig:sel1modCNNdistacc}{{\relax 8.7}{68}{CNN10000 stacked signal/background track range distributions of track candidate images output from Selection I Modified cc-inclusive filter\relax }{figure.caption.56}{}}
+\newlabel{fig:sel1mod_momentum}{{\relax 8.8a}{69}{Momentum distribution of events from Selection I Modified passing CNN with 70\% accuracy\relax }{figure.caption.57}{}}
+\newlabel{sub@fig:sel1mod_momentum}{{a}{69}{Momentum distribution of events from Selection I Modified passing CNN with 70\% accuracy\relax }{figure.caption.57}{}}
+\newlabel{fig:sel1mod_momentum_stackedcnn}{{\relax 8.8b}{69}{Stacked signal and background momentum distributions from Selection I Modified passing CNN with 70\% accuracy\relax }{figure.caption.57}{}}
+\newlabel{sub@fig:sel1mod_momentum_stackedcnn}{{b}{69}{Stacked signal and background momentum distributions from Selection I Modified passing CNN with 70\% accuracy\relax }{figure.caption.57}{}}
+\newlabel{fig:sel1mod_momentum_stackedoriginal}{{\relax 8.8c}{69}{Stacked signal and background momentum distributions from Selection I Modified passing 75 cm track length cut\relax }{figure.caption.57}{}}
+\newlabel{sub@fig:sel1mod_momentum_stackedoriginal}{{c}{69}{Stacked signal and background momentum distributions from Selection I Modified passing 75 cm track length cut\relax }{figure.caption.57}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {\relax 8.8}{\ignorespaces CNN10000 momentum distributions of track candidate images output from Selection I Modified cc-inclusive filter\relax }}{69}{figure.caption.57}}
+\@writefile{lof}{\contentsline {subfigure}{\numberline {\relax 8.8a}{\ignorespaces Momentum distribution of events from Selection I Modified passing CNN with 70\% accuracy\relax }}{69}{figure.caption.57}}
+\@writefile{lof}{\contentsline {subfigure}{\numberline {\relax 8.8b}{\ignorespaces Stacked signal and background momentum distributions from Selection I Modified passing CNN with 70\% accuracy\relax }}{69}{figure.caption.57}}
+\@writefile{lof}{\contentsline {subfigure}{\numberline {\relax 8.8c}{\ignorespaces Stacked signal and background momentum distributions from Selection I Modified passing 75 cm track length cut\relax }}{69}{figure.caption.57}}
+\newlabel{fig:sel1mod_parP}{{\relax 8.8}{69}{CNN10000 momentum distributions of track candidate images output from Selection I Modified cc-inclusive filter\relax }{figure.caption.57}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {\relax 8.9}{\ignorespaces Track distribution comparisons of true CC muons plotted vs true CC muons and pions plotted\relax }}{71}{figure.caption.58}}
+\@writefile{lof}{\contentsline {subfigure}{\numberline {\relax 8.9a}{\ignorespaces Stacked signal $\mymath  {\@Oldmu }\xspace  $/backround $\mymath  {\@Oldmu }\xspace  $ and $\mymath  {\@Oldpi }\xspace  $ track range distribution of CNN @ 70\%\relax }}{71}{figure.caption.58}}
+\@writefile{lof}{\contentsline {subfigure}{\numberline {\relax 8.9b}{\ignorespaces Stacked signal $\mymath  {\@Oldmu }\xspace  \& \mymath  {\@Oldpi }\xspace  $/backround $\mymath  {\@Oldmu }\xspace  \& \mymath  {\@Oldpi }\xspace  $ track range distribution of CNN @ 70\%\relax }}{71}{figure.caption.58}}
+\newlabel{fig:mupi}{{\relax 8.9}{71}{Track distribution comparisons of true CC muons plotted vs true CC muons and pions plotted\relax }{figure.caption.58}{}}
+\newlabel{fig:longer_muon_badreco}{{\relax 8.10a}{71}{Pion recontructed track range is less than 75 cm and longer than muon track due to dead wires\relax }{figure.caption.59}{}}
+\newlabel{sub@fig:longer_muon_badreco}{{a}{71}{Pion recontructed track range is less than 75 cm and longer than muon track due to dead wires\relax }{figure.caption.59}{}}
+\newlabel{fig:longer_pion}{{\relax 8.10b}{71}{Pion recontructed track range is less than 75 cm and larger than muon reconstructed track\relax }{figure.caption.59}{}}
+\newlabel{sub@fig:longer_pion}{{b}{71}{Pion recontructed track range is less than 75 cm and larger than muon reconstructed track\relax }{figure.caption.59}{}}
+\newlabel{fig:verylongpion}{{\relax 8.10c}{71}{Pion reconstructed track range is greater than 75 cm and larger than muon reconstructed track\relax }{figure.caption.59}{}}
+\newlabel{sub@fig:verylongpion}{{c}{71}{Pion reconstructed track range is greater than 75 cm and larger than muon reconstructed track\relax }{figure.caption.59}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {\relax 8.10}{\ignorespaces Images of true CC events where the pion was the tagged track candidate\relax }}{71}{figure.caption.59}}
+\@writefile{lof}{\contentsline {subfigure}{\numberline {\relax 8.10a}{\ignorespaces Pion recontructed track range is less than 75 cm and longer than muon track due to dead wires\relax }}{71}{figure.caption.59}}
+\@writefile{lof}{\contentsline {subfigure}{\numberline {\relax 8.10b}{\ignorespaces Pion recontructed track range is less than 75 cm and larger than muon reconstructed track\relax }}{71}{figure.caption.59}}
+\@writefile{lof}{\contentsline {subfigure}{\numberline {\relax 8.10c}{\ignorespaces Pion reconstructed track range is greater than 75 cm and larger than muon reconstructed track\relax }}{71}{figure.caption.59}}
+\newlabel{fig:evd}{{\relax 8.10}{71}{Images of true CC events where the pion was the tagged track candidate\relax }{figure.caption.59}{}}
 \citation{cc-inclusive}
 \citation{cc-inclusive}
-\@writefile{toc}{\contentsline {subsection}{\numberline {8.1.3}Conclusions and Future Work}{61}{subsection.8.1.3}}
-\@writefile{lof}{\contentsline {figure}{\numberline {\relax 8.11}{\ignorespaces Snapshot of signal and background event numbers of Selection I modified from cc-inclusive note \cite  {cc-inclusive}\relax }}{62}{figure.caption.40}}
-\newlabel{fig:pur_sel1mod}{{\relax 8.11}{62}{Snapshot of signal and background event numbers of Selection I modified from cc-inclusive note \cite {cc-inclusive}\relax }{figure.caption.40}{}}
-\@writefile{lof}{\contentsline {figure}{\numberline {\relax 8.12}{\ignorespaces CNN performance of classified muons and pions compared to the already implemented 75 cm track length cut\relax }}{62}{figure.caption.41}}
-\newlabel{fig:sel1mod_cnnperformance}{{\relax 8.12}{62}{CNN performance of classified muons and pions compared to the already implemented 75 cm track length cut\relax }{figure.caption.41}{}}
-\@writefile{toc}{\contentsline {section}{\numberline {8.2}Classification using CNN100000}{63}{section.8.2}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {8.2.1}Classification of MC data using Selection I Modified CC-Inclusive Filter}{63}{subsection.8.2.1}}
-\@writefile{toc}{\contentsline {chapter}{\numberline {9}Using Convolutional Neural Networks on MicroBooNE Data}{65}{chapter.9}}
+\@writefile{lot}{\contentsline {table}{\numberline {\relax 8.1}{\ignorespaces Comparing passing rates of CNN at different probabilities versus 75 cm track length cut: Numbers are absolute event counts and Cosmic background is not scaled appropriately. The BNB+Cosmic sample contains all events. The numbers in brackets give the passing rate wrt the step before (first percentage) and wrt the generated events (second percentage). In the BNB+Cosmic MC Truth column shows how many true $\mymath  {\@Oldnu }\xspace  _{\mymath  {\@Oldmu }\xspace  }$ CC-inclusive events (in FV) are left in the sample. This number includes possible mis-identifications where a cosmic track is picked by the selection instead of the neutrino interaction in the same event.The CNN MC True generated events were scaled wrt the MC True generated events for the 75 cm cut passing rates due to only running over 188,880 generated events versus the 191362 generated events. The last column Signal:Cosmic only gives an estimate of the $\mymath  {\@Oldnu }\xspace  _{\mymath  {\@Oldmu }\xspace  }$ CC events wrt the cosmic only background at each step. For this number, the cosmic background has been scaled as described in \cite  {cc-inclusive}. Note that these numbers are not a purity, since other backgrounds can’t be determined at this step.\relax }}{72}{table.caption.60}}
+\newlabel{table:passingrates}{{\relax 8.1}{72}{Comparing passing rates of CNN at different probabilities versus 75 cm track length cut: Numbers are absolute event counts and Cosmic background is not scaled appropriately. The BNB+Cosmic sample contains all events. The numbers in brackets give the passing rate wrt the step before (first percentage) and wrt the generated events (second percentage). In the BNB+Cosmic MC Truth column shows how many true $\nu _{\mu }$ CC-inclusive events (in FV) are left in the sample. This number includes possible mis-identifications where a cosmic track is picked by the selection instead of the neutrino interaction in the same event.The CNN MC True generated events were scaled wrt the MC True generated events for the 75 cm cut passing rates due to only running over 188,880 generated events versus the 191362 generated events. The last column Signal:Cosmic only gives an estimate of the $\nu _{\mu }$ CC events wrt the cosmic only background at each step. For this number, the cosmic background has been scaled as described in \cite {cc-inclusive}. Note that these numbers are not a purity, since other backgrounds can’t be determined at this step.\relax }{table.caption.60}{}}
+\@writefile{lot}{\contentsline {table}{\numberline {\relax 8.2}{\ignorespaces Signal and background event numbers at modified selection level with CNN cut estimated from a BNB+Cosmic sample and Cosmic only sample normalized to $5*10^{19}$ PoT. The last column gives the fraction of this signal or background type to the total selected events per CNN probability.\relax }}{72}{table.caption.61}}
+\newlabel{table:purity}{{\relax 8.2}{72}{Signal and background event numbers at modified selection level with CNN cut estimated from a BNB+Cosmic sample and Cosmic only sample normalized to $5*10^{19}$ PoT. The last column gives the fraction of this signal or background type to the total selected events per CNN probability.\relax }{table.caption.61}{}}
+\citation{cc-inclusive}
+\citation{cc-inclusive}
+\@writefile{toc}{\contentsline {subsection}{\numberline {8.1.3}Conclusions and Future Work}{73}{subsection.8.1.3}}
+\@writefile{lof}{\contentsline {figure}{\numberline {\relax 8.11}{\ignorespaces Snapshot of signal and background event numbers of Selection I modified from cc-inclusive note \cite  {cc-inclusive}\relax }}{74}{figure.caption.62}}
+\newlabel{fig:pur_sel1mod}{{\relax 8.11}{74}{Snapshot of signal and background event numbers of Selection I modified from cc-inclusive note \cite {cc-inclusive}\relax }{figure.caption.62}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {\relax 8.12}{\ignorespaces CNN performance of classified muons and pions compared to the already implemented 75 cm track length cut\relax }}{74}{figure.caption.63}}
+\newlabel{fig:sel1mod_cnnperformance}{{\relax 8.12}{74}{CNN performance of classified muons and pions compared to the already implemented 75 cm track length cut\relax }{figure.caption.63}{}}
+\@writefile{toc}{\contentsline {section}{\numberline {8.2}Classification using CNN100000}{75}{section.8.2}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {8.2.1}Classification of MC data using Selection I Modified CC-Inclusive Filter}{75}{subsection.8.2.1}}
+\@writefile{toc}{\contentsline {chapter}{\numberline {9}Using Convolutional Neural Networks on MicroBooNE Data}{77}{chapter.9}}
 \@writefile{lof}{\addvspace {10\p@ }}
 \@writefile{lot}{\addvspace {10\p@ }}
-\newlabel{ch:data}{{9}{65}{Using Convolutional Neural Networks on MicroBooNE Data}{chapter.9}{}}
-\@writefile{toc}{\contentsline {chapter}{\numberline {10}Comparing two CC-Inclusive Cross Section Selection Filters}{67}{chapter.10}}
+\newlabel{ch:data}{{9}{77}{Using Convolutional Neural Networks on MicroBooNE Data}{chapter.9}{}}
+\@writefile{toc}{\contentsline {chapter}{\numberline {10}Comparing two CC-Inclusive Cross Section Selection Filters}{79}{chapter.10}}
 \@writefile{lof}{\addvspace {10\p@ }}
 \@writefile{lot}{\addvspace {10\p@ }}
-\newlabel{ch:selImodcompare}{{10}{67}{Comparing two CC-Inclusive Cross Section Selection Filters}{chapter.10}{}}
+\newlabel{ch:selImodcompare}{{10}{79}{Comparing two CC-Inclusive Cross Section Selection Filters}{chapter.10}{}}
 \bibstyle{h-physrev}
 \bibdata{example}
-\@writefile{toc}{\contentsline {chapter}{\numberline {11}Conclusion}{69}{chapter.11}}
+\@writefile{toc}{\contentsline {chapter}{\numberline {11}Conclusion}{81}{chapter.11}}
 \@writefile{lof}{\addvspace {10\p@ }}
 \@writefile{lot}{\addvspace {10\p@ }}
 \bibcite{neutrino}{1}
@@ -360,4 +405,4 @@
 \bibcite{noisechar}{7}
 \bibcite{michel}{8}
 \bibcite{microboone}{9}
-\@writefile{toc}{\contentsline {chapter}{Bibliography}{71}{chapter*.42}}
+\@writefile{toc}{\contentsline {chapter}{Bibliography}{83}{chapter*.64}}
