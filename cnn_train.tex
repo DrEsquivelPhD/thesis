@@ -46,21 +46,21 @@ The same architecure that was used to train CNN1075 was employed on CNN10000, Im
 
 \begin{figure}[htp!]
 \centering
-\includegraphics[scale=.55]{figs/acc_loss_10000_062117.png}
+\includegraphics[scale=.4]{figs/acc_loss_10000_062117.png}
 \caption{Accuracy vs. Loss of ImageNet 2-output $\mu/\pi$ sample consisting of ~10000 images each.} 
 \label{fig:loss_accuracy}
 \end{figure}
 
 \begin{figure}[htp!]
 \centering
-	\begin{subfigure}[b]{.4\textwidth}
-	\includegraphics[width=\textwidth,height=3in]{figs/train_confusion-9-14-16.png}
+	\begin{subfigure}[b]{.45\textwidth}
+	\includegraphics[width=\textwidth,height=3in]{figs/train_confusion.pdf}
 	\caption{Confusion Matrix showing Accuracy of CNN using training data}
 	\label{fig:confusion}
 	\end{subfigure}
 	\quad
-	\begin{subfigure}[b]{.4\textwidth}
-	\includegraphics[width=\textwidth,height=3in]{figs/val_confusion_9-14-16.png}
+	\begin{subfigure}[b]{.45\textwidth}
+	\includegraphics[width=\textwidth,height=3in]{figs/val_confusion.pdf}
 	\caption{Confusion Matrix showing Accuracy of CNN using testing data}
 	\label{fig:confusion_test}
 	\end{subfigure}
@@ -85,10 +85,10 @@ Figure \ref{fig:CNN_train} show a breakdown of $\mu/\pi$ separation for CNN10000
 %\end{figure}
 
 \subsection{Training CNN100000}
-
+Results of training using 100,000 images, 20,000 images per \mu/\pi/p/\gamma/e. 
 \begin{figure}[htp]
 \centering
-\includegraphics[width=.8\linewidth=]{../images/confusion_allparticle_v3.pdf}
+\includegraphics[width=\linewidth=]{../images/confusion_allparticle_v3.pdf}
 \caption{Confusion Matrix of all five particles }
 \label{fig:confusion100000}
 \end{figure}
