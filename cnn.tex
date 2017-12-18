@@ -37,7 +37,18 @@ In figure \ref{fig:convolution} you can see how an edge detection filter is used
 \end{figure}
 There are other layers in a CNN architecture that will not be covered in the scope of this thesis but in a general sense, these layers are interspersed between convolution layers to preserve dimensionality and control overfitting of the network. The last layer is called a fully connected layer and it's job is to output an N dimensional vector where N is the number of classes the network has been trained on. Each number in this vector represents the probability that the input image is a certain class. Fully connected layers use the feature maps of the high level features to compute the products between the weights of the previous layer to get the probabilites of each class. These weights are then adjusted throught the training process using backpropagation. 
 \subsection{Backpropagation}
+A CNN at it's onset has weights that are randomized. The filters themselves don't know how to pull out identifying information per class. For a neural network to learn, it must be trained on a training set that is labeled. Backpropagation has four seperate steps: foward pass, loss function, backward pass and updating weights. In the forward pass, a training image is passed through the whole network. All of our weights at this time are randomly initialized so the output for the first image will have no preference to a specific class. A common loss function is mean squared error (MSE): 
+\begin{equation}
+E_{total} = \Sigma\frac{1}{2}(actual class -predicted class)^2 
+\end{equation}
 
+If we assume that the MSE is the loss of our CNN, the goal would be that our predicted label (output of CNN) is the same as our training label. To do this, we need to minimize the loss function. To do this, it is necessary to find out which weights most directly affect the loss of the network i.e $\frac{dL}{dW}$ where L is our loss function and W are the weights of a specific layer. The next step is the backward pass which determines which weights contribute the most to the loss and finds ways to adjust these weights so that the loss decreases. After the derivative is computed, the last step updates the weights in the opposite direction of the gradient. 
+\begin{equation}
+w=w_i - \eta\frac{dL}{dW}
+\\w = Weight
+\\w_i = Initial Weight
+\\\eta = Learning Rate
+\end{equation}
 
 \section{AlexNet}
 \section{GoogleNet}
