@@ -47,24 +47,24 @@
 \contentsline {section}{\numberline {6.2}CNN Structure}{38}{section.6.2}
 \contentsline {subsection}{\numberline {6.2.1}Backpropagation}{41}{subsection.6.2.1}
 \contentsline {section}{\numberline {6.3}Choosing Hyperparameters}{42}{section.6.3}
-\contentsline {chapter}{\numberline {7}Training Convolutional Neural Networks on particles \leavevmode {\color {red}\textbf {WORKING TITLE}}}{43}{chapter.7}
-\contentsline {section}{\numberline {7.1}Hardware Frameworks used for Training}{44}{section.7.1}
-\contentsline {subsection}{\numberline {7.1.1}Syracuse CPU Machine setup}{44}{subsection.7.1.1}
-\contentsline {subsection}{\numberline {7.1.2}Syracuse University GPU Cluster Setup}{44}{subsection.7.1.2}
-\contentsline {section}{\numberline {7.2}Convolutional Neural Network Training}{44}{section.7.2}
-\contentsline {subsection}{\numberline {7.2.1}Image Making Scheme}{44}{subsection.7.2.1}
-\contentsline {subsubsection}{\nonumberline Images used for Traing/Validation of Convolutional Neural Networks}{44}{section*.25}
-\contentsline {subsection}{\numberline {7.2.2}Training CNN1075}{45}{subsection.7.2.2}
-\contentsline {subsection}{\numberline {7.2.3}Training CNN10000}{45}{subsection.7.2.3}
-\contentsline {subsection}{\numberline {7.2.4}Training CNN100000}{47}{subsection.7.2.4}
-\contentsline {chapter}{\numberline {8}Results of Convolutional Neural Networks on particles \leavevmode {\color {red}\textbf {WORKING TITLE}}}{61}{chapter.8}
-\contentsline {section}{\numberline {8.1}Classification using CNN10000}{61}{section.8.1}
-\contentsline {subsection}{\numberline {8.1.1}Classification of MC data using Selection I Original CC-Inclusive Filter}{61}{subsection.8.1.1}
-\contentsline {subsection}{\numberline {8.1.2}Classification of MC data using Selection I Modified CC-Inclusive Filter}{65}{subsection.8.1.2}
-\contentsline {subsection}{\numberline {8.1.3}Conclusions and Future Work}{73}{subsection.8.1.3}
-\contentsline {section}{\numberline {8.2}Classification using CNN100000}{75}{section.8.2}
-\contentsline {subsection}{\numberline {8.2.1}Classification of MC data using Selection I Modified CC-Inclusive Filter}{75}{subsection.8.2.1}
-\contentsline {subsection}{\numberline {8.2.2}Classification of MicroBooNE data using Selection I Modified CC-Inclusive Filter}{75}{subsection.8.2.2}
-\contentsline {subsection}{\numberline {8.2.3}Comparing two CC-Inclusive Cross Section Selection Filters}{75}{subsection.8.2.3}
-\contentsline {chapter}{\numberline {9}Conclusion}{77}{chapter.9}
-\contentsline {chapter}{Bibliography}{79}{chapter*.64}
+\contentsline {chapter}{\numberline {7}Training Convolutional Neural Networks on particles \leavevmode {\color {red}\textbf {WORKING TITLE}}}{45}{chapter.7}
+\contentsline {section}{\numberline {7.1}Hardware Frameworks used for Training}{46}{section.7.1}
+\contentsline {subsection}{\numberline {7.1.1}Syracuse CPU Machine setup}{46}{subsection.7.1.1}
+\contentsline {subsection}{\numberline {7.1.2}Syracuse University GPU Cluster Setup}{46}{subsection.7.1.2}
+\contentsline {section}{\numberline {7.2}Convolutional Neural Network Training}{46}{section.7.2}
+\contentsline {subsection}{\numberline {7.2.1}Image Making Scheme}{46}{subsection.7.2.1}
+\contentsline {subsubsection}{\nonumberline Images used for Traing/Validation of Convolutional Neural Networks}{46}{section*.27}
+\contentsline {subsection}{\numberline {7.2.2}Training CNN1075}{47}{subsection.7.2.2}
+\contentsline {subsection}{\numberline {7.2.3}Training CNN10000}{47}{subsection.7.2.3}
+\contentsline {subsection}{\numberline {7.2.4}Training CNN100000}{49}{subsection.7.2.4}
+\contentsline {chapter}{\numberline {8}Results of Convolutional Neural Networks on particles \leavevmode {\color {red}\textbf {WORKING TITLE}}}{63}{chapter.8}
+\contentsline {section}{\numberline {8.1}Classification using CNN10000}{63}{section.8.1}
+\contentsline {subsection}{\numberline {8.1.1}Classification of MC data using Selection I Original CC-Inclusive Filter}{63}{subsection.8.1.1}
+\contentsline {subsection}{\numberline {8.1.2}Classification of MC data using Selection I Modified CC-Inclusive Filter}{67}{subsection.8.1.2}
+\contentsline {subsection}{\numberline {8.1.3}Conclusions and Future Work}{75}{subsection.8.1.3}
+\contentsline {section}{\numberline {8.2}Classification using CNN100000}{77}{section.8.2}
+\contentsline {subsection}{\numberline {8.2.1}Classification of MC data using Selection I Modified CC-Inclusive Filter}{77}{subsection.8.2.1}
+\contentsline {subsection}{\numberline {8.2.2}Classification of MicroBooNE data using Selection I Modified CC-Inclusive Filter}{77}{subsection.8.2.2}
+\contentsline {subsection}{\numberline {8.2.3}Comparing two CC-Inclusive Cross Section Selection Filters}{77}{subsection.8.2.3}
+\contentsline {chapter}{\numberline {9}Conclusion}{79}{chapter.9}
+\contentsline {chapter}{Bibliography}{81}{chapter*.66}

@@ -58,3 +58,16 @@ Going through backpropagation consists of one training iteration. Once the netwo
 \section{Choosing Hyperparameters}
 Convolutional neural networks are a relatively new tools in computer vision. Choosing hyperparameters for your specific dataset is a non-trivial task. Hyperparameters can range from the amount of layers and filters per layer in an CNN architecture to the stride the receptive field of a filter takes, not to mention training hyperparameters such as learning rate and batch size described above. They're ways to optimize these hyperparameters via hyperparameter optimization using Bayesian Optimization \cite{optimization} but as you can imagine, optimizing an CNN architecture from scratch can be very computationally intensive. For the purpose of this thesis, two well known CNN architectures were used, AlexNet \cite{alexnet}, which won the ImageNet Large-Scale Visual Recognition Challenge (ILSVRC) in 2012 and therefore bringing awareness of CNNs, and GoogleNet \cite{googlenet}, which won the ILSVRC in 2014, giving rise to deep networks. Both AlexNet and GoogleNet architectures were used to train on LArTPC images and their low level filter weights. Higher level filter weights were randomly initialized before training so the network can learn high level features of LArTPC image classes. The AlexNet architecture is shown in figure \ref{fig:alexnet} and the GoogleNet architecture is shown in figure \ref{fig:googlenet}
 
+\begin{figure}[htp!]
+\centering
+\includegraphics[width=0.9\linewidth]{figs/alexnet.png}
+\caption{Pictoral representation of the AlexNet model. The AlexNet model consists of 5 convolution layers and 3 fully connected layers.}
+\label{fig:alexnet}
+\end{figure}
+
+\begin{figure}[htp!]
+\centering
+\includegraphics[width=\linewidth]{figs/googlenet.png}
+\caption{Pictoral representation of the GoogleNet model. The GoogleNet model consists of 22 layers. The model implements 9 Inception modules which performs covolution and pooling in parallel and strays away from the basis that CNN layers need to be stacked up sequentially. The GoogleNet model also doesn't use fully connected layers, insteat it uses average pooling which greatly reduces the amount of parameters. GoogleNet has 12x fewer parameters than AlexNet. }
+\label{fig:googlenet}
+\end{figure}
