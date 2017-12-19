@@ -44,10 +44,9 @@
 \contentsline {section}{\numberline {5.1}The importance of $\mymath {\@Oldmu }\xspace /\mymath {\@Oldpi }\xspace $ separation}{34}{section.5.1}
 \contentsline {chapter}{\numberline {6}Background on Convolutional Neural Networks}{37}{chapter.6}
 \contentsline {section}{\numberline {6.1}Image Classification}{37}{section.6.1}
-\contentsline {subsection}{\numberline {6.1.1}CNN Structure}{38}{subsection.6.1.1}
-\contentsline {subsection}{\numberline {6.1.2}Backpropagation}{41}{subsection.6.1.2}
-\contentsline {section}{\numberline {6.2}AlexNet}{41}{section.6.2}
-\contentsline {section}{\numberline {6.3}GoogleNet}{41}{section.6.3}
+\contentsline {section}{\numberline {6.2}CNN Structure}{38}{section.6.2}
+\contentsline {subsection}{\numberline {6.2.1}Backpropagation}{41}{subsection.6.2.1}
+\contentsline {section}{\numberline {6.3}Choosing Hyperparameters}{42}{section.6.3}
 \contentsline {chapter}{\numberline {7}Training Convolutional Neural Networks on particles \leavevmode {\color {red}\textbf {WORKING TITLE}}}{43}{chapter.7}
 \contentsline {section}{\numberline {7.1}Hardware Frameworks used for Training}{44}{section.7.1}
 \contentsline {subsection}{\numberline {7.1.1}Syracuse CPU Machine setup}{44}{subsection.7.1.1}
