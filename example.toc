@@ -20,51 +20,51 @@
 \contentsline {section}{\numberline {3.3}MicroBooNE's Physics Goals}{18}{section.3.3}
 \contentsline {subsection}{\numberline {3.3.1}The low-energy excess}{18}{subsection.3.3.1}
 \contentsline {subsection}{\numberline {3.3.2}Cross sections}{19}{subsection.3.3.2}
-\contentsline {subsection}{\numberline {3.3.3}Astroparticle physics}{19}{subsection.3.3.3}
-\contentsline {subsection}{\numberline {3.3.4}Liquid argon detector development}{19}{subsection.3.3.4}
+\contentsline {subsection}{\numberline {3.3.3}Astroparticle physics}{20}{subsection.3.3.3}
+\contentsline {subsection}{\numberline {3.3.4}Liquid argon detector development}{20}{subsection.3.3.4}
 \contentsline {section}{\numberline {3.4}The Booster Neutrino Beam}{20}{section.3.4}
 \contentsline {subsection}{\numberline {3.4.1}Creating the Booster Neutrino Beam}{20}{subsection.3.4.1}
-\contentsline {section}{\numberline {3.5}Event Reconstruction}{21}{section.3.5}
-\contentsline {chapter}{\numberline {4}Neutrino Identification: Finding MicroBooNE's first Neutrinos}{23}{chapter.4}
-\contentsline {section}{\numberline {4.1}Flash Finding}{23}{section.4.1}
-\contentsline {subsection}{\numberline {4.1.1}Flash Reconstruction}{24}{subsection.4.1.1}
-\contentsline {subsection}{\numberline {4.1.2}Beam Timing}{25}{subsection.4.1.2}
-\contentsline {subsection}{\numberline {4.1.3}Event Rates}{26}{subsection.4.1.3}
-\contentsline {section}{\numberline {4.2}TPC Topology Selection}{26}{section.4.2}
-\contentsline {subsection}{\numberline {4.2.1}Cosmic Tagging}{27}{subsection.4.2.1}
-\contentsline {subsection}{\numberline {4.2.2}2D Cluster Selection}{27}{subsection.4.2.2}
-\contentsline {subsubsection}{\nonumberline Primary Cuts}{28}{section*.13}
-\contentsline {subsubsection}{\nonumberline Secondary Cuts}{28}{section*.14}
-\contentsline {subsection}{\numberline {4.2.3}3D Tracks and vertices Selection}{29}{subsection.4.2.3}
-\contentsline {subsection}{\numberline {4.2.4}TPC Updates}{31}{subsection.4.2.4}
-\contentsline {subsubsection}{\nonumberline 2D Filter Updates}{31}{section*.18}
-\contentsline {subsubsection}{\nonumberline 3D Filter Updates}{31}{section*.19}
-\contentsline {section}{\numberline {4.3}Conclusion}{32}{section.4.3}
-\contentsline {chapter}{\numberline {5}CC-Inclusive Cross Section Selection Filter}{33}{chapter.5}
-\contentsline {section}{\numberline {5.1}The importance of $\mymath {\@Oldmu }\xspace /\mymath {\@Oldpi }\xspace $ separation}{34}{section.5.1}
-\contentsline {chapter}{\numberline {6}Background on Convolutional Neural Networks}{37}{chapter.6}
-\contentsline {section}{\numberline {6.1}Image Classification}{37}{section.6.1}
-\contentsline {section}{\numberline {6.2}CNN Structure}{38}{section.6.2}
-\contentsline {subsection}{\numberline {6.2.1}Backpropagation}{41}{subsection.6.2.1}
-\contentsline {section}{\numberline {6.3}Choosing Hyperparameters}{42}{section.6.3}
-\contentsline {chapter}{\numberline {7}Training Convolutional Neural Networks on particles \leavevmode {\color {red}\textbf {WORKING TITLE}}}{45}{chapter.7}
-\contentsline {section}{\numberline {7.1}Hardware Frameworks used for Training}{46}{section.7.1}
-\contentsline {subsection}{\numberline {7.1.1}Syracuse CPU Machine setup}{46}{subsection.7.1.1}
-\contentsline {subsection}{\numberline {7.1.2}Syracuse University GPU Cluster Setup}{46}{subsection.7.1.2}
-\contentsline {section}{\numberline {7.2}Convolutional Neural Network Training}{46}{section.7.2}
-\contentsline {subsection}{\numberline {7.2.1}Image Making Scheme}{46}{subsection.7.2.1}
-\contentsline {subsubsection}{\nonumberline Images used for Traing/Validation of Convolutional Neural Networks}{46}{section*.27}
-\contentsline {subsection}{\numberline {7.2.2}Training CNN1075}{47}{subsection.7.2.2}
-\contentsline {subsection}{\numberline {7.2.3}Training CNN10000}{47}{subsection.7.2.3}
-\contentsline {subsection}{\numberline {7.2.4}Training CNN100000}{49}{subsection.7.2.4}
-\contentsline {chapter}{\numberline {8}Results of Convolutional Neural Networks on particles \leavevmode {\color {red}\textbf {WORKING TITLE}}}{63}{chapter.8}
-\contentsline {section}{\numberline {8.1}Classification using CNN10000}{63}{section.8.1}
-\contentsline {subsection}{\numberline {8.1.1}Classification of MC data using Selection I Original CC-Inclusive Filter}{63}{subsection.8.1.1}
-\contentsline {subsection}{\numberline {8.1.2}Classification of MC data using Selection I Modified CC-Inclusive Filter}{67}{subsection.8.1.2}
-\contentsline {subsection}{\numberline {8.1.3}Conclusions and Future Work}{75}{subsection.8.1.3}
-\contentsline {section}{\numberline {8.2}Classification using CNN100000}{77}{section.8.2}
-\contentsline {subsection}{\numberline {8.2.1}Classification of MC data using Selection I Modified CC-Inclusive Filter}{77}{subsection.8.2.1}
-\contentsline {subsection}{\numberline {8.2.2}Classification of MicroBooNE data using Selection I Modified CC-Inclusive Filter}{77}{subsection.8.2.2}
-\contentsline {subsection}{\numberline {8.2.3}Comparing two CC-Inclusive Cross Section Selection Filters}{77}{subsection.8.2.3}
-\contentsline {chapter}{\numberline {9}Conclusion}{79}{chapter.9}
-\contentsline {chapter}{Bibliography}{81}{chapter*.66}
+\contentsline {section}{\numberline {3.5}Event Reconstruction}{22}{section.3.5}
+\contentsline {chapter}{\numberline {4}Neutrino Identification: Finding MicroBooNE's first Neutrinos}{25}{chapter.4}
+\contentsline {section}{\numberline {4.1}Flash Finding}{25}{section.4.1}
+\contentsline {subsection}{\numberline {4.1.1}Flash Reconstruction}{26}{subsection.4.1.1}
+\contentsline {subsection}{\numberline {4.1.2}Beam Timing}{27}{subsection.4.1.2}
+\contentsline {subsection}{\numberline {4.1.3}Event Rates}{28}{subsection.4.1.3}
+\contentsline {section}{\numberline {4.2}TPC Topology Selection}{28}{section.4.2}
+\contentsline {subsection}{\numberline {4.2.1}Cosmic Tagging}{29}{subsection.4.2.1}
+\contentsline {subsection}{\numberline {4.2.2}2D Cluster Selection}{29}{subsection.4.2.2}
+\contentsline {subsubsection}{\nonumberline Primary Cuts}{30}{section*.16}
+\contentsline {subsubsection}{\nonumberline Secondary Cuts}{30}{section*.17}
+\contentsline {subsection}{\numberline {4.2.3}3D Tracks and vertices Selection}{31}{subsection.4.2.3}
+\contentsline {subsection}{\numberline {4.2.4}TPC Updates}{33}{subsection.4.2.4}
+\contentsline {subsubsection}{\nonumberline 2D Filter Updates}{33}{section*.21}
+\contentsline {subsubsection}{\nonumberline 3D Filter Updates}{33}{section*.22}
+\contentsline {section}{\numberline {4.3}Conclusion}{34}{section.4.3}
+\contentsline {chapter}{\numberline {5}CC-Inclusive Cross Section Selection Filter}{35}{chapter.5}
+\contentsline {section}{\numberline {5.1}The importance of $\mymath {\@Oldmu }\xspace /\mymath {\@Oldpi }\xspace $ separation}{37}{section.5.1}
+\contentsline {chapter}{\numberline {6}Background on Convolutional Neural Networks}{39}{chapter.6}
+\contentsline {section}{\numberline {6.1}Image Classification}{39}{section.6.1}
+\contentsline {section}{\numberline {6.2}CNN Structure}{40}{section.6.2}
+\contentsline {subsection}{\numberline {6.2.1}Backpropagation}{43}{subsection.6.2.1}
+\contentsline {section}{\numberline {6.3}Choosing Hyperparameters}{44}{section.6.3}
+\contentsline {chapter}{\numberline {7}Training Convolutional Neural Networks on particles \leavevmode {\color {red}\textbf {WORKING TITLE}}}{47}{chapter.7}
+\contentsline {section}{\numberline {7.1}Hardware Frameworks used for Training}{48}{section.7.1}
+\contentsline {subsection}{\numberline {7.1.1}Syracuse CPU Machine setup}{48}{subsection.7.1.1}
+\contentsline {subsection}{\numberline {7.1.2}Syracuse University GPU Cluster Setup}{48}{subsection.7.1.2}
+\contentsline {section}{\numberline {7.2}Convolutional Neural Network Training}{48}{section.7.2}
+\contentsline {subsection}{\numberline {7.2.1}Image Making Scheme}{48}{subsection.7.2.1}
+\contentsline {subsubsection}{\nonumberline Images used for Traing/Validation of Convolutional Neural Networks}{48}{section*.30}
+\contentsline {subsection}{\numberline {7.2.2}Training CNN1075}{49}{subsection.7.2.2}
+\contentsline {subsection}{\numberline {7.2.3}Training CNN10000}{49}{subsection.7.2.3}
+\contentsline {subsection}{\numberline {7.2.4}Training CNN100000}{51}{subsection.7.2.4}
+\contentsline {chapter}{\numberline {8}Results of Convolutional Neural Networks on particles \leavevmode {\color {red}\textbf {WORKING TITLE}}}{65}{chapter.8}
+\contentsline {section}{\numberline {8.1}Classification using CNN10000}{65}{section.8.1}
+\contentsline {subsection}{\numberline {8.1.1}Classification of MC data using Selection I Original CC-Inclusive Filter}{65}{subsection.8.1.1}
+\contentsline {subsection}{\numberline {8.1.2}Classification of MC data using Selection I Modified CC-Inclusive Filter}{69}{subsection.8.1.2}
+\contentsline {subsection}{\numberline {8.1.3}Conclusions and Future Work}{77}{subsection.8.1.3}
+\contentsline {section}{\numberline {8.2}Classification using CNN100000}{79}{section.8.2}
+\contentsline {subsection}{\numberline {8.2.1}Classification of MC data using Selection I Modified CC-Inclusive Filter}{79}{subsection.8.2.1}
+\contentsline {subsection}{\numberline {8.2.2}Classification of MicroBooNE data using Selection I Modified CC-Inclusive Filter}{79}{subsection.8.2.2}
+\contentsline {subsection}{\numberline {8.2.3}Comparing two CC-Inclusive Cross Section Selection Filters}{79}{subsection.8.2.3}
+\contentsline {chapter}{\numberline {9}Conclusion}{81}{chapter.9}
+\contentsline {chapter}{Bibliography}{83}{chapter*.69}
