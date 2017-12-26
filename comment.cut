@@ -1,17 +1,1 @@
-  %% Actually, more semantic chapter filenames are better, like "chap-bgtheory.tex"
-  \input{intro}
-  \input{neutrinos}
-  \input{MicroBooNE}
-  %\input{beam}
-  \input{neutrinoID}
-  \input{meas}
-  %\input{mupiseparation}
-  \input{cnn}
-  %\input{syr_cluster}
-  \input{cnn_train}
-  \input{cnn_results}
-  %\input{data}
-  %\input{selImodcompare}
-  \input{conclusion}
-  %% To ignore a specific chapter while working on another, making the build faster, comment it out:
-  %\input{chap4}
+  \input{backmatter}

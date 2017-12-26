@@ -4,34 +4,36 @@ The CC-Inclusive cross-section selection I and selection I modified filters used
 MicroBooNE requires fully automated event reconstruction and selection algorithms for use in the many physics measurements being worked on to date due to the large data rate MicroBooNE receives. Being able to automatically pluck out the neutrino interaction among a sea of cosmics proved to be challenging but was accomplished. MicroBooNE has developed two complementary and preliminary selection algorithms to select charged-current $\nu_{\mu}-Ar$ interactions. Both are fully automated and cut based. The results of this thesis will focus on selection I and selection I modified and will focus on further improving these algorithms using Convolutional Neural Network (CNN) implementations. These selections identify the muon from a neutrino interaction without biasing towards track multiplicity. To combat cosmic and neutral current background, the analysis is strongly biased towards forward-going long tracks which are contained. This limits phase space and reduces acceptance. 
 
 \section{Data and MC Processing Chain}
-The data used for this analysis were based on hardware and software triggers. Events used came from the \textit{BNB_INCLUSIVE} and \textit{EXT_BNB_INCLUSIVE} streams and were used for signal and background. The \textit{BNB_INCLUSIVE} stream is chosen by requiring that the hardware trigger bit is fired and that the event passed an optical software trigger within a BNB spill timing window. The \textit{EXT_BNB_INCLUSIVE} stream requires the EXT hardware trigger to fire as well as pass the same optical software trigger within a BNB spill size timing window similar to the \textit{BNB_INCLUSIVE}. 
+The data used for this analysis were based on hardware and software triggers. Events used came from the \textit{BNB\_INCLUSIVE} and \textit{EXT\_BNB\_INCLUSIVE} streams and were used for signal and background. The \textit{BNB\_INCLUSIVE} stream is chosen by requiring that the hardware trigger bit is fired and that the event passed an optical software trigger within a BNB spill timing window. The \textit{EXT\_BNB\_INCLUSIVE} stream requires the EXT hardware trigger to fire as well as pass the same optical software trigger within a BNB spill size timing window similar to the \textit{BNB\_INCLUSIVE}. 
 
-The two MC samples used in this analysis and for determining selection efficiencies and purities were GENIE BNB neutrino interactions with CORSIKA cosmic ray overlay within the readout window and inTime CORSIKA cosmic rays. The MC samples generated used \textit{\textbf{uboonecode v04_36_00}} and are based on the following packages:
+The two MC samples used in this analysis and for determining selection efficiencies and purities were GENIE BNB neutrino interactions with CORSIKA cosmic ray overlay within the readout window and inTime CORSIKA cosmic rays. The MC samples generated used \textit{\textbf{uboonecode v04\_36\_00}} and are based on the following packages:
 \begin{itemize}
-\item{larsoft v04_36_00}
-\item{GEANT v04_09_06_p04d}
-\item{GENIE v02_08_06d}
-\item{GENIE xsec v02_08_06a}
-\item{pandora v02_03_0a}
-\item{CORSIKA v07_4003}
+\item{larsoft v04\_36\_00}
+\item{GEANT v04\_09\_06\_p04d}
+\item{GENIE v02\_08\_06d}
+\item{GENIE xsec v02\_08\_06a}
+\item{pandora v02\_03\_0a}
+\item{CORSIKA v07\_4003}
 \end{itemize}
 
-Both data and MC samples were processed using the same reconstruction release, uboonecode $\textit{v05_08_00}$ and the fcl files used for reconstruction are listed below:
+Both data and MC samples were processed using the same reconstruction release, \textit{\textbf{uboonecode v05\_08\_00}} and the fcl files used for reconstruction are listed below:
 \begin{itemize}
 \item{MC fcl files}
 \begin{itemize}
-\item{reco_uboone_mcc7_driver_stage1.fcl}
-\item{reco_uboone_mcc7_driver_stage2.fcl}
+\item{reco\_uboone\_mcc7\_driver\_stage1.fcl}
+\item{reco\_uboone\_mcc7\_driver\_stage2.fcl}
 \end{itemize}
 \item{Data fcl files}
-\item{reco_uboone_data_Feb2016_driver_stage1.fcl}
-\item{reco_uboone_data_Feb2016_driver_stage2.fcl}
+\item{reco\_uboone\_data\_Feb2016\_driver\_stage1.fcl}
+\item{reco\_uboone\_data\_Feb2016\_driver\_stage2.fcl}
 \end{itemize}
 
-On top of the hardware and software triggers, the data also had to pass more criteria to be to be identified as part of the good run list. The criteria is detailed below.
+On top of the hardware and software triggers, the data also had to pass more criteria to be identified as part of the good run list. The criteria is detailed below.
 \begin{itemize}
 \item{\textbf{Detector conditions:} the detector has to be in a good operating condition. The detector conditions are read from the slow monitoring database and are required to be within the alarm thresholds. The variables of interest for events passing the good run list criteria incluse DAQ, PMT, HV, Drift HV, wire bias, electron lifetime and detector power. These conditions need to be met on a run-by-run basis in order to pass the selection.}
-\item{\textbf{Data quality:}}
+\item{\textbf{Data quality:} normal and stable behavior for basic reconstruction quantities. These reconstruction variables include average number of tracks, hits, and flashes in each event, the average length of tracks, the average amplitude and area of hits, the average PE and the average spread of each one of these quantities.}
+\item{\textbf{Beam Conditions:} the BNB must be on and stable and the POT per spill needs to above the intensity threshold. Beam quality conditions include checking the fraction of proton beam interacting within the target, the horn current, and the intensity of protons per spill. The final sample is $5 x 10^{19}$ and a per-spill intensity of $4 x 10^{12}$}
+\item{\textbf{Run processed:} the full run must be processed completely without missing subruns or crashes in the data processing.}
 \end{itemize}
 
 The selection begins with a cut that requires an optical flash greater than 50 photo electrons (PE) in the 1.6 $\mu$s beam window. Next, two or more 3D reconstructed tracks must be within 5 cm from a 3D reconstructed vertex. The most forward going track vertex-track association is then selected for further cuts. The vertex from the chosen association must be in the fiducial volume, and the longest track from this association must be matched to a flash 80 cm in z. Lastly the longest track must be contained and longer than 75 cm.       
