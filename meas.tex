@@ -1,11 +1,44 @@
 \chapter{CC-Inclusive Cross Section Selection Filter} \label{ch:meas}
-The CC-Inclusive cross-section selection I and selection I modified filters used in this analysis will be described in the following sections below. These filters are an expansion of the Neutrino ID filter. The work done in this thesis was to further improve these selections by increasing both efficiency and purity without further affecting the kinematic distributions of the selected neutrino events.
+The CC-Inclusive cross-section selection I and selection I modified filters used in this analysis will be described in the following sections below. These filters are an expansion of the Neutrino ID filter. The work done in this thesis was to further improve these selections by increasing both efficiency and purity as well as increasing acceptance without further affecting the kinematic distributions of the selected neutrino events.
  
-MicroBooNE requires fully automated event reconstruction and selection algorithms for use in the many physics measurements being worked on to date due to the large data rate MicroBooNE receives. Being able to automatically pluck out the neutrino interaction among a sea of cosmics proved to be challenging but was accomplished. MicroBooNE has developed two complementary and preliminary selection algorithms to select charged-current $\nu_{\mu}-Ar$ interactions. Both are fully automated and cut based. The results below focus on the first selection and the ``In-Progress'' plots presented on the poster associated with this proceeding will focus on further improving this algorithm using Convolutional Neural Network (CNN) implementations. The full details can be found in MicroBooNE public note \cite{ccinclusive} and for more information of CNN implementation on MicroBooNE data refer to \cite{cnn}. Selection I is based on cuts developed in a MC performance study described in \cite{mcccinclusive}. It identifies the muon from a neutrino interaction without biasing towards track multiplicity. To combat cosmic and neutral current background, the analysis is strongly biased towards forward-going long tracks which are contained. This limits phase space and reduces acceptance. 
+MicroBooNE requires fully automated event reconstruction and selection algorithms for use in the many physics measurements being worked on to date due to the large data rate MicroBooNE receives. Being able to automatically pluck out the neutrino interaction among a sea of cosmics proved to be challenging but was accomplished. MicroBooNE has developed two complementary and preliminary selection algorithms to select charged-current $\nu_{\mu}-Ar$ interactions. Both are fully automated and cut based. The results of this thesis will focus on selection I and selection I modified and will focus on further improving these algorithms using Convolutional Neural Network (CNN) implementations. These selections identify the muon from a neutrino interaction without biasing towards track multiplicity. To combat cosmic and neutral current background, the analysis is strongly biased towards forward-going long tracks which are contained. This limits phase space and reduces acceptance. 
 
-The efficiency and purity are used as performance values of selection I. Efficiency is described as the number of selected true $\nu_{\mu}$ CC events divided by the number of expected true $\nu_{\mu}$ CC events. The purity is described as the number of selected true $\nu_{\mu}$ CC events divided by the sum of itself and all the backgrounds. The efficiency of selection I is 12\% and the purity is 39.7\%. The poster related to this proceedings will focus on the last cut which requires the longest track to be longer than 75 cm. This cut has a passing rate of 30\% w.r.t the previous cut and is implemented in part to separate charged-current events from neutral-current events that mimic our signal. Implementing a CNN for $\mu-\pi$ separation picks out differences in these two particles that are track range independent therefore eliminating the need for the 75 cm track length cut and increase efficiency and passing rate at low muon momentum. Figure \ref{fig:track} shows the track distribution of selection I and the lack of data below  the 75 cm track length cut. Figure \ref{fig:eff} shows the efficiency of selection I as a function of muon momentum.     
+\section{Data and MC Processing Chain}
+The data used for this analysis were based on hardware and software triggers. Events used came from the \textit{BNB_INCLUSIVE} and \textit{EXT_BNB_INCLUSIVE} streams and were used for signal and background. The \textit{BNB_INCLUSIVE} stream is chosen by requiring that the hardware trigger bit is fired and that the event passed an optical software trigger within a BNB spill timing window. The \textit{EXT_BNB_INCLUSIVE} stream requires the EXT hardware trigger to fire as well as pass the same optical software trigger within a BNB spill size timing window similar to the \textit{BNB_INCLUSIVE}. 
+
+The two MC samples used in this analysis and for determining selection efficiencies and purities were GENIE BNB neutrino interactions with CORSIKA cosmic ray overlay within the readout window and inTime CORSIKA cosmic rays. The MC samples generated used \textit{\textbf{uboonecode v04_36_00}} and are based on the following packages:
+\begin{itemize}
+\item{larsoft v04_36_00}
+\item{GEANT v04_09_06_p04d}
+\item{GENIE v02_08_06d}
+\item{GENIE xsec v02_08_06a}
+\item{pandora v02_03_0a}
+\item{CORSIKA v07_4003}
+\end{itemize}
+
+Both data and MC samples were processed using the same reconstruction release, uboonecode $\textit{v05_08_00}$ and the fcl files used for reconstruction are listed below:
+\begin{itemize}
+\item{MC fcl files}
+\begin{itemize}
+\item{reco_uboone_mcc7_driver_stage1.fcl}
+\item{reco_uboone_mcc7_driver_stage2.fcl}
+\end{itemize}
+\item{Data fcl files}
+\item{reco_uboone_data_Feb2016_driver_stage1.fcl}
+\item{reco_uboone_data_Feb2016_driver_stage2.fcl}
+\end{itemize}
+
+On top of the hardware and software triggers, the data also had to pass more criteria to be to be identified as part of the good run list. The criteria is detailed below.
+\begin{itemize}
+\item{\textbf{Detector conditions:} the detector has to be in a good operating condition. The detector conditions are read from the slow monitoring database and are required to be within the alarm thresholds. The variables of interest for events passing the good run list criteria incluse DAQ, PMT, HV, Drift HV, wire bias, electron lifetime and detector power. These conditions need to be met on a run-by-run basis in order to pass the selection.}
+\item{\textbf{Data quality:}}
+\end{itemize}
+
 The selection begins with a cut that requires an optical flash greater than 50 photo electrons (PE) in the 1.6 $\mu$s beam window. Next, two or more 3D reconstructed tracks must be within 5 cm from a 3D reconstructed vertex. The most forward going track vertex-track association is then selected for further cuts. The vertex from the chosen association must be in the fiducial volume, and the longest track from this association must be matched to a flash 80 cm in z. Lastly the longest track must be contained and longer than 75 cm.       
 
+
+
+The efficiency and purity are used as performance values of selection I. Efficiency is described as the number of selected true $\nu_{\mu}$ CC events divided by the number of expected true $\nu_{\mu}$ CC events. The purity is described as the number of selected true $\nu_{\mu}$ CC events divided by the sum of itself and all the backgrounds. The efficiency of selection I is 12\% and the purity is 39.7\%. The poster related to this proceedings will focus on the last cut which requires the longest track to be longer than 75 cm. This cut has a passing rate of 30\% w.r.t the previous cut and is implemented in part to separate charged-current events from neutral-current events that mimic our signal. Implementing a CNN for $\mu-\pi$ separation picks out differences in these two particles that are track range independent therefore eliminating the need for the 75 cm track length cut and increase efficiency and passing rate at low muon momentum. Figure \ref{fig:track} shows the track distribution of selection I and the lack of data below  the 75 cm track length cut. Figure \ref{fig:eff} shows the efficiency of selection I as a function of muon momentum.     
 \begin{figure}[htp!]
 \centering
 	\begin{subfigure}[b]{.4\textwidth}
