@@ -45,7 +45,7 @@ To normalize generated BNB MC events to POT, we used the following:
 \begin{itemize}
 \item{ $5 * 10^{19} POT = 41524.3$ generated events}
 \end{itemize}
-where this scaling factor only applies to mcc7 generated events. The inTime cosmic sample is normalized with respect to the open cosmic sample so an understanding of both is necessary. The POT per beam spill for mcc7 BNB samples is $5 * 10^{12}$. To calculate how many spills are necessary to produce a specific POT one would multiply the total POT by the average 1/POT per spill. For a total POT of $5 * 10^{19}$ the amount of spills necessary is $\frac{5 * 10^{19}}{5 * 10^{12}} = 1 * 10^7$. This is only one in ~241 events therefore each cosmic event needs to be scaled up by a factor of 240.8 when comparing to BNB MC. For inTime cosmics however, two filters are applied to reduce computing and processing time and only leave cosmics that will interact within the detector. The passing rate after these two filters is 0.02125, therefore the total inTime cosmic scaling factor to compare inTime cosmics to BNB is $0.02125 * 240.8 = 5.12$.
+where this scaling factor only applies to mcc7 generated events. The inTime cosmic sample is normalized with respect to the open cosmic sample so an understanding of both is necessary. The POT per beam spill for mcc7 BNB samples is $5 * 10^{12}$. To calculate how many spills are necessary to produce a specific POT one would multiply the total POT by the average 1/POT per spill. For a total POT of $5 * 10^{19}$ the amount of spills necessary is $\frac{5 * 10^{19}}{5 * 10^{12}} = 1 * 10^7$. This is only one in \sim 241 events therefore each cosmic event needs to be scaled up by a factor of 240.8 when comparing to BNB MC. For inTime cosmics however, two filters are applied to reduce computing and processing time and only leave cosmics that will interact within the detector. The passing rate after these two filters is 0.02125, therefore the total inTime cosmic scaling factor to compare inTime cosmics to BNB is $0.02125 * 240.8 = 5.12$.
 
 %The efficiency and purity are used as performance values of selection I. Efficiency is described as the number of selected true $\nu_{\mu}$ CC events divided by the number of expected true $\nu_{\mu}$ CC events. The purity is described as the number of selected true $\nu_{\mu}$ CC events divided by the sum of itself and all the backgrounds. The efficiency of selection I is 12\% and the purity is 39.7\%. The poster related to this proceedings will focus on the last cut which requires the longest track to be longer than 75 cm. This cut has a passing rate of 30\% w.r.t the previous cut and is implemented in part to separate charged-current events from neutral-current events that mimic our signal. Implementing a CNN for $\mu-\pi$ separation picks out differences in these two particles that are track range independent therefore eliminating the need for the 75 cm track length cut and increase efficiency and passing rate at low muon momentum. Figure \ref{fig:track} shows the track distribution of selection I and the lack of data below  the 75 cm track length cut. Figure \ref{fig:eff} shows the efficiency of selection I as a function of muon momentum.     
 \begin{figure}[htp!]
@@ -80,11 +80,11 @@ and are as follows:
 \end{itemize}
 
 \subsection{Flash Reconstruction}
-MicroBooNE collects light from each of the 32 PMTs either in a continuous readout window of 23.4 $\micro S$ activated by a beam gate signal on the trigger board, or in discriminated pulses of ~1 $\micro s$ duration activated if the ADC count for any PMT goes above 80 ADC count. These two formats are saved as output waveforms and put onto an event. Additionally, each PMT can provide two output streams, high-gain (~20 ADC/PE) and low-gain (~2 ADC/PE) channels. The first step in the reconstruction is to merge both these channels into a ``saturation corrected waveform'' which uses information from the low-gain waveform to correct for saturating high-gain pulses.
+MicroBooNE collects light from each of the 32 PMTs either in a continuous readout window of 23.4 $\micro S$ activated by a beam gate signal on the trigger board, or in discriminated pulses of \sim 1 $\micro s$ duration activated if the ADC count for any PMT goes above 80 ADC count. These two formats are saved as output waveforms and put onto an event. Additionally, each PMT can provide two output streams, high-gain (\sim 20 ADC/PE) and low-gain (\sim 2 ADC/PE) channels. The first step in the reconstruction is to merge both these channels into a ``saturation corrected waveform'' which uses information from the low-gain waveform to correct for saturating high-gain pulses.
  
 The saturation corrected waveform in the continuous readout window is used to reconstruct optical hits. Each PMT's waveform is scanned for hits then a threshold based hit reconstruction algorithm is applied which requires pulses of a minimum area in order to be reconstructed. Each reconstructed hit is associated to a PMT, a time in $\micro s$, and a PE count. 
 
-Once hits are reconstructed for all 32 PMTs, all PMT information is then combined into optical flashes which represent optical information seen by the PMTs from interactions in the detector. Each flash has information on total light seen per interaction,  the distribution of the light across all 32 PMTs, the flash time with respect to the trigger time of the flash, and lastly, the spacial information of the flash in Y-Z plane of the detector. These flashes are reconstructed by requiring that there is a ~1 $\micro s$ coincidence between the reconstructed hits in all 32 PMTs. The total PE is summed up among all coincident hits across the PMTs and if the total PE is greater than 2 PE, a flash is reconstructed. There are also safe guards in place to take care of late scintillation light.  
+Once hits are reconstructed for all 32 PMTs, all PMT information is then combined into optical flashes which represent optical information seen by the PMTs from interactions in the detector. Each flash has information on total light seen per interaction,  the distribution of the light across all 32 PMTs, the flash time with respect to the trigger time of the flash, and lastly, the spacial information of the flash in Y-Z plane of the detector. These flashes are reconstructed by requiring that there is a \sim 1 $\micro s$ coincidence between the reconstructed hits in all 32 PMTs. The total PE is summed up among all coincident hits across the PMTs and if the total PE is greater than 2 PE, a flash is reconstructed. There are also safe guards in place to take care of late scintillation light.  
 
 \begin{figure}[htp!]
 \includegraphics[width=.6\textwidth]{figs/opticaltrigger.png}
@@ -113,5 +113,19 @@ Each window has a width of 1.6 $\micro s$.
 
 
 \section{TPC Reconstruction}
+\begin{figure}[htp!]
+\includegraphics[width=\textwidth]{figs/reconstructionchain.png}
+\caption{Reconstruction chain run on both data and MC. The red stars mean that the algorithm returns reconstrucded 3D vertices.}
+\label{fig:recochain}
+\end{figure}
+
+Figure \ref{fig:recochain} summarizes the reconstruction chain applied to both MC and data for this analysis. After the hit reconstruction, a cosmic pass is applied which removes all hits associated to through-going tracks. A description of these TPC reconstruction algorithms will be detailed below.
+\subsection{Hit Reconstruction}
+\subsection{Clustering}
+\subsection{Pandora}
+\subsection{Trackkalmanhit}
+\subsection{Cosmic Hit Removal}
+\subsection{Projection Matching Algorithm}
+\subsection{Calorimetry}
 \section{Event Selection}
 %\section{The importance of $\mu/\pi$ separation}
