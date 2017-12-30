@@ -115,13 +115,19 @@ Each window has a width of 1.6 $\micro s$.
 \section{TPC Reconstruction}
 \begin{figure}[htp!]
 \includegraphics[width=\textwidth]{figs/reconstructionchain.png}
-\caption{Reconstruction chain run on both data and MC. The red stars mean that the algorithm returns reconstrucded 3D vertices.}
+\caption{Reconstruction chain run on both data and MC. The red stars mean that the algorithm returns reconstructed 3D vertices.}
 \label{fig:recochain}
 \end{figure}
 
 Figure \ref{fig:recochain} summarizes the reconstruction chain applied to both MC and data for this analysis. After the hit reconstruction, a cosmic pass is applied which removes all hits associated to through-going tracks. A description of these TPC reconstruction algorithms will be detailed below.
 \subsection{Hit Reconstruction}
+The waveforms used for hit reconstruction consist of charge deposited on the sense wire in drift time. The first step in hit reconstruction is to pass the waveforms through a filtering algorithm to filter out the noise introduced from the electronics. The input waveforms are also truncated from 9600 time ticks to 6400 time ticks in this first step to reduce the data footprint of these waveforms. 
+
+Once noise filtering is complete, a deconvolution algorithm is applied to the waveforms to remove the drift field and electronics response, therefore leaving only the ionized electrons kicked off the argon atoms by an incident track. During this process, Region of Interests (ROI) are identified and cut out of the waveforms to further reduce the data volume. 
+
+The hit finding algorithm then finds candidate peaks in these ROI's and fits the peaks to Gaussian curves. These Gaussian shaped peaks are now called hits and represent the charge deposition on a wire by the incoming track. These hit objects have a peak time and width and are the basic object input to further algorithms down the reconstruction chain.   
 \subsection{Clustering}
+There are multiple clustering algorithms used in this analysis. The main purpose of all the clustering algorithms is to associate hits together in 2D space to create objects like tracks, vertices and showers. For the fuzzy cluster algorithm, three steps are used to achieved 
 \subsection{Pandora}
 \subsection{Trackkalmanhit}
 \subsection{Cosmic Hit Removal}

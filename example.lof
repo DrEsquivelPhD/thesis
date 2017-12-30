@@ -27,7 +27,7 @@
 \contentsline {subfigure}{\numberline {\relax 5.1b}{\ignorespaces Selection efficiency as a function of the true muon momentum\relax }}{38}{figure.caption.23}
 \contentsline {figure}{\numberline {\relax 5.2}{\ignorespaces Time distribution of reconstructed optical flashes with a PE value of 50 or more for a sample of BNB unbiased triggered events.\relax }}{41}{figure.caption.24}
 \contentsline {figure}{\numberline {\relax 5.3}{\ignorespaces Flash time distribution for all flashes (left plot) and flashes > 20PE (right plot). The different curves are as follows: on-beam data (black), off-beam data (red), CORSIKA inTime MC (light blue), BNB only MC (green), and BNB+Cosmic MC (purple). The dashed vertical lines mark the time window that was chosen for each sample\relax }}{41}{figure.caption.25}
-\contentsline {figure}{\numberline {\relax 5.4}{\ignorespaces Reconstruction chain run on both data and MC. The red stars mean that the algorithm returns reconstrucded 3D vertices.\relax }}{42}{figure.caption.26}
+\contentsline {figure}{\numberline {\relax 5.4}{\ignorespaces Reconstruction chain run on both data and MC. The red stars mean that the algorithm returns reconstructed 3D vertices.\relax }}{42}{figure.caption.26}
 \addvspace {10\p@ }
 \contentsline {figure}{\numberline {\relax 6.1}{\ignorespaces Pixel representation and visualization of a curve detector filter. As you can see, in the pixel representation, the weights of this filter are greater along a curve we are trying to find in the input image\relax }}{47}{figure.caption.27}
 \contentsline {figure}{\numberline {\relax 6.2}{\ignorespaces Visualization of filters found in first layer of a CNN.\relax }}{47}{figure.caption.28}
