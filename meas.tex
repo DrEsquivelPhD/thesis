@@ -80,6 +80,37 @@ and are as follows:
 \end{itemize}
 
 \subsection{Flash Reconstruction}
+MicroBooNE collects light from each of the 32 PMTs either in a continuous readout window of 23.4 $\micro S$ activated by a beam gate signal on the trigger board, or in discriminated pulses of ~1 $\micro s$ duration activated if the ADC count for any PMT goes above 80 ADC count. These two formats are saved as output waveforms and put onto an event. Additionally, each PMT can provide two output streams, high-gain (~20 ADC/PE) and low-gain (~2 ADC/PE) channels. The first step in the reconstruction is to merge both these channels into a ``saturation corrected waveform'' which uses information from the low-gain waveform to correct for saturating high-gain pulses.
+ 
+The saturation corrected waveform in the continuous readout window is used to reconstruct optical hits. Each PMT's waveform is scanned for hits then a threshold based hit reconstruction algorithm is applied which requires pulses of a minimum area in order to be reconstructed. Each reconstructed hit is associated to a PMT, a time in $\micro s$, and a PE count. 
+
+Once hits are reconstructed for all 32 PMTs, all PMT information is then combined into optical flashes which represent optical information seen by the PMTs from interactions in the detector. Each flash has information on total light seen per interaction,  the distribution of the light across all 32 PMTs, the flash time with respect to the trigger time of the flash, and lastly, the spacial information of the flash in Y-Z plane of the detector. These flashes are reconstructed by requiring that there is a ~1 $\micro s$ coincidence between the reconstructed hits in all 32 PMTs. The total PE is summed up among all coincident hits across the PMTs and if the total PE is greater than 2 PE, a flash is reconstructed. There are also safe guards in place to take care of late scintillation light.  
+
+\begin{figure}[htp!]
+\includegraphics[width=.6\textwidth]{figs/opticaltrigger.png}
+\caption{Time distribution of reconstructed optical flashes with a PE value of 50 or more for a sample of BNB unbiased triggered events.}
+\label{fig:optrig}
+\end{figure}
+
+Figure \ref{fig:optrig} shows the time distribution of reconstructed optical flashes using the BNB continuous stream. You can see a clear excess in coincidence with the expected arrival time of neutrinos. The same flash reconstruction that was used in the cc-inclusive filter detailed here was used to create this plot in data.
+\subsection{Beam Window}
+
+\begin{figure}[htp!]
+\includegraphics[width=\textwidth]{figs/flashdist.png}
+\caption{Flash time distribution for all flashes (left plot) and flashes > 20PE (right plot). The different curves are as follows: on-beam data (black), off-beam data (red), CORSIKA inTime MC (light blue), BNB only MC (green), and BNB+Cosmic MC (purple). The dashed vertical lines mark the time window that was chosen for each sample}
+\label{fig:beamwindow}
+\end{figure}
+
+Figure \ref{fig:beamwindow} shows the distribution of flashes for on-beam, off-beam and various MC samples. The software trigger has been applied to these samples. The pile-up seen just after 0 $\micro s$ is a feature of the flash finding algorithm and consists of low PE flashes and is removed in the second column of distributions with a low 20 PE threshold cut. The plots show that the time window for the distributions are shifted a small amount from each-other. This is caused by different hardware configurations per sample. Using these distributions, the windows chosen per sample are as follows:
+\begin{itemize}
+\item{On-Beam: 3.3 to 4.9 $\micro s$}
+\item{Off-Beam: 3.65 to 5.25 $\micro s$} 
+\item{CORSIKA inTime: 3.2 to 4.8 $\micro s$}
+\item{BNB only: 3.55 to 5.15 $\micro s$} 
+\item{BNB+Cosmic: 3.55 to 5.15 $\micro s$} 
+\end{itemize}
+Each window has a width of 1.6 $\micro s$. 
+
 
 \section{TPC Reconstruction}
 \section{Event Selection}
