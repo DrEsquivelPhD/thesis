@@ -127,8 +127,11 @@ Once noise filtering is complete, a deconvolution algorithm is applied to the wa
 
 The hit finding algorithm then finds candidate peaks in these ROI's and fits the peaks to Gaussian curves. These Gaussian shaped peaks are now called hits and represent the charge deposition on a wire by the incoming track. These hit objects have a peak time and width and are the basic object input to further algorithms down the reconstruction chain.   
 \subsection{Clustering}
-There are multiple clustering algorithms used in this analysis. The main purpose of all the clustering algorithms is to associate hits together in 2D space to create objects like tracks, vertices and showers. For the fuzzy cluster algorithm, three steps are used to achieved 
+There are multiple clustering algorithms used in this analysis. The main purpose of all the clustering algorithms is to associate hits together in 2D space to create objects like tracks, vertices and showers. For the fuzzy cluster algorithm, three steps are used to achieve this. The first step is to associate hits to each-other using a fuzzy clustering algorithm which gives each hit a degree of belonging to the cluster. Second, a Hough transform is used to find hits associated to candidate tracks and showers within each of the clusters found in the first step. The last step merges smaller candidate tracks and showers into large clusters. The last step also associates unclustered hits into nearby objects which helps shower reconstruction. The result is a set of clusters made up of associate hits that represent tracks or showers per plane. 
+
+The pandora algorithm utilizes it's own clustering algorithm and will be detailed in the next section. The last clustering algorithm is called linecluster. The linecluster algorithm reconstructs 2D linear clusters per plane by fitting a line onto nearby hits which is then extrapolated to neighboring wires. 2D vertices are found per plane by using the intersection points of the ends of nearby clusters. These 2D vertices are then matched in time across all three planes to get a 3D vertex in space.  
 \subsection{Pandora}
+
 \subsection{Trackkalmanhit}
 \subsection{Cosmic Hit Removal}
 \subsection{Projection Matching Algorithm}
