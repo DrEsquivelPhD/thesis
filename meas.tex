@@ -135,6 +135,11 @@ The pandora algorithm utilizes it's own clustering algorithm and will be detaile
 \subsection{Trackkalmanhit}
 The trackkalmanhit algorithm takes 2D clusters returned from the fuzzy cluster algorithm and outputs track objects. There are no hierarchy structure as it is in pandora, each track is independent. There also is no vertex reconstruction with this algorithm as well.
 \subsection{Cosmic Hit Removal}
+The Pandora algorithm is applied to the events twice, the first to remove downward going tracks primarily from cosmic ray muon like particles. The second pass only runs on a subset of hits that aren't associated with cosmic ray muon tracks. 
+
+After the first pass, the output of PFParticle hierarchy is then passed to a cosmic ray tagger to look through all hits to determine start and end points. If the start or end point trajectories are consistent with entering or exiting the TPC, then these hits are removed from the second pass. Hits are considered entering or exiting the TPC if the drift time are outside of the neutrino drift window or outside of the fiducial volume of the TPC. The fiducial volume was based on a montecarlo study and is 20 cm from the top or bottom of the TPC and 10 cm from the TPC ends.
+
+
 \subsection{Projection Matching Algorithm}
 \subsection{Calorimetry}
 \section{Event Selection}
