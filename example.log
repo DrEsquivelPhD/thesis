@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2017.8.22)  3 JAN 2018 14:19
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2017.8.22)  20 JAN 2018 23:20
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1875,9 +1875,9 @@ y)>] [54
 
 ]
 chapter 7.
-[55]
+[55] [56]
 
-LaTeX Warning: Citation `cc-inclusive' on page 56 undefined on input line 19.
+LaTeX Warning: Citation `cc-inclusive' on page 57 undefined on input line 19.
 
 
 Overfull \hbox (122.19907pt too wide) in paragraph at lines 19--20
@@ -1886,7 +1886,6 @@ Overfull \hbox (122.19907pt too wide) in paragraph at lines 19--20
 cc7_reco2.
  []
 
-[56]
 
 LaTeX Warning: Citation `priorwork' on page 57 undefined on input line 22.
 
@@ -1903,34 +1902,34 @@ Package microtype Info: Loading generic settings for font family
 
 LaTeX Warning: Citation `caffe' on page 58 undefined on input line 45.
 
-<figs/acc_loss_10000_062117.png, id=1302, 619.31375pt x 472.76625pt>
+[58] <figs/acc_loss_10000_062117.png, id=1307, 619.31375pt x 472.76625pt>
 File: figs/acc_loss_10000_062117.png Graphic file (type png)
 
 <use figs/acc_loss_10000_062117.png>
 Package pdftex.def Info: figs/acc_loss_10000_062117.png used on input line 49.
 (pdftex.def)             Requested size: 247.72112pt x 189.10315pt.
 
-<figs/train_confusion.pdf, id=1303, 578.16pt x 578.16pt>
+<figs/train_confusion.pdf, id=1308, 578.16pt x 578.16pt>
 File: figs/train_confusion.pdf Graphic file (type pdf)
 
 <use figs/train_confusion.pdf>
 Package pdftex.def Info: figs/train_confusion.pdf used on input line 57.
 (pdftex.def)             Requested size: 201.6268pt x 216.80946pt.
 
-<figs/val_confusion.pdf, id=1304, 578.16pt x 578.16pt>
+<figs/val_confusion.pdf, id=1309, 578.16pt x 578.16pt>
 File: figs/val_confusion.pdf Graphic file (type pdf)
 
 <use figs/val_confusion.pdf>
 Package pdftex.def Info: figs/val_confusion.pdf used on input line 63.
 (pdftex.def)             Requested size: 201.6268pt x 216.80946pt.
 
-<figs/mitch_hw.png, id=1305, 1672.2475pt x 673.51625pt>
+<figs/mitch_hw.png, id=1310, 1672.2475pt x 673.51625pt>
 File: figs/mitch_hw.png Graphic file (type png)
 
 <use figs/mitch_hw.png>
 Package pdftex.def Info: figs/mitch_hw.png used on input line 69.
 (pdftex.def)             Requested size: 448.06815pt x 180.66995pt.
- [58]
+
 <../images/confusion_allparticle_v3.pdf, id=1314, 867.24pt x 578.16pt>
 File: ../images/confusion_allparticle_v3.pdf Graphic file (type pdf)
 
@@ -2497,7 +2496,7 @@ LaTeX Warning: There were multiply-defined labels.
 Here is how much of TeX's memory you used:
  30870 strings out of 494953
  550310 string characters out of 6180977
- 766799 words of memory out of 5000000
+ 767799 words of memory out of 5000000
  32751 multiletter control sequences out of 15000+600000
  115179 words of font info for 437 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
@@ -2515,7 +2514,7 @@ urw/palatino/uplb8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/palatino
 /uplbi8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/palatino/uplr8a.pfb
 ></usr/share/texlive/texmf-dist/fonts/type1/urw/palatino/uplr8a.pfb></usr/share
 /texlive/texmf-dist/fonts/type1/urw/palatino/uplri8a.pfb>
-Output written on example.pdf (117 pages, 6390094 bytes).
+Output written on example.pdf (117 pages, 6390732 bytes).
 PDF statistics:
  2413 PDF objects out of 2487 (max. 8388607)
  1522 compressed objects within 16 object streams
