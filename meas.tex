@@ -137,10 +137,11 @@ The trackkalmanhit algorithm takes 2D clusters returned from the fuzzy cluster a
 \subsection{Cosmic Hit Removal}
 The Pandora algorithm is applied to the events twice, the first to remove downward going tracks primarily from cosmic ray muon like particles. The second pass only runs on a subset of hits that aren't associated with cosmic ray muon tracks. 
 
-After the first pass, the output of PFParticle hierarchy is then passed to a cosmic ray tagger to look through all hits to determine start and end points. If the start or end point trajectories are consistent with entering or exiting the TPC, then these hits are removed from the second pass. Hits are considered entering or exiting the TPC if the drift time are outside of the neutrino drift window or outside of the fiducial volume of the TPC. The fiducial volume was based on a montecarlo study and is 20 cm from the top or bottom of the TPC and 10 cm from the TPC ends.
+After the first pass, the output of PFParticle hierarchy is then passed to a cosmic ray tagger to look through all hits to determine start and end points. If the start or end point trajectories are consistent with entering or exiting the TPC, then these hits are removed from the second pass. Hits are considered entering or exiting the TPC if the drift time are outside of the neutrino drift window or outside of the fiducial volume of the TPC. The fiducial volume was based on a montecarlo study and is 20 cm from the top or bottom of the TPC and 10 cm from the TPC ends. Hits associated with candidate cosmic  ray tracks are removed from the input hit collection and the remaining hits are passed to the neutrino optimized pass of Pandora.
 
 
 \subsection{Projection Matching Algorithm}
-\subsection{Calorimetry}
+The projection matching algorithm (PMA) was inherited from ICARUS and has been implemented in LArSoft. PMA differs from traditional LArSoft 3D reconstruction algorithms. Most 3D reconstruction attempts to match 2D objects from all three planes by drift time, while the PMA algorithm projects a track hypothesis on each plane then the distance between this projection and the hits on each plane is minimized simultaneously. More information can be found in \cite{PMA}.
 \section{Event Selection}
+
 %\section{The importance of $\mu/\pi$ separation}
