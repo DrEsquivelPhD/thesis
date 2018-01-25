@@ -36,9 +36,7 @@ On top of the hardware and software triggers, the data also had to pass more cri
 \item{\textbf{Run processed:} the full run must be processed completely without missing subruns or crashes in the data processing.}
 \end{itemize}
 
-The selection begins with a cut that requires an optical flash greater than 50 photo electrons (PE) in the 1.6 $\mu$s beam window. Next, two or more 3D reconstructed tracks must be within 5 cm from a 3D reconstructed vertex. The most forward going track vertex-track association is then selected for further cuts. The vertex from the chosen association must be in the fiducial volume, and the longest track from this association must be matched to a flash 80 cm in z. Lastly the longest track must be contained and longer than 75 cm.       
-
-\section{Normalization of data and MC}
+\section{Normalization of data and MC}\label{section:normalize}
 The off-beam sample is used to measure beam unrelated backgrounds. For normalization, one needs the total number of BNB spills \textit{$(N_{BNB}$} and the total number of external triggers. The BNB spills used need to pass the beam quality cuts. The normalization factor is then \textit{$N_{BNB}/N_{EXT}$} which is 1.23. 
 
 To normalize generated BNB MC events to POT, we used the following:
@@ -143,5 +141,28 @@ After the first pass, the output of PFParticle hierarchy is then passed to a cos
 \subsection{Projection Matching Algorithm}
 The projection matching algorithm (PMA) was inherited from ICARUS and has been implemented in LArSoft. PMA differs from traditional LArSoft 3D reconstruction algorithms. Most 3D reconstruction attempts to match 2D objects from all three planes by drift time, while the PMA algorithm projects a track hypothesis on each plane then the distance between this projection and the hits on each plane is minimized simultaneously. More information can be found in \cite{PMA}.
 \section{Event Selection}
+The first requirement for selecting $\nu_{\mu}$ CC events is that the event has at least one scintillation light flash in the beam trigger window with more than 50 PE on all PMTs combined. From the flashes that pass, the most intense is chosen and considered to be originating from a neutrino interaction and will be the only flash used in further cuts. 
 
+Vertices are then required to have at least one reconstructed track start or endpoint within a 5 cm radius. Showers associated with a vertex do not pass this cut. All tracks associated with a vertex are then used to calculate a track length weighted average of the $\theta$-angle. Of all the vertices that do pass, only the vertex with the most forward going $\theta$-angle average of all associated tracks is considered the neutrino vertex candidate. The most forward going $\theta$-angle average is chosen by picking the largest track range weighted average of $|cos(\theta)|$, seeing as $cos(\theta)=1$ is the beam direction. Next, it is required that the reconstructed neutrino vertex candidate be within the fiducial volume as well as within the drift time starting at $t_0$. The fiducial volume boundaries chosen are 10 cm from the edges of the TPC in x and z which is the drift direction and beam direction respectively, and 20 cm from the edges of the TPC in y which is the vertical direction. For all further cuts, only the longest track associated with the neutrino vertex candidate and this track is assumed to be the muon candidate of the neutrino event.
+
+The next cut requires the position of the flash in the z-direction and the track z-projection to be compared. This basic flash matching algorithm is rudimentary and a placeholder for a more sophisticated algorithm. The z-position of the flash needs to be within 80 cm to the z-positions of track start or endpoints. If the flash is between the track start and endpoint, the distance of the flash to the track is considered to be 0 cm. 
+
+Lastly, the track needs to be fully contained within the fiducial volume and have a track range greater than 75 cm. The range is the 3D distance between the track's start and endpoint. The length cut was optimized to remove NC background that contain a pion due to the pion interaction rate to be \sim 70 cm. A track that makes all the cuts is considered to be the muon of a $\nu_{\mu}$ CC event. The list of cuts for this selection is described below:
+\begin{enumerate}
+\item At least one falsh > 50 PE within the beam gate.
+\item At least one track witin 5 cm around a vertex.
+\item Vertex with flattest tracks is chosen to be vertex candidate.
+\item Vertex candidate in fiducial volume.
+\item Longest track associated with vertex candidate is chosen to be track candidate.
+\item Longest track is within 80 cm (z-axis only) of the flash.
+\item Longest track is fully contained.
+\item Longest track is greater than 75 cm.
+\end{enumerate}
+
+The event selection scheme can also be seen in figure \ref{fig:selection}. Table \ref{table:mc} lists the passing rates for MC events for the selection scheme describes above. Table \ref{table:data} lists the passing rates for on-beam and off-beam data for the selection scheme. The normalization factors applied between on-beam and off-beam data are described in section \ref{section:normalize}.
+\begin{figure}[htp!]
+\includegraphics[width=\textwidth]{figs/selection.png}
+\caption{Event selection diagram for selection I and selection II. This analysis focused on optimizing selection I. Boxes with the same color across the two selections symbolize similar cuts.}
+\label{fig:selection}
+\end{figure}
 %\section{The importance of $\mu/\pi$ separation}
