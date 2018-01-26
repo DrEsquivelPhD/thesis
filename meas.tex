@@ -168,15 +168,17 @@ The event selection scheme can also be seen in figure \ref{fig:selection}. Table
 
 \begin{table}
 \begin{center}
-\begin{tabular}{c c c c}
+\begin{tabular}{c |c |c | c}
 \hline
 & \vline  BNB+Cosmic  & \vline Cosmic Only  & \vline Signal:Cosmic Only \vline \\
-& \vline  Selection \t\t\t MC-Truth  & \vline &\vline \\
-Generated Events & 191362 \t 45273 & 4804 & 1:22 \\
-Cosmics only ( no flash) & 308,016 & 291,879 & 602 \\
-Cosmics only (w/ flash) & 2464 & 2335 & 5 \\
-\hline
-Neutrinos/Cosmics & 0.23 & 0.13 & 6.4 \\
+& \vline  Selection	MC-Truth  & \vline & \\
+Generated Events 			& $191362	     	45273 		 $	& $4804 	   $	& $1:22$ \\
+\geq 1 flash with \geq 50 PE 		& $136219 (71\%/71\%)	44002 (97\%/97\%)$ 	& $2970 (62\%/62\%)$ 	& $1:14$ \\
+\geq 1 track within 5 cm of vertex 	& $135830 (99\%/71\%)	43974 (99\%/97\%)$ 	& $2975 (99\%/62\%)$ 	& $1:14$ \\
+vertex candidate in FV
+flash matching of longest track
+track containment
+track \geq 75 cm
 \end{tabular}
 \caption{Passing rates for 2D cluster cuts for neutrino on MC set and a cosmic only MC set. First column shows event rates with no cuts applied to both sets. Columns two and three show event rates after primary and secondary cuts are applied. Line three shows the seccond line scaled with the flash finding factor of 0.008. All events are normalized to per day assuming we are running at 5 Hz.}
 \label{table:mc}

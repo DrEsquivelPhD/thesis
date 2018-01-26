@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2017.8.22)  25 JAN 2018 09:34
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2017.8.22)  26 JAN 2018 16:39
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1176,35 +1176,7 @@ Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
 LaTeX Warning: Unused global option(s):
     [usenames].
 
-(./example.aux
-
-LaTeX Warning: Label `fig:curvedetector' multiply defined.
-
-
-LaTeX Warning: Label `fig:mu_pi' multiply defined.
-
-
-LaTeX Warning: Label `fig:mu_pi' multiply defined.
-
-
-LaTeX Warning: Label `fig:mu_p' multiply defined.
-
-
-LaTeX Warning: Label `fig:mu_p' multiply defined.
-
-
-LaTeX Warning: Label `fig:mu_e' multiply defined.
-
-
-LaTeX Warning: Label `fig:mu_e' multiply defined.
-
-
-LaTeX Warning: Label `fig:mu_g' multiply defined.
-
-
-LaTeX Warning: Label `fig:mu_g' multiply defined.
-
-)
+(./example.aux)
 \openout1 = `example.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 52.
@@ -1358,19 +1330,19 @@ Package microtype Info: Loading generic settings for font family
 
 
 {/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}] (./seals.tex
-<figs/seal_bw2.pdf, id=313, 229.61578pt x 290.686pt>
+<figs/seal_bw2.pdf, id=209, 229.61578pt x 290.686pt>
 File: figs/seal_bw2.pdf Graphic file (type pdf)
  <use figs/seal_bw2.pdf>
 Package pdftex.def Info: figs/seal_bw2.pdf used on input line 4.
 (pdftex.def)             Requested size: 298.50047pt x 377.89174pt.
 
-<figs/uboone.png, id=314, 326.21875pt x 102.3825pt>
+<figs/uboone.png, id=210, 326.21875pt x 102.3825pt>
 File: figs/uboone.png Graphic file (type png)
  <use figs/uboone.png>
 Package pdftex.def Info: figs/uboone.png used on input line 4.
 (pdftex.def)             Requested size: 97.86636pt x 30.71498pt.
 
-<figs/nsf2.pdf, id=316, 614.295pt x 794.97pt>
+<figs/nsf2.pdf, id=212, 614.295pt x 794.97pt>
 File: figs/nsf2.pdf Graphic file (type pdf)
  <use figs/nsf2.pdf>
 Package pdftex.def Info: figs/nsf2.pdf used on input line 4.
@@ -1400,103 +1372,31 @@ LaTeX Font Info:    Font shape `T1/ppl/bx/n' in size <24.88> not available
 (Font)              Font shape `T1/ppl/b/n' tried instead on input line 55.
 Package tocbasic Info: character protrusion at toc deactivated on input line 55
 .
- (./example.toc [11] [12]
-Overfull \hbox (2.4695pt too wide) in paragraph at lines 75--75
- [][] [][][]\T1/ppl/m/n/12 (-20) Classification of MC data us-ing Se-lec-tion I
- Mod-i-fied CC-Inclusive 
- []
-
-
-Overfull \hbox (2.4695pt too wide) in paragraph at lines 78--78
- [][] [][][]\T1/ppl/m/n/12 (-20) Classification of MC data us-ing Se-lec-tion I
- Mod-i-fied CC-Inclusive 
- []
-
-)
+ (./example.toc)
 \tf@toc=\write6
 \openout6 = `example.toc'.
 
- [13] [14
+ [11] [12
 
-] (./example.lof
-LaTeX Font Info:    Try loading font information for TS1+ppl on input line 21.
-
-(/usr/share/texlive/texmf-dist/tex/latex/psnfss/ts1ppl.fd
-File: ts1ppl.fd 2001/06/04 font definitions for TS1/ppl.
-)
-
-Package microtype Warning: Unknown slot number of character
-(microtype)                `\textminus '
-(microtype)                in font encoding `TS1' in protrusion list
-(microtype)                `ppl-textcomp'.
-
-
-Package microtype Warning: Unknown slot number of character
-(microtype)                `\texttrademark '
-(microtype)                in font encoding `TS1' in protrusion list
-(microtype)                `ppl-textcomp'.
-
-
-Package microtype Warning: Unknown slot number of character
-(microtype)                `\textcopyright '
-(microtype)                in font encoding `TS1' in protrusion list
-(microtype)                `ppl-textcomp'.
-
-
-Package microtype Warning: Unknown slot number of character
-(microtype)                `\textregistered '
-(microtype)                in font encoding `TS1' in protrusion list
-(microtype)                `ppl-textcomp'.
-
-
-Package microtype Warning: Unknown slot number of character
-(microtype)                `\textdegree '
-(microtype)                in font encoding `TS1' in protrusion list
-(microtype)                `ppl-textcomp'.
-
-[15] [16]
-Overfull \hbox (5.67154pt too wide) in paragraph at lines 41--41
- [][] [][][]\T1/ppl/m/n/12 (-20) Description of con-fu-sion ma-trix varables: F
-alse pion rate = $\OML/zplm/m/it/12 false^^Y\OT1/zplm/m/n/12 /\OML/zplm/m/it/12
- total^^Y$ 
- []
-
-[17]
-Overfull \hbox (0.25159pt too wide) in paragraph at lines 47--47
- [][] [][][]\T1/ppl/m/n/12 (-20) Training and test-ing loss oc CNN trained on 1
-00,000 im-ages of $\OML/zplm/m/it/12 ^^V$\T1/ppl/m/n/12 (-20) /$\OML/zplm/m/it/
-12 ^^Y$\T1/ppl/m/n/12 (-20) /p/$\OML/zplm/m/it/12 ^^M$\T1/ppl/m/n/12 (-20) /e[]
-[] [][]  
- []
-
-[18] [19] [20]
-
-LaTeX Warning: Citation `cc-inclusive' on page xxi undefined on input line 105.
-
-
-[21])
+] (./example.lof)
 \tf@lof=\write7
 \openout7 = `example.lof'.
 
- [22] (./example.lot
+ [13]
+[14
 
-LaTeX Warning: Citation `cc-inclusive' on page xxiii undefined on input line 13
-.
-
-[23
-
-])
+] (./example.lot)
 \tf@lot=\write8
 \openout8 = `example.lot'.
 
- [24] [25
+ [15] [16
 
-])) Processing 'mainmatter' comment.
+] [17])) Processing 'mainmatter' comment.
 \openout3 = `comment.cut'.
 
 
 Comment 'mainmatter' writing to comment.cut. Straight input of comment.cut.
-(./comment.cut (./intro.tex [26
+(./comment.cut (./intro.tex [18
 
 
 ]
@@ -1517,6 +1417,16 @@ Class scrbook Warning: \float@addtolists detected!
 (scrbook)              deprecated \float@addtolist interface .
 
 
+LaTeX Warning: Reference `ch:cnn' on page 1 undefined on input line 15.
+
+
+LaTeX Warning: Reference `ch:cnn_train' on page 1 undefined on input line 16.
+
+
+LaTeX Warning: Reference `ch:cnn_results' on page 1 undefined on input line 17.
+
+
+
 LaTeX Warning: Reference `ch:selImodcompare' on page 1 undefined on input line 
 17.
 
@@ -1529,9 +1439,16 @@ chapter 2.
 LaTeX Font Info:    Font shape `T1/ppl/bx/n' in size <17.28> not available
 (Font)              Font shape `T1/ppl/b/n' tried instead on input line 4.
 [3]
+
+LaTeX Warning: Citation `neutrino' on page 4 undefined on input line 10.
+
+
+LaTeX Warning: Citation `neutrinooscillation' on page 4 undefined on input line
+ 14.
+
 LaTeX Font Info:    Font shape `T1/ppl/bx/n' in size <14.4> not available
 (Font)              Font shape `T1/ppl/b/n' tried instead on input line 16.
- [4] <figs/solarmodel.jpg, id=976, 469.00218pt x 362.10281pt>
+[4] <figs/solarmodel.jpg, id=322, 469.00218pt x 362.10281pt>
 File: figs/solarmodel.jpg Graphic file (type jpg)
 
 <use figs/solarmodel.jpg>
@@ -1539,14 +1456,21 @@ Package pdftex.def Info: figs/solarmodel.jpg used on input line 22.
 (pdftex.def)             Requested size: 257.952pt x 199.15715pt.
 LaTeX Font Info:    Font shape `T1/ppl/bx/n' in size <10.95> not available
 (Font)              Font shape `T1/ppl/b/n' tried instead on input line 23.
- [5 <./figs/solarmodel.jpg>]
-<figs/homestake.jpg, id=988, 680.3016pt x 539.616pt>
+
+
+LaTeX Warning: Citation `bnl' on page 5 undefined on input line 27.
+
+
+LaTeX Warning: Citation `fnal' on page 5 undefined on input line 29.
+
+[5 <./figs/solarmodel.jpg>]
+<figs/homestake.jpg, id=331, 680.3016pt x 539.616pt>
 File: figs/homestake.jpg Graphic file (type jpg)
  <use figs/homestake.jpg>
 Package pdftex.def Info: figs/homestake.jpg used on input line 42.
 (pdftex.def)             Requested size: 134.4235pt x 106.62033pt.
 
-<figs/kamiokande.jpg, id=989, 276.03125pt x 184.69pt>
+<figs/kamiokande.jpg, id=332, 276.03125pt x 184.69pt>
 File: figs/kamiokande.jpg Graphic file (type jpg)
 
 <use figs/kamiokande.jpg>
@@ -1557,28 +1481,32 @@ Underfull \hbox (badness 10000) in paragraph at lines 49--49
 [][]|\T1/ppl/m/n/10.95 (+20) Kamiokande Ex-per-i-
  []
 
-<figs/sno.jpg, id=990, 176.66pt x 235.88126pt>
+<figs/sno.jpg, id=333, 176.66pt x 235.88126pt>
 File: figs/sno.jpg Graphic file (type jpg)
  <use figs/sno.jpg>
 Package pdftex.def Info: figs/sno.jpg used on input line 54.
 (pdftex.def)             Requested size: 134.4235pt x 179.48756pt.
 Package hyperref Info: bookmark level for unknown subfigure defaults to 0 on in
 put line 58.
- [6] [7 <./figs/homestake.jpg> <./figs/kamiokande.jpg> <./figs/sno.jpg>]
-<figs/cosmicray.jpg, id=1007, 401.5pt x 197.73875pt>
+
+
+LaTeX Warning: Citation `Smirnov:2003da' on page 6 undefined on input line 62.
+
+[6] [7 <./figs/homestake.jpg> <./figs/kamiokande.jpg> <./figs/sno.jpg>]
+<figs/cosmicray.jpg, id=350, 401.5pt x 197.73875pt>
 File: figs/cosmicray.jpg Graphic file (type jpg)
  <use figs/cosmicray.jpg>
 Package pdftex.def Info: figs/cosmicray.jpg used on input line 80.
 (pdftex.def)             Requested size: 200.7495pt x 98.86913pt.
 
-<figs/ratio.jpg, id=1012, 287.57437pt x 94.10156pt>
+<figs/ratio.jpg, id=355, 287.57437pt x 94.10156pt>
 File: figs/ratio.jpg Graphic file (type jpg)
  <use figs/ratio.jpg>
 Package pdftex.def Info: figs/ratio.jpg used on input line 101.
 (pdftex.def)             Requested size: 287.57367pt x 94.10132pt.
 
 [8 <./figs/cosmicray.jpg>]
-<figs/mixingangle.jpg, id=1021, 224.33812pt x 142.28156pt>
+<figs/mixingangle.jpg, id=366, 224.33812pt x 142.28156pt>
 File: figs/mixingangle.jpg Graphic file (type jpg)
 
 <use figs/mixingangle.jpg>
@@ -1627,6 +1555,9 @@ LaTeX Warning: Citation `argoneut' on page 15 undefined on input line 6.
 LaTeX Warning: Citation `sbn' on page 15 undefined on input line 7.
 
 
+LaTeX Warning: Citation `dune' on page 15 undefined on input line 7.
+
+
 LaTeX Warning: Citation `sbnd' on page 15 undefined on input line 7.
 
 
@@ -1634,7 +1565,16 @@ LaTeX Warning: Citation `icarus_t600' on page 15 undefined on input line 7.
 
 [15]
 
+LaTeX Warning: Citation `noisechar' on page 16 undefined on input line 9.
+
+
+LaTeX Warning: Citation `michel' on page 16 undefined on input line 9.
+
+
 LaTeX Warning: Reference `fig:tpc' on page 16 undefined on input line 11.
+
+
+LaTeX Warning: Citation `microboone' on page 16 undefined on input line 11.
 
 [16] [17]
 
@@ -1643,7 +1583,7 @@ LaTeX Warning: Citation `argoneut' on page 18 undefined on input line 21.
 
 LaTeX Warning: Reference `fig:egamma' on page 18 undefined on input line 21.
 
-[18] <figs/lee.png, id=1094, 364.36125pt x 435.12563pt>
+[18] <figs/lee.png, id=431, 364.36125pt x 435.12563pt>
 File: figs/lee.png Graphic file (type png)
  <use figs/lee.png>
 Package pdftex.def Info: figs/lee.png used on input line 25.
@@ -1653,7 +1593,10 @@ Package pdftex.def Info: figs/lee.png used on input line 25.
 
 LaTeX Warning: Citation `noise' on page 20 undefined on input line 38.
 
-[20] <figs/fnal.png, id=1105, 934.49126pt x 578.16pt>
+
+LaTeX Warning: Citation `michel' on page 20 undefined on input line 38.
+
+[20] <figs/fnal.png, id=442, 934.49126pt x 578.16pt>
 File: figs/fnal.png Graphic file (type png)
  <use figs/fnal.png>
 Package pdftex.def Info: figs/fnal.png used on input line 45.
@@ -1663,14 +1606,48 @@ Package pdftex.def Info: figs/fnal.png used on input line 45.
 LaTeX Warning: Reference `fig:generator' on page 21 undefined on input line 51.
 
 
+LaTeX Font Info:    Try loading font information for TS1+ppl on input line 51.
+(/usr/share/texlive/texmf-dist/tex/latex/psnfss/ts1ppl.fd
+File: ts1ppl.fd 2001/06/04 font definitions for TS1/ppl.
+)
+
+Package microtype Warning: Unknown slot number of character
+(microtype)                `\textminus '
+(microtype)                in font encoding `TS1' in protrusion list
+(microtype)                `ppl-textcomp'.
+
+
+Package microtype Warning: Unknown slot number of character
+(microtype)                `\texttrademark '
+(microtype)                in font encoding `TS1' in protrusion list
+(microtype)                `ppl-textcomp'.
+
+
+Package microtype Warning: Unknown slot number of character
+(microtype)                `\textcopyright '
+(microtype)                in font encoding `TS1' in protrusion list
+(microtype)                `ppl-textcomp'.
+
+
+Package microtype Warning: Unknown slot number of character
+(microtype)                `\textregistered '
+(microtype)                in font encoding `TS1' in protrusion list
+(microtype)                `ppl-textcomp'.
+
+
+Package microtype Warning: Unknown slot number of character
+(microtype)                `\textdegree '
+(microtype)                in font encoding `TS1' in protrusion list
+(microtype)                `ppl-textcomp'.
+
 [21 <./figs/fnal.png>]
-<figs/BNB_layout.jpg, id=1111, 852.93657pt x 527.72156pt>
+<figs/BNB_layout.jpg, id=449, 852.93657pt x 527.72156pt>
 File: figs/BNB_layout.jpg Graphic file (type jpg)
 
 <use figs/BNB_layout.jpg>
 Package pdftex.def Info: figs/BNB_layout.jpg used on input line 58.
 (pdftex.def)             Requested size: 448.07378pt x 277.23512pt.
- <figs/bnbflux.png, id=1112, 471.7625pt x 431.6125pt>
+ <figs/bnbflux.png, id=450, 471.7625pt x 431.6125pt>
 File: figs/bnbflux.png Graphic file (type png)
 
 <use figs/bnbflux.png>
@@ -1681,28 +1658,28 @@ Package pdftex.def Info: figs/bnbflux.png used on input line 67.
 chapter 4.
 [25
 
-] <figs/totalpecut.png, id=1130, 725.71124pt x 503.8825pt>
+] <figs/totalpecut.png, id=471, 725.71124pt x 503.8825pt>
 File: figs/totalpecut.png Graphic file (type png)
 
 <use figs/totalpecut.png>
 Package pdftex.def Info: figs/totalpecut.png used on input line 9.
 (pdftex.def)             Requested size: 268.847pt x 186.67195pt.
 
-<figs/totalpe_zoomed.png, id=1131, 713.66624pt x 496.85625pt>
+<figs/totalpe_zoomed.png, id=472, 713.66624pt x 496.85625pt>
 File: figs/totalpe_zoomed.png Graphic file (type png)
 
 <use figs/totalpe_zoomed.png>
 Package pdftex.def Info: figs/totalpe_zoomed.png used on input line 13.
 (pdftex.def)             Requested size: 268.847pt x 187.16974pt.
  [26 <./figs/totalpecut.png> <./figs/totalpe_zoomed.png>] <figs/flashrate_sim.p
-ng, id=1137, 586.19pt x 399.4925pt>
+ng, id=479, 586.19pt x 399.4925pt>
 File: figs/flashrate_sim.png Graphic file (type png)
 
 <use figs/flashrate_sim.png>
 Package pdftex.def Info: figs/flashrate_sim.png used on input line 26.
 (pdftex.def)             Requested size: 268.847pt x 183.22015pt.
 
-<figs/flashrate.png, id=1138, 651.43375pt x 414.54875pt>
+<figs/flashrate.png, id=480, 651.43375pt x 414.54875pt>
 File: figs/flashrate.png Graphic file (type png)
 
 <use figs/flashrate.png>
@@ -1740,14 +1717,14 @@ Package microtype Warning: Unknown slot number of character
 (microtype)                `ppl-textcomp'.
 
 [27 <./figs/flashrate_sim.png> <./figs/flashrate.png>] [28] [29] [30]
-<figs/2dprimarycut.png, id=1164, 1318.9275pt x 671.50874pt>
+<figs/2dprimarycut.png, id=506, 1318.9275pt x 671.50874pt>
 File: figs/2dprimarycut.png Graphic file (type png)
 
 <use figs/2dprimarycut.png>
 Package pdftex.def Info: figs/2dprimarycut.png used on input line 96.
 (pdftex.def)             Requested size: 448.07378pt x 228.12552pt.
 
-<figs/2dsecondarycut.png, id=1165, 1312.905pt x 689.57625pt>
+<figs/2dsecondarycut.png, id=507, 1312.905pt x 689.57625pt>
 File: figs/2dsecondarycut.png Graphic file (type png)
 
 <use figs/2dsecondarycut.png>
@@ -1767,35 +1744,35 @@ chapter 5.
 ]
 LaTeX Font Info:    Font shape `T1/ppl/bx/it' in size <12> not available
 (Font)              Font shape `T1/ppl/b/it' tried instead on input line 9.
- [36] [37] <figs/track_distribution.png, id=1199, 991.705pt x 747.79375pt>
+ [36] [37] <figs/track_distribution.png, id=544, 991.705pt x 747.79375pt>
 File: figs/track_distribution.png Graphic file (type png)
 
 <use figs/track_distribution.png>
 Package pdftex.def Info: figs/track_distribution.png used on input line 52.
 (pdftex.def)             Requested size: 179.22676pt x 135.14476pt.
 
-<figs/efficiencyvsmom.png, id=1200, 887.315pt x 652.4375pt>
+<figs/efficiencyvsmom.png, id=545, 887.315pt x 652.4375pt>
 File: figs/efficiencyvsmom.png Graphic file (type png)
 
 <use figs/efficiencyvsmom.png>
 Package pdftex.def Info: figs/efficiencyvsmom.png used on input line 58.
 (pdftex.def)             Requested size: 179.22676pt x 131.77937pt.
  [38 <./figs/track_distribution.png> <./figs/efficiencyvsmom.png>] [39]
-<figs/opticaltrigger.png, id=1213, 892.33376pt x 566.115pt>
+<figs/opticaltrigger.png, id=559, 892.33376pt x 566.115pt>
 File: figs/opticaltrigger.png Graphic file (type png)
 
 <use figs/opticaltrigger.png>
 Package pdftex.def Info: figs/opticaltrigger.png used on input line 88.
 (pdftex.def)             Requested size: 268.847pt x 170.56142pt.
 
-<figs/flashdist.png, id=1215, 1660.2025pt x 979.66pt>
+<figs/flashdist.png, id=561, 1660.2025pt x 979.66pt>
 File: figs/flashdist.png Graphic file (type png)
  <use figs/flashdist.png>
 Package pdftex.def Info: figs/flashdist.png used on input line 97.
 (pdftex.def)             Requested size: 448.07378pt x 264.39215pt.
 
 [40 <./figs/opticaltrigger.png>] [41 <./figs/flashdist.png>]
-<figs/reconstructionchain.png, id=1226, 1313.90875pt x 829.0975pt>
+<figs/reconstructionchain.png, id=573, 1313.90875pt x 829.0975pt>
 File: figs/reconstructionchain.png Graphic file (type png)
 
 <use figs/reconstructionchain.png>
@@ -1808,9 +1785,16 @@ LaTeX Warning: Citation `PMA' on page 45 undefined on input line 142.
 
 [45]
 
+LaTeX Warning: Reference `fig:selection' on page 46 undefined on input line 162
+.
+
+
+LaTeX Warning: Reference `table:mc' on page 46 undefined on input line 162.
+
+
 LaTeX Warning: Reference `table:data' on page 46 undefined on input line 162.
 
-<figs/selection.png, id=1247, 741.77126pt x 1007.765pt>
+<figs/selection.png, id=595, 741.77126pt x 1007.765pt>
 File: figs/selection.png Graphic file (type png)
 
 <use figs/selection.png>
@@ -1820,277 +1804,22 @@ Package pdftex.def Info: figs/selection.png used on input line 164.
 
 LaTeX Warning: Float too large for page by 9.12402pt on input line 167.
 
-LaTeX Font Info:    Try loading font information for OML+ppl on input line 173.
-
-(/usr/share/texlive/texmf-dist/tex/latex/psnfss/omlppl.fd
-File: omlppl.fd 
-)
-LaTeX Font Info:    Font shape `OML/ppl/m/n' in size <12> not available
-(Font)              Font shape `OML/cmm/m/it' tried instead on input line 173.
-
-! You can't use a prefix with `end-group character }'.
-<to be read again> 
-                   \egroup 
-l.173 & \vline \t\t
-                    BNB+Cosmic \t\t   & \vline Cosmic Only  & \vline Signal:...
-
-? 
-! Extra }, or forgotten \endgroup.
-\UseTextAccent ...se@text@encoding \@curr@enc #3}}
-                                                  
-l.173 & \vline \t\t
-                    BNB+Cosmic \t\t   & \vline Cosmic Only  & \vline Signal:...
+! Missing $ inserted.
+<inserted text> 
+                $
+l.176 \geq
+           1 flash with \geq 50 PE 		& $136219 (71\%/71\%)	44002 (97\%/97\%)...
 
 ? X
  
 Here is how much of TeX's memory you used:
- 30338 strings out of 494953
- 535976 string characters out of 6180977
- 750060 words of memory out of 5000000
- 32433 multiletter control sequences out of 15000+600000
- 100198 words of font info for 359 fonts, out of 8000000 for 9000
+ 30103 strings out of 494953
+ 531825 string characters out of 6180977
+ 710343 words of memory out of 5000000
+ 32292 multiletter control sequences out of 15000+600000
+ 99840 words of font info for 358 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
- 75i,19n,80p,2231b,986s stack positions out of 5000i,500n,10000p,200000b,80000s
-pdfTeX warning (dest): name{cite.microboone} has been referenced but does not e
-xist, replaced by a fixed one
-
-pdfTeX warning (dest): name{cite.michel} has been referenced but does not exist
-, replaced by a fixed one
-
-pdfTeX warning (dest): name{cite.noisechar} has been referenced but does not ex
-ist, replaced by a fixed one
-
-pdfTeX warning (dest): name{cite.dune} has been referenced but does not exist, 
-replaced by a fixed one
-
-pdfTeX warning (dest): name{cite.Smirnov:2003da} has been referenced but does n
-ot exist, replaced by a fixed one
-
-pdfTeX warning (dest): name{cite.fnal} has been referenced but does not exist, 
-replaced by a fixed one
-
-pdfTeX warning (dest): name{cite.bnl} has been referenced but does not exist, r
-eplaced by a fixed one
-
-pdfTeX warning (dest): name{cite.neutrinooscillation} has been referenced but d
-oes not exist, replaced by a fixed one
-
-pdfTeX warning (dest): name{cite.neutrino} has been referenced but does not exi
-st, replaced by a fixed one
-
-pdfTeX warning (dest): name{table.caption.71} has been referenced but does not 
-exist, replaced by a fixed one
-
-pdfTeX warning (dest): name{table.caption.70} has been referenced but does not 
-exist, replaced by a fixed one
-
-pdfTeX warning (dest): name{table.caption.28} has been referenced but does not 
-exist, replaced by a fixed one
-
-pdfTeX warning (dest): name{figure.caption.73} has been referenced but does not
- exist, replaced by a fixed one
-
-pdfTeX warning (dest): name{figure.caption.72} has been referenced but does not
- exist, replaced by a fixed one
-
-pdfTeX warning (dest): name{figure.caption.69} has been referenced but does not
- exist, replaced by a fixed one
-
-pdfTeX warning (dest): name{figure.caption.68} has been referenced but does not
- exist, replaced by a fixed one
-
-pdfTeX warning (dest): name{figure.caption.67} has been referenced but does not
- exist, replaced by a fixed one
-
-pdfTeX warning (dest): name{figure.caption.66} has been referenced but does not
- exist, replaced by a fixed one
-
-pdfTeX warning (dest): name{figure.caption.65} has been referenced but does not
- exist, replaced by a fixed one
-
-pdfTeX warning (dest): name{figure.caption.64} has been referenced but does not
- exist, replaced by a fixed one
-
-pdfTeX warning (dest): name{figure.caption.63} has been referenced but does not
- exist, replaced by a fixed one
-
-pdfTeX warning (dest): name{figure.caption.62} has been referenced but does not
- exist, replaced by a fixed one
-
-pdfTeX warning (dest): name{figure.caption.61} has been referenced but does not
- exist, replaced by a fixed one
-
-pdfTeX warning (dest): name{figure.caption.60} has been referenced but does not
- exist, replaced by a fixed one
-
-pdfTeX warning (dest): name{figure.caption.59} has been referenced but does not
- exist, replaced by a fixed one
-
-pdfTeX warning (dest): name{figure.caption.58} has been referenced but does not
- exist, replaced by a fixed one
-
-pdfTeX warning (dest): name{figure.caption.57} has been referenced but does not
- exist, replaced by a fixed one
-
-pdfTeX warning (dest): name{figure.caption.56} has been referenced but does not
- exist, replaced by a fixed one
-
-pdfTeX warning (dest): name{figure.caption.55} has been referenced but does not
- exist, replaced by a fixed one
-
-pdfTeX warning (dest): name{figure.caption.54} has been referenced but does not
- exist, replaced by a fixed one
-
-pdfTeX warning (dest): name{figure.caption.53} has been referenced but does not
- exist, replaced by a fixed one
-
-pdfTeX warning (dest): name{figure.caption.52} has been referenced but does not
- exist, replaced by a fixed one
-
-pdfTeX warning (dest): name{figure.caption.51} has been referenced but does not
- exist, replaced by a fixed one
-
-pdfTeX warning (dest): name{figure.caption.50} has been referenced but does not
- exist, replaced by a fixed one
-
-pdfTeX warning (dest): name{figure.caption.49} has been referenced but does not
- exist, replaced by a fixed one
-
-pdfTeX warning (dest): name{figure.caption.48} has been referenced but does not
- exist, replaced by a fixed one
-
-pdfTeX warning (dest): name{figure.caption.47} has been referenced but does not
- exist, replaced by a fixed one
-
-pdfTeX warning (dest): name{figure.caption.46} has been referenced but does not
- exist, replaced by a fixed one
-
-pdfTeX warning (dest): name{figure.caption.45} has been referenced but does not
- exist, replaced by a fixed one
-
-pdfTeX warning (dest): name{figure.caption.44} has been referenced but does not
- exist, replaced by a fixed one
-
-pdfTeX warning (dest): name{figure.caption.43} has been referenced but does not
- exist, replaced by a fixed one
-
-pdfTeX warning (dest): name{figure.caption.42} has been referenced but does not
- exist, replaced by a fixed one
-
-pdfTeX warning (dest): name{figure.caption.41} has been referenced but does not
- exist, replaced by a fixed one
-
-pdfTeX warning (dest): name{figure.caption.40} has been referenced but does not
- exist, replaced by a fixed one
-
-pdfTeX warning (dest): name{figure.caption.39} has been referenced but does not
- exist, replaced by a fixed one
-
-pdfTeX warning (dest): name{figure.caption.38} has been referenced but does not
- exist, replaced by a fixed one
-
-pdfTeX warning (dest): name{figure.caption.37} has been referenced but does not
- exist, replaced by a fixed one
-
-pdfTeX warning (dest): name{figure.caption.36} has been referenced but does not
- exist, replaced by a fixed one
-
-pdfTeX warning (dest): name{figure.caption.34} has been referenced but does not
- exist, replaced by a fixed one
-
-pdfTeX warning (dest): name{figure.caption.33} has been referenced but does not
- exist, replaced by a fixed one
-
-pdfTeX warning (dest): name{figure.caption.32} has been referenced but does not
- exist, replaced by a fixed one
-
-pdfTeX warning (dest): name{figure.caption.31} has been referenced but does not
- exist, replaced by a fixed one
-
-pdfTeX warning (dest): name{figure.caption.30} has been referenced but does not
- exist, replaced by a fixed one
-
-pdfTeX warning (dest): name{figure.caption.29} has been referenced but does not
- exist, replaced by a fixed one
-
-pdfTeX warning (dest): name{figure.caption.27} has been referenced but does not
- exist, replaced by a fixed one
-
-pdfTeX warning (dest): name{chapter*.74} has been referenced but does not exist
-, replaced by a fixed one
-
-pdfTeX warning (dest): name{chapter.9} has been referenced but does not exist, 
-replaced by a fixed one
-
-pdfTeX warning (dest): name{subsection.8.2.3} has been referenced but does not 
-exist, replaced by a fixed one
-
-pdfTeX warning (dest): name{subsection.8.2.2} has been referenced but does not 
-exist, replaced by a fixed one
-
-pdfTeX warning (dest): name{subsection.8.2.1} has been referenced but does not 
-exist, replaced by a fixed one
-
-pdfTeX warning (dest): name{section.8.2} has been referenced but does not exist
-, replaced by a fixed one
-
-pdfTeX warning (dest): name{subsection.8.1.3} has been referenced but does not 
-exist, replaced by a fixed one
-
-pdfTeX warning (dest): name{subsection.8.1.2} has been referenced but does not 
-exist, replaced by a fixed one
-
-pdfTeX warning (dest): name{subsection.8.1.1} has been referenced but does not 
-exist, replaced by a fixed one
-
-pdfTeX warning (dest): name{section.8.1} has been referenced but does not exist
-, replaced by a fixed one
-
-pdfTeX warning (dest): name{chapter.8} has been referenced but does not exist, 
-replaced by a fixed one
-
-pdfTeX warning (dest): name{subsection.7.2.4} has been referenced but does not 
-exist, replaced by a fixed one
-
-pdfTeX warning (dest): name{subsection.7.2.3} has been referenced but does not 
-exist, replaced by a fixed one
-
-pdfTeX warning (dest): name{subsection.7.2.2} has been referenced but does not 
-exist, replaced by a fixed one
-
-pdfTeX warning (dest): name{subsection.7.2.1} has been referenced but does not 
-exist, replaced by a fixed one
-
-pdfTeX warning (dest): name{section.7.2} has been referenced but does not exist
-, replaced by a fixed one
-
-pdfTeX warning (dest): name{subsection.7.1.2} has been referenced but does not 
-exist, replaced by a fixed one
-
-pdfTeX warning (dest): name{subsection.7.1.1} has been referenced but does not 
-exist, replaced by a fixed one
-
-pdfTeX warning (dest): name{section.7.1} has been referenced but does not exist
-, replaced by a fixed one
-
-pdfTeX warning (dest): name{chapter.7} has been referenced but does not exist, 
-replaced by a fixed one
-
-pdfTeX warning (dest): name{section.6.3} has been referenced but does not exist
-, replaced by a fixed one
-
-pdfTeX warning (dest): name{subsection.6.2.1} has been referenced but does not 
-exist, replaced by a fixed one
-
-pdfTeX warning (dest): name{section.6.2} has been referenced but does not exist
-, replaced by a fixed one
-
-pdfTeX warning (dest): name{section.6.1} has been referenced but does not exist
-, replaced by a fixed one
-
-pdfTeX warning (dest): name{chapter.6} has been referenced but does not exist, 
-replaced by a fixed one
-
+ 75i,19n,80p,2231b,989s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc}{/usr/share/texmf/fo
 nts/enc/dvips/cm-super/cm-super-t1.enc}</usr/share/texlive/texmf-dist/fonts/typ
 e1/public/amsfonts/cm/cmex10.pfb></usr/share/texlive/texmf-dist/fonts/type1/pub
@@ -2103,10 +1832,10 @@ pfb></usr/share/texlive/texmf-dist/fonts/type1/public/mathpazo/fplmri.pfb></usr
 type1/urw/palatino/uplbi8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/p
 alatino/uplr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/palatino/uplr
 8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/palatino/uplri8a.pfb>
-Output written on example.pdf (71 pages, 3434092 bytes).
+Output written on example.pdf (63 pages, 3397268 bytes).
 PDF statistics:
- 1347 PDF objects out of 1440 (max. 8388607)
- 1211 compressed objects within 13 object streams
- 246 named destinations out of 1000 (max. 500000)
- 60627 words of extra memory for PDF output out of 61914 (max. 10000000)
+ 675 PDF objects out of 1000 (max. 8388607)
+ 556 compressed objects within 6 object streams
+ 157 named destinations out of 1000 (max. 500000)
+ 60419 words of extra memory for PDF output out of 61914 (max. 10000000)
 
