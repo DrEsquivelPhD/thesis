@@ -161,28 +161,44 @@ Lastly, the track needs to be fully contained within the fiducial volume and hav
 
 The event selection scheme can also be seen in figure \ref{fig:selection}. Table \ref{table:mc} lists the passing rates for MC events for the selection scheme describes above. Table \ref{table:data} lists the passing rates for on-beam and off-beam data for the selection scheme. The normalization factors applied between on-beam and off-beam data are described in section \ref{section:normalize}.
 \begin{figure}[htp!]
-\includegraphics[width=\textwidth]{figs/selection.png}
+\includegraphics[width=0.9\textwidth]{figs/selection.png}
 \caption{Event selection diagram for selection I and selection II. This analysis focused on optimizing selection I. Boxes with the same color across the two selections symbolize similar cuts.}
 \label{fig:selection}
 \end{figure}
 
-\begin{table}
-\begin{center}
-\begin{tabular}{c |c |c | c}
-\hline
-& \vline  BNB+Cosmic  & \vline Cosmic Only  & \vline Signal:Cosmic Only \vline \\
-& \vline  Selection	MC-Truth  & \vline & \\
-Generated Events 			& $191362	     	45273 		 $	& $4804 	   $	& $1:22$ \\
-\geq 1 flash with \geq 50 PE 		& $136219 (71\%/71\%)	44002 (97\%/97\%)$ 	& $2970 (62\%/62\%)$ 	& $1:14$ \\
-\geq 1 track within 5 cm of vertex 	& $135830 (99\%/71\%)	43974 (99\%/97\%)$ 	& $2975 (99\%/62\%)$ 	& $1:14$ \\
-vertex candidate in FV
-flash matching of longest track
-track containment
-track \geq 75 cm
-\end{tabular}
-\caption{Passing rates for 2D cluster cuts for neutrino on MC set and a cosmic only MC set. First column shows event rates with no cuts applied to both sets. Columns two and three show event rates after primary and secondary cuts are applied. Line three shows the seccond line scaled with the flash finding factor of 0.008. All events are normalized to per day assuming we are running at 5 Hz.}
-\label{table:mc}
-\end{center}
-\end{table}
-The resulting neutrino/cosmic event rate per day is shown in table \ref{table:eventrate}. Figures \ref{fig:2dprimarycut} and \ref{fig:2dsecondarycuts} shows the percentages of clusters that pass each primary and secondary cuts.     
+\begin{table}[!htp] \centering 
+  \caption{Passing rates of Selection I. Numbers are absolute event counts and cosmic background is not scaled. The BNB+Cosmic sample contains all events, not just $\nu_{\mu}$ CC inclusive. The numbers in brackets give the passing rate wrt the step before (first percentage) and wrt total generated events (second percentage). The BNB+Cosmic MC-Truth column shows how many true $\nu_{\mu}$ CC inclusive events are left in the sample. This number includes mis-identifications where a cosmic track is picked by the selection instead of the neutrino interaction in the same event. The cosmic only sample is used just to illustrate the cut efficiency. The last column Signal:Cosmic only gives an estimate of the $\nu_{\mu}$ CC events wrt the cosmic only background at each step. For this number, the cosmic background has been scaled as described in section \ref{section:normalize}. } 
+  \label{table:mc} 
+\small 
+\resizebox{\textwidth}{!}{\begin{tabular}{c|c|c|c|c} 
+&   BNB+Cosmic Selection & BNB+ Cosmic MC-Truth & Cosmic Only  &  Signal:Cosmic Only  \\
+\\[-1.8ex]\hline 
+\hline \\[-1.8ex] 
+Generated Events & 191362 & 45273 & 4804 & 1:22 \\
+$\geq$ 1 flash with $\geq$ 50 PE & 136219 (71\%/71\%) & 44002 (97\%/97\%) & 2970 (62\%/62\%) & 1:14 \\
+$\geq$ 1 track within 5 cm of vertex & 135830 (99\%/71\%) & 43974 (99\%/97\%) & 2975 (99\%/62\%) & 1:14 \\
+vertex candidate in FV & 79112 (58\%/41\%) & 34891 (79\%/77\%) & 1482 (50\%/31\%) & 1:8.9 \\
+flash matching of longest track & 40267 (51\%/21\%) & 25891 (74\%/57\%) & 340 (23\%/7.1\%) & 1:2.8 \\
+track containment & 19391 (48\%/10\%) & 11693 (45\%/26\%) & 129 (38\%/2.7\%) & 1:2.3 \\
+track $\geq$ 75 cm & 6920 (36\%/3.6\%) & 5780 (49\%/13\%) & 17 (13\%/0.4\%) & 1:0.6 \\
+\end{tabular}} 
+\end{table} 
+
+\begin{table}[!htp] \centering 
+  \caption{Passing rates for Selection I selection applied to on-beam and off-beam data. THe numbers in brackets give the passing rate wrt the step before (first percentage) and wrt the generated events (second percentage). Off-beam data has been scaled with a factor 1.23 to normalize to the on-beam data stream.} 
+  \label{table:data} 
+\small 
+\resizebox{\textwidth}{!}{\begin{tabular}{c|cc} 
+&   on-beam & off-beam \\
+\\[-1.8ex]\hline 
+\hline \\[-1.8ex] 
+Generated Events & 546910 & 477819\\
+$\geq$ 1 flash with $\geq$ 50 PE & 135923 (25\%/25\%) & 96748 (20\%/20\%) \\
+$\geq$ 1 track within 5 cm of vertex & 134744 (99\%/25\%) & 95778 (99\%/20\%) \\
+vertex candidate in FV & 74827 (55\%/14\%) & 51468 (54\%/11\%) \\
+flash matching of longest track & 22059 (29\%/4.0\%) & 12234 (24\%/2.6\%) \\
+track containment & 10722 (49\%/1.9\%) & 5283 (43\%/1.1\%) \\
+track $\geq$ 75 cm & 3213 (30\%/0.6\%) & 1328 (25\%/0.3\%) \\
+\end{tabular}} 
+\end{table} 
 %\section{The importance of $\mu/\pi$ separation}
