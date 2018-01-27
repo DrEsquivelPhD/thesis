@@ -201,4 +201,57 @@ track containment & 10722 (49\%/1.9\%) & 5283 (43\%/1.1\%) \\
 track $\geq$ 75 cm & 3213 (30\%/0.6\%) & 1328 (25\%/0.3\%) \\
 \end{tabular}} 
 \end{table} 
-%\section{The importance of $\mu/\pi$ separation}
+\subsection{Expected Bakgrounds}
+Most of the selected background events will be of cosmic origin. Ther are two types of cosmic backgorund, one triggered by a cosmic-ray event ocuuring in the beam gate time window, the other triggered by a beam induced interaction in the cyrostat followed by a misidentification of a cosmic event as a neutrino event. The first cosmic background can be subtracted from the selected events using the off-beam BNBEXT sample normalized to the on-beam. The second cosmic background events are modeled by MC by using BNB+Cosmic MC sample. 
+
+Other backgrounds originate from neutrino beam contaminates. A major contribution in this sector is by neutral current neutrino events for example a charged pion track misidentified as a muon. Another contribution are $\nu_e$-like and anti-muon-neutrino events. These beam related backgrounds are an order of magnitude smaller than the cosmic misidentification backgrounds. These backgrounds can not be subtracted and are estimated using MC truth.
+
+The efficiency and purity of Selection I are calculated below:
+\begin{itemize}
+\item Efficiency: Number of selected true $\nu_{\mu}$ CC events divided by the number of expected true $\nu_{\mu}$ CC events with interaction in the FV.
+	\begin{itemize}
+	\item (12.3 \pm 3.4) \%
+	\end{itemize}
+\item Purity: Number of selected true $\nu_{\mu}$ CC events divided by the sum of itself and the number of all backgrounds.
+	\begin{itemize}
+	\item (53.8 \pm 4.4) \%
+	\end{itemize}
+\end{itemize}
+\subsection{Truth Distributions}
+The truth distributions of MC truth variables before and after the selection are detailed in this section. The overall efficiencies are calculated for all $\nu_{\mu}$ CC signal events with a true interaction within the fiducial volume and a fully contained muon track originating from said vertex. Figures \ref{fig:p} through \ref{fig:angle} detail the truth distributions for muon momentum, $cos(\theta)$ and $\phi$ and figures \ref{fig:stacked} through \ref{fig:stacked2} detail the total efficiency of the selection for charged current quasi elestic (CCQE) events, charged current resonant (CCRES) events, and charged current deep inelastic (CCDIS) events. 
+
+\begin{figure}[htp!]
+\includegraphics[width=.7\textwidth]{figs/truth_mumomentum.png}
+\caption{MC momentum distributions of the muon originating from a $\nu_{\mu}$ CC interaction. Upper left is the momentum distributions of events with a vertex within the FV (green) and the events with a fully contained track (blue) before the selection. The upper right side is the momentum distribution after the selection (red). The lower plot is the selection efficiencies.}
+\label{fig:p}
+\end{figure}
+
+\begin{figure}[htp!]
+\includegraphics[width=.7\textwidth]{figs/truth_mucostheta.png}
+\caption{MC $cos(\theta)$ distributions of the muon originating from a $\nu_{\mu}$ CC interaction. Upper left is the $cos(\theta)$ distributions of events with a vertex within the FV (green) and the events with a fully contained track (blue) before the selection. The upper right side is the $cos(\theta)$ distribution after the selection (red). The lower plot is the selection efficiencies.}
+\label{fig:angle1}
+\end{figure}
+
+\begin{figure}[htp!]
+\includegraphics[width=.7\textwidth]{figs/truth_muphi.png}
+\caption{MC $\phi$ distributions of the muon originating from a $\nu_{\mu}$ CC interaction. Upper left is the $\phi$ distributions of events with a vertex within the FV (green) and the events with a fully contained track (blue) before the selection. The upper right side is the $\phi$ distribution after the selection (red). The lower plot is the selection efficiencies.}
+\label{fig:angle}
+\end{figure}
+
+\begin{figure}[htp!]
+\includegraphics[width=.7\textwidth]{figs/truth_stackedmumomentum.png}
+\caption{MC momentum distributions of the muon originating from a $\nu_{\mu}$ CC interaction. Upper left is the momentum distributions of events with a vertex within the FV split up into CCQE (red), CCRES (yellow), and CCDIS (green) before selection. The upper right side is the momentum distribution after the selection with the same color schemes. The lower plot is the selection efficiencies for all three interaction types. The definition of QE, RES, and DIS is based on GENIE.}
+\label{fig:stacked}
+\end{figure}
+
+\begin{figure}[htp!]
+\includegraphics[width=.7\textwidth]{figs/truth_stackedmucostheta.png}
+\caption{MC $cos(\theta)$ distributions of the muon originating from a $\nu_{\mu}$ CC interaction. Upper left is the $cos(\theta)$ distributions of events with a vertex within the FV split up into CCQE (red), CCRES (yellow), and CCDIS (green) before selection. The upper right side is the $cos(\theta)$ distribution after the selection with the same color schemes. The lower plot is the selection efficiencies for all three interaction types. The definition of QE, RES, and DIS is based on GENIE.}
+\label{fig:stacked1}
+\end{figure}
+
+\begin{figure}[htp!]
+\includegraphics[width=.7\textwidth]{figs/truth_stackedmucostheta.png}
+\caption{MC $\phi$ distributions of the muon originating from a $\nu_{\mu}$ CC interaction. Upper left is the $\phi$ distributions of events with a vertex within the FV split up into CCQE (red), CCRES (yellow), and CCDIS (green) before selection. The upper right side is the $\phi$ distribution after the selection with the same color schemes. The lower plot is the selection efficiencies for all three interaction types. The definition of QE, RES, and DIS is based on GENIE.}
+\label{fig:stacked2}
+\end{figure}
