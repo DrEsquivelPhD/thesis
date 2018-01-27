@@ -1,28 +1,60 @@
-\chapter{Training Convolutional Neural Networks on particles \textcolor{red}{\textbf{WORKING TITLE}}}\label{ch:cnn_train}
-Three Convolutional Neural Networks (CNNs) were trained throughout this analysis. There are differences to each CNN and will be described fully in the next sections but the main difference are the amount of particle images used for training and validation. CNN1075 used 1,075 muons and 1,075 pions for training and the same amout of each particle for validation. CNN10000 used 10,000 muons and 10,000 pions split in half for testing and training. Lastly CNN100000 had muons, pions, protons, electrons, and gammas in it's training and validation set. Each particle had 20,000 images and training and validation was split $90\%$ training, $10\%$ validation. This chapter will also describe the different hardware frameworks used for training beginning on a CPU and ending on a GPU cluster.  
+\chapter{Training process of Convolutional Neural Networks}\label{ch:cnn_train}
+Three Convolutional Neural Networks (CNNs) were trained throughout this analysis. There are differences to each CNN and will be described fully in the next sections but the main difference are the amount of particle images used for training and validation. CNN1075 used 1,075 muons and 1,075 pions for training and the same amout of each particle for validation. CNN10000 used 10,000 muons and 10,000 pions split in half for testing and training. Lastly CNN100000 had muons, pions, protons, electrons, and gammas in it's training and validation set. Each particle had 20,000 images and training and validation was split $90\%$ training, $10\%$ validation. This chapter will also describe the different hardware frameworks used for training beginning on a CPU and ending on a GPU cluster. 
 
 
-\section{Hardware Frameworks used for Training}
-\subsection{Syracuse CPU Machine setup}
-\subsection{Syracuse University GPU Cluster Setup}
+%\section{Hardware Frameworks used for Training}
+%\subsection{Syracuse CPU Machine setup}
+%\subsection{Syracuse University GPU Cluster Setup}
 
 
 \section{Convolutional Neural Network Training}\label{research approach}
+The first training iteration, CNN1075, was a proof of concept. This CNN was trained on my local machine for \sim 4-5 weeks. The batch size had to be very small as well as the image size due to the lack of compuation resources. The second iteration of training, CNN10000, was trained on a Fermilab stationed Syracuse University machine. This machine had 6 TB of disk space, 6 cores at 2.1 GHz and 32 GB of RAM. The use of this machine allowed me to increase the training sample as well as the batch size and hence further increase the accuracy of the neural network. Lastly, the CNN100000 was trained using two GTX 1080 Ti GPUs with 11GB of memory on a node on the Syracuse University GPU cluster, SUrge, that has 8 cores and 16GB of memory. This increase in memory as well as the capability to use 2 GPUs drastically cut down on training time from \sim 4-5 weeks to \sim 8 hours. SUrge also allowed for hyperparameter optimization by being able to run mulitple training iterations over the two GPUs. Lastly, SUrge allowed for training over higher resolution images and a larger particle class of 5 particles vs 2 particles. 
+\subsection{Creating images using LArTPC data for training/validation of CNNS}\label{image_making}
+The $\mu/\pi$ image dataset used to train and validate CNN1075 was created using single generated isotropic muons and pions from 0-2 GeV energy range. 2,150 muons and 2,150 pions were used for training and testing split 50\%. The images were created using LArSoft, a liquid argon software, and were based on wire number and time tick in the collection plane. Uboonecode reconstruction version v05{\_}08{\_}00 was used. The raw ADC value after noise filtering was the wire signal. Each collection plane greyscale image was 3456x1600x1 where 6 time ticks were pooled into 1 bin. After the image was created, the region of interest (ROI) in the image was found by using Open CV, a image processing open source software package, to scan the image starting from the edges and stopping once a bright pixel is encountered. At this step, the ROI can be larger or smaller than the necessary size of a training image and the XY ratio of the image is not kept. This ROI is then resized to an image of 224x224x1. The greyscale color standard is 8bit therefore the ADC value of wire and time tick was also downsampled due to the 12bit ADC value MicroBooNE has. To do this, the highest ADC pixel in the image was found and then this was divided by the rest placing all pixel values between 0-1. From there, all pixel values are then multiplied by 255.
 
-\subsection{Image Making Scheme}\label{image_making} 
-\subsubsection{Images used for Traing/Validation of Convolutional Neural Networks}
-The $\mu/\pi$ image dataset used to train and validate CNN1075 was created using single generated isotropic muons and poins from 0-2 GeV energy range. 2,150 muons and 2,150 pions were used for training and testing split 50 \%. The images were created based on wire number and time tick in the collection plane. Uboonecode reconstruction version v05{\_}08{\_}00 was used. The raw ADC value after noise filtering was the wire signal. Each collection plane grayscale image was 3456x1600x1 where 6 time ticks were pooled into 1 bin. After the image was created, the region of interest (ROI) in the image was found by using Open CV, a image processing open source software package, to scan the image starting from the edges and stopping once a bright spot is encountered. Thi  
+The $\mu/\pi$ image dataset used to train and validate the CNN10000 was also created using single generated isotropic muons and pions from 0-2 GeV energy range. 10,000 muons and 10,000 pions were used for training and testing split 50\%. Uboonecode v06{\_}23{\_}00 was used instead of v05{\_}08{\_}00. Each collection plane greyscale image was 3456x1280x1 where 5 time ticks were pooled into 1 bin which is different than the previous dataset and was implemented due to the fact that the time ticks of an event went from 9400 to 6400 with the change of uboonecode version. Issues that arose in CNN1075 that were fixed in CNN10000 include zero-padding images in X and Y that are smaller than 224X224 to eliminate over-zooming effect and fixing a bug that shifted pixels separated by a dead-wire region.
 
-The $\mu/\pi$ image dataset used to train and validate the CNN10000 was also created using single generated isotropic muons and pions from 0-2 GeV energy range. 10,000 muons and 10,000 pions were used for training and testing split 50\%. Uboonecode v06{\_}23{\_}00 was used instead of v05{\_}08{\_}00. Each collection plane grayscale image was 3456x1280x1 where 5 time ticks were pooled into 1 bin which is different than the previous dataset and was implemented due to the fact that the time ticks of an event went from 9400 to 6400 with the change of uboonecode version. The grayscale color standard is 8bit therefore the ADC value of wire and time tick was also downsampled due to the 12bit ADC value MicroBooNE has. To do this, the highest ADC pixel in the image was found and then this was divided by the rest placing all pixel values between 0-1. From there, all pixel values are then multiplied by 255. All images were made using a LArSoft module. Once the images were created, using and image manipulation framework called OpenCV images were read into a numpy array and cropped to the region of interest by only keeping rows and columns where all ADC values are higher than 0 and then resized it to 224x224 using OpenCV's resize function. This downsampling of ADC values creates a problem of information loss for example, a proton which is highly ionizing will have the same brightness as a minimum ionizing muon by virtue of how the images are created. 
-Issues that arose in CNN1075 that were fixed in CNN10000 include zero-padding images in X and Y that are smaller than 224X224 to eliminate over-zooming effect and fixing a bug that shifted pixels separated by a dead-wire region. 
+The $\mu/\pi/p/e/\gamma$ image dataset used to train and validate the CNN100000 were created using single generated isotropic particles with energy range from 0-2 GeV. 20,000 of each particle were used for training and were split 90/10 between training and testing sets. Uboonecode v06{\_}23{\_}00 was used for these images. The collection plane greyscale iamge had the same dimensions as CNN10000, 3456x1280x1 and the ROI algorithm was the same except for resizing these images to 576x576. A major change other than the higher resolution images was the treatment of the ADC values. In the first two image making schemes, the highest pixel value was found per image and the image was then normalized by that. The issue arising from this ADC normalization wasn't inherent in $\mu/\pi$ training due to the fact that both particles are minimum ionizing particles in liquid argon, however, when dealing with a larger particle class, it was necessary to try and make sure energy deposition by each particle was preserved. The energy deposition in a particle image corresponds to the ADC value or pixel brightness. To preserve energy deposition, the ADC float value was passed straight to the image rather than doing any image normalization. This then makes sure that minimum ionizing particles like muons and pions appear dimmer than highly ionizing particles like protons.  
 
-Images were also made from events that passed the cc-inclusive selection 1 filter right before the 75 cm track length cut and were classified using the CNN10000. The dataset used to create these images is the same one used in \cite{cc-inclusive}, prodgenie{\_}bnb{\_}nu{\_}cosmic{\_}uboone{\_}mcc7{\_}reco2. These images were created using information from the track candidate that passed the filter. Only wire number and time ticks associated to the track candidate were drawn on the image to mimic a single particle generated image. These images were then classified using CNN10000. Two approaches were taken in making these images. The first was using the image normalization above where the maximum pixel in each image is used as a normalization constant to get all pixels between 0-1 then multiply all pixels by 255. As described above, this is the incorrect way to normalize; it should be normalized by dataset not by event, which is the second way the images were created. The results of CNN10000 performance are shown in section \ref{research approach}. 
+Images were also made from BNB+Cosmic events that passed the cc-inclusive selection 1 filter right before the 75 cm track length cut and were classified using the CNN10000. The dataset used to create these images is the same one used in \cite{cc-inclusive}, \textit{prodgenie{\_}bnb{\_}nu{\_}cosmic{\_}uboone{\_}mcc7{\_}reco2}. These images were created using information from the track candidate that passed the filter. Only wire number and time ticks associated to the track candidate were drawn on the image to mimic a single particle generated image. These images were then classified using CNN10000. Two approaches were taken in making these images. The first was using the image normalization above where the maximum pixel in each image is used as a normalization constant to get all pixels between 0-1 then multiply all pixels by 255. As described above, this is the incorrect way to normalize. The second way the images were created was by passing the ADC float to the image. The results of CNN10000 performance are shown in section \ref{research approach}. 
+
+Lastly, multiple BNB+Cosmic images per event were made for CNN100000 by reducing many of selection I cuts to try and let the CNN do particle as well as event identification. This image making scheme used for CNN100000 will be described in more detail in later sections. 
 
 \subsection{Training CNN1075}
-The work shown in these next sections are based on the previous work done described in \cite{priorwork}. That CNN (now referred to as CNN1075) was trained using single generated isotropic muons and pions from 0-2 GeV energy range. 1,075 muons and pions were used to train the network and 1,075 $\mu/\pi$ were used as a validation set. The accuracy is how well CNN1075 is doing by epoch and was 74.5\%. The loss is gradient descent or minimization of the error of the weights and biases used in each neuron of each layer of CNN1075 and was 58\% with a trend sloping downwards on the loss curve as well as a trend sloping upward in the accuracy curve. Due to the depth of the neural network framework, it was necessary to train with a larger dataset and for more epochs, however, the downward slope of the loss curve is an indication that once trained for longer with a higher training sample, neural networks can be used for $\mu/\pi$ separation. Updates in the image making and downsampling algorithm were made to fix issues that arose in CNN1075. 
-\subsection{Training CNN10000}
-The hyperparameters used for CNN10000 are shown. The batch size for the training and testing as well as the test iter were chosen to encompass the whole training/testing image set when doing accuracy/loss calculations. To do this, multiplying the test iter by the test batch size give you the amount of images used when calculating accuracy/loss curves. For reference, the accuracy and loss are defined as well. 
+The results of CNN1075 are described in this section. The accuracy is how well CNN1075 is doing by epoch and was 74.5\%. The loss is gradient descent or minimization of the error of the weights and biases used in each neuron of each layer of CNN1075 and was 58\% with a trend sloping downwards on the loss curve as well as a trend sloping upward in the accuracy curve. The accuracy and loss of CNN1075 are shown in figure \ref{fig:loss_accuracy_1075}. Due to the depth of the neural network framework, it was necessary to train with a larger dataset and for more epochs, however, the downward slope of the loss curve is an indication that once trained for longer with a higher training sample, neural networks can be used for $\mu/\pi$ separation. The hyperparameters used to train CNN1075 are detailed below: 
+\begin{itemize}
+ \item \verb|train_batch_size: 50|
+ \item \verb|test_batch_size: 50|
+ \item \verb|test_iter: 50|
+ \item \verb|test_interval: 50|
+ \item \verb|base_lr: 0.01|
+ \item \verb|lr_policy: "step"|
+ \item \verb|gamma: 0.1|
+ \item \verb|stepsize: 200|
+ \item \verb|display: 50|
+ \item \verb|max_iter: 5000|
+ \item \verb|momentum: 0.9|
+ \item \verb|weight_decay: 0.0005|
+ \item \verb|snapshot: 100|
+\end{itemize}
 
+\begin{figure}[htp!]
+\centering
+\includegraphics[scale=.6]{figs/acc_loss_CNN1075.png}
+\caption{Accuracy vs. Loss of ImageNet 2-output $\mu/\pi$ sample consisting of 2,150 images each.} 
+\label{fig:loss_accuracy_1075}
+\end{figure}
+
+The confusion matrices shown in figure \ref{fig:confusion1075} show the accuracy for both the training and testing datasets. The fact that these two have similar accuracies is important because if the training dataset had a much higher accuracy, that indicates an over-training of the training sample which means the neural network didn't learn features to separate muons from pions, it just memorized what was in the training dataset. Also note that the neural network does a better job of identifying muons than pions. This can be attributed to the more complex event scenes pions tend to leave in the detector due to pion interacting more in LAr than muons do. The CNN may do better at identifying pions with a larger training sample.
+\begin{figure}[htp!]
+\centering
+\includegraphics[scale=.6]{figs/confusion1.png}
+\caption{Confusion Matrinx showing accuracy of CNN1075 on testing and training MC data.} 
+\label{fig:confusion1075}
+
+\end{figure}
+\subsection{Training CNN10000}
+The hyperparameters used for CNN10000 are shown below. The batch size for the training and testing as well as the test iter were chosen to encompass the whole training/testing image set when doing accuracy/loss calculations. To do this, multiplying the test iter by the test batch size gives you the amount of images used when calculating accuracy/loss curves. 
 
 \begin{itemize}
  \item \verb|train_batch_size: 100|
@@ -38,16 +70,13 @@ The hyperparameters used for CNN10000 are shown. The batch size for the training
  \item \verb|momentum: 0.99|
  \item \verb|weight_decay: 0.0005|
  \item \verb|snapshot: 100|
-\item Accuracy: How often the CNN predicts the truth over total number of images
-\item Loss: Error between truth and prediction. Minimize loss by gradient descent to update weights and biases of CNN
 \end{itemize}
 
-The same architecure that was used to train CNN1075 was employed on CNN10000, Imagenet. Caffe \cite{caffe} was the software package used for both CNNs. The differences include batch size and test{\_}iter and momentum to account for the larger dataset. Both CNNs were trained on a CPU machine, Syracuse01. Further training will be done on a GPU cluster stationed at Syracuse University. Figure \ref{fig:loss_accuracy} shows the loss and accuracy of CNN10000. There is around a 10\% increase in accuracy from CNN1075 to CNN10000, 85\%, and around a 20\% decrease in loss, 36\%.      
-
+The same architecure that was used to train CNN1075 was employed on CNN10000, Imagenet. Caffe \cite{caffe} was the software package used for both CNNs. The differences include batch size and test{\_}iter and momentum to account for the larger dataset. Figure \ref{fig:loss_accuracy} shows the loss and accuracy of CNN10000. There is around a 10\% increase in accuracy from CNN1075 to CNN10000, 85\%, and around a 20\% decrease in loss, 36\%.
 \begin{figure}[htp!]
 \centering
 \includegraphics[scale=.4]{figs/acc_loss_10000_062117.png}
-\caption{Accuracy vs. Loss of ImageNet 2-output $\mu/\pi$ sample consisting of ~10000 images each.} 
+\caption{Accuracy vs. Loss of ImageNet 2-output $\mu/\pi$ sample consisting of 10,000 images each.} 
 \label{fig:loss_accuracy}
 \end{figure}
 
@@ -55,13 +84,13 @@ The same architecure that was used to train CNN1075 was employed on CNN10000, Im
 \centering
 	\begin{subfigure}[b]{.45\textwidth}
 	\includegraphics[width=\textwidth,height=3in]{figs/train_confusion.pdf}
-	\caption{Confusion Matrix showing Accuracy of CNN using training data}
+	\caption{Confusion Matrix showing Accuracy of CNN using training MC data}
 	\label{fig:confusion}
 	\end{subfigure}
 	\quad
 	\begin{subfigure}[b]{.45\textwidth}
 	\includegraphics[width=\textwidth,height=3in]{figs/val_confusion.pdf}
-	\caption{Confusion Matrix showing Accuracy of CNN using testing data}
+	\caption{Confusion Matrix showing Accuracy of CNN using testing MC data}
 	\label{fig:confusion_test}
 	\end{subfigure}
 	\quad
@@ -77,15 +106,9 @@ The same architecure that was used to train CNN1075 was employed on CNN10000, Im
 Figure \ref{fig:CNN_train} show a breakdown of $\mu/\pi$ separation for CNN10000. It also shows the network is not being overtrained due to the Accuracy of both the training and testing datasets being within .01\% of eachother. The CNN is doing a very good job of classifying true muons as muons, and our loss increase from CNN1075 is due to the increase in accurately classifing pions as pions. 
 
 
-%\begin{figure}[htp]
-%\centering
-%\includegraphics[width=.9\linewidth]{Purity_numbers.png}
-%\caption{ Signal and background event numbers at final selection level estimated from a BNB+Cosmic sample and Cosmic only sample normalized to $5*10^{19}$ POT. The last column gives the fraction of this signal or background type to the total 2604 selected events.} 
-%\label{fig:puritytable}
-%\end{figure}
 
 \subsection{Training CNN100000}
-Results of training using 100,000 images, 20,000 images per \mu/\pi/p/\gamma/e. 
+Results of training using 100,000 images, 20,000 images per $\mu/\pi/p/\gamma/e$. 
 
 
 \begin{figure}[htp]
