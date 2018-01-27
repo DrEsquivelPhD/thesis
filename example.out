@@ -55,19 +55,20 @@
 \BOOKMARK [2][-]{subsection.6.2.1}{Backpropagation}{section.6.2}% 55
 \BOOKMARK [1][-]{section.6.3}{Choosing Hyperparameters}{chapter.6}% 56
 \BOOKMARK [0][-]{chapter.7}{Training process of Convolutional Neural Networks}{}% 57
-\BOOKMARK [1][-]{section.7.1}{Convolutional Neural Network Training}{chapter.7}% 58
-\BOOKMARK [2][-]{subsection.7.1.1}{Creating images using LArTPC data for training/validation of CNNS}{section.7.1}% 59
-\BOOKMARK [2][-]{subsection.7.1.2}{Training CNN1075}{section.7.1}% 60
-\BOOKMARK [2][-]{subsection.7.1.3}{Training CNN10000}{section.7.1}% 61
-\BOOKMARK [2][-]{subsection.7.1.4}{Training CNN100000}{section.7.1}% 62
-\BOOKMARK [0][-]{chapter.8}{Results of Convolutional Neural Networks on particles WORKING TITLE}{}% 63
-\BOOKMARK [1][-]{section.8.1}{Classification using CNN10000}{chapter.8}% 64
-\BOOKMARK [2][-]{subsection.8.1.1}{Classification of MC data using Selection I Original CC-Inclusive Filter}{section.8.1}% 65
-\BOOKMARK [2][-]{subsection.8.1.2}{Classification of MC data using Selection I Modified CC-Inclusive Filter}{section.8.1}% 66
-\BOOKMARK [2][-]{subsection.8.1.3}{Conclusions and Future Work}{section.8.1}% 67
-\BOOKMARK [1][-]{section.8.2}{Classification using CNN100000}{chapter.8}% 68
-\BOOKMARK [2][-]{subsection.8.2.1}{Classification of MC data using Selection I Modified CC-Inclusive Filter}{section.8.2}% 69
-\BOOKMARK [2][-]{subsection.8.2.2}{Classification of MicroBooNE data using Selection I Modified CC-Inclusive Filter}{section.8.2}% 70
-\BOOKMARK [2][-]{subsection.8.2.3}{Comparing two CC-Inclusive Cross Section Selection Filters}{section.8.2}% 71
-\BOOKMARK [0][-]{chapter.9}{Conclusion}{}% 72
-\BOOKMARK [0][-]{chapter*.84}{Bibliography}{}% 73
+\BOOKMARK [1][-]{section.7.1}{Hardware Configurations for Convolutional Neural Network Training}{chapter.7}% 58
+\BOOKMARK [1][-]{section.7.2}{Creating images using LArTPC data for training/validation of CNNS}{chapter.7}% 59
+\BOOKMARK [1][-]{section.7.3}{Convolutional Neural Network Training}{chapter.7}% 60
+\BOOKMARK [2][-]{subsection.7.3.1}{Training CNN1075}{section.7.3}% 61
+\BOOKMARK [2][-]{subsection.7.3.2}{Training CNN10000}{section.7.3}% 62
+\BOOKMARK [2][-]{subsection.7.3.3}{Training CNN100000}{section.7.3}% 63
+\BOOKMARK [0][-]{chapter.8}{Results of Convolutional Neural Networks on particles WORKING TITLE}{}% 64
+\BOOKMARK [1][-]{section.8.1}{Classification using CNN10000}{chapter.8}% 65
+\BOOKMARK [2][-]{subsection.8.1.1}{Classification of MC data using Selection I Original CC-Inclusive Filter}{section.8.1}% 66
+\BOOKMARK [2][-]{subsection.8.1.2}{Classification of MC data using Selection I Modified CC-Inclusive Filter}{section.8.1}% 67
+\BOOKMARK [2][-]{subsection.8.1.3}{Conclusions and Future Work}{section.8.1}% 68
+\BOOKMARK [1][-]{section.8.2}{Classification using CNN100000}{chapter.8}% 69
+\BOOKMARK [2][-]{subsection.8.2.1}{Classification of MC data using Selection I Modified CC-Inclusive Filter}{section.8.2}% 70
+\BOOKMARK [2][-]{subsection.8.2.2}{Classification of MicroBooNE data using Selection I Modified CC-Inclusive Filter}{section.8.2}% 71
+\BOOKMARK [2][-]{subsection.8.2.3}{Comparing two CC-Inclusive Cross Section Selection Filters}{section.8.2}% 72
+\BOOKMARK [0][-]{chapter.9}{Conclusion}{}% 73
+\BOOKMARK [0][-]{chapter*.85}{Bibliography}{}% 74
