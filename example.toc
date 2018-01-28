@@ -70,11 +70,12 @@
 \contentsline {subsection}{\numberline {7.3.3}Training CNN100000}{76}{subsection.7.3.3}
 \contentsline {chapter}{\numberline {8}Using Convolutional Neural Networks for $\mymath {\@Oldnu }\xspace _{\mymath {\@Oldmu }\xspace }$ CC event classification}{87}{chapter.8}
 \contentsline {section}{\numberline {8.1}Classification using CNN10000}{87}{section.8.1}
-\contentsline {section}{\numberline {8.2}Classification of MC data using Selection I Modified CC-Inclusive Filter}{87}{section.8.2}
-\contentsline {subsection}{\numberline {8.2.1}Conclusions and Future Work}{96}{subsection.8.2.1}
-\contentsline {section}{\numberline {8.3}Classification using CNN100000}{96}{section.8.3}
-\contentsline {subsection}{\numberline {8.3.1}Classification of MC data using Selection I Modified CC-Inclusive Filter}{96}{subsection.8.3.1}
-\contentsline {subsection}{\numberline {8.3.2}Classification of MicroBooNE data using Selection I Modified CC-Inclusive Filter}{96}{subsection.8.3.2}
-\contentsline {subsection}{\numberline {8.3.3}Comparing two CC-Inclusive Cross Section Selection Filters}{96}{subsection.8.3.3}
-\contentsline {chapter}{\numberline {9}Conclusion}{97}{chapter.9}
-\contentsline {chapter}{Bibliography}{99}{chapter*.69}
+\contentsline {subsection}{\numberline {8.1.1}Classification of MC data using Selection I CC-Inclusive Filter}{87}{subsection.8.1.1}
+\contentsline {subsection}{\numberline {8.1.2}Conclusions of CNN10000 classification of MC data}{95}{subsection.8.1.2}
+\contentsline {section}{\numberline {8.2}Classification using CNN100000}{96}{section.8.2}
+\contentsline {subsection}{\numberline {8.2.1}Classification of MC data using Selection I CC-Inclusive Filter}{96}{subsection.8.2.1}
+\contentsline {subsubsection}{\nonumberline Kinematic truth distributions of BNB+Cosmic events passing Selection I+CNN10000}{96}{section*.68}
+\contentsline {subsection}{\numberline {8.2.2}Classification of MicroBooNE data using Selection I CC-Inclusive Filter}{106}{subsection.8.2.2}
+\contentsline {subsection}{\numberline {8.2.3}Comparing two CC-Inclusive Cross Section Selection Filters}{106}{subsection.8.2.3}
+\contentsline {chapter}{\numberline {9}Conclusion}{107}{chapter.9}
+\contentsline {chapter}{Bibliography}{109}{chapter*.79}

@@ -82,9 +82,9 @@
 \contentsline {subfigure}{\numberline {\relax 7.15b}{\ignorespaces mue75\relax }}{85}{figure.caption.58}
 \contentsline {subfigure}{\numberline {\relax 7.15c}{\ignorespaces mue\relax }}{85}{figure.caption.58}
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {\relax 8.1}{\ignorespaces Confusion matrix and probability plot of events passing selection I modified cc-inclusive cuts right before 75cm track length cut\relax }}{88}{figure.caption.59}
-\contentsline {subfigure}{\numberline {\relax 8.1a}{\ignorespaces Confusion Matrix for CNN10000 classified events from selection I modified\relax }}{88}{figure.caption.59}
-\contentsline {subfigure}{\numberline {\relax 8.1b}{\ignorespaces Probability plot for CNN10000 classified events from selection I modified\relax }}{88}{figure.caption.59}
+\contentsline {figure}{\numberline {\relax 8.1}{\ignorespaces Confusion matrix and probability plot of events passing selection I cc-inclusive cuts right before 75cm track length cut\relax }}{88}{figure.caption.59}
+\contentsline {subfigure}{\numberline {\relax 8.1a}{\ignorespaces Confusion Matrix for CNN10000 classified events from selection I\relax }}{88}{figure.caption.59}
+\contentsline {subfigure}{\numberline {\relax 8.1b}{\ignorespaces Probability plot for CNN10000 classified events from selection I\relax }}{88}{figure.caption.59}
 \contentsline {figure}{\numberline {\relax 8.2}{\ignorespaces CNN10000 distributions of track candidate images output from Selection I Modified cc-inclusive filter\relax }}{89}{figure.caption.60}
 \contentsline {subfigure}{\numberline {\relax 8.2a}{\ignorespaces Track range distribution of events from Selection I Modified passing CNN with 70\% accuracy\relax }}{89}{figure.caption.60}
 \contentsline {subfigure}{\numberline {\relax 8.2b}{\ignorespaces Stacked signal and background track range distributions from Selection I Modified passing CNN with 70\% accuracy\relax }}{89}{figure.caption.60}
@@ -107,6 +107,15 @@
 \contentsline {subfigure}{\numberline {\relax 8.6a}{\ignorespaces Pion recontructed track range is less than 75 cm and longer than muon track due to dead wires\relax }}{93}{figure.caption.64}
 \contentsline {subfigure}{\numberline {\relax 8.6b}{\ignorespaces Pion recontructed track range is less than 75 cm and larger than muon reconstructed track\relax }}{93}{figure.caption.64}
 \contentsline {subfigure}{\numberline {\relax 8.6c}{\ignorespaces Pion reconstructed track range is greater than 75 cm and larger than muon reconstructed track\relax }}{93}{figure.caption.64}
-\contentsline {figure}{\numberline {\relax 8.7}{\ignorespaces Snapshot of signal and background event numbers of Selection I modified from cc-inclusive note \cite {cc-inclusive}\relax }}{95}{figure.caption.67}
-\contentsline {figure}{\numberline {\relax 8.8}{\ignorespaces CNN performance of classified muons and pions compared to the already implemented 75 cm track length cut\relax }}{95}{figure.caption.68}
+\contentsline {figure}{\numberline {\relax 8.7}{\ignorespaces CNN performance of classified muons and pions compared to the already implemented 75 cm track length cut\relax }}{95}{figure.caption.67}
+\contentsline {figure}{\numberline {\relax 8.8}{\ignorespaces $Cos(\mymath {\@Oldtheta }\xspace )$ distribution at CNN10000 $\geq 85\%$\relax }}{96}{figure.caption.69}
+\contentsline {figure}{\numberline {\relax 8.9}{\ignorespaces $Cos(\mymath {\@Oldtheta }\xspace )$ distribution at CNN10000 $\geq 85\%$\relax }}{97}{figure.caption.70}
+\contentsline {figure}{\numberline {\relax 8.10}{\ignorespaces $Cos(\mymath {\@Oldtheta }\xspace )$ distribution at CNN10000 $\geq 85\%$\relax }}{98}{figure.caption.71}
+\contentsline {figure}{\numberline {\relax 8.11}{\ignorespaces $Cos(\mymath {\@Oldtheta }\xspace )$ distribution at CNN10000 $\geq 85\%$\relax }}{99}{figure.caption.72}
+\contentsline {figure}{\numberline {\relax 8.12}{\ignorespaces $Cos(\mymath {\@Oldtheta }\xspace )$ distribution at CNN10000 $\geq 85\%$\relax }}{100}{figure.caption.73}
+\contentsline {figure}{\numberline {\relax 8.13}{\ignorespaces $Cos(\mymath {\@Oldtheta }\xspace )$ distribution at CNN10000 $\geq 85\%$\relax }}{101}{figure.caption.74}
+\contentsline {figure}{\numberline {\relax 8.14}{\ignorespaces $Cos(\mymath {\@Oldtheta }\xspace )$ distribution at CNN10000 $\geq 85\%$\relax }}{102}{figure.caption.75}
+\contentsline {figure}{\numberline {\relax 8.15}{\ignorespaces $Cos(\mymath {\@Oldtheta }\xspace )$ distribution at CNN10000 $\geq 85\%$\relax }}{103}{figure.caption.76}
+\contentsline {figure}{\numberline {\relax 8.16}{\ignorespaces $Cos(\mymath {\@Oldtheta }\xspace )$ distribution at CNN10000 $\geq 85\%$\relax }}{104}{figure.caption.77}
+\contentsline {figure}{\numberline {\relax 8.17}{\ignorespaces $Cos(\mymath {\@Oldtheta }\xspace )$ distribution at CNN10000 $\geq 85\%$\relax }}{105}{figure.caption.78}
 \addvspace {10\p@ }

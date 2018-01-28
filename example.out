@@ -63,11 +63,11 @@
 \BOOKMARK [2][-]{subsection.7.3.3}{Training CNN100000}{section.7.3}% 63
 \BOOKMARK [0][-]{chapter.8}{Using Convolutional Neural Networks for \040CC event classification}{}% 64
 \BOOKMARK [1][-]{section.8.1}{Classification using CNN10000}{chapter.8}% 65
-\BOOKMARK [1][-]{section.8.2}{Classification of MC data using Selection I Modified CC-Inclusive Filter}{chapter.8}% 66
-\BOOKMARK [2][-]{subsection.8.2.1}{Conclusions and Future Work}{section.8.2}% 67
-\BOOKMARK [1][-]{section.8.3}{Classification using CNN100000}{chapter.8}% 68
-\BOOKMARK [2][-]{subsection.8.3.1}{Classification of MC data using Selection I Modified CC-Inclusive Filter}{section.8.3}% 69
-\BOOKMARK [2][-]{subsection.8.3.2}{Classification of MicroBooNE data using Selection I Modified CC-Inclusive Filter}{section.8.3}% 70
-\BOOKMARK [2][-]{subsection.8.3.3}{Comparing two CC-Inclusive Cross Section Selection Filters}{section.8.3}% 71
+\BOOKMARK [2][-]{subsection.8.1.1}{Classification of MC data using Selection I CC-Inclusive Filter}{section.8.1}% 66
+\BOOKMARK [2][-]{subsection.8.1.2}{Conclusions of CNN10000 classification of MC data}{section.8.1}% 67
+\BOOKMARK [1][-]{section.8.2}{Classification using CNN100000}{chapter.8}% 68
+\BOOKMARK [2][-]{subsection.8.2.1}{Classification of MC data using Selection I CC-Inclusive Filter}{section.8.2}% 69
+\BOOKMARK [2][-]{subsection.8.2.2}{Classification of MicroBooNE data using Selection I CC-Inclusive Filter}{section.8.2}% 70
+\BOOKMARK [2][-]{subsection.8.2.3}{Comparing two CC-Inclusive Cross Section Selection Filters}{section.8.2}% 71
 \BOOKMARK [0][-]{chapter.9}{Conclusion}{}% 72
-\BOOKMARK [0][-]{chapter*.69}{Bibliography}{}% 73
+\BOOKMARK [0][-]{chapter*.79}{Bibliography}{}% 73

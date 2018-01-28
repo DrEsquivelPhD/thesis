@@ -78,10 +78,10 @@ Figures \ref{fig:confusion_wrongnorm}, \ref{fig:prob_wrongnorm}, \ref{fig:confus
 \end{comment}
 
 
-\section{Classification of MC data using Selection I Modified CC-Inclusive Filter}
+\subsection{Classification of MC data using Selection I CC-Inclusive Filter}
 
-CNN10000 was also used to classify track candidate images that were identified by the selection I modified cc-inclusive filter described in \cite{cc-inclusive}. Passing rates for each cut in this filter are shown in figure \ref{fig:table1}. As seen in section \ref{sel1orig}, wrong image normalization had a higher muon classification probability so all work done using selection I modified cc-inclusive filter was done using this normalization. Out of 188,880 events, 19,112 passed the cut right before the 75 cm track length cut which is a 10.1\% passing rate and comparable to the 10\% passing rate shown in figure \ref{fig:table1}. In time cosmics were also run over, out of 14,606 in time cosmics events, 302 passed the cut right before the 75 cm track length cut which is a 2.1\% passing rate comparable to the 2.7\% passing rate in the cc-inclusive tech-note. Figures \ref{fig:confusion_sel1mod} and \ref{fig:prob_sel1mod} show the accuracy and $\mu/\pi$ separation. Both plots are only composed of muons and pions and like selection I original data, all other particles were id'ed as muons. Also like selection I original data, muons are being identified at a very high rate. 
-Figure \ref{fig:sel1mod_track} shows the track range distributions of all events from selection I modified being classified by the CNN as a muon with a probability of 70\% regardless of true particle type. We get entries for the CNN curve in the lowest bin and none for the 75 cm curve. To see how many true CC events were identified by CNN10000 breaking down figure \ref{fig:sel1mod_track} by event type was necessary. Figures \ref{fig:sel1mod_stackedcnn} and \ref{fig:sel1mod_stackedoriginal} show track range distributions separated by signal and various backgrounds. Particle type was not taken into consideration in these plots so true CC event images can be any track candidate particle passing selection I modified cut right before track length cut including pions and protons. 
+CNN10000 was also used to classify track candidate images that were identified by the selection I cc-inclusive filter described in \cite{cc-inclusive}. Passing rates for each cut in this filter are shown in figure \ref{fig:table1}. As seen in section \ref{sel1orig}, wrong image normalization had a higher muon classification probability so all work done using selection I cc-inclusive filter was done using this normalization. Out of 188,880 events, 19,112 passed the cut right before the 75 cm track length cut which is a 10.1\% passing rate and comparable to the 10\% passing rate shown in figure \ref{fig:table1}. In time cosmics were also run over, out of 14,606 in time cosmics events, 302 passed the cut right before the 75 cm track length cut which is a 2.1\% passing rate comparable to the 2.7\% passing rate in the cc-inclusive tech-note. Figures \ref{fig:confusion_sel1mod} and \ref{fig:prob_sel1mod} show the accuracy and $\mu/\pi$ separation. Both plots are only composed of muons and pions and like selection I original data, all other particles were id'ed as muons. Also like selection I original data, muons are being identified at a very high rate. 
+Figure \ref{fig:sel1mod_track} shows the track range distributions of all events from selection I being classified by the CNN as a muon with a probability of 70\% regardless of true particle type. We get entries for the CNN curve in the lowest bin and none for the 75 cm curve. To see how many true CC events were identified by CNN10000 breaking down figure \ref{fig:sel1mod_track} by event type was necessary. Figures \ref{fig:sel1mod_stackedcnn} and \ref{fig:sel1mod_stackedoriginal} show track range distributions separated by signal and various backgrounds. Particle type was not taken into consideration in these plots so true CC event images can be any track candidate particle passing selection I cut right before track length cut including pions and protons. 
 
 To gain an even deeper understanding on how CNN10000 is performing, plotting these distributions with only muons and pions was done due to the fact that CNN10000 was trained with only those particles for $\mu/\pi$ separation. Figures \ref{fig:sel1mod_mupi_70stackedcnn}-\ref{fig:sel1mod_mupi_90stackedcnn} show the stacked histograms of signal and background of the track range distributions with varying CNN probabilities starting from 70\% and ending at 90\% probability. With higher probabilities we get a purer sample in the lower bin but we end up losing events as well. Momentum distributions for all signal/background events are shown in figure \ref{fig:sel1mod_parP}.    
 
@@ -89,17 +89,17 @@ To gain an even deeper understanding on how CNN10000 is performing, plotting the
 \centering
 	\begin{subfigure}[b]{.45\textwidth}
 	\includegraphics[width=3in,height=3in]{figs/sel1mod_confusion_wrongnorm.png}
-	\caption{Confusion Matrix for CNN10000 classified events from selection I modified}
+	\caption{Confusion Matrix for CNN10000 classified events from selection I}
 	\label{fig:confusion_sel1mod}
 	\end{subfigure}
 	\quad
 	\begin{subfigure}[b]{.45\textwidth}
 	\includegraphics[width=3in,height=3in]{figs/probplot_wrongnorm_selImod.png}
-	\caption{Probability plot for CNN10000 classified events from selection I modified}  
+	\caption{Probability plot for CNN10000 classified events from selection I}  
 	\label{fig:prob_sel1mod}
 	\end{subfigure}
 	\quad
-\caption{Confusion matrix and probability plot of events passing selection I modified cc-inclusive cuts right before 75cm track length cut}
+\caption{Confusion matrix and probability plot of events passing selection I cc-inclusive cuts right before 75cm track length cut}
 \label{probplots}
 \end{figure}
 
@@ -277,45 +277,38 @@ CNN passing rates       & Generated Events  	       & 188880             & 44689
 \resizebox{\textwidth}{!}{ \begin{tabular}{c c c|a} % centered columns (4 columns)
 %\hline %inserts double horizontal lines
       &&\#Events(Fraction)  & \#Events(Fraction) \\
-      &&passing CNN @ 70\% Probability & passing CNN @ 83\% Probability\\
+      &&passing Sel I & passing CNN @ 83\% Probability\\
 
 
-Signal	       & $\nu_{\mu}$ CC events with true vertex in FV      & 10605(35\%)       & 6142(61\%)\\ % inserting body of the table
+Signal	       & $\nu_{\mu}$ CC events with true vertex in FV      & 1168(53.8\%)       & 6142(61\%)\\ % inserting body of the table
 \hline\hline %inserts double horizontal lines
-Backgrounds    & Cosmics Only Events                               & 13573(45\%)       & 2582(26\%)\\ % inserting body of the table
-               & Cosmics in BNB Events                             & 2249(7.4\%)       & 492(4.9\%)\\ % inserting body of the table
-               & NC Events                                         & 3412(11\%)        & 778(7.7\%)\\ % inserting body of the table
-               & $\nu_e$ and $\bar{\nu}_e$ Events                  & 139(0.5\%)        & 32(0.3\%)\\ % inserting body of the table
-               & $\bar{\nu}_{\mu}$  Events                         & 97(0.3\%)         & 67(0.7\%)\\ % inserting body of the table
+Backgrounds    & Cosmics Only Events                               & 725(33.4\%)       & 2582(26\%)\\ % inserting body of the table
+               & Cosmics in BNB Events                             & 144(6.6\%)       & 492(4.9\%)\\ % inserting body of the table
+               & NC Events                                         & 75(3.5\%)        & 778(7.7\%)\\ % inserting body of the table
+               & $\nu_e$ and $\bar{\nu}_e$ Events                  & 4(0.2\%)        & 32(0.3\%)\\ % inserting body of the table
+               & $\bar{\nu}_{\mu}$  Events                         & 40(1.8\%)         & 67(0.7\%)\\ % inserting body of the table
 \end{tabular}}
-\caption{Signal and background event numbers at modified selection level with CNN cut estimated from a BNB+Cosmic sample and Cosmic only sample normalized to $5*10^{19}$ PoT. The last column gives the fraction of this signal or background type to the total selected events per CNN probability.} 
+\caption{Signal and background event numbers of selection I and selection I with CNN cut estimated from a BNB+Cosmic sample and Cosmic only sample normalized to $5*10^{19}$ PoT. The last column gives the fraction of this signal or background type to the total selected events per CNN probability.} 
 \label{table:purity} % is used to refer this table in the text
 \end{table}
 
-Table \ref{table:passingrates} shows the passing rates for the 75 cm track length cut and the CNN cut at 70\% and 83\%. The passing rates at the track containment level for the 75 cm track length cut compared to the CNN are comparable with only a 0.6\% difference in the in time cosmic bin which may be due in part to the larger in time cosmic statistics used for the CNN dataset. These passing rates need to be comparable to then be able to compare the passing rates after the CNN cut to the 75 cm cut. Again, the same BNB+Cosmic sample was used for both selection I modified with 75 cm cut and selection I modified with CNN cut. As it stands, a CNN cut at 83\% probability has a MC true CC event passing rate of 14\% compared to the 13\% passing rate of the 75 cm track length cut. The Signal:Cosmic Only background is also reduced from 1:0.6 to 1:0.4 The total passing rate is also higher than the 75 cm cut, 3.6\% vs 4.0\%. Table \ref{table:purity} shows the breakdown of signal and backgrounds for the CNN at the different probabilities. We have a 61\% signal passing rate with the CNN cut @ 83\% versus the 53.8\% signal passing rate of the 75 cm cut. 
+Table \ref{table:passingrates} shows the passing rates for the 75 cm track length cut and the CNN cut at 70\% and 83\%. The passing rates at the track containment level for the 75 cm track length cut compared to the CNN are comparable with only a 0.6\% difference in the in time cosmic bin which may be due in part to the larger in time cosmic statistics used for the CNN dataset. These passing rates need to be comparable to then be able to compare the passing rates after the CNN cut to the 75 cm cut. Again, the same BNB+Cosmic sample was used for both selection I with 75 cm cut and selection I with CNN cut. As it stands, a CNN cut at 83\% probability has a MC true CC event passing rate of 14\% compared to the 13\% passing rate of the 75 cm track length cut. The Signal:Cosmic Only background is also reduced from 1:0.6 to 1:0.4 The total passing rate is also higher than the 75 cm cut, 3.6\% vs 4.0\%. Table \ref{table:purity} shows the breakdown of signal and backgrounds for the CNN at the different probabilities. We have a 61\% signal passing rate with the CNN cut @ 83\% versus the 53.8\% signal passing rate of the 75 cm cut. 
 
-Based on these numbers, the following performance values of the modified selection with 75 cm cut versus modified selection with CNN @ 83\% probability cut were calculated:
+Based on these numbers, the following performance values of the selection with 75 cm cut versus selection with CNN @ 83\% probability cut were calculated:
 \begin{itemize}
 \item Efficiency: Number of selected true $\nu_{\mu}$ CC events divided by the number of expected true $\nu_{\mu}$ CC events with interaction in the FV.
 \begin{itemize}
-\item Selection I modified: 13\% 
-\item Selection I modified with CNN cut @ 83\% probability: 14\% 
+\item Selection I: 12.3\% 
+\item Selection I with CNN10000 cut @ 83\% probability: 14\% 
 \end{itemize}
 \item Purity: Number of selected true $\nu_{\mu}$ CC events divided by sum of itself and the number of all backgrounds.
 \begin{itemize}
-\item Selection I modified: 53.8\% 
-\item Selection I modified with CNN cut @ 83\% probability: 61\% 
+\item Selection I: 53.8\% 
+\item Selection I with CNN10000 cut @ 83\% probability: 61\% 
 \end{itemize}
 \end{itemize}
 
 Lastly, figure \ref{fig:sel1mod_cnnperformance} shows a more representative performance of the CNN. Due to the fact that the CNN was trained on muons and pions, showing the performance of CC muon events versus NC pion events with respect to CNN probability gives a better picture of how the network is performing. Figure \ref{fig:sel1mod_cnnperformance} shows that at 83\% we are below the 75 cm cut NC pion threshold and still above the CC muon threshold. Using 83\% probability not only reduced the NC pion background, it also dramatically reduced the in time cosmics and cosmics in the BNB. 
-
-\begin{figure}[htp!]
-\centering
-\includegraphics[width=4in,height=2.5in]{figs/purity_sel1mod.png}
-\caption{Snapshot of signal and background event numbers of Selection I modified from cc-inclusive note \cite{cc-inclusive}}
-\label{fig:pur_sel1mod}
-\end{figure}
 
 \begin{figure}[htp!]
 \centering
@@ -324,12 +317,82 @@ Lastly, figure \ref{fig:sel1mod_cnnperformance} shows a more representative perf
 \label{fig:sel1mod_cnnperformance}
 \end{figure}
 
-\subsection{Conclusions and Future Work}
+\subsection{Conclusions of CNN10000 classification of MC data}
 
-It was shown that even though CNN10000 was trained with single particle generated muons and pions, it performs fairly well at classifying track candidate images from BNB+Cosmic events. Events have been regained below the 75 cm track length cut and the momentum and track range distributions have similar shapes to the distributions of Selection I original and modified. Efficiencies and purities were calculated for selection I modified events before 75 cm track length cut  with the CNN at 83\% probability and are 14\% and 62\% respectively. Although the CNN doesn't have separation between muons and pions and although all particles passing CNN are classified as muon, increasing CNN probability allows us to increase the purity as well as maintain an efficiency comparable to the 75 cm track length cut all while recovering events below that 75 cm cut. Out of the 6142 events that passed the CNN @ 83\% 1470 events were below the 75 cm cut, a recovery of 3.3\% of data with an purity of 15\%. Although these numbers are low, it is an improvement from the selecion I modified in both total efficiency and purity and an increase in phase space by recovering these events. 
+It was shown that even though CNN10000 was trained with single particle generated muons and pions, it performs fairly well at classifying track candidate images from BNB+Cosmic events. Events have been regained below the 75 cm track length cut and the momentum and track range distributions have similar shapes to the distributions of Selection I. Efficiencies and purities were calculated for selection I events before 75 cm track length cut  with the CNN at 83\% probability and are 14\% and 62\% respectively. Although the CNN doesn't have separation between muons and pions and although all particles passing CNN are classified as muon, increasing CNN probability allows us to increase the purity as well as maintain an efficiency comparable to the 75 cm track length cut all while recovering events below that 75 cm cut. Out of the 6142 events that passed the CNN @ 83\% 1470 events were below the 75 cm cut, a recovery of 3.3\% of data with an purity of 15\%. Although these numbers are low, it is an improvement from the selecion I in both total efficiency and purity and an increase in phase space by recovering these events. 
 
 \section{Classification using CNN100000}
-All future classifications will be done using Selection I Modified CC-Inclusive Filter because it has a higher efficiency and purity than Selection I Original CC-Inclusive Filter. To reiterate, CNN100000 was trained using 20,000 images of each $\mu/\pi/p/\gamma/e$. The results of using CNN100000 to classify BNB+Cosmics will be outlined below.
-\subsection{Classification of MC data using Selection I Modified CC-Inclusive Filter}
-\subsection{Classification of MicroBooNE data using Selection I Modified CC-Inclusive Filter}
+To reiterate, CNN100000 was trained using 20,000 images of each $\mu/\pi/p/\gamma/e$. The results of using CNN100000 to classify BNB+Cosmics will be outlined below.
+\subsection{Classification of MC data using Selection I CC-Inclusive Filter}
+\subsubsection{Kinematic truth distributions of BNB+Cosmic events passing Selection I+CNN10000}
+\begin{figure}[htp!]
+\centering
+\includegraphics[width=.9\textwidth]{../bnbcosmic_output/cnn_85_truecosthetadist.png}
+\caption{$Cos(\theta)$ distribution at CNN10000 $\geq 85\%$} 
+\label{fig:cnn85costheta}
+\end{figure}
+
+\begin{figure}[htp!]
+\centering
+\includegraphics[width=.9\textwidth]{../bnbcosmic_output/cnn_85_truephidist.png}
+\caption{$Cos(\theta)$ distribution at CNN10000 $\geq 85\%$} 
+\label{fig:cnn85phi}
+\end{figure}
+
+\begin{figure}[htp!]
+\centering
+\includegraphics[width=.9\textwidth]{../bnbcosmic_output/cnn_85_trackrangedist.png}
+\caption{$Cos(\theta)$ distribution at CNN10000 $\geq 85\%$} 
+\label{fig:cnn85trackrange}
+\end{figure}
+
+\begin{figure}[htp!]
+\centering
+\includegraphics[width=.9\textwidth]{../bnbcosmic_output/cnn_85_momentumdist.png}
+\caption{$Cos(\theta)$ distribution at CNN10000 $\geq 85\%$} 
+\label{fig:cnn85momentum}
+\end{figure}
+
+\begin{figure}[htp!]
+\centering
+\includegraphics[width=.9\textwidth]{../bnbcosmic_output/cnn_85_trackstartXdist.png}
+\caption{$Cos(\theta)$ distribution at CNN10000 $\geq 85\%$} 
+\label{fig:cnn85vertexX}
+\end{figure}
+
+\begin{figure}[htp!]
+\centering
+\includegraphics[width=.9\textwidth]{../bnbcosmic_output/cnn_85_trackstartYdist.png}
+\caption{$Cos(\theta)$ distribution at CNN10000 $\geq 85\%$} 
+\label{fig:cnn85vertexY}
+\end{figure}
+
+\begin{figure}[htp!]
+\centering
+\includegraphics[width=.9\textwidth]{../bnbcosmic_output/cnn_85_trackstartZdist.png}
+\caption{$Cos(\theta)$ distribution at CNN10000 $\geq 85\%$} 
+\label{fig:cnn85vertexZ}
+\end{figure}
+
+\begin{figure}[htp!]
+\centering
+\includegraphics[width=.9\textwidth]{../bnbcosmic_output/2d85costhetaphi.png}
+\caption{$Cos(\theta)$ distribution at CNN10000 $\geq 85\%$} 
+\label{fig:2d85costhetaphi}
+\end{figure}
+
+\begin{figure}[htp!]
+\centering
+\includegraphics[width=.9\textwidth]{../bnbcosmic_output/2d85trackrangecostheta.png}
+\caption{$Cos(\theta)$ distribution at CNN10000 $\geq 85\%$} 
+\label{fig:2d85trackrangecostheta}
+\end{figure}
+
+\begin{figure}[htp!]
+\centering
+\includegraphics[width=.9\textwidth]{../bnbcosmic_output/2d85trackrangephi.png}
+\caption{$Cos(\theta)$ distribution at CNN10000 $\geq 85\%$} 
+\label{fig:2d85trackrangephi}
+\end{figure}
+\subsection{Classification of MicroBooNE data using Selection I CC-Inclusive Filter}
 \subsection{Comparing two CC-Inclusive Cross Section Selection Filters}
