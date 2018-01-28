@@ -167,8 +167,8 @@ CNN100000 used the GoogleNet architecture rather than the AlexNet architecture u
 \caption{Training and testing loss of CNN trained on 100,000 images of \mu/\pi/p/\gamma/e}
 \label{fig:gpuloss}
 \end{figure}
-
 The accuracy and loss for CNN100000 are shown in figures \ref{fig:gpuacc} and \ref{fig:gpuloss}. The jumps shown in both figures are when the training was stopped to fine-tune the weight decay and the learning rate. The accuracy leveled off at \sim 80\% and the loss was at \sim 0.48. 
+
 
 
 \begin{figure}[htp!]
@@ -177,8 +177,9 @@ The accuracy and loss for CNN100000 are shown in figures \ref{fig:gpuacc} and \r
 \caption{Confusion Matrix of all five particles }
 \label{fig:confusion100000}
 \end{figure}
-
 Figure \ref{fig:confusion100000} shows the confusion matrix of CNN100000. The proton identification of the neural network is at 85\% and the highest out of all five particles. One thing to note is clear separation between particles that leave track like objects in the MicroBooNE detector, $\mu/\pi/p$, versus particles that leave shower like objects in MicroBooNE, $e/\gamma$. 
+
+
 
 \begin{figure}[htp!]
 \centering
@@ -186,143 +187,146 @@ Figure \ref{fig:confusion100000} shows the confusion matrix of CNN100000. The pr
 \caption{t-SNE of CNN}
 \label{fig:tsne}
 \end{figure}
-
 Another visualization of how the neural network is learning is shown in \ref{fig:tsne}.  t-SNEs \cite{tsne} is a technique used for dimensionality reduction developed for use in visualizing high-dimensional datasets. Each datapoint is given a location in a two or three-dimensional map by using stochastic neighbor embedding to convert high-dimensional euclidean distances between datapoints into conditional probabilities that represent the similarities between these datapoints. For datapoints close together on the map, their conditional probabilities are high, for datapoints with a wide separation between them, their conditional probabilities are very small. Figure \ref{fig:tsne} is a t-SNE of the final training iteration of a subset of the training sample used in CNN100000. You can see a clear separation between track like objects and shower like objects. You can also see that electrons and gammas are not as separated as muons, pions, and protons. For the purpose of this thesis, this isn't an issue but later iterations of training could include more images for the gamma and electron classes to help the CNN further separate these classes.
+
 
 \begin{figure}
 \centering
-	\begin{subfigure}[t]{.5\textwidth}
-	\centering
-	\includegraphics[height=2in]{../csv_output/muon_prob.png}
-	\label{fig:muonprob}
-	\caption{Muon Prob}
+	\begin{subfigure}[b]{.475\textwidth}
+		\centering
+		\includegraphics[width=\textwidth]{../csv_output/muon_prob.png}
+		\caption{Muon Prob}
+		\label{fig:muonprob}
 	\end{subfigure}
-	
-	\begin{subfigure}[t]{.5\textwidth}
-	\centering
-	\includegraphics[height=2in]{../csv_output/pi_prob.png}
+	\begin{subfigure}[b]{.475\textwidth}
+		\centering
+		\includegraphics[width=\textwidth]{../csv_output/pi_prob.png}
+		\caption{Pion Prob}
+		\label{fig:piprob}
+	\end{subfigure}
+	\begin{subfigure}[b]{.475\textwidth}
+		\centering
+		\includegraphics[width=\textwidth]{../csv_output/pi_prob.png}
+		\caption{Proton Prob}
 	\label{fig:piprob}
-	\caption{Pion Prob}
 	\end{subfigure}
-	\quad
-	
-	\begin{subfigure}[t]{.5\textwidth}
-	\centering
-	\includegraphics[height=2in]{../csv_output/pi_prob.png}
-	\label{fig:piprob}
-	\caption{Proton Prob}
+	\begin{subfigure}[b]{.475\textwidth}
+		\centering
+		\includegraphics[width=\textwidth]{../csv_output/eminus_prob.png}
+		\caption{Electron Prob}
+		\label{fig:eminusprob}
 	\end{subfigure}
-	
-	\begin{subfigure}[t]{.5\textwidth}
-	\centering
-	\includegraphics[height=2in]{../csv_output/eminus_prob.png}
-	\label{fig:eminusprob}
-	\caption{Electron Prob}
+	\begin{subfigure}[b]{.475\textwidth}
+		\centering
+		\includegraphics[width=\textwidth]{../csv_output/gamma_prob.png}
+		\caption{Gamma Prob}
+		\label{fig:gammaprob}
 	\end{subfigure}
-	\quad
-		
-	\begin{subfigure}[t]{.5\textwidth}
-	\centering
-	\includegraphics[height=2in]{../csv_output/gamma_prob.png}
-	\label{fig:gammaprob}
-	\caption{Gamma Prob}
-	\end{subfigure}
-\caption{placeholder}
+\caption{Probabilities of different particle classes as well as their contamination from other classes}
 \label{fig:particleprob}
 \end{figure}
-
-
+Figure \ref{fig:particleprob} shows the probability of each particle class and the highest probability misidentification for each class. For muons, the largest misidentification is from protons. For pions, both protons and muons get misidentified as pions at around the same probability. Similar behavior is also seen for proton identification. Electrons and gammas are misidentified as each-other with similar probabilities.  
 
 
 
 \begin{figure}[htp]
 \centering
 \includegraphics[width=.8\linewidth=]{../csv_output/prob_allparticle_normalized.pdf}
-\caption{Prob}
+\caption{Muon probability of true muons (blue) versus pions (red), protons (cyan), gammas (green) and electrons (magenta).}
 \label{fig:prob}
 \end{figure}
-
+To see what time of background contamination one would be dealing with when doing muon identification, muon probabilities for each particle class was plotted against the probability of true muons to see how well muon signal vs other particle background separation can be done with CNN100000. Figure \ref{fig:prob} is showing the true muon probability for true muons, versus the rest of the particle classes. This plot describes which muon probability value should be chosen for the least amount of other particle contamination. For electrons and gammas, a muon probability of \sim 75\% would eliminate $e/\gamma$ contamination. For pions and protons, there is contamination at all values of muon probability, but the contamination is drastically reduced at a muon probability $\geq 75\%$.
+ 
 \begin{figure}[htp]
 \centering
-\includegraphics[width=.8\linewidth=]{../csv_output/mu_pi_acc_tracklength_all.pdf}
-\caption{mupi}
-\label{fig:mu_pi}
+	\begin{subfigure}[b]{.475\textwidth}
+		\centering
+		\includegraphics[width=\textwidth]{../csv_output/mu_pi_acc_tracklength_all.pdf}
+		\caption{mupi}
+		\label{fig:mupi_tracklength}
+	\end{subfigure}
+	\begin{subfigure}[b]{.475\textwidth}
+		\centering
+		\includegraphics[width=\textwidth]{../csv_output/mu_pi_acc_tracklength_75.pdf}
+		\caption{mupi75}
+		\label{fig:mupi_tracklength75}
+	\end{subfigure}
+	\begin{subfigure}[b]{.475\textwidth}
+		\centering
+		\includegraphics[width=\textwidth]{../csv_output/mu_pi_acc_momentum.pdf}
+		\caption{mupi}
+		\label{fig:mupi_momentum}
+	\end{subfigure}
+\caption{}
 \end{figure}
 
 \begin{figure}[htp]
 \centering
-\includegraphics[width=.8\linewidth=]{../csv_output/mu_pi_acc_tracklength_75.pdf}
-\caption{mupi}
-\label{fig:mu_pi}
+	\begin{subfigure}[b]{.475\textwidth}
+		\centering
+		\includegraphics[width=\textwidth]{../csv_output/mu_p_acc_tracklength_all.pdf}
+		\caption{mup}
+		\label{fig:mup_tracklength}
+	\end{subfigure}
+	\begin{subfigure}[b]{.475\textwidth}
+		\centering
+		\includegraphics[width=\textwidth]{../csv_output/mu_p_acc_tracklength_75.pdf}
+		\caption{mup75}
+		\label{fig:mup_tracklength75}
+	\end{subfigure}
+	\begin{subfigure}[b]{.475\textwidth}
+		\centering
+		\includegraphics[width=\textwidth]{../csv_output/mu_p_acc_momentum.pdf}
+		\caption{mup}
+		\label{fig:mup_momentum}
+	\end{subfigure}
+\caption{}
 \end{figure}
 
 \begin{figure}[htp]
 \centering
-\includegraphics[width=.8\linewidth=]{../csv_output/mu_pi_acc_momentum.pdf}
-\caption{mupi}
-\label{fig:mu_pi}
+	\begin{subfigure}[b]{.475\textwidth}
+		\centering
+		\includegraphics[width=\textwidth]{../csv_output/mu_e_acc_tracklength_all.pdf}
+		\caption{mue}
+		\label{fig:mup_tracklength}
+	\end{subfigure}
+	\begin{subfigure}[b]{.475\textwidth}
+		\centering
+		\includegraphics[width=\textwidth]{../csv_output/mu_e_acc_tracklength_75.pdf}
+		\caption{mue75}
+		\label{fig:mup_tracklength75}
+	\end{subfigure}
+	\begin{subfigure}[b]{.475\textwidth}
+		\centering
+		\includegraphics[width=\textwidth]{../csv_output/mu_e_acc_momentum.pdf}
+		\caption{mue}
+		\label{fig:mup_momentum}
+	\end{subfigure}
+\caption{}
 \end{figure}
 
 \begin{figure}[htp]
 \centering
-\includegraphics[width=.8\linewidth=]{../csv_output/mu_p_acc_tracklength_all.pdf}
-\caption{mup}
-\label{fig:mu_p}
+	\begin{subfigure}[b]{.475\textwidth}
+		\centering
+		\includegraphics[width=\textwidth]{../csv_output/mu_g_acc_tracklength_all.pdf}
+		\caption{mue}
+		\label{fig:mup_tracklength}
+	\end{subfigure}
+	\begin{subfigure}[b]{.475\textwidth}
+		\centering
+		\includegraphics[width=\textwidth]{../csv_output/mu_g_acc_tracklength_75.pdf}
+		\caption{mue75}
+		\label{fig:mup_tracklength75}
+	\end{subfigure}
+	\begin{subfigure}[b]{.475\textwidth}
+		\centering
+		\includegraphics[width=\textwidth]{../csv_output/mu_g_acc_momentum.pdf}
+		\caption{mue}
+		\label{fig:mup_momentum}
+	\end{subfigure}
+\caption{}
 \end{figure}
 
-\begin{figure}[htp]
-\centering
-\includegraphics[width=.8\linewidth=]{../csv_output/mu_p_acc_tracklength_75.pdf}
-\caption{mup}
-\label{fig:mu_p}
-\end{figure}
-
-\begin{figure}[htp]
-\centering
-\includegraphics[width=.8\linewidth=]{../csv_output/mu_p_acc_momentum.pdf}
-\caption{mup}
-\label{fig:mu_p}
-\end{figure}
-
-\begin{figure}[htp]
-\centering
-\includegraphics[width=.8\linewidth=]{../csv_output/mu_e_acc_tracklength_all.pdf}
-\caption{mue}
-\label{fig:mu_e}
-\end{figure}
-
-\begin{figure}[htp]
-\centering
-\includegraphics[width=.8\linewidth=]{../csv_output/mu_e_acc_tracklength_75.pdf}
-\caption{mue}
-\label{fig:mu_e}
-\end{figure}
-
-\begin{figure}[htp]
-\centering
-\includegraphics[width=.8\linewidth=]{../csv_output/mu_e_acc_momentum.pdf}
-\caption{mue}
-\label{fig:mu_e}
-\end{figure}
-
-\begin{figure}[htp]
-\centering
-\includegraphics[width=.8\linewidth=]{../csv_output/mu_g_acc_tracklength_all.pdf}
-\caption{mug}
-\label{fig:mu_g}
-\end{figure}
-
-\begin{figure}[htp]
-\centering
-\includegraphics[width=.8\linewidth=]{../csv_output/mu_g_acc_tracklength_75.pdf}
-\caption{mug}
-\label{fig:mu_g}
-\end{figure}
-
-\begin{figure}[htp]
-\centering
-\includegraphics[width=.8\linewidth=]{../csv_output/mu_g_acc_momentum.pdf}
-\caption{mug}
-\label{fig:mu_g}
-\end{figure}
 
