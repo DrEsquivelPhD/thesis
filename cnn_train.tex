@@ -32,22 +32,24 @@ Lastly, multiple BNB+Cosmic images per event were made for CNN100000 by reducing
 \section{Convolutional Neural Network Training}
 \subsection{Training CNN1075}
 The results of CNN1075 are described in this section. The accuracy is how well CNN1075 is doing by epoch and was 74.5\%. The loss is gradient descent or minimization of the error of the weights and biases used in each neuron of each layer of CNN1075 and was 58\% with a trend sloping downwards on the loss curve as well as a trend sloping upward in the accuracy curve. The accuracy and loss of CNN1075 are shown in figure \ref{fig:loss_accuracy_1075}. Due to the depth of the neural network framework, it was necessary to train with a larger dataset and for more epochs, however, the downward slope of the loss curve is an indication that once trained for longer with a higher training sample, neural networks can be used for $\mu/\pi$ separation. The hyperparameters used to train CNN1075 are detailed below: 
-\begin{itemize}
- \item \verb|train_batch_size: 50|
- \item \verb|test_batch_size: 50|
- \item \verb|test_iter: 50|
- \item \verb|test_interval: 50|
- \item \verb|base_lr: 0.01|
- \item \verb|lr_policy: "step"|
- \item \verb|gamma: 0.1|
- \item \verb|stepsize: 200|
- \item \verb|display: 50|
- \item \verb|max_iter: 5000|
- \item \verb|momentum: 0.9|
- \item \verb|weight_decay: 0.0005|
- \item \verb|snapshot: 100|
-\end{itemize}
 
+\begin{multicols}{2}
+\begin{itemize}
+ \item \textit{train{\_}batch{\_}size: 50}
+ \item \textit{test{\_}batch{\_}size: 50}
+ \item \textit{test{\_}iter: 50}
+ \item \textit{test{\_}interval: 50}
+ \item \textit{base{\_}lr: 0.01}
+ \item \textit{lr{\_}policy: "step"}
+ \item \textit{gamma: 0.1}
+ \item \textit{stepsize: 200}
+ \item \textit{display: 50}
+ \item \textit{max{\_}iter: 5000}
+ \item \textit{momentum: 0.9}
+ \item \textit{weight{\_}decay: 0.0005}
+ \item \textit{snapshot: 100}
+\end{itemize}
+\end{multicols}
 \begin{figure}[htp!]
 \centering
 \includegraphics[width=\textwidth]{figs/acc_loss_CNN1075.png}
@@ -74,25 +76,27 @@ The confusion matrices shown in figure \ref{fig:confusion1075} show the accuracy
 \end{figure}
 
 \subsection{Training CNN10000}
-The hyperparameters used for CNN10000 are shown below. The batch size for the training and testing as well as the test iter were chosen to encompass the whole training/testing image set when doing accuracy/loss calculations. To do this, multiplying the test iter by the test batch size gives you the amount of images used when calculating accuracy/loss curves. 
+The hyperparameters used for CNN10000 are shown below. The batch size for the training and testing as well as the test{\_}iter were chosen to encompass the whole training/testing image set when doing accuracy/loss calculations. To do this, multiplying the test{\_}iter by the test batch size gives you the amount of images used when calculating accuracy/loss curves. 
 
+\begin{multicols}{2}
 \begin{itemize}
- \item \verb|train_batch_size: 100|
- \item \verb|test_batch_size: 100|
- \item \verb|test_iter: 100|
- \item \verb|test_interval: 100|
- \item \verb|base_lr: 0.001|
- \item \verb|lr_policy: "step"|
- \item \verb|gamma: 0.1|
- \item \verb|stepsize: 1000|
- \item \verb|display: 100|
- \item \verb|max_iter: 10000|
- \item \verb|momentum: 0.99|
- \item \verb|weight_decay: 0.0005|
- \item \verb|snapshot: 100|
+ \item \textit{train{\_}batch{\_}size: 100}
+ \item \textit{test{\_}batch{\_}size: 100}
+ \item \textit{test{\_}iter: 100}
+ \item \textit{test{\_}interval: 100}
+ \item \textit{base{\_}lr: 0.001}
+ \item \textit{lr{\_}policy: "step"}
+ \item \textit{gamma: 0.1}
+ \item \textit{stepsize: 1000}
+ \item \textit{display: 100}
+ \item \textit{max{\_}iter: 10000}
+ \item \textit{momentum: 0.99}
+ \item \textit{weight{\_}decay: 0.0005}
+ \item \textit{snapshot: 100}
 \end{itemize}
+\end{multicols}
 
-The same architecure that was used to train CNN1075 was employed on CNN10000, Imagenet. Caffe \cite{caffe} was the software package used for both CNNs. The differences include batch size and test{\_}iter and momentum to account for the larger dataset. Figure \ref{fig:loss_accuracy} shows the loss and accuracy of CNN10000. There is around a 10\% increase in accuracy from CNN1075 to CNN10000, 85\%, and around a 20\% decrease in loss, 36\%.
+The same architecure that was used to train CNN1075 was employed on CNN10000, AlexNet. Caffe \cite{caffe} was the software package used for both CNNs. The differences include batch size and test{\_}iter and momentum to account for the larger dataset. Figure \ref{fig:loss_accuracy} shows the loss and accuracy of CNN10000. There is around a 10\% increase in accuracy from CNN1075 to CNN10000, 85\%, and around a 20\% decrease in loss, 36\%.
 \begin{figure}[htp!]
 \centering
 \includegraphics[width=\textwidth]{figs/acc_loss_10000_062117.png}
@@ -128,15 +132,27 @@ Figure \ref{fig:CNN_train} show a breakdown of $\mu/\pi$ separation for CNN10000
 
 
 \subsection{Training CNN100000}
-Results of training using 100,000 images, 20,000 images per $\mu/\pi/p/\gamma/e$. 
+CNN100000 used the GoogleNet architecture rather than the AlexNet architecture used in the two previous trained CNNs. This is the first time the neural network was trained on a larger particle class, $\mu/\pi/p/\gamma/e$, and on higher resolution images. This CNN also employed GPUs during the training process. The hyperparameters are shown below:
 
+\begin{multicols}{2}
+\begin{itemize}
+ \item \textit{train{\_}batch{\_}size: 18}
+ \item \textit{test{\_}batch{\_}size: 2}
+ \item \textit{test{\_}iter: 2000}
+ \item \textit{test{\_}interval: 2000}
+ \item \textit{base{\_}lr: 0.001}
+ \item \textit{lr{\_}policy: "step"}
+ \item \textit{gamma: 0.96}
+ \item \textit{stepsize: 10000}
+ \item \textit{average{\_}loss: 40}
+ \item \textit{display: 40}
+ \item \textit{max{\_}iter: 10000}
+ \item \textit{momentum: 0.99}
+ \item \textit{weight{\_}decay: 0.0002}
+ \item \textit{snapshot: 50000}
+\end{itemize}
+\end{multicols}
 
-\begin{figure}[htp]
-\centering
-\includegraphics[width=\linewidth=]{../images/confusion_allparticle_v3.pdf}
-\caption{Confusion Matrix of all five particles }
-\label{fig:confusion100000}
-\end{figure}
 
 \begin{figure}[htp]
 \centering
@@ -150,6 +166,13 @@ Results of training using 100,000 images, 20,000 images per $\mu/\pi/p/\gamma/e$
 \includegraphics[width=.8\linewidth=]{../images/GPU_9010split_hires_iterations_alldata_allparticle_loss.png}
 \caption{Training and testing loss oc CNN trained on 100,000 images of \mu/\pi/p/\gamma/e}
 \label{fig:gpuloss}
+\end{figure}
+
+\begin{figure}[htp]
+\centering
+\includegraphics[width=\linewidth=]{../images/confusion_allparticle_v3.pdf}
+\caption{Confusion Matrix of all five particles }
+\label{fig:confusion100000}
 \end{figure}
 
 \begin{figure}[htp]

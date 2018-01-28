@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2017.8.22)  27 JAN 2018 21:01
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2017.8.22)  27 JAN 2018 22:53
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -359,22 +359,71 @@ LaTeX Info: Redefining \dedication on input line 740.
 Package: mathpazo 2005/04/12 PSNFSS-v9.2a Palatino w/ Pazo Math (D.Puga, WaS) 
 \symupright=\mathgroup4
 )
+(/usr/share/texlive/texmf-dist/tex/latex/tools/multicol.sty
+Package: multicol 2015/08/19 v1.8n multicolumn formatting (FMi)
+\c@tracingmulticols=\count114
+\mult@box=\box33
+\multicol@leftmargin=\dimen137
+\c@unbalance=\count115
+\c@collectmore=\count116
+\doublecol@number=\count117
+\multicoltolerance=\count118
+\multicolpretolerance=\count119
+\full@width=\dimen138
+\page@free=\dimen139
+\premulticols=\dimen140
+\postmulticols=\dimen141
+\multicolsep=\skip83
+\multicolbaselineskip=\skip84
+\partial@page=\box34
+\last@line=\box35
+\maxbalancingoverflow=\dimen142
+\mult@rightbox=\box36
+\mult@grightbox=\box37
+\mult@gfirstbox=\box38
+\mult@firstbox=\box39
+\@tempa=\box40
+\@tempa=\box41
+\@tempa=\box42
+\@tempa=\box43
+\@tempa=\box44
+\@tempa=\box45
+\@tempa=\box46
+\@tempa=\box47
+\@tempa=\box48
+\@tempa=\box49
+\@tempa=\box50
+\@tempa=\box51
+\@tempa=\box52
+\@tempa=\box53
+\@tempa=\box54
+\@tempa=\box55
+\@tempa=\box56
+\c@columnbadness=\count120
+\c@finalcolumnbadness=\count121
+\last@try=\dimen143
+\multicolovershoot=\dimen144
+\multicolundershoot=\dimen145
+\mult@nat@firstbox=\box57
+\colbreak@box=\box58
+\mc@col@check@num=\count122
+)
 (/usr/share/texlive/texmf-dist/tex/latex/lineno/lineno.sty
 Package: lineno 2005/11/02 line numbers on paragraphs v4.41
-\linenopenalty=\count114
+\linenopenalty=\count123
 \output=\toks23
-\linenoprevgraf=\count115
-\linenumbersep=\dimen137
-\linenumberwidth=\dimen138
-\c@linenumber=\count116
-\c@pagewiselinenumber=\count117
-\c@LN@truepage=\count118
-\c@internallinenumber=\count119
-\c@internallinenumbers=\count120
-\quotelinenumbersep=\dimen139
-\bframerule=\dimen140
-\bframesep=\dimen141
-\bframebox=\box33
+\linenoprevgraf=\count124
+\linenumbersep=\dimen146
+\linenumberwidth=\dimen147
+\c@linenumber=\count125
+\c@pagewiselinenumber=\count126
+\c@LN@truepage=\count127
+\c@internallinenumber=\count128
+\c@internallinenumbers=\count129
+\quotelinenumbersep=\dimen148
+\bframerule=\dimen149
+\bframesep=\dimen150
+\bframebox=\box59
 LaTeX Info: Redefining \\ on input line 3056.
 )
 (/usr/share/texlive/texmf-dist/tex/latex/relsize/relsize.sty
@@ -388,12 +437,12 @@ Package: xspace 2014/10/28 v1.13 Space after command names (DPC,MH)
 (/usr/share/texlive/texmf-dist/tex/latex/pgf/utilities/pgfrcs.sty
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/utilities/pgfutil-common.tex
 \pgfutil@everybye=\toks24
-\pgfutil@tempdima=\dimen142
-\pgfutil@tempdimb=\dimen143
+\pgfutil@tempdima=\dimen151
+\pgfutil@tempdimb=\dimen152
 
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/utilities/pgfutil-common-lists.t
 ex)) (/usr/share/texlive/texmf-dist/tex/generic/pgf/utilities/pgfutil-latex.def
-\pgfutil@abb=\box34
+\pgfutil@abb=\box60
 (/usr/share/texlive/texmf-dist/tex/latex/ms/everyshi.sty
 Package: everyshi 2001/05/15 v3.00 EveryShipout Package (MS)
 ))
@@ -415,20 +464,20 @@ Package: pgfsys 2014/07/09 v3.0.1a (rcs-revision 1.48)
 ex
 \pgfkeys@tmptoks=\toks27
 ))
-\pgf@x=\dimen144
-\pgf@y=\dimen145
-\pgf@xa=\dimen146
-\pgf@ya=\dimen147
-\pgf@xb=\dimen148
-\pgf@yb=\dimen149
-\pgf@xc=\dimen150
-\pgf@yc=\dimen151
+\pgf@x=\dimen153
+\pgf@y=\dimen154
+\pgf@xa=\dimen155
+\pgf@ya=\dimen156
+\pgf@xb=\dimen157
+\pgf@yb=\dimen158
+\pgf@xc=\dimen159
+\pgf@yc=\dimen160
 \w@pgf@writea=\write4
 \r@pgf@reada=\read1
-\c@pgf@counta=\count121
-\c@pgf@countb=\count122
-\c@pgf@countc=\count123
-\c@pgf@countd=\count124
+\c@pgf@counta=\count130
+\c@pgf@countb=\count131
+\c@pgf@countc=\count132
+\c@pgf@countd=\count133
 \t@pgf@toka=\toks28
 \t@pgf@tokb=\toks29
 \t@pgf@tokc=\toks30
@@ -447,8 +496,8 @@ File: pgfsys-common-pdf.def 2013/10/10  (rcs-revision 1.13)
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/systemlayer/pgfsyssoftpath.code.
 tex
 File: pgfsyssoftpath.code.tex 2013/09/09  (rcs-revision 1.9)
-\pgfsyssoftpath@smallbuffer@items=\count125
-\pgfsyssoftpath@bigbuffer@items=\count126
+\pgfsyssoftpath@smallbuffer@items=\count134
+\pgfsyssoftpath@bigbuffer@items=\count135
 )
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/systemlayer/pgfsysprotocol.code.
 tex
@@ -466,16 +515,16 @@ Package: colortbl 2012/02/13 v1.0a Color table columns (DPC)
 
 (/usr/share/texlive/texmf-dist/tex/latex/tools/array.sty
 Package: array 2014/10/28 v2.4c Tabular extension package (FMi)
-\col@sep=\dimen152
-\extrarowheight=\dimen153
+\col@sep=\dimen161
+\extrarowheight=\dimen162
 \NC@list=\toks31
-\extratabsurround=\skip83
-\backup@length=\skip84
+\extratabsurround=\skip85
+\backup@length=\skip86
 )
 \everycr=\toks32
-\minrowclearance=\skip85
+\minrowclearance=\skip87
 )
-\rownum=\count127
+\rownum=\count136
 Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1337.
 Package xcolor Info: Model `hsb' substituted by `rgb' on input line 1341.
 Package xcolor Info: Model `RGB' extended on input line 1353.
@@ -499,9 +548,9 @@ Package: pgfcore 2010/04/11 v3.0.1a (rcs-revision 1.7)
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathcalc.code.tex
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathutil.code.tex)
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathparser.code.tex
-\pgfmath@dimen=\dimen154
-\pgfmath@count=\count128
-\pgfmath@box=\box35
+\pgfmath@dimen=\dimen163
+\pgfmath@count=\count137
+\pgfmath@box=\box61
 \pgfmath@toks=\toks33
 \pgfmath@stack@operand=\toks34
 \pgfmath@stack@operation=\toks35
@@ -524,57 +573,57 @@ tex)
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.integerari
 thmetics.code.tex)))
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfloat.code.tex
-\c@pgfmathroundto@lastzeros=\count129
+\c@pgfmathroundto@lastzeros=\count138
 ))
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepoints.code.te
 x
 File: pgfcorepoints.code.tex 2013/10/07  (rcs-revision 1.27)
-\pgf@picminx=\dimen155
-\pgf@picmaxx=\dimen156
-\pgf@picminy=\dimen157
-\pgf@picmaxy=\dimen158
-\pgf@pathminx=\dimen159
-\pgf@pathmaxx=\dimen160
-\pgf@pathminy=\dimen161
-\pgf@pathmaxy=\dimen162
-\pgf@xx=\dimen163
-\pgf@xy=\dimen164
-\pgf@yx=\dimen165
-\pgf@yy=\dimen166
-\pgf@zx=\dimen167
-\pgf@zy=\dimen168
+\pgf@picminx=\dimen164
+\pgf@picmaxx=\dimen165
+\pgf@picminy=\dimen166
+\pgf@picmaxy=\dimen167
+\pgf@pathminx=\dimen168
+\pgf@pathmaxx=\dimen169
+\pgf@pathminy=\dimen170
+\pgf@pathmaxy=\dimen171
+\pgf@xx=\dimen172
+\pgf@xy=\dimen173
+\pgf@yx=\dimen174
+\pgf@yy=\dimen175
+\pgf@zx=\dimen176
+\pgf@zy=\dimen177
 )
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathconstruct.
 code.tex
 File: pgfcorepathconstruct.code.tex 2013/10/07  (rcs-revision 1.29)
-\pgf@path@lastx=\dimen169
-\pgf@path@lasty=\dimen170
+\pgf@path@lastx=\dimen178
+\pgf@path@lasty=\dimen179
 )
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathusage.code
 .tex
 File: pgfcorepathusage.code.tex 2014/11/02  (rcs-revision 1.24)
-\pgf@shorten@end@additional=\dimen171
-\pgf@shorten@start@additional=\dimen172
+\pgf@shorten@end@additional=\dimen180
+\pgf@shorten@start@additional=\dimen181
 )
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorescopes.code.te
 x
 File: pgfcorescopes.code.tex 2015/05/08  (rcs-revision 1.46)
-\pgfpic=\box36
-\pgf@hbox=\box37
-\pgf@layerbox@main=\box38
-\pgf@picture@serial@count=\count130
+\pgfpic=\box62
+\pgf@hbox=\box63
+\pgf@layerbox@main=\box64
+\pgf@picture@serial@count=\count139
 )
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcoregraphicstate.c
 ode.tex
 File: pgfcoregraphicstate.code.tex 2014/11/02  (rcs-revision 1.12)
-\pgflinewidth=\dimen173
+\pgflinewidth=\dimen182
 )
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcoretransformation
 s.code.tex
 File: pgfcoretransformations.code.tex 2015/08/07  (rcs-revision 1.20)
-\pgf@pt@x=\dimen174
-\pgf@pt@y=\dimen175
-\pgf@pt@temp=\dimen176
+\pgf@pt@x=\dimen183
+\pgf@pt@y=\dimen184
+\pgf@pt@temp=\dimen185
 )
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorequick.code.tex
 File: pgfcorequick.code.tex 2008/10/09  (rcs-revision 1.3)
@@ -590,12 +639,12 @@ File: pgfcorepathprocessing.code.tex 2013/09/09  (rcs-revision 1.9)
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorearrows.code.te
 x
 File: pgfcorearrows.code.tex 2015/05/14  (rcs-revision 1.43)
-\pgfarrowsep=\dimen177
+\pgfarrowsep=\dimen186
 )
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreshade.code.tex
 File: pgfcoreshade.code.tex 2013/07/15  (rcs-revision 1.15)
-\pgf@max=\dimen178
-\pgf@sys@shading@range@num=\count131
+\pgf@max=\dimen187
+\pgf@sys@shading@range@num=\count140
 )
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreimage.code.tex
 File: pgfcoreimage.code.tex 2013/07/15  (rcs-revision 1.18)
@@ -603,7 +652,7 @@ File: pgfcoreimage.code.tex 2013/07/15  (rcs-revision 1.18)
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreexternal.code.
 tex
 File: pgfcoreexternal.code.tex 2014/07/09  (rcs-revision 1.21)
-\pgfexternal@startupbox=\box39
+\pgfexternal@startupbox=\box65
 ))
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorelayers.code.te
 x
@@ -619,15 +668,15 @@ File: pgfcorepatterns.code.tex 2013/11/07  (rcs-revision 1.5)
 )))
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/modules/pgfmoduleshapes.code.tex
 File: pgfmoduleshapes.code.tex 2014/03/21  (rcs-revision 1.35)
-\pgfnodeparttextbox=\box40
+\pgfnodeparttextbox=\box66
 ) (/usr/share/texlive/texmf-dist/tex/generic/pgf/modules/pgfmoduleplot.code.tex
 File: pgfmoduleplot.code.tex 2015/08/03  (rcs-revision 1.13)
 )
 (/usr/share/texlive/texmf-dist/tex/latex/pgf/compatibility/pgfcomp-version-0-65
 .sty
 Package: pgfcomp-version-0-65 2007/07/03 v3.0.1a (rcs-revision 1.7)
-\pgf@nodesepstart=\dimen179
-\pgf@nodesepend=\dimen180
+\pgf@nodesepstart=\dimen188
+\pgf@nodesepend=\dimen189
 )
 (/usr/share/texlive/texmf-dist/tex/latex/pgf/compatibility/pgfcomp-version-1-18
 .sty
@@ -641,8 +690,8 @@ Package: pgfcomp-version-1-18 2007/07/23 v3.0.1a (rcs-revision 1.1)
 Package: pgffor 2013/12/13 v3.0.1a (rcs-revision 1.25)
 
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmath.code.tex)
-\pgffor@iter=\dimen181
-\pgffor@skip=\dimen182
+\pgffor@iter=\dimen190
+\pgffor@skip=\dimen191
 \pgffor@stack=\toks36
 \pgffor@toks=\toks37
 ))
@@ -652,31 +701,31 @@ Package: tikz 2015/08/07 v3.0.1a (rcs-revision 1.151)
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/libraries/pgflibraryplothandlers
 .code.tex
 File: pgflibraryplothandlers.code.tex 2013/08/31 v3.0.1a (rcs-revision 1.20)
-\pgf@plot@mark@count=\count132
-\pgfplotmarksize=\dimen183
+\pgf@plot@mark@count=\count141
+\pgfplotmarksize=\dimen192
 )
-\tikz@lastx=\dimen184
-\tikz@lasty=\dimen185
-\tikz@lastxsaved=\dimen186
-\tikz@lastysaved=\dimen187
-\tikzleveldistance=\dimen188
-\tikzsiblingdistance=\dimen189
-\tikz@figbox=\box41
-\tikz@figbox@bg=\box42
-\tikz@tempbox=\box43
-\tikz@tempbox@bg=\box44
-\tikztreelevel=\count133
-\tikznumberofchildren=\count134
-\tikznumberofcurrentchild=\count135
-\tikz@fig@count=\count136
+\tikz@lastx=\dimen193
+\tikz@lasty=\dimen194
+\tikz@lastxsaved=\dimen195
+\tikz@lastysaved=\dimen196
+\tikzleveldistance=\dimen197
+\tikzsiblingdistance=\dimen198
+\tikz@figbox=\box67
+\tikz@figbox@bg=\box68
+\tikz@tempbox=\box69
+\tikz@tempbox@bg=\box70
+\tikztreelevel=\count142
+\tikznumberofchildren=\count143
+\tikznumberofcurrentchild=\count144
+\tikz@fig@count=\count145
 
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/modules/pgfmodulematrix.code.tex
 File: pgfmodulematrix.code.tex 2013/09/17  (rcs-revision 1.8)
-\pgfmatrixcurrentrow=\count137
-\pgfmatrixcurrentcolumn=\count138
-\pgf@matrix@numberofcolumns=\count139
+\pgfmatrixcurrentrow=\count146
+\pgfmatrixcurrentcolumn=\count147
+\pgf@matrix@numberofcolumns=\count148
 )
-\tikz@expandcount=\count140
+\tikz@expandcount=\count149
 
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tik
 zlibrarytopaths.code.tex
@@ -684,8 +733,8 @@ File: tikzlibrarytopaths.code.tex 2008/06/17 v3.0.1a (rcs-revision 1.2)
 )))
 (/usr/share/texlive/texmf-dist/tex/latex/caption/subcaption.sty
 Package: subcaption 2016/02/20 v1.1-142 Sub-captions (AR)
-\c@subfigure=\count141
-\c@subtable=\count142
+\c@subfigure=\count150
+\c@subtable=\count151
 )
 (/usr/share/texlive/texmf-dist/tex/latex/morefloats/morefloats.sty
 Package: morefloats 2015/07/22 v1.0h Raise limit of unprocessed floats (HMM)
@@ -724,21 +773,21 @@ Package: verbatim 2014/10/28 v1.5q LaTeX2e package for verbatim enhancements
 \verbatim@in@stream=\read2
 )
 (/usr/share/texlive/texmf-dist/tex/latex/wrapfig/wrapfig.sty
-\wrapoverhang=\dimen190
-\WF@size=\dimen191
-\c@WF@wrappedlines=\count143
-\WF@box=\box45
+\wrapoverhang=\dimen199
+\WF@size=\dimen256
+\c@WF@wrappedlines=\count152
+\WF@box=\box71
 \WF@everypar=\toks40
 Package: wrapfig 2003/01/31  v 3.6
 )
 (/usr/share/texlive/texmf-dist/tex/latex/sidecap/sidecap.sty
 Package: sidecap 2003/06/06 v1.6f SideCap Package (RN/HjG)
-\SC@BOXWD=\dimen192
-\SC@CAPWD=\dimen193
-\SC@tempdima=\dimen194
-\SC@tempdimb=\dimen195
-\c@SC@C=\count144
-\SC@BOX=\box46
+\SC@BOXWD=\dimen257
+\SC@CAPWD=\dimen258
+\SC@tempdima=\dimen259
+\SC@tempdimb=\dimen260
+\c@SC@C=\count153
+\SC@BOX=\box72
 )
 (/usr/share/texlive/texmf-dist/tex/latex/pgfgantt/pgfgantt.sty
 Package: pgfgantt 2013/06/01 v4.0 Draw Gantt diagrams with TikZ
@@ -750,13 +799,13 @@ File: tikzlibraryarrows.code.tex 2008/01/09 v3.0.1a (rcs-revision 1.1)
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/libraries/pgflibraryarrows.code.
 tex
 File: pgflibraryarrows.code.tex 2013/09/23 v3.0.1a (rcs-revision 1.16)
-\arrowsize=\dimen196
+\arrowsize=\dimen261
 ))
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tik
 zlibrarybackgrounds.code.tex
 File: tikzlibrarybackgrounds.code.tex 2013/07/18 v3.0.1a (rcs-revision 1.3)
-\pgf@layerbox@background=\box47
-\pgf@layerboxsaved@background=\box48
+\pgf@layerbox@background=\box73
+\pgf@layerboxsaved@background=\box74
 )
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tik
 zlibrarycalc.code.tex
@@ -787,22 +836,22 @@ File: pgflibraryshapes.geometric.code.tex 2008/06/26 v3.0.1a (rcs-revision 1.1)
 (/usr/share/texlive/texmf-dist/tex/latex/pgf/utilities/pgfcalendar.sty
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/utilities/pgfcalendar.code.tex
 File: pgfcalendar.code.tex 2007/07/23 v3.0.1a (rcs-revision 1.11)
-\pgfcalendarcurrentjulian=\count145
+\pgfcalendarcurrentjulian=\count154
 ))
-\gtt@currentline=\count146
-\gtt@lasttitleline=\count147
-\gtt@currgrid=\count148
-\gtt@chartwidth=\count149
-\gtt@lasttitleslot=\count150
-\gtt@elementid=\count151
-\gtt@today@slot=\count152
-\gtt@startjulian=\count153
-\gtt@endjulian=\count154
-\gtt@calendar@slots=\count155
-\gtt@calendar@weeknumber=\count156
-\gtt@calendar@startofweek=\count157
-\gtt@left@slot=\count158
-\gtt@right@slot=\count159
+\gtt@currentline=\count155
+\gtt@lasttitleline=\count156
+\gtt@currgrid=\count157
+\gtt@chartwidth=\count158
+\gtt@lasttitleslot=\count159
+\gtt@elementid=\count160
+\gtt@today@slot=\count161
+\gtt@startjulian=\count162
+\gtt@endjulian=\count163
+\gtt@calendar@slots=\count164
+\gtt@calendar@weeknumber=\count165
+\gtt@calendar@startofweek=\count166
+\gtt@left@slot=\count167
+\gtt@right@slot=\count168
 ) (/usr/share/texlive/texmf-dist/tex/generic/babel/babel.sty
 Package: babel 2016/02/24 3.9q The Babel package
 
@@ -811,8 +860,8 @@ Language: english 2012/08/20 v3.3p English support from the babel system
 
 (/usr/share/texlive/texmf-dist/tex/generic/babel/babel.def
 File: babel.def 2016/02/24 3.9q Babel common definitions
-\babel@savecnt=\count160
-\U@D=\dimen197
+\babel@savecnt=\count169
+\U@D=\dimen262
 )
 \l@british = a dialect from \language\l@english 
 \l@UKenglish = a dialect from \language\l@english 
@@ -897,7 +946,7 @@ Package: SIunits 2007/12/02 v1.36 Support for the International System of units
  (MH)
 
 
-\@qskwidth=\skip86
+\@qskwidth=\skip88
 \symgreek=\mathgroup10
 
 Package SIunits Warning: You have no `SIunits.cfg' file installed. 
@@ -915,7 +964,7 @@ Option `thickqspace' provided!
 Option `textstyle' provided!
 Option `squaren' provided!
 ))
-\CKMPairWidth=\skip87
+\CKMPairWidth=\skip89
 LaTeX Font Info:    Try loading font information for OT1+ppl on input line 157.
 
  (/usr/share/texlive/texmf-dist/tex/latex/psnfss/ot1ppl.fd
@@ -971,7 +1020,7 @@ Package: xkeyval 2014/12/03 v2.7a package option processing (HA)
 \XKV@toks=\toks41
 \XKV@tempa@toks=\toks42
 )
-\XKV@depth=\count161
+\XKV@depth=\count170
 File: xkeyval.tex 2014/12/03 v2.7a key=value parser (HA)
 ))
 (/usr/share/texlive/texmf-dist/tex/latex/adjustbox/adjcalc.sty
@@ -983,73 +1032,73 @@ Package: trimclip 2012/05/16 v1.0 Trim and clip general TeX material
 
 (/usr/share/texlive/texmf-dist/tex/latex/collectbox/collectbox.sty
 Package: collectbox 2012/05/17 v0.4b Collect macro arguments as boxes
-\collectedbox=\box49
+\collectedbox=\box75
 )
-\tc@llx=\dimen198
-\tc@lly=\dimen199
-\tc@urx=\dimen256
-\tc@ury=\dimen257
+\tc@llx=\dimen263
+\tc@lly=\dimen264
+\tc@urx=\dimen265
+\tc@ury=\dimen266
 Package trimclip Info: Using driver 'tc-pdftex.def'.
 
 (/usr/share/texlive/texmf-dist/tex/latex/adjustbox/tc-pdftex.def
 File: tc-pdftex.def 2012/05/13 v1.0 Clipping driver for pdftex
 ))
-\adjbox@Width=\dimen258
-\adjbox@Height=\dimen259
-\adjbox@Depth=\dimen260
-\adjbox@Totalheight=\dimen261
+\adjbox@Width=\dimen267
+\adjbox@Height=\dimen268
+\adjbox@Depth=\dimen269
+\adjbox@Totalheight=\dimen270
 
 (/usr/share/texlive/texmf-dist/tex/latex/ifoddpage/ifoddpage.sty
 Package: ifoddpage 2011/09/13 v1.0 Conditionals for odd/even page detection
-\c@checkoddpage=\count162
+\c@checkoddpage=\count171
 LaTeX Info: Redefining \checkoddpage on input line 25.
 )))
 (/usr/share/texlive/texmf-dist/tex/latex/floatrow/floatrow.sty
 Package: floatrow 2008/08/02 v0.3b floatrow: float package extension
-\c@float@type=\count163
+\c@float@type=\count172
 \float@exts=\toks43
-\float@box=\box50
-\@floatcapt=\box51
+\float@box=\box76
+\@floatcapt=\box77
 Package floatrow Info: Modified float package code loaded on input line 455.
 Package floatrow Info: Modified rotfloat package code loaded on input line 473.
 
 \FR@everyfloat=\toks44
 \flrow@foot=\insert252
-\FB@wd=\dimen262
-\FBo@wd=\dimen263
-\FBc@wd=\dimen264
-\FBo@ht=\skip88
-\FBc@ht=\skip89
-\FBf@ht=\skip90
-\FBo@max=\skip91
-\FBc@max=\skip92
-\FBf@max=\skip93
-\c@FBl@b=\count164
-\floatbox@depth=\count165
-\c@FRobj=\count166
-\c@FRsobj=\count167
-\Xhsize=\skip94
-\sXhsize=\skip95
-\Zhsize=\skip96
-\sZhsize=\skip97
-\flrow@rowbox=\box52
-\FR@Zunitlength=\dimen265
-\c@FBcnt=\count168
-\FPOScnt=\count169
-\LTleft=\skip98
-\LTright=\skip99
+\FB@wd=\dimen271
+\FBo@wd=\dimen272
+\FBc@wd=\dimen273
+\FBo@ht=\skip90
+\FBc@ht=\skip91
+\FBf@ht=\skip92
+\FBo@max=\skip93
+\FBc@max=\skip94
+\FBf@max=\skip95
+\c@FBl@b=\count173
+\floatbox@depth=\count174
+\c@FRobj=\count175
+\c@FRsobj=\count176
+\Xhsize=\skip96
+\sXhsize=\skip97
+\Zhsize=\skip98
+\sZhsize=\skip99
+\flrow@rowbox=\box78
+\FR@Zunitlength=\dimen274
+\c@FBcnt=\count177
+\FPOScnt=\count178
 \LTleft=\skip100
 \LTright=\skip101
+\LTleft=\skip102
+\LTright=\skip103
 \flrow@types=\toks45
 )
 (/usr/share/texlive/texmf-dist/tex/latex/csquotes/csquotes.sty
 Package: csquotes 2016/01/31 v5.1g context-sensitive quotations (JAW)
-\csq@reset=\count170
-\csq@gtype=\count171
-\csq@glevel=\count172
-\csq@qlevel=\count173
-\csq@maxlvl=\count174
-\csq@tshold=\count175
+\csq@reset=\count179
+\csq@gtype=\count180
+\csq@glevel=\count181
+\csq@qlevel=\count182
+\csq@maxlvl=\count183
+\csq@tshold=\count184
 \csq@ltx@everypar=\toks46
 
 (/usr/share/texlive/texmf-dist/tex/latex/csquotes/csquotes.def
@@ -1111,14 +1160,14 @@ Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
 (/usr/share/texlive/texmf-dist/tex/latex/oberdiek/auxhook.sty
 Package: auxhook 2011/03/04 v1.3 Hooks for auxiliary files (HO)
 )
-\@linkdim=\dimen266
-\Hy@linkcounter=\count176
-\Hy@pagecounter=\count177
+\@linkdim=\dimen275
+\Hy@linkcounter=\count185
+\Hy@pagecounter=\count186
 
 (/usr/share/texlive/texmf-dist/tex/latex/hyperref/pd1enc.def
 File: pd1enc.def 2012/11/06 v6.83m Hyperref: PDFDocEncoding definition (HO)
 )
-\Hy@SavedSpaceFactor=\count178
+\Hy@SavedSpaceFactor=\count187
 
 (/usr/share/texlive/texmf-dist/tex/latex/latexconfig/hyperref.cfg
 File: hyperref.cfg 2002/06/06 v1.2 hyperref configuration of TeXLive
@@ -1133,17 +1182,17 @@ Package hyperref Info: Plain pages OFF on input line 4458.
 Package hyperref Info: Backreferencing OFF on input line 4463.
 Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
 Package hyperref Info: Bookmarks ON on input line 4688.
-\c@Hy@tempcnt=\count179
+\c@Hy@tempcnt=\count188
 
 (/usr/share/texlive/texmf-dist/tex/latex/url/url.sty
 \Urlmuskip=\muskip11
 Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
 )
 LaTeX Info: Redefining \url on input line 5041.
-\XeTeXLinkMargin=\dimen267
-\Fld@menulength=\count180
-\Field@Width=\dimen268
-\Fld@charsize=\dimen269
+\XeTeXLinkMargin=\dimen276
+\Fld@menulength=\count189
+\Field@Width=\dimen277
+\Fld@charsize=\dimen278
 Package hyperref Info: Hyper figures OFF on input line 6295.
 Package hyperref Info: Link nesting OFF on input line 6300.
 Package hyperref Info: Hyper index ON on input line 6303.
@@ -1153,24 +1202,24 @@ Package hyperref Info: Link coloring with OCG OFF on input line 6320.
 Package hyperref Info: PDF/A mode OFF on input line 6325.
 LaTeX Info: Redefining \ref on input line 6365.
 LaTeX Info: Redefining \pageref on input line 6369.
-\Hy@abspage=\count181
-\c@Item=\count182
-\c@Hfootnote=\count183
+\Hy@abspage=\count190
+\c@Item=\count191
+\c@Hfootnote=\count192
 )
 
 Package hyperref Message: Driver (autodetected): hpdftex.
 
 (/usr/share/texlive/texmf-dist/tex/latex/hyperref/hpdftex.def
 File: hpdftex.def 2012/11/06 v6.83m Hyperref driver for pdfTeX
-\Fld@listcount=\count184
-\c@bookmark@seq@number=\count185
+\Fld@listcount=\count193
+\c@bookmark@seq@number=\count194
 
 (/usr/share/texlive/texmf-dist/tex/latex/oberdiek/rerunfilecheck.sty
 Package: rerunfilecheck 2011/04/15 v1.7 Rerun checks for auxiliary files (HO)
 Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
 82.
 )
-\Hy@SectionHShift=\skip102
+\Hy@SectionHShift=\skip104
 )
 
 LaTeX Warning: Unused global option(s):
@@ -1207,32 +1256,32 @@ LaTeX Warning: Label `fig:mu_g' multiply defined.
 )
 \openout1 = `example.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 52.
-LaTeX Font Info:    ... okay on input line 52.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 52.
-LaTeX Font Info:    ... okay on input line 52.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 52.
-LaTeX Font Info:    ... okay on input line 52.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 52.
-LaTeX Font Info:    ... okay on input line 52.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 52.
-LaTeX Font Info:    ... okay on input line 52.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 52.
-LaTeX Font Info:    ... okay on input line 52.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 52.
-LaTeX Font Info:    Try loading font information for TS1+cmr on input line 52.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 53.
+LaTeX Font Info:    ... okay on input line 53.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 53.
+LaTeX Font Info:    ... okay on input line 53.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 53.
+LaTeX Font Info:    ... okay on input line 53.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 53.
+LaTeX Font Info:    ... okay on input line 53.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 53.
+LaTeX Font Info:    ... okay on input line 53.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 53.
+LaTeX Font Info:    ... okay on input line 53.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 53.
+LaTeX Font Info:    Try loading font information for TS1+cmr on input line 53.
  (/usr/share/texlive/texmf-dist/tex/latex/base/ts1cmr.fd
 File: ts1cmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
-LaTeX Font Info:    ... okay on input line 52.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 52.
-LaTeX Font Info:    ... okay on input line 52.
-LaTeX Font Info:    Try loading font information for T1+ppl on input line 52.
+LaTeX Font Info:    ... okay on input line 53.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 53.
+LaTeX Font Info:    ... okay on input line 53.
+LaTeX Font Info:    Try loading font information for T1+ppl on input line 53.
 
 (/usr/share/texlive/texmf-dist/tex/latex/psnfss/t1ppl.fd
 File: t1ppl.fd 2001/06/04 font definitions for T1/ppl.
 )
-LaTeX Info: Redefining \microtypecontext on input line 52.
+LaTeX Info: Redefining \microtypecontext on input line 53.
 Package microtype Info: Generating PDF output.
 Package microtype Info: Character protrusion enabled (level 2).
 Package microtype Info: Using default protrusion set `alltext'.
@@ -1248,16 +1297,16 @@ File: mt-ppl.cfg 2005/11/16 v1.6 microtype config. file: Palatino (RS)
 )
 (/usr/share/texlive/texmf-dist/tex/context/base/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count186
-\scratchdimen=\dimen270
-\scratchbox=\box53
-\nofMPsegments=\count187
-\nofMParguments=\count188
+\scratchcounter=\count195
+\scratchdimen=\dimen279
+\scratchbox=\box79
+\nofMPsegments=\count196
+\nofMParguments=\count197
 \everyMPshowfont=\toks47
-\MPscratchCnt=\count189
-\MPscratchDim=\dimen271
-\MPnumerator=\count190
-\makeMPintoPDFobject=\count191
+\MPscratchCnt=\count198
+\MPscratchDim=\dimen280
+\MPnumerator=\count199
+\makeMPintoPDFobject=\count266
 \everyMPtoPDFconversion=\toks48
 ) (/usr/share/texlive/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
 Package: epstopdf-base 2010/02/09 v2.5 Base part for package epstopdf
@@ -1293,45 +1342,45 @@ Package: everysel 2011/10/28 v1.2 EverySelectfont Package (MS)
 ABD: EverySelectfont initializing macros
 LaTeX Info: Redefining \selectfont on input line 126.
 )
-\CenteringLeftskip=\skip103
-\RaggedLeftLeftskip=\skip104
-\RaggedRightLeftskip=\skip105
-\CenteringRightskip=\skip106
-\RaggedLeftRightskip=\skip107
-\RaggedRightRightskip=\skip108
-\CenteringParfillskip=\skip109
-\RaggedLeftParfillskip=\skip110
-\RaggedRightParfillskip=\skip111
-\JustifyingParfillskip=\skip112
-\CenteringParindent=\skip113
-\RaggedLeftParindent=\skip114
-\RaggedRightParindent=\skip115
-\JustifyingParindent=\skip116
+\CenteringLeftskip=\skip105
+\RaggedLeftLeftskip=\skip106
+\RaggedRightLeftskip=\skip107
+\CenteringRightskip=\skip108
+\RaggedLeftRightskip=\skip109
+\RaggedRightRightskip=\skip110
+\CenteringParfillskip=\skip111
+\RaggedLeftParfillskip=\skip112
+\RaggedRightParfillskip=\skip113
+\JustifyingParfillskip=\skip114
+\CenteringParindent=\skip115
+\RaggedLeftParindent=\skip116
+\RaggedRightParindent=\skip117
+\JustifyingParindent=\skip118
 )
 Option `squaren' provided! 
  Command \squaren defined by SIunits package!
 
-LaTeX Info: Redefining \micro on input line 52.
-\AtBeginShipoutBox=\box54
-Package hyperref Info: Link coloring ON on input line 52.
+LaTeX Info: Redefining \micro on input line 53.
+\AtBeginShipoutBox=\box80
+Package hyperref Info: Link coloring ON on input line 53.
 (/usr/share/texlive/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2012/10/27 v2.43 Cross-referencing by name of section
 
 (/usr/share/texlive/texmf-dist/tex/generic/oberdiek/gettitlestring.sty
 Package: gettitlestring 2010/12/03 v1.4 Cleanup title references (HO)
 )
-\c@section@level=\count192
+\c@section@level=\count267
 )
-LaTeX Info: Redefining \ref on input line 52.
-LaTeX Info: Redefining \pageref on input line 52.
-LaTeX Info: Redefining \nameref on input line 52.
+LaTeX Info: Redefining \ref on input line 53.
+LaTeX Info: Redefining \pageref on input line 53.
+LaTeX Info: Redefining \nameref on input line 53.
 
 (./example.out) (./example.out)
 \@outlinefile=\write5
 \openout5 = `example.out'.
 
  Processing 'frontmatter' comment.
-\c@iterlist=\count193
+\c@iterlist=\count268
 \openout3 = `comment.cut'.
 
 
@@ -1469,7 +1518,7 @@ alse pion rate = $\OML/zplm/m/it/12 false^^Y\OT1/zplm/m/n/12 /\OML/zplm/m/it/12
  []
 
 [19]
-Overfull \hbox (0.25159pt too wide) in paragraph at lines 59--59
+Overfull \hbox (0.25159pt too wide) in paragraph at lines 58--58
  [][] [][][]\T1/ppl/m/n/12 (-20) Training and test-ing loss oc CNN trained on 1
 00,000 im-ages of $\OML/zplm/m/it/12 ^^V$\T1/ppl/m/n/12 (-20) /$\OML/zplm/m/it/
 12 ^^Y$\T1/ppl/m/n/12 (-20) /p/$\OML/zplm/m/it/12 ^^M$\T1/ppl/m/n/12 (-20) /e[]
@@ -2025,252 +2074,245 @@ chapter 7.
 
 LaTeX Warning: Citation `cc-inclusive' on page 69 undefined on input line 26.
 
-[69]
-LaTeX Font Info:    Try loading font information for T1+cmtt on input line 36.
- (/usr/share/texlive/texmf-dist/tex/latex/base/t1cmtt.fd
-File: t1cmtt.fd 2014/09/29 v2.5h Standard LaTeX font definitions
-)
-Package microtype Info: Loading generic settings for font family
-(microtype)             `cmtt' (encoding: T1).
-(microtype)             For optimal results, create family-specific settings.
-(microtype)             See the microtype manual for details.
- [70]
-<figs/acc_loss_CNN1075.png, id=1632, 1148.03906pt x 769.37437pt>
+[69] <figs/acc_loss_CNN1075.png, id=1627, 1148.03906pt x 769.37437pt>
 File: figs/acc_loss_CNN1075.png Graphic file (type png)
 
 <use figs/acc_loss_CNN1075.png>
-Package pdftex.def Info: figs/acc_loss_CNN1075.png used on input line 53.
+Package pdftex.def Info: figs/acc_loss_CNN1075.png used on input line 55.
 (pdftex.def)             Requested size: 448.07378pt x 300.27785pt.
-
-<figs/confusion1_train.png, id=1634, 585.18625pt x 514.92375pt>
+ [70] [71 <./figs/acc_loss_CNN1075.png (PNG copy)>] <figs/confusion1_train.png,
+ id=1637, 585.18625pt x 514.92375pt>
 File: figs/confusion1_train.png Graphic file (type png)
 
 <use figs/confusion1_train.png>
-Package pdftex.def Info: figs/confusion1_train.png used on input line 63.
+Package pdftex.def Info: figs/confusion1_train.png used on input line 65.
 (pdftex.def)             Requested size: 304.70041pt x 216.80864pt.
 
-<figs/confusion1_test.png, id=1635, 523.9575pt x 514.92375pt>
+<figs/confusion1_test.png, id=1638, 523.9575pt x 514.92375pt>
 File: figs/confusion1_test.png Graphic file (type png)
 
 <use figs/confusion1_test.png>
-Package pdftex.def Info: figs/confusion1_test.png used on input line 68.
+Package pdftex.def Info: figs/confusion1_test.png used on input line 70.
 (pdftex.def)             Requested size: 268.85374pt x 216.80864pt.
- [71 <./figs/acc_loss_CNN1075.png (PNG copy)>]
-[72 <./figs/confusion1_train.png> <./figs/confusion1_test.png>]
 
-LaTeX Warning: Citation `caffe' on page 73 undefined on input line 95.
 
-<figs/acc_loss_10000_062117.png, id=1645, 619.31375pt x 472.76625pt>
+LaTeX Warning: Citation `caffe' on page 72 undefined on input line 99.
+
+<figs/acc_loss_10000_062117.png, id=1640, 619.31375pt x 472.76625pt>
 File: figs/acc_loss_10000_062117.png Graphic file (type png)
 
 <use figs/acc_loss_10000_062117.png>
-Package pdftex.def Info: figs/acc_loss_10000_062117.png used on input line 98.
+Package pdftex.def Info: figs/acc_loss_10000_062117.png used on input line 102.
+
 (pdftex.def)             Requested size: 448.07378pt x 342.05783pt.
 
-<figs/train_confusion.pdf, id=1646, 578.16pt x 578.16pt>
+<figs/train_confusion.pdf, id=1641, 578.16pt x 578.16pt>
 File: figs/train_confusion.pdf Graphic file (type pdf)
 
 <use figs/train_confusion.pdf>
-Package pdftex.def Info: figs/train_confusion.pdf used on input line 106.
+Package pdftex.def Info: figs/train_confusion.pdf used on input line 110.
 (pdftex.def)             Requested size: 313.64856pt x 252.94437pt.
 
-<figs/val_confusion.pdf, id=1647, 578.16pt x 578.16pt>
+<figs/val_confusion.pdf, id=1642, 578.16pt x 578.16pt>
 File: figs/val_confusion.pdf Graphic file (type pdf)
 
 <use figs/val_confusion.pdf>
-Package pdftex.def Info: figs/val_confusion.pdf used on input line 112.
+Package pdftex.def Info: figs/val_confusion.pdf used on input line 116.
 (pdftex.def)             Requested size: 313.64856pt x 252.94437pt.
 
-<figs/mitch_hw.png, id=1648, 1672.2475pt x 673.51625pt>
+<figs/mitch_hw.png, id=1643, 1672.2475pt x 673.51625pt>
 File: figs/mitch_hw.png Graphic file (type png)
 
 <use figs/mitch_hw.png>
-Package pdftex.def Info: figs/mitch_hw.png used on input line 121.
+Package pdftex.def Info: figs/mitch_hw.png used on input line 125.
 (pdftex.def)             Requested size: 448.07378pt x 180.46442pt.
- [73] [74 <./figs/acc_loss_10000_062117.png>] [75 <./figs/train_confusion.pdf> 
-<./figs/val_confusion.pdf
+ [72] [73 <./figs/confusion1_train.png> <./figs/confusion1_test.png>] [74 <./fi
+gs/acc_loss_10000_062117.png>] [75 <./figs/train_confusion.pdf> <./figs/val_con
+fusion.pdf
 
 pdfTeX warning: pdflatex (file ./figs/val_confusion.pdf): PDF inclusion: multip
 le pdfs with page group included in a single page
->] <../images/confusion_allparticle_v3.pdf, id=1765, 867.24pt x 578.16pt>
-File: ../images/confusion_allparticle_v3.pdf Graphic file (type pdf)
-
-<use ../images/confusion_allparticle_v3.pdf>
-Package pdftex.def Info: ../images/confusion_allparticle_v3.pdf used on input l
-ine 136.
-(pdftex.def)             Requested size: 448.07378pt x 298.72173pt.
-
-<../images/GPU_9010split_hires_iterations_alldata_allparticle.png, id=1766, 481
+>]
+<../images/GPU_9010split_hires_iterations_alldata_allparticle.png, id=1764, 481
 .8pt x 361.35pt>
 File: ../images/GPU_9010split_hires_iterations_alldata_allparticle.png Graphic 
 file (type png)
 
 <use ../images/GPU_9010split_hires_iterations_alldata_allparticle.png>
 Package pdftex.def Info: ../images/GPU_9010split_hires_iterations_alldata_allpa
-rticle.png used on input line 143.
+rticle.png used on input line 159.
 (pdftex.def)             Requested size: 358.46039pt x 268.85045pt.
 
-<../images/GPU_9010split_hires_iterations_alldata_allparticle_loss.png, id=1767
+<../images/GPU_9010split_hires_iterations_alldata_allparticle_loss.png, id=1765
 , 481.8pt x 361.35pt>
 File: ../images/GPU_9010split_hires_iterations_alldata_allparticle_loss.png Gra
 phic file (type png)
 
 <use ../images/GPU_9010split_hires_iterations_alldata_allparticle_loss.png>
 Package pdftex.def Info: ../images/GPU_9010split_hires_iterations_alldata_allpa
-rticle_loss.png used on input line 150.
+rticle_loss.png used on input line 166.
 (pdftex.def)             Requested size: 358.46039pt x 268.85045pt.
 
-<../csv_output/true_labels_1102.png, id=1768, 1004.75375pt x 1005.7575pt>
+<../images/confusion_allparticle_v3.pdf, id=1766, 867.24pt x 578.16pt>
+File: ../images/confusion_allparticle_v3.pdf Graphic file (type pdf)
+
+<use ../images/confusion_allparticle_v3.pdf>
+Package pdftex.def Info: ../images/confusion_allparticle_v3.pdf used on input l
+ine 173.
+(pdftex.def)             Requested size: 448.07378pt x 298.72173pt.
+
+<../csv_output/true_labels_1102.png, id=1767, 1004.75375pt x 1005.7575pt>
 File: ../csv_output/true_labels_1102.png Graphic file (type png)
 
 <use ../csv_output/true_labels_1102.png>
 Package pdftex.def Info: ../csv_output/true_labels_1102.png used on input line 
-157.
+180.
 (pdftex.def)             Requested size: 358.46039pt x 358.81894pt.
 
-<../csv_output/muon_prob.png, id=1769, 1218.5525pt x 926.46124pt>
+<../csv_output/muon_prob.png, id=1768, 1218.5525pt x 926.46124pt>
 File: ../csv_output/muon_prob.png Graphic file (type png)
 
 <use ../csv_output/muon_prob.png>
-Package pdftex.def Info: ../csv_output/muon_prob.png used on input line 164.
+Package pdftex.def Info: ../csv_output/muon_prob.png used on input line 187.
 (pdftex.def)             Requested size: 358.46039pt x 272.52618pt.
 
-<../csv_output/pi_prob.png, id=1770, 1215.54124pt x 904.37875pt>
+<../csv_output/pi_prob.png, id=1769, 1215.54124pt x 904.37875pt>
 File: ../csv_output/pi_prob.png Graphic file (type png)
 
 <use ../csv_output/pi_prob.png>
-Package pdftex.def Info: ../csv_output/pi_prob.png used on input line 171.
+Package pdftex.def Info: ../csv_output/pi_prob.png used on input line 194.
 (pdftex.def)             Requested size: 358.46039pt x 266.69283pt.
 
-<../csv_output/proton_prob.png, id=1771, 1196.47pt x 911.405pt>
+<../csv_output/proton_prob.png, id=1770, 1196.47pt x 911.405pt>
 File: ../csv_output/proton_prob.png Graphic file (type png)
 
 <use ../csv_output/proton_prob.png>
-Package pdftex.def Info: ../csv_output/proton_prob.png used on input line 178.
+Package pdftex.def Info: ../csv_output/proton_prob.png used on input line 201.
 (pdftex.def)             Requested size: 358.46039pt x 273.06203pt.
 
-<../csv_output/eminus_prob.png, id=1772, 793.96625pt x 622.325pt>
+<../csv_output/eminus_prob.png, id=1771, 793.96625pt x 622.325pt>
 File: ../csv_output/eminus_prob.png Graphic file (type png)
 
 <use ../csv_output/eminus_prob.png>
-Package pdftex.def Info: ../csv_output/eminus_prob.png used on input line 185.
+Package pdftex.def Info: ../csv_output/eminus_prob.png used on input line 208.
 (pdftex.def)             Requested size: 358.46039pt x 280.97426pt.
 
-<../csv_output/gamma_prob.png, id=1773, 1191.45125pt x 919.435pt>
+<../csv_output/gamma_prob.png, id=1772, 1191.45125pt x 919.435pt>
 File: ../csv_output/gamma_prob.png Graphic file (type png)
 
 <use ../csv_output/gamma_prob.png>
-Package pdftex.def Info: ../csv_output/gamma_prob.png used on input line 192.
+Package pdftex.def Info: ../csv_output/gamma_prob.png used on input line 215.
 (pdftex.def)             Requested size: 358.46039pt x 276.61827pt.
 
-<../csv_output/prob_allparticle_normalized.pdf, id=1774, 462.52798pt x 346.8960
+<../csv_output/prob_allparticle_normalized.pdf, id=1773, 462.52798pt x 346.8960
 1pt>
 File: ../csv_output/prob_allparticle_normalized.pdf Graphic file (type pdf)
  <use ../csv_output/prob_allparticle_normalized.pdf>
 Package pdftex.def Info: ../csv_output/prob_allparticle_normalized.pdf used on 
-input line 199.
+input line 222.
 (pdftex.def)             Requested size: 358.46039pt x 268.8575pt.
 
-<../csv_output/mu_pi_acc_tracklength_all.pdf, id=1775, 462.52798pt x 346.89601p
+<../csv_output/mu_pi_acc_tracklength_all.pdf, id=1774, 462.52798pt x 346.89601p
 t>
 File: ../csv_output/mu_pi_acc_tracklength_all.pdf Graphic file (type pdf)
  <use ../csv_output/mu_pi_acc_tracklength_all.pdf>
 Package pdftex.def Info: ../csv_output/mu_pi_acc_tracklength_all.pdf used on in
-put line 206.
+put line 229.
 (pdftex.def)             Requested size: 358.46039pt x 268.8575pt.
 
-<../csv_output/mu_pi_acc_tracklength_75.pdf, id=1776, 462.52798pt x 346.89601pt
+<../csv_output/mu_pi_acc_tracklength_75.pdf, id=1775, 462.52798pt x 346.89601pt
 >
 File: ../csv_output/mu_pi_acc_tracklength_75.pdf Graphic file (type pdf)
  <use ../csv_output/mu_pi_acc_tracklength_75.pdf>
 Package pdftex.def Info: ../csv_output/mu_pi_acc_tracklength_75.pdf used on inp
-ut line 213.
+ut line 236.
 (pdftex.def)             Requested size: 358.46039pt x 268.8575pt.
 
-<../csv_output/mu_pi_acc_momentum.pdf, id=1777, 462.52798pt x 346.89601pt>
+<../csv_output/mu_pi_acc_momentum.pdf, id=1776, 462.52798pt x 346.89601pt>
 File: ../csv_output/mu_pi_acc_momentum.pdf Graphic file (type pdf)
 
 <use ../csv_output/mu_pi_acc_momentum.pdf>
 Package pdftex.def Info: ../csv_output/mu_pi_acc_momentum.pdf used on input lin
-e 220.
+e 243.
 (pdftex.def)             Requested size: 358.46039pt x 268.8575pt.
 
-<../csv_output/mu_p_acc_tracklength_all.pdf, id=1778, 462.52798pt x 346.89601pt
+<../csv_output/mu_p_acc_tracklength_all.pdf, id=1777, 462.52798pt x 346.89601pt
 >
 File: ../csv_output/mu_p_acc_tracklength_all.pdf Graphic file (type pdf)
  <use ../csv_output/mu_p_acc_tracklength_all.pdf>
 Package pdftex.def Info: ../csv_output/mu_p_acc_tracklength_all.pdf used on inp
-ut line 227.
+ut line 250.
 (pdftex.def)             Requested size: 358.46039pt x 268.8575pt.
 
-<../csv_output/mu_p_acc_tracklength_75.pdf, id=1779, 462.52798pt x 346.89601pt>
+<../csv_output/mu_p_acc_tracklength_75.pdf, id=1778, 462.52798pt x 346.89601pt>
 File: ../csv_output/mu_p_acc_tracklength_75.pdf Graphic file (type pdf)
 <use ../csv_output/mu_p_acc_tracklength_75.pdf>
 Package pdftex.def Info: ../csv_output/mu_p_acc_tracklength_75.pdf used on inpu
-t line 234.
+t line 257.
 (pdftex.def)             Requested size: 358.46039pt x 268.8575pt.
 
-<../csv_output/mu_p_acc_momentum.pdf, id=1780, 462.52798pt x 346.89601pt>
+<../csv_output/mu_p_acc_momentum.pdf, id=1779, 462.52798pt x 346.89601pt>
 File: ../csv_output/mu_p_acc_momentum.pdf Graphic file (type pdf)
 
 <use ../csv_output/mu_p_acc_momentum.pdf>
 Package pdftex.def Info: ../csv_output/mu_p_acc_momentum.pdf used on input line
- 241.
+ 264.
 (pdftex.def)             Requested size: 358.46039pt x 268.8575pt.
 
-<../csv_output/mu_e_acc_tracklength_all.pdf, id=1781, 462.52798pt x 346.89601pt
+<../csv_output/mu_e_acc_tracklength_all.pdf, id=1780, 462.52798pt x 346.89601pt
 >
 File: ../csv_output/mu_e_acc_tracklength_all.pdf Graphic file (type pdf)
  <use ../csv_output/mu_e_acc_tracklength_all.pdf>
 Package pdftex.def Info: ../csv_output/mu_e_acc_tracklength_all.pdf used on inp
-ut line 248.
+ut line 271.
 (pdftex.def)             Requested size: 358.46039pt x 268.8575pt.
 
-<../csv_output/mu_e_acc_tracklength_75.pdf, id=1782, 462.52798pt x 346.89601pt>
+<../csv_output/mu_e_acc_tracklength_75.pdf, id=1781, 462.52798pt x 346.89601pt>
 File: ../csv_output/mu_e_acc_tracklength_75.pdf Graphic file (type pdf)
 <use ../csv_output/mu_e_acc_tracklength_75.pdf>
 Package pdftex.def Info: ../csv_output/mu_e_acc_tracklength_75.pdf used on inpu
-t line 255.
+t line 278.
 (pdftex.def)             Requested size: 358.46039pt x 268.8575pt.
 
-<../csv_output/mu_e_acc_momentum.pdf, id=1783, 462.52798pt x 346.89601pt>
+<../csv_output/mu_e_acc_momentum.pdf, id=1782, 462.52798pt x 346.89601pt>
 File: ../csv_output/mu_e_acc_momentum.pdf Graphic file (type pdf)
 
 <use ../csv_output/mu_e_acc_momentum.pdf>
 Package pdftex.def Info: ../csv_output/mu_e_acc_momentum.pdf used on input line
- 262.
+ 285.
 (pdftex.def)             Requested size: 358.46039pt x 268.8575pt.
 
-<../csv_output/mu_g_acc_tracklength_all.pdf, id=1784, 462.52798pt x 346.89601pt
+<../csv_output/mu_g_acc_tracklength_all.pdf, id=1783, 462.52798pt x 346.89601pt
 >
 File: ../csv_output/mu_g_acc_tracklength_all.pdf Graphic file (type pdf)
  <use ../csv_output/mu_g_acc_tracklength_all.pdf>
 Package pdftex.def Info: ../csv_output/mu_g_acc_tracklength_all.pdf used on inp
-ut line 269.
+ut line 292.
 (pdftex.def)             Requested size: 358.46039pt x 268.8575pt.
 
-<../csv_output/mu_g_acc_tracklength_75.pdf, id=1785, 462.52798pt x 346.89601pt>
+<../csv_output/mu_g_acc_tracklength_75.pdf, id=1784, 462.52798pt x 346.89601pt>
 File: ../csv_output/mu_g_acc_tracklength_75.pdf Graphic file (type pdf)
 <use ../csv_output/mu_g_acc_tracklength_75.pdf>
 Package pdftex.def Info: ../csv_output/mu_g_acc_tracklength_75.pdf used on inpu
-t line 276.
+t line 299.
 (pdftex.def)             Requested size: 358.46039pt x 268.8575pt.
 
-<../csv_output/mu_g_acc_momentum.pdf, id=1786, 462.52798pt x 346.89601pt>
+<../csv_output/mu_g_acc_momentum.pdf, id=1785, 462.52798pt x 346.89601pt>
 File: ../csv_output/mu_g_acc_momentum.pdf Graphic file (type pdf)
 
 <use ../csv_output/mu_g_acc_momentum.pdf>
 Package pdftex.def Info: ../csv_output/mu_g_acc_momentum.pdf used on input line
- 283.
+ 306.
 (pdftex.def)             Requested size: 358.46039pt x 268.8575pt.
-) (./cnn_results.tex [76 <./figs/mitch_hw.png>] [77 <../images/confusion_allpar
-ticle_v3.pdf>] [78 <../images/GPU_9010split_hires_iterations_alldata_allparticl
-e.png> <../images/GPU_9010split_hires_iterations_alldata_allparticle_loss.png>]
- [79 <../csv_output/true_labels_1102.png>] [80 <../csv_output/muon_prob.png> <.
-./csv_output/pi_prob.png>] [81 <../csv_output/proton_prob.png> <../csv_output/e
-minus_prob.png>] [82 <../csv_output/gamma_prob.png> <../csv_output/prob_allpart
-icle_normalized.pdf>] [83 <../csv_output/mu_pi_acc_tracklength_all.pdf> <../csv
-_output/mu_pi_acc_tracklength_75.pdf
+) (./cnn_results.tex [76 <./figs/mitch_hw.png>] [77 <../images/GPU_9010split_hi
+res_iterations_alldata_allparticle.png> <../images/GPU_9010split_hires_iteratio
+ns_alldata_allparticle_loss.png>]
+[78 <../images/confusion_allparticle_v3.pdf>] [79 <../csv_output/true_labels_11
+02.png>] [80 <../csv_output/muon_prob.png> <../csv_output/pi_prob.png>]
+[81 <../csv_output/proton_prob.png> <../csv_output/eminus_prob.png>] [82 <../cs
+v_output/gamma_prob.png> <../csv_output/prob_allparticle_normalized.pdf>]
+[83 <../csv_output/mu_pi_acc_tracklength_all.pdf> <../csv_output/mu_pi_acc_trac
+klength_75.pdf
 
 pdfTeX warning: pdflatex (file ../csv_output/mu_pi_acc_tracklength_75.pdf): PDF
  inclusion: multiple pdfs with page group included in a single page
@@ -2301,14 +2343,14 @@ pdfTeX warning: pdflatex (file ../csv_output/mu_g_acc_momentum.pdf): PDF inclus
 ion: multiple pdfs with page group included in a single page
 >]
 chapter 8.
-<figs/sel1_cuts.png, id=2462, 1566.85374pt x 914.41624pt>
+<figs/sel1_cuts.png, id=2461, 1566.85374pt x 914.41624pt>
 File: figs/sel1_cuts.png Graphic file (type png)
 
 <use figs/sel1_cuts.png>
 Package pdftex.def Info: figs/sel1_cuts.png used on input line 7.
 (pdftex.def)             Requested size: 403.26366pt x 235.34273pt.
 
-<figs/confusion_0621_wrongnorm.png, id=2463, 790.955pt x 764.8575pt>
+<figs/confusion_0621_wrongnorm.png, id=2462, 790.955pt x 764.8575pt>
 File: figs/confusion_0621_wrongnorm.png Graphic file (type png)
 
 <use figs/confusion_0621_wrongnorm.png>
@@ -2320,7 +2362,7 @@ Overfull \hbox (15.17545pt too wide) in paragraph at lines 15--16
 [][] 
  []
 
-<figs/prob_0706_wrongnorm_sel1.png, id=2464, 735.74875pt x 575.14874pt>
+<figs/prob_0706_wrongnorm_sel1.png, id=2463, 735.74875pt x 575.14874pt>
 File: figs/prob_0706_wrongnorm_sel1.png Graphic file (type png)
 
 <use figs/prob_0706_wrongnorm_sel1.png>
@@ -2332,7 +2374,7 @@ Overfull \hbox (15.17642pt too wide) in paragraph at lines 21--22
 [][] 
  []
 
-<figs/confusion_rightnorm_0621.png, id=2465, 1018.80624pt x 887.315pt>
+<figs/confusion_rightnorm_0621.png, id=2464, 1018.80624pt x 887.315pt>
 File: figs/confusion_rightnorm_0621.png Graphic file (type png)
 
 <use figs/confusion_rightnorm_0621.png>
@@ -2344,7 +2386,7 @@ Overfull \hbox (15.16867pt too wide) in paragraph at lines 27--28
 [][] 
  []
 
-<figs/prob_0706_rightnorm_sel1.png, id=2466, 737.75626pt x 554.07pt>
+<figs/prob_0706_rightnorm_sel1.png, id=2465, 737.75626pt x 554.07pt>
 File: figs/prob_0706_rightnorm_sel1.png Graphic file (type png)
 
 <use figs/prob_0706_rightnorm_sel1.png>
@@ -2357,7 +2399,7 @@ Overfull \hbox (15.17136pt too wide) in paragraph at lines 33--34
  []
 
 
-<figs/sel1_trackrange_wrongnorm_acc70_0706.png, id=2467, 744.7825pt x 585.18625
+<figs/sel1_trackrange_wrongnorm_acc70_0706.png, id=2466, 744.7825pt x 585.18625
 pt>
 File: figs/sel1_trackrange_wrongnorm_acc70_0706.png Graphic file (type png)
  <use figs/sel1_trackrange_wrongnorm_acc70_0706.png>
@@ -2370,7 +2412,7 @@ Overfull \hbox (15.17917pt too wide) in paragraph at lines 45--46
  []
 
 
-<figs/sel1_trackrange_rightnorm_acc70_0706.png, id=2468, 740.7675pt x 570.13pt>
+<figs/sel1_trackrange_rightnorm_acc70_0706.png, id=2467, 740.7675pt x 570.13pt>
 File: figs/sel1_trackrange_rightnorm_acc70_0706.png Graphic file (type png)
 <use figs/sel1_trackrange_rightnorm_acc70_0706.png>
 Package pdftex.def Info: figs/sel1_trackrange_rightnorm_acc70_0706.png used on 
@@ -2381,7 +2423,7 @@ Overfull \hbox (15.1746pt too wide) in paragraph at lines 51--52
 [][] 
  []
 
-<figs/sel1_parP_wrongnorm_acc70_0706.png, id=2469, 733.74126pt x 558.085pt>
+<figs/sel1_parP_wrongnorm_acc70_0706.png, id=2468, 733.74126pt x 558.085pt>
 File: figs/sel1_parP_wrongnorm_acc70_0706.png Graphic file (type png)
 
 <use figs/sel1_parP_wrongnorm_acc70_0706.png>
@@ -2393,7 +2435,7 @@ Overfull \hbox (15.17824pt too wide) in paragraph at lines 57--58
 [][] 
  []
 
-<figs/sel1_parP_rightnorm_acc70_0706.png, id=2470, 735.74875pt x 563.10374pt>
+<figs/sel1_parP_rightnorm_acc70_0706.png, id=2469, 735.74875pt x 563.10374pt>
 File: figs/sel1_parP_rightnorm_acc70_0706.png Graphic file (type png)
 
 <use figs/sel1_parP_rightnorm_acc70_0706.png>
@@ -2415,7 +2457,7 @@ LaTeX Warning: Citation `cc-inclusive' on page 89 undefined on input line 72.
 ob_0706_rightnorm_sel1.png>] [92 <./figs/sel1_trackrange_wrongnorm_acc70_0706.p
 ng> <./figs/sel1_trackrange_rightnorm_acc70_0706.png> <./figs/sel1_parP_wrongno
 rm_acc70_0706.png> <./figs/sel1_parP_rightnorm_acc70_0706.png>]
-<figs/cuttable_sel1mod.png, id=2511, 736.7525pt x 452.69125pt>
+<figs/cuttable_sel1mod.png, id=2510, 736.7525pt x 452.69125pt>
 File: figs/cuttable_sel1mod.png Graphic file (type png)
 
 <use figs/cuttable_sel1mod.png>
@@ -2426,7 +2468,7 @@ Package pdftex.def Info: figs/cuttable_sel1mod.png used on input line 80.
 LaTeX Warning: Citation `cc-inclusive' on page 93 undefined on input line 85.
 
 [93 <./figs/cuttable_sel1mod.png>]
-<figs/sel1mod_confusion_wrongnorm.png, id=2529, 614.295pt x 639.38875pt>
+<figs/sel1mod_confusion_wrongnorm.png, id=2528, 614.295pt x 639.38875pt>
 File: figs/sel1mod_confusion_wrongnorm.png Graphic file (type png)
 
 <use figs/sel1mod_confusion_wrongnorm.png>
@@ -2438,7 +2480,7 @@ Overfull \hbox (15.17433pt too wide) in paragraph at lines 93--94
 [][] 
  []
 
-<figs/probplot_wrongnorm_selImod.png, id=2530, 733.74126pt x 582.175pt>
+<figs/probplot_wrongnorm_selImod.png, id=2529, 733.74126pt x 582.175pt>
 File: figs/probplot_wrongnorm_selImod.png Graphic file (type png)
 
 <use figs/probplot_wrongnorm_selImod.png>
@@ -2451,7 +2493,7 @@ Overfull \hbox (15.17824pt too wide) in paragraph at lines 99--100
  []
 
 
-<figs/sel1mod_trackrange_wrongnorm_acc70_0706.png, id=2531, 741.77126pt x 573.1
+<figs/sel1mod_trackrange_wrongnorm_acc70_0706.png, id=2530, 741.77126pt x 573.1
 4125pt>
 File: figs/sel1mod_trackrange_wrongnorm_acc70_0706.png Graphic file (type png)
  <use figs/sel1mod_trackrange_wrongnorm_acc70_0706.png>
@@ -2459,7 +2501,7 @@ Package pdftex.def Info: figs/sel1mod_trackrange_wrongnorm_acc70_0706.png used
 on input line 112.
 (pdftex.def)             Requested size: 289.08589pt x 180.67163pt.
 
-<figs/sel1mod_cnn_stackedevent_0707.png, id=2532, 739.76375pt x 565.11125pt>
+<figs/sel1mod_cnn_stackedevent_0707.png, id=2531, 739.76375pt x 565.11125pt>
 File: figs/sel1mod_cnn_stackedevent_0707.png Graphic file (type png)
 
 <use figs/sel1mod_cnn_stackedevent_0707.png>
@@ -2467,7 +2509,7 @@ Package pdftex.def Info: figs/sel1mod_cnn_stackedevent_0707.png used on input l
 ine 118.
 (pdftex.def)             Requested size: 201.62395pt x 144.53691pt.
 
-<figs/sel1mod_original_stackedevents_0707.png, id=2533, 733.74126pt x 559.08875
+<figs/sel1mod_original_stackedevents_0707.png, id=2532, 733.74126pt x 559.08875
 pt>
 File: figs/sel1mod_original_stackedevents_0707.png Graphic file (type png)
  <use figs/sel1mod_original_stackedevents_0707.png>
@@ -2475,7 +2517,7 @@ Package pdftex.def Info: figs/sel1mod_original_stackedevents_0707.png used on i
 nput line 124.
 (pdftex.def)             Requested size: 201.62833pt x 144.54066pt.
 
-<figs/sel1mod_cnn_trackrange_mupi_acc70_0707.png, id=2534, 737.75626pt x 571.13
+<figs/sel1mod_cnn_trackrange_mupi_acc70_0707.png, id=2533, 737.75626pt x 571.13
 374pt>
 File: figs/sel1mod_cnn_trackrange_mupi_acc70_0707.png Graphic file (type png)
  <use figs/sel1mod_cnn_trackrange_mupi_acc70_0707.png>
@@ -2483,7 +2525,7 @@ Package pdftex.def Info: figs/sel1mod_cnn_trackrange_mupi_acc70_0707.png used o
 n input line 130.
 (pdftex.def)             Requested size: 201.62842pt x 144.53476pt.
 
-<figs/sel1mod_original_trackrange_mupi_acc70_0707.png, id=2535, 734.745pt x 551
+<figs/sel1mod_original_trackrange_mupi_acc70_0707.png, id=2534, 734.745pt x 551
 .05875pt>
 File: figs/sel1mod_original_trackrange_mupi_acc70_0707.png Graphic file (type p
 ng)
@@ -2495,7 +2537,7 @@ sed on input line 136.
 
 LaTeX Warning: Float too large for page by 12.52388pt on input line 143.
 
-<figs/sel1mod_cnn_trackrange_acc75_0707.png, id=2536, 738.76pt x 551.05875pt>
+<figs/sel1mod_cnn_trackrange_acc75_0707.png, id=2535, 738.76pt x 551.05875pt>
 File: figs/sel1mod_cnn_trackrange_acc75_0707.png Graphic file (type png)
 
 <use figs/sel1mod_cnn_trackrange_acc75_0707.png>
@@ -2503,7 +2545,7 @@ Package pdftex.def Info: figs/sel1mod_cnn_trackrange_acc75_0707.png used on inp
 ut line 150.
 (pdftex.def)             Requested size: 201.63219pt x 180.67276pt.
 
-<figs/sel1mod_cnn_trackrange_acc80_0707.png, id=2537, 734.745pt x 550.055pt>
+<figs/sel1mod_cnn_trackrange_acc80_0707.png, id=2536, 734.745pt x 550.055pt>
 File: figs/sel1mod_cnn_trackrange_acc80_0707.png Graphic file (type png)
 
 <use figs/sel1mod_cnn_trackrange_acc80_0707.png>
@@ -2511,7 +2553,7 @@ Package pdftex.def Info: figs/sel1mod_cnn_trackrange_acc80_0707.png used on inp
 ut line 156.
 (pdftex.def)             Requested size: 201.62386pt x 180.67099pt.
 
-<figs/sel1mod_cnn_trackrange_acc85_0707.png, id=2538, 732.7375pt x 564.1075pt>
+<figs/sel1mod_cnn_trackrange_acc85_0707.png, id=2537, 732.7375pt x 564.1075pt>
 File: figs/sel1mod_cnn_trackrange_acc85_0707.png Graphic file (type png)
 
 <use figs/sel1mod_cnn_trackrange_acc85_0707.png>
@@ -2519,14 +2561,14 @@ Package pdftex.def Info: figs/sel1mod_cnn_trackrange_acc85_0707.png used on inp
 ut line 162.
 (pdftex.def)             Requested size: 201.632pt x 180.67302pt.
 
-<figs/sel1mod_cnn_trackrange_acc90_0707.png, id=2539, 739.76375pt x 564.1075pt>
+<figs/sel1mod_cnn_trackrange_acc90_0707.png, id=2538, 739.76375pt x 564.1075pt>
 File: figs/sel1mod_cnn_trackrange_acc90_0707.png Graphic file (type png)
 <use figs/sel1mod_cnn_trackrange_acc90_0707.png>
 Package pdftex.def Info: figs/sel1mod_cnn_trackrange_acc90_0707.png used on inp
 ut line 168.
 (pdftex.def)             Requested size: 201.62395pt x 180.67302pt.
 
-<figs/sel1mod_parP_wrongnorm_acc70_0706.png, id=2540, 726.715pt x 560.0925pt>
+<figs/sel1mod_parP_wrongnorm_acc70_0706.png, id=2539, 726.715pt x 560.0925pt>
 File: figs/sel1mod_parP_wrongnorm_acc70_0706.png Graphic file (type png)
 
 <use figs/sel1mod_parP_wrongnorm_acc70_0706.png>
@@ -2534,7 +2576,7 @@ Package pdftex.def Info: figs/sel1mod_parP_wrongnorm_acc70_0706.png used on inp
 ut line 182.
 (pdftex.def)             Requested size: 403.27615pt x 252.9452pt.
 
-<figs/sel1mod_cnn_parP_stackedevents_0707.png, id=2541, 731.73375pt x 555.07375
+<figs/sel1mod_cnn_parP_stackedevents_0707.png, id=2540, 731.73375pt x 555.07375
 pt>
 File: figs/sel1mod_cnn_parP_stackedevents_0707.png Graphic file (type png)
  <use figs/sel1mod_cnn_parP_stackedevents_0707.png>
@@ -2542,7 +2584,7 @@ Package pdftex.def Info: figs/sel1mod_cnn_parP_stackedevents_0707.png used on i
 nput line 188.
 (pdftex.def)             Requested size: 201.63493pt x 180.67632pt.
 
-<figs/sel1mod_original_parP_stackedevents_0707.png, id=2542, 731.73375pt x 563.
+<figs/sel1mod_original_parP_stackedevents_0707.png, id=2541, 731.73375pt x 563.
 10374pt>
 File: figs/sel1mod_original_parP_stackedevents_0707.png Graphic file (type png)
 
@@ -2567,7 +2609,7 @@ Package pdftex.def Info: figs/sel1mod_cnn_trackrange_mupi_acc70_0707.png used o
 n input line 208.
 (pdftex.def)             Requested size: 201.62842pt x 180.67497pt.
 
-<figs/sel1mod_mupi_trackrange_acc70.png, id=2579, 740.7675pt x 561.09625pt>
+<figs/sel1mod_mupi_trackrange_acc70.png, id=2578, 740.7675pt x 561.09625pt>
 File: figs/sel1mod_mupi_trackrange_acc70.png Graphic file (type png)
 
 <use figs/sel1mod_mupi_trackrange_acc70.png>
@@ -2575,20 +2617,20 @@ Package pdftex.def Info: figs/sel1mod_mupi_trackrange_acc70.png used on input l
 ine 213.
 (pdftex.def)             Requested size: 201.62625pt x 180.66748pt.
 
-<figs/interesting_event.png, id=2580, 500.87125pt x 344.28625pt>
+<figs/interesting_event.png, id=2579, 500.87125pt x 344.28625pt>
 File: figs/interesting_event.png Graphic file (type png)
 
 <use figs/interesting_event.png>
 Package pdftex.def Info: figs/interesting_event.png used on input line 225.
 (pdftex.def)             Requested size: 134.41927pt x 180.67418pt.
 
-<figs/event2.png, id=2581, 516.93124pt x 442.65375pt>
+<figs/event2.png, id=2580, 516.93124pt x 442.65375pt>
 File: figs/event2.png Graphic file (type png)
  <use figs/event2.png>
 Package pdftex.def Info: figs/event2.png used on input line 231.
 (pdftex.def)             Requested size: 134.4226pt x 180.67868pt.
 
-<figs/mupievent.png, id=2582, 585.18625pt x 400.49625pt>
+<figs/mupievent.png, id=2581, 585.18625pt x 400.49625pt>
 File: figs/mupievent.png Graphic file (type png)
 
 <use figs/mupievent.png>
@@ -2604,7 +2646,7 @@ LaTeX Warning: Citation `cc-inclusive' on page 100 undefined on input line 271.
 LaTeX Warning: Citation `cc-inclusive' on page 100 undefined on input line 271.
 
 
-[100] <figs/purity_sel1mod.png, id=2601, 751.80875pt x 354.32375pt>
+[100] <figs/purity_sel1mod.png, id=2600, 751.80875pt x 354.32375pt>
 File: figs/purity_sel1mod.png Graphic file (type png)
 
 <use figs/purity_sel1mod.png>
@@ -2619,7 +2661,7 @@ LaTeX Warning: Citation `cc-inclusive' on page 101 undefined on input line 318.
 LaTeX Warning: Citation `cc-inclusive' on page 101 undefined on input line 318.
 
 
-<figs/cnn_performance.png, id=2602, 746.79pt x 576.1525pt>
+<figs/cnn_performance.png, id=2601, 746.79pt x 576.1525pt>
 File: figs/cnn_performance.png Graphic file (type png)
 
 <use figs/cnn_performance.png>
@@ -2637,13 +2679,23 @@ chapter 9.
 Comment 'backmatter' writing to comment.cut. Straight input of comment.cut.
 (./comment.cut (./backmatter.tex (./example.bbl [105] [106
 
-]))) [107]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 141.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 141.
+]
+LaTeX Font Info:    Try loading font information for T1+cmtt on input line 6.
+
+(/usr/share/texlive/texmf-dist/tex/latex/base/t1cmtt.fd
+File: t1cmtt.fd 2014/09/29 v2.5h Standard LaTeX font definitions
+)
+Package microtype Info: Loading generic settings for font family
+(microtype)             `cmtt' (encoding: T1).
+(microtype)             For optimal results, create family-specific settings.
+(microtype)             See the microtype manual for details.
+))) [107]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 142.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 142.
 
 (./example.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 141.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 141.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 142.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 142.
 Package rerunfilecheck Info: File `example.out' has not changed.
 (rerunfilecheck)             Checksum: F432CBA078ED1A14702B67BCA6EDC062;5684.
 
@@ -2655,10 +2707,10 @@ LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 31011 strings out of 494953
- 554174 string characters out of 6180977
- 788419 words of memory out of 5000000
- 32825 multiletter control sequences out of 15000+600000
+ 31131 strings out of 494953
+ 555996 string characters out of 6180977
+ 795761 words of memory out of 5000000
+ 32942 multiletter control sequences out of 15000+600000
  115815 words of font info for 445 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
  75i,19n,80p,2707b,986s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -2675,7 +2727,7 @@ urw/palatino/uplb8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/palatino
 /uplbi8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/palatino/uplr8a.pfb
 ></usr/share/texlive/texmf-dist/fonts/type1/urw/palatino/uplr8a.pfb></usr/share
 /texlive/texmf-dist/fonts/type1/urw/palatino/uplri8a.pfb>
-Output written on example.pdf (135 pages, 10451385 bytes).
+Output written on example.pdf (135 pages, 10468203 bytes).
 PDF statistics:
  2764 PDF objects out of 2984 (max. 8388607)
  1795 compressed objects within 18 object streams

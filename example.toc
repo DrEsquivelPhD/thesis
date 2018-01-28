@@ -66,7 +66,7 @@
 \contentsline {section}{\numberline {7.2}Creating images using LArTPC data for training/validation of CNNS}{68}{section.7.2}
 \contentsline {section}{\numberline {7.3}Convolutional Neural Network Training}{70}{section.7.3}
 \contentsline {subsection}{\numberline {7.3.1}Training CNN1075}{70}{subsection.7.3.1}
-\contentsline {subsection}{\numberline {7.3.2}Training CNN10000}{73}{subsection.7.3.2}
+\contentsline {subsection}{\numberline {7.3.2}Training CNN10000}{72}{subsection.7.3.2}
 \contentsline {subsection}{\numberline {7.3.3}Training CNN100000}{76}{subsection.7.3.3}
 \contentsline {chapter}{\numberline {8}Results of Convolutional Neural Networks on particles \leavevmode {\color {red}\textbf {WORKING TITLE}}}{89}{chapter.8}
 \contentsline {section}{\numberline {8.1}Classification using CNN10000}{89}{section.8.1}
