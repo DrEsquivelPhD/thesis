@@ -53,7 +53,7 @@ The results of CNN1075 are described in this section. The accuracy is how well C
 \begin{figure}[htp!]
 \centering
 \includegraphics[width=\textwidth]{figs/acc_loss_CNN1075.png}
-\caption{Accuracy vs. Loss of ImageNet 2-output $\mu/\pi$ sample consisting of 2,150 images each.} 
+\caption{Accuracy vs. Loss of AlexNet 2-output $\mu/\pi$ sample consisting of 2,150 images each.} 
 \label{fig:loss_accuracy_1075}
 \end{figure}
 
@@ -71,7 +71,7 @@ The confusion matrices shown in figure \ref{fig:confusion1075} show the accuracy
 	\caption{Confusion Matrix showing Accuracy of CNN1075 using testing MC data}
 	\end{subfigure}
 	\quad
-\caption{Description of confusion matrix varables: False pion rate = $false \pi/ total \pi$ True pion rate = $true \pi/total \pi$ Accuracy = $(true \pi rate + true \mu rate)/2$ Pion prediction value = $true \pi/(true \pi + false \pi)$ Muon prediction value = $true \mu/(true \mu + false \mu)$}
+\caption{Description of confusion matrix variables: False pion rate = $false \pi/ total \pi$ True pion rate = $true \pi/total \pi$ Accuracy = $(true \pi rate + true \mu rate)/2$ Pion prediction value = $true \pi/(true \pi + false \pi)$ Muon prediction value = $true \mu/(true \mu + false \mu)$}
 \label{fig:confusion1075}
 \end{figure}
 
@@ -100,7 +100,7 @@ The same architecure that was used to train CNN1075 was employed on CNN10000, Al
 \begin{figure}[htp!]
 \centering
 \includegraphics[width=\textwidth]{figs/acc_loss_10000_062117.png}
-\caption{Accuracy vs. Loss of ImageNet 2-output $\mu/\pi$ sample consisting of 10,000 images each.} 
+\caption{Accuracy vs. Loss of AlexNet 2-output $\mu/\pi$ sample consisting of 10,000 images each.} 
 \label{fig:loss_accuracy}
 \end{figure}
 
@@ -127,7 +127,7 @@ The same architecure that was used to train CNN1075 was employed on CNN10000, Al
 \label{fig:prob_plot}
 \end{figure}
 
-Figure \ref{fig:CNN_train} show a breakdown of $\mu/\pi$ separation for CNN10000. It also shows the network is not being overtrained due to the Accuracy of both the training and testing datasets being within .01\% of eachother. The CNN is doing a very good job of classifying true muons as muons, and our loss increase from CNN1075 is due to the increase in accurately classifing pions as pions. 
+Figure \ref{fig:CNN_train} show a breakdown of $\mu/\pi$ separation for CNN10000. It also shows the network is not being overtrained due to the Accuracy of both the training and testing datasets being within .01\% of eachother. The CNN is doing a very good job of classifying true muons as muons, and our loss increase from CNN1075 is due to the increase in accurately classifying pions as pions. 
 
 
 
@@ -154,68 +154,86 @@ CNN100000 used the GoogleNet architecture rather than the AlexNet architecture u
 \end{multicols}
 
 
-\begin{figure}[htp]
+\begin{figure}[htp!]
 \centering
-\includegraphics[width=.8\linewidth=]{../images/GPU_9010split_hires_iterations_alldata_allparticle.png}
+\includegraphics[width=.8\textwidth]{../images/GPU_9010split_hires_iterations_alldata_allparticle.png}
 \caption{Training and testing accuracy of CNN trained on 100,000 images of \mu/\pi/p/\gamma/e with 20,000 images of each particle. Each image was a size of 576x576 and the images per particle were split 90\% use for training and 10\% used for testing the network}
 \label{fig:gpuacc}
 \end{figure}
 
-\begin{figure}[htp]
+\begin{figure}[htp!]
 \centering
-\includegraphics[width=.8\linewidth=]{../images/GPU_9010split_hires_iterations_alldata_allparticle_loss.png}
-\caption{Training and testing loss oc CNN trained on 100,000 images of \mu/\pi/p/\gamma/e}
+\includegraphics[width=.8\textwidth]{../images/GPU_9010split_hires_iterations_alldata_allparticle_loss.png}
+\caption{Training and testing loss of CNN trained on 100,000 images of \mu/\pi/p/\gamma/e}
 \label{fig:gpuloss}
 \end{figure}
 
-\begin{figure}[htp]
+The accuracy and loss for CNN100000 are shown in figures \ref{fig:gpuacc} and \ref{fig:gpuloss}. The jumps shown in both figures are when the training was stopped to fine-tune the weight decay and the learning rate. The accuracy leveled off at \sim 80\% and the loss was at \sim 0.48. 
+
+
+\begin{figure}[htp!]
 \centering
-\includegraphics[width=\linewidth=]{../images/confusion_allparticle_v3.pdf}
+\includegraphics[width=\textwidth]{../images/confusion_allparticle_v3.pdf}
 \caption{Confusion Matrix of all five particles }
 \label{fig:confusion100000}
 \end{figure}
 
-\begin{figure}[htp]
+Figure \ref{fig:confusion100000} shows the confusion matrix of CNN100000. The proton identification of the neural network is at 85\% and the highest out of all five particles. One thing to note is clear separation between particles that leave track like objects in the MicroBooNE detector, $\mu/\pi/p$, versus particles that leave shower like objects in MicroBooNE, $e/\gamma$. 
+
+\begin{figure}[htp!]
 \centering
-\includegraphics[width=.8\linewidth=]{../csv_output/true_labels_1102.png}
+\includegraphics[width=.8\textwidth]{../csv_output/true_labels_1102.png}
 \caption{t-SNE of CNN}
 \label{fig:tsne}
 \end{figure}
 
-\begin{figure}[htp]
+Another visualization of how the neural network is learning is shown in \ref{fig:tsne}.  t-SNEs \cite{tsne} is a technique used for dimensionality reduction developed for use in visualizing high-dimensional datasets. Each datapoint is given a location in a two or three-dimensional map by using stochastic neighbor embedding to convert high-dimensional euclidean distances between datapoints into conditional probabilities that represent the similarities between these datapoints. For datapoints close together on the map, their conditional probabilities are high, for datapoints with a wide separation between them, their conditional probabilities are very small. Figure \ref{fig:tsne} is a t-SNE of the final training iteration of a subset of the training sample used in CNN100000. You can see a clear separation between track like objects and shower like objects. You can also see that electrons and gammas are not as separated as muons, pions, and protons. For the purpose of this thesis, this isn't an issue but later iterations of training could include more images for the gamma and electron classes to help the CNN further separate these classes.
+
+\begin{figure}
 \centering
-\includegraphics[width=.8\linewidth=]{../csv_output/muon_prob.png}
-\caption{Muon Prob}
-\label{fig:muonprob}
+	\begin{subfigure}[t]{.5\textwidth}
+	\centering
+	\includegraphics[height=2in]{../csv_output/muon_prob.png}
+	\label{fig:muonprob}
+	\caption{Muon Prob}
+	\end{subfigure}
+	
+	\begin{subfigure}[t]{.5\textwidth}
+	\centering
+	\includegraphics[height=2in]{../csv_output/pi_prob.png}
+	\label{fig:piprob}
+	\caption{Pion Prob}
+	\end{subfigure}
+	\quad
+	
+	\begin{subfigure}[t]{.5\textwidth}
+	\centering
+	\includegraphics[height=2in]{../csv_output/pi_prob.png}
+	\label{fig:piprob}
+	\caption{Proton Prob}
+	\end{subfigure}
+	
+	\begin{subfigure}[t]{.5\textwidth}
+	\centering
+	\includegraphics[height=2in]{../csv_output/eminus_prob.png}
+	\label{fig:eminusprob}
+	\caption{Electron Prob}
+	\end{subfigure}
+	\quad
+		
+	\begin{subfigure}[t]{.5\textwidth}
+	\centering
+	\includegraphics[height=2in]{../csv_output/gamma_prob.png}
+	\label{fig:gammaprob}
+	\caption{Gamma Prob}
+	\end{subfigure}
+\caption{placeholder}
+\label{fig:particleprob}
 \end{figure}
 
-\begin{figure}[htp]
-\centering
-\includegraphics[width=.8\linewidth=]{../csv_output/pi_prob.png}
-\caption{Pion Prob}
-\label{fig:piprob}
-\end{figure}
 
-\begin{figure}[htp]
-\centering
-\includegraphics[width=.8\linewidth=]{../csv_output/proton_prob.png}
-\caption{Proton Prob}
-\label{fig:protonprob}
-\end{figure}
 
-\begin{figure}[htp]
-\centering
-\includegraphics[width=.8\linewidth=]{../csv_output/eminus_prob.png}
-\caption{Electron Prob}
-\label{fig:eminusprob}
-\end{figure}
 
-\begin{figure}[htp]
-\centering
-\includegraphics[width=.8\linewidth=]{../csv_output/gamma_prob.png}
-\caption{Gamma Prob}
-\label{fig:gammaprob}
-\end{figure}
 
 \begin{figure}[htp]
 \centering
