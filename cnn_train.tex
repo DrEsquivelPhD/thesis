@@ -33,7 +33,7 @@ Lastly, multiple BNB+Cosmic images per event were made for CNN100000 by reducing
 \subsection{Training CNN1075}
 The results of CNN1075 are described in this section. The accuracy is how well CNN1075 is doing by epoch and was 74.5\%. The loss is gradient descent or minimization of the error of the weights and biases used in each neuron of each layer of CNN1075 and was 58\% with a trend sloping downwards on the loss curve as well as a trend sloping upward in the accuracy curve. The accuracy and loss of CNN1075 are shown in figure \ref{fig:loss_accuracy_1075}. Due to the depth of the neural network framework, it was necessary to train with a larger dataset and for more epochs, however, the downward slope of the loss curve is an indication that once trained for longer with a higher training sample, neural networks can be used for $\mu/\pi$ separation. The hyperparameters used to train CNN1075 are detailed below: 
 
-\begin{multicols}{2}
+\begin{multicols}{3}
 \begin{itemize}
  \item \textit{train{\_}batch{\_}size: 50}
  \item \textit{test{\_}batch{\_}size: 50}
@@ -50,6 +50,7 @@ The results of CNN1075 are described in this section. The accuracy is how well C
  \item \textit{snapshot: 100}
 \end{itemize}
 \end{multicols}
+
 \begin{figure}[htp!]
 \centering
 \includegraphics[width=\textwidth]{figs/acc_loss_CNN1075.png}
@@ -57,7 +58,6 @@ The results of CNN1075 are described in this section. The accuracy is how well C
 \label{fig:loss_accuracy_1075}
 \end{figure}
 
-The confusion matrices shown in figure \ref{fig:confusion1075} show the accuracy for both the training and testing datasets. The fact that these two have similar accuracies is important because if the training dataset had a much higher accuracy, that indicates an over-training of the training sample which means the neural network didn't learn features to separate muons from pions, it just memorized what was in the training dataset. Also note that the neural network does a better job of identifying muons than pions. This can be attributed to the more complex event scenes pions tend to leave in the detector due to pion interacting more in LAr than muons do. The CNN may do better at identifying pions with a larger training sample.
 
 \begin{figure}[htp!]
 \centering
@@ -75,10 +75,12 @@ The confusion matrices shown in figure \ref{fig:confusion1075} show the accuracy
 \label{fig:confusion1075}
 \end{figure}
 
+The confusion matrices shown in figure \ref{fig:confusion1075} show the accuracy for both the training and testing datasets. The fact that these two have similar accuracies is important because if the training dataset had a much higher accuracy, that indicates an over-training of the training sample which means the neural network didn't learn features to separate muons from pions, it just memorized what was in the training dataset. Also note that the neural network does a better job of identifying muons than pions. This can be attributed to the more complex event scenes pions tend to leave in the detector due to pion interacting more in LAr than muons do. The CNN may do better at identifying pions with a larger training sample.
+
 \subsection{Training CNN10000}
 The hyperparameters used for CNN10000 are shown below. The batch size for the training and testing as well as the test{\_}iter were chosen to encompass the whole training/testing image set when doing accuracy/loss calculations. To do this, multiplying the test{\_}iter by the test batch size gives you the amount of images used when calculating accuracy/loss curves. 
 
-\begin{multicols}{2}
+\begin{multicols}{3}
 \begin{itemize}
  \item \textit{train{\_}batch{\_}size: 100}
  \item \textit{test{\_}batch{\_}size: 100}
@@ -96,13 +98,14 @@ The hyperparameters used for CNN10000 are shown below. The batch size for the tr
 \end{itemize}
 \end{multicols}
 
-The same architecure that was used to train CNN1075 was employed on CNN10000, AlexNet. Caffe \cite{caffe} was the software package used for both CNNs. The differences include batch size and test{\_}iter and momentum to account for the larger dataset. Figure \ref{fig:loss_accuracy} shows the loss and accuracy of CNN10000. There is around a 10\% increase in accuracy from CNN1075 to CNN10000, 85\%, and around a 20\% decrease in loss, 36\%.
 \begin{figure}[htp!]
 \centering
 \includegraphics[width=\textwidth]{figs/acc_loss_10000_062117.png}
 \caption{Accuracy vs. Loss of AlexNet 2-output $\mu/\pi$ sample consisting of 10,000 images each.} 
 \label{fig:loss_accuracy}
 \end{figure}
+
+The same architecure that was used to train CNN1075 was employed on CNN10000, AlexNet. Caffe \cite{caffe} was the software package used for both CNNs. The differences include batch size and test{\_}iter and momentum to account for the larger dataset. Figure \ref{fig:loss_accuracy} shows the loss and accuracy of CNN10000. There is around a 10\% increase in accuracy from CNN1075 to CNN10000, 85\%, and around a 20\% decrease in loss, 36\%.
 
 \begin{figure}[htp!]
 \centering
@@ -127,14 +130,14 @@ The same architecure that was used to train CNN1075 was employed on CNN10000, Al
 \label{fig:prob_plot}
 \end{figure}
 
-Figure \ref{fig:CNN_train} show a breakdown of $\mu/\pi$ separation for CNN10000. It also shows the network is not being overtrained due to the Accuracy of both the training and testing datasets being within .01\% of eachother. The CNN is doing a very good job of classifying true muons as muons, and our loss increase from CNN1075 is due to the increase in accurately classifying pions as pions. 
+Figure \ref{fig:CNN_train} show a breakdown of $\mu/\pi$ separation for CNN10000. It also shows the network is not being overtrained due to the Accuracy of both the training and testing datasets being within .01\% of eachother. Figure \ref{fig:prob_plot} shows how well the neural network is doing at $\mu/\pi$ separation with respect to muon probability. The red bins corresponds to true pions and the blue bins correspond to true muons. There is still pion contamination in the high muon probability bins but by choosing a muon probability of $\geq 80\%$ we can reduce this. The CNNs increase in total accuracy can be attributed to an increase in accurately classifying pions as pions as seen in both the confusion matrix in figure \ref{fig:CNN_train} and the large number of events in the zero bin of the muon probability plot seen in figure \ref{fig:prob_plot} that corresponds to high probability pions.   
 
 
 
 \subsection{Training CNN100000}
 CNN100000 used the GoogleNet architecture rather than the AlexNet architecture used in the two previous trained CNNs. This is the first time the neural network was trained on a larger particle class, $\mu/\pi/p/\gamma/e$, and on higher resolution images. This CNN also employed GPUs during the training process. The hyperparameters are shown below:
 
-\begin{multicols}{2}
+\begin{multicols}{3}
 \begin{itemize}
  \item \textit{train{\_}batch{\_}size: 18}
  \item \textit{test{\_}batch{\_}size: 2}
@@ -235,8 +238,9 @@ Figure \ref{fig:particleprob} shows the probability of each particle class and t
 \caption{Muon probability of true muons (blue) versus pions (red), protons (cyan), gammas (green) and electrons (magenta).}
 \label{fig:prob}
 \end{figure}
-To see what time of background contamination one would be dealing with when doing muon identification, muon probabilities for each particle class was plotted against the probability of true muons to see how well muon signal vs other particle background separation can be done with CNN100000. Figure \ref{fig:prob} is showing the true muon probability for true muons, versus the rest of the particle classes. This plot describes which muon probability value should be chosen for the least amount of other particle contamination. For electrons and gammas, a muon probability of \sim 75\% would eliminate $e/\gamma$ contamination. For pions and protons, there is contamination at all values of muon probability, but the contamination is drastically reduced at a muon probability $\geq 75\%$.
+To see what type of background contamination one would be dealing with when doing muon identification, muon probabilities for each particle class was plotted against the probability of true muons to see how well muon signal vs other particle background separation can be done with CNN100000. Figure \ref{fig:prob} is showing the true muon probability for true muons, versus the rest of the particle classes. This plot describes which muon probability value should be chosen for the least amount of other particle contamination. For electrons and gammas, a muon probability of \sim 75\% would eliminate $e/\gamma$ contamination. For pions and protons, there is contamination at all values of muon probability, but the contamination is drastically reduced at a muon probability $\geq 75\%$.
  
+One of the main concerns with training a neural network was that the features the network would learn to separate muons from poins would be track range, which is what was used to begin with in selection I. To make sure that wasn't the case, the next thing that was looked at was the muon probability versus track range and momentum of the track. Figures \ref{fig:mupi_kinematics} through \ref{fig:mug_kinematics} show the muon probability in blue for all plots against all other particles. A zoomed in version of track range for all particles was also plotted to make sure there is separation between the particles at low track range. The $\mu/\pi$ separation in track range and momentum is less than for $p/e/\gamma$ but that was to be expected. Although the separation isn't as good as the other particles, there still is separation at low momentum and low track range which cannot be done by using a track range cut like selection I does.  
 \begin{figure}[htp]
 \centering
 	\begin{subfigure}[b]{.475\textwidth}
@@ -258,6 +262,7 @@ To see what time of background contamination one would be dealing with when doin
 		\label{fig:mupi_momentum}
 	\end{subfigure}
 \caption{}
+\label{fig:mupi_kinematics}
 \end{figure}
 
 \begin{figure}[htp]
@@ -281,6 +286,7 @@ To see what time of background contamination one would be dealing with when doin
 		\label{fig:mup_momentum}
 	\end{subfigure}
 \caption{}
+\label{fig:mup_kinematics}
 \end{figure}
 
 \begin{figure}[htp]
@@ -304,6 +310,7 @@ To see what time of background contamination one would be dealing with when doin
 		\label{fig:mup_momentum}
 	\end{subfigure}
 \caption{}
+\label{fig:mue_kinematics}
 \end{figure}
 
 \begin{figure}[htp]
@@ -327,6 +334,7 @@ To see what time of background contamination one would be dealing with when doin
 		\label{fig:mup_momentum}
 	\end{subfigure}
 \caption{}
+\label{fig:mug_kinematics}
 \end{figure}
 
 
