@@ -50,7 +50,7 @@
 \contentsline {subfigure}{\numberline {\relax 7.2a}{\ignorespaces Confusion Matrix showing Accuracy of CNN1075 using training MC data\relax }}{72}{figure.caption.45}
 \contentsline {subfigure}{\numberline {\relax 7.2b}{\ignorespaces Confusion Matrix showing Accuracy of CNN1075 using testing MC data\relax }}{72}{figure.caption.45}
 \contentsline {figure}{\numberline {\relax 7.3}{\ignorespaces Accuracy vs. Loss of AlexNet 2-output $\mymath {\@Oldmu }\xspace /\mymath {\@Oldpi }\xspace $ sample consisting of 10,000 images each.\relax }}{74}{figure.caption.46}
-\contentsline {figure}{\numberline {\relax 7.4}{\ignorespaces Description of confusion matrix varables: False pion rate = $false \mymath {\@Oldpi }\xspace / total \mymath {\@Oldpi }\xspace $ True pion rate = $true \mymath {\@Oldpi }\xspace /total \mymath {\@Oldpi }\xspace $ Accuracy = $(true \mymath {\@Oldpi }\xspace rate + true \mymath {\@Oldmu }\xspace rate)/2$ Pion prediction value = $true \mymath {\@Oldpi }\xspace /(true \mymath {\@Oldpi }\xspace + false \mymath {\@Oldpi }\xspace )$ Muon prediction value = $true \mymath {\@Oldmu }\xspace /(true \mymath {\@Oldmu }\xspace + false \mymath {\@Oldmu }\xspace )$\relax }}{75}{figure.caption.47}
+\contentsline {figure}{\numberline {\relax 7.4}{\ignorespaces Description of confusion matrix variables: False pion rate = $false \mymath {\@Oldpi }\xspace / total \mymath {\@Oldpi }\xspace $; True pion rate = $true \mymath {\@Oldpi }\xspace /total \mymath {\@Oldpi }\xspace $; Accuracy = $(true \mymath {\@Oldpi }\xspace rate + true \mymath {\@Oldmu }\xspace rate)/2$; Pion prediction value = $true \mymath {\@Oldpi }\xspace /(true \mymath {\@Oldpi }\xspace + false \mymath {\@Oldpi }\xspace )$; Muon prediction value = $true \mymath {\@Oldmu }\xspace /(true \mymath {\@Oldmu }\xspace + false \mymath {\@Oldmu }\xspace )$\relax }}{75}{figure.caption.47}
 \contentsline {subfigure}{\numberline {\relax 7.4a}{\ignorespaces Confusion Matrix showing Accuracy of CNN10000 using training MC data\relax }}{75}{figure.caption.47}
 \contentsline {subfigure}{\numberline {\relax 7.4b}{\ignorespaces Confusion Matrix showing Accuracy of CNN10000 using testing MC data\relax }}{75}{figure.caption.47}
 \contentsline {figure}{\numberline {\relax 7.5}{\ignorespaces Probability plot of muons and pions from testing set. Images surrounding histogram are a random event from lowest bin and highest bin for each particle.\relax }}{76}{figure.caption.48}
@@ -65,22 +65,22 @@
 \contentsline {subfigure}{\numberline {\relax 7.10d}{\ignorespaces Electron Prob\relax }}{80}{figure.caption.53}
 \contentsline {subfigure}{\numberline {\relax 7.10e}{\ignorespaces Gamma Prob\relax }}{80}{figure.caption.53}
 \contentsline {figure}{\numberline {\relax 7.11}{\ignorespaces Muon probability of true muons (blue) versus pions (red), protons (cyan), gammas (green) and electrons (magenta).\relax }}{81}{figure.caption.54}
-\contentsline {figure}{\numberline {\relax 7.12}{\ignorespaces \relax }}{82}{figure.caption.55}
-\contentsline {subfigure}{\numberline {\relax 7.12a}{\ignorespaces mupi\relax }}{82}{figure.caption.55}
-\contentsline {subfigure}{\numberline {\relax 7.12b}{\ignorespaces mupi75\relax }}{82}{figure.caption.55}
-\contentsline {subfigure}{\numberline {\relax 7.12c}{\ignorespaces mupi\relax }}{82}{figure.caption.55}
-\contentsline {figure}{\numberline {\relax 7.13}{\ignorespaces \relax }}{83}{figure.caption.56}
-\contentsline {subfigure}{\numberline {\relax 7.13a}{\ignorespaces mup\relax }}{83}{figure.caption.56}
-\contentsline {subfigure}{\numberline {\relax 7.13b}{\ignorespaces mup75\relax }}{83}{figure.caption.56}
-\contentsline {subfigure}{\numberline {\relax 7.13c}{\ignorespaces mup\relax }}{83}{figure.caption.56}
-\contentsline {figure}{\numberline {\relax 7.14}{\ignorespaces \relax }}{84}{figure.caption.57}
-\contentsline {subfigure}{\numberline {\relax 7.14a}{\ignorespaces mue\relax }}{84}{figure.caption.57}
-\contentsline {subfigure}{\numberline {\relax 7.14b}{\ignorespaces mue75\relax }}{84}{figure.caption.57}
-\contentsline {subfigure}{\numberline {\relax 7.14c}{\ignorespaces mue\relax }}{84}{figure.caption.57}
-\contentsline {figure}{\numberline {\relax 7.15}{\ignorespaces \relax }}{85}{figure.caption.58}
-\contentsline {subfigure}{\numberline {\relax 7.15a}{\ignorespaces mue\relax }}{85}{figure.caption.58}
-\contentsline {subfigure}{\numberline {\relax 7.15b}{\ignorespaces mue75\relax }}{85}{figure.caption.58}
-\contentsline {subfigure}{\numberline {\relax 7.15c}{\ignorespaces mue\relax }}{85}{figure.caption.58}
+\contentsline {figure}{\numberline {\relax 7.12}{\ignorespaces Kinematic distributions versus muon probability for true muons and true pions.\relax }}{82}{figure.caption.55}
+\contentsline {subfigure}{\numberline {\relax 7.12a}{\ignorespaces Track range versus muon probability for true muons (blue) and true pions (red).\relax }}{82}{figure.caption.55}
+\contentsline {subfigure}{\numberline {\relax 7.12b}{\ignorespaces Track range $\leq 75$ cm versus muon probability for true muons (blue) and true pions (red).\relax }}{82}{figure.caption.55}
+\contentsline {subfigure}{\numberline {\relax 7.12c}{\ignorespaces Momentum versus muon probability for true muons (blue) and true pions (red).\relax }}{82}{figure.caption.55}
+\contentsline {figure}{\numberline {\relax 7.13}{\ignorespaces Kinematic distributions versus muon probability for true muons and true protons.\relax }}{83}{figure.caption.56}
+\contentsline {subfigure}{\numberline {\relax 7.13a}{\ignorespaces Track range versus muon probability for true muons (blue) and true protons (cyan).\relax }}{83}{figure.caption.56}
+\contentsline {subfigure}{\numberline {\relax 7.13b}{\ignorespaces Track range $\leq 75$ cm versus muon probability for true muons (blue) and true protons (cyan).\relax }}{83}{figure.caption.56}
+\contentsline {subfigure}{\numberline {\relax 7.13c}{\ignorespaces Momentum versus muon probability for true muons (blue) and true protons (cyan).\relax }}{83}{figure.caption.56}
+\contentsline {figure}{\numberline {\relax 7.14}{\ignorespaces Kinematic distributions versus muon probability for true muons and true electrons.\relax }}{84}{figure.caption.57}
+\contentsline {subfigure}{\numberline {\relax 7.14a}{\ignorespaces Track range versus muon probability for true muons (blue) and true electrons (magenta).\relax }}{84}{figure.caption.57}
+\contentsline {subfigure}{\numberline {\relax 7.14b}{\ignorespaces Track range $\leq 75$ cm versus muon probability for true muons (blue) and true electrons (magenta).\relax }}{84}{figure.caption.57}
+\contentsline {subfigure}{\numberline {\relax 7.14c}{\ignorespaces Momentum versus muon probability for true muons (blue) and true electrons (magenta).\relax }}{84}{figure.caption.57}
+\contentsline {figure}{\numberline {\relax 7.15}{\ignorespaces Kinematic distributions versus muon probability for true muons and true gammas.\relax }}{85}{figure.caption.58}
+\contentsline {subfigure}{\numberline {\relax 7.15a}{\ignorespaces Track range versus muon probability for true muons (blue) and true gammas (green).\relax }}{85}{figure.caption.58}
+\contentsline {subfigure}{\numberline {\relax 7.15b}{\ignorespaces Track range $\leq 75$ cm versus muon probability for true muons (blue) and true gammas (green).\relax }}{85}{figure.caption.58}
+\contentsline {subfigure}{\numberline {\relax 7.15c}{\ignorespaces Momentum versus muon probability for true muons (blue) and true gammas (green).\relax }}{85}{figure.caption.58}
 \addvspace {10\p@ }
 \contentsline {figure}{\numberline {\relax 8.1}{\ignorespaces Confusion matrix and probability plot of events passing selection I cc-inclusive cuts right before 75cm track length cut\relax }}{88}{figure.caption.59}
 \contentsline {subfigure}{\numberline {\relax 8.1a}{\ignorespaces Confusion Matrix for CNN10000 classified events from selection I\relax }}{88}{figure.caption.59}
