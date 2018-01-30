@@ -108,14 +108,14 @@
 \contentsline {subfigure}{\numberline {\relax 8.6b}{\ignorespaces Pion recontructed track range is less than 75 cm and larger than muon reconstructed track\relax }}{93}{figure.caption.64}
 \contentsline {subfigure}{\numberline {\relax 8.6c}{\ignorespaces Pion reconstructed track range is greater than 75 cm and larger than muon reconstructed track\relax }}{93}{figure.caption.64}
 \contentsline {figure}{\numberline {\relax 8.7}{\ignorespaces CNN performance of classified muons and pions compared to the already implemented 75 cm track length cut\relax }}{95}{figure.caption.67}
-\contentsline {figure}{\numberline {\relax 8.8}{\ignorespaces $Cos(\mymath {\@Oldtheta }\xspace )$ distribution at CNN10000 $\geq 85\%$\relax }}{96}{figure.caption.69}
-\contentsline {figure}{\numberline {\relax 8.9}{\ignorespaces $Cos(\mymath {\@Oldtheta }\xspace )$ distribution at CNN10000 $\geq 85\%$\relax }}{97}{figure.caption.70}
-\contentsline {figure}{\numberline {\relax 8.10}{\ignorespaces $Cos(\mymath {\@Oldtheta }\xspace )$ distribution at CNN10000 $\geq 85\%$\relax }}{98}{figure.caption.71}
-\contentsline {figure}{\numberline {\relax 8.11}{\ignorespaces $Cos(\mymath {\@Oldtheta }\xspace )$ distribution at CNN10000 $\geq 85\%$\relax }}{99}{figure.caption.72}
-\contentsline {figure}{\numberline {\relax 8.12}{\ignorespaces $Cos(\mymath {\@Oldtheta }\xspace )$ distribution at CNN10000 $\geq 85\%$\relax }}{100}{figure.caption.73}
-\contentsline {figure}{\numberline {\relax 8.13}{\ignorespaces $Cos(\mymath {\@Oldtheta }\xspace )$ distribution at CNN10000 $\geq 85\%$\relax }}{101}{figure.caption.74}
-\contentsline {figure}{\numberline {\relax 8.14}{\ignorespaces $Cos(\mymath {\@Oldtheta }\xspace )$ distribution at CNN10000 $\geq 85\%$\relax }}{102}{figure.caption.75}
-\contentsline {figure}{\numberline {\relax 8.15}{\ignorespaces $Cos(\mymath {\@Oldtheta }\xspace )$ distribution at CNN10000 $\geq 85\%$\relax }}{103}{figure.caption.76}
-\contentsline {figure}{\numberline {\relax 8.16}{\ignorespaces $Cos(\mymath {\@Oldtheta }\xspace )$ distribution at CNN10000 $\geq 85\%$\relax }}{104}{figure.caption.77}
-\contentsline {figure}{\numberline {\relax 8.17}{\ignorespaces $Cos(\mymath {\@Oldtheta }\xspace )$ distribution at CNN10000 $\geq 85\%$\relax }}{105}{figure.caption.78}
+\contentsline {figure}{\numberline {\relax 8.8}{\ignorespaces $Cos(\mymath {\@Oldtheta }\xspace )$ distribution at CNN10000 $\geq 85\%$\relax }}{97}{figure.caption.69}
+\contentsline {figure}{\numberline {\relax 8.9}{\ignorespaces $Cos(\mymath {\@Oldtheta }\xspace )$ distribution at CNN10000 $\geq 85\%$\relax }}{98}{figure.caption.70}
+\contentsline {figure}{\numberline {\relax 8.10}{\ignorespaces $Cos(\mymath {\@Oldtheta }\xspace )$ distribution at CNN10000 $\geq 85\%$\relax }}{99}{figure.caption.71}
+\contentsline {figure}{\numberline {\relax 8.11}{\ignorespaces $Cos(\mymath {\@Oldtheta }\xspace )$ distribution at CNN10000 $\geq 85\%$\relax }}{100}{figure.caption.72}
+\contentsline {figure}{\numberline {\relax 8.12}{\ignorespaces $Cos(\mymath {\@Oldtheta }\xspace )$ distribution at CNN10000 $\geq 85\%$\relax }}{101}{figure.caption.73}
+\contentsline {figure}{\numberline {\relax 8.13}{\ignorespaces $Cos(\mymath {\@Oldtheta }\xspace )$ distribution at CNN10000 $\geq 85\%$\relax }}{102}{figure.caption.74}
+\contentsline {figure}{\numberline {\relax 8.14}{\ignorespaces $Cos(\mymath {\@Oldtheta }\xspace )$ distribution at CNN10000 $\geq 85\%$\relax }}{103}{figure.caption.75}
+\contentsline {figure}{\numberline {\relax 8.15}{\ignorespaces $Cos(\mymath {\@Oldtheta }\xspace )$ distribution at CNN10000 $\geq 85\%$\relax }}{104}{figure.caption.76}
+\contentsline {figure}{\numberline {\relax 8.16}{\ignorespaces $Cos(\mymath {\@Oldtheta }\xspace )$ distribution at CNN10000 $\geq 85\%$\relax }}{105}{figure.caption.77}
+\contentsline {figure}{\numberline {\relax 8.17}{\ignorespaces $Cos(\mymath {\@Oldtheta }\xspace )$ distribution at CNN10000 $\geq 85\%$\relax }}{106}{figure.caption.78}
 \addvspace {10\p@ }
