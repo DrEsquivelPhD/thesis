@@ -8,10 +8,9 @@
 \contentsline {section}{\numberline {2.1}What are Neutrinos}{3}{section.2.1}
 \contentsline {section}{\numberline {2.2}History of Neutrinos}{4}{section.2.2}
 \contentsline {subsection}{\numberline {2.2.1}Solar Oscillations and the Solar Neutrino Problem}{5}{subsection.2.2.1}
-\contentsline {subsubsection}{\nonumberline MSW Effect}{7}{section*.6}
-\contentsline {subsection}{\numberline {2.2.2}Atmospheric Oscillations and the Atmospheric Neutrino Anomaly}{8}{subsection.2.2.2}
+\contentsline {subsection}{\numberline {2.2.2}Atmospheric Oscillations and the Atmospheric Neutrino Anomaly}{7}{subsection.2.2.2}
 \contentsline {section}{\numberline {2.3}Neutrino Oscillations}{9}{section.2.3}
-\contentsline {subsection}{\numberline {2.3.1}Two Flavor Neutrino Oscillation Formulation}{10}{subsection.2.3.1}
+\contentsline {subsection}{\numberline {2.3.1}Two Flavor Neutrino Oscillation Formulation}{9}{subsection.2.3.1}
 \contentsline {subsection}{\numberline {2.3.2}Three Flavor Neutrino Oscillation Formulation}{12}{subsection.2.3.2}
 \contentsline {subsection}{\numberline {2.3.3}Reactor Oscillation}{13}{subsection.2.3.3}
 \contentsline {chapter}{\numberline {3}The MicroBooNE Experiment}{15}{chapter.3}
@@ -32,12 +31,12 @@
 \contentsline {section}{\numberline {4.2}TPC Topology Selection}{28}{section.4.2}
 \contentsline {subsection}{\numberline {4.2.1}Cosmic Tagging}{29}{subsection.4.2.1}
 \contentsline {subsection}{\numberline {4.2.2}2D Cluster Selection}{29}{subsection.4.2.2}
-\contentsline {subsubsection}{\nonumberline Primary Cuts}{30}{section*.16}
-\contentsline {subsubsection}{\nonumberline Secondary Cuts}{30}{section*.17}
+\contentsline {subsubsection}{\nonumberline Primary Cuts}{30}{section*.14}
+\contentsline {subsubsection}{\nonumberline Secondary Cuts}{30}{section*.15}
 \contentsline {subsection}{\numberline {4.2.3}3D Tracks and vertices Selection}{31}{subsection.4.2.3}
 \contentsline {subsection}{\numberline {4.2.4}TPC Updates}{33}{subsection.4.2.4}
-\contentsline {subsubsection}{\nonumberline 2D Filter Updates}{33}{section*.21}
-\contentsline {subsubsection}{\nonumberline 3D Filter Updates}{33}{section*.22}
+\contentsline {subsubsection}{\nonumberline 2D Filter Updates}{33}{section*.19}
+\contentsline {subsubsection}{\nonumberline 3D Filter Updates}{33}{section*.20}
 \contentsline {section}{\numberline {4.3}Conclusion}{34}{section.4.3}
 \contentsline {chapter}{\numberline {5}CC-Inclusive Cross Section Selection Filter}{37}{chapter.5}
 \contentsline {section}{\numberline {5.1}Data and MC Processing Chain}{38}{section.5.1}
@@ -74,8 +73,8 @@
 \contentsline {subsection}{\numberline {8.1.2}Conclusions of CNN10000 classification of MC data}{95}{subsection.8.1.2}
 \contentsline {section}{\numberline {8.2}Classification using CNN100000}{96}{section.8.2}
 \contentsline {subsection}{\numberline {8.2.1}Classification of MC data using Selection I CC-Inclusive Filter}{96}{subsection.8.2.1}
-\contentsline {subsubsection}{\nonumberline Kinematic truth distributions of BNB+Cosmic events passing Selection I+CNN10000}{96}{section*.68}
+\contentsline {subsubsection}{\nonumberline Kinematic truth distributions of BNB+Cosmic events passing Selection I+CNN10000}{96}{section*.66}
 \contentsline {subsection}{\numberline {8.2.2}Classification of MicroBooNE data using Selection I CC-Inclusive Filter}{96}{subsection.8.2.2}
 \contentsline {subsection}{\numberline {8.2.3}Comparing two CC-Inclusive Cross Section Selection Filters}{96}{subsection.8.2.3}
 \contentsline {chapter}{\numberline {9}Conclusion}{107}{chapter.9}
-\contentsline {chapter}{Bibliography}{109}{chapter*.79}
+\contentsline {chapter}{Bibliography}{109}{chapter*.77}
