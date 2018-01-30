@@ -7,7 +7,7 @@
   %\thispagestyle{empty}
 The purpose of this thesis was to use Convolutional Neural Networks (CNN) to separate $\mu'{s}$ and $\pi'{s}$ for use in increasing the acceptance rate of $\mu'{s}$ below the implemented 75cm track length cut in the Charged Current Inclusive (CC-Inclusive) event selection for the CC-Inclusive Cross-Section Measurement. In doing this, we increase acceptance rate for CC-Inclusive events below a specific momentum range.
 \end{abstract}
-
+\let\cleardoublepage\clearpage
 %% Declaration
 \begin{declaration}
   I dedicate this dissertation to the two important women in my life; My wife and my mom. Both have been there cheering me on giving me strength and love as I worked towards the hardest accomplishment I've ever done.  
@@ -52,13 +52,14 @@ The purpose of this thesis was to use Convolutional Neural Networks (CNN) to sep
 
 %% ToC
 \addtocontents{toc}{\protect{\pdfbookmark[0]{\contentsname}{toc}}}
-\tableofcontents
-\listoffigures
-\listoftables
+%\tableofcontents
+%\listoffigures
+%\listoftables
+{\tableofcontents \let\cleardoublepage\clearpage \listoffigures \let\cleardoublepage\clearpage \listoftables}
 
 %% Strictly optional!
 \frontquote{%
-  If the don't give you a seat at the table, \\
+  If they don't give you a seat at the table, \\
   bring a folding chair.}%
   {Shirley Chisholm}
 %% I don't want a page number on the following blank page either.

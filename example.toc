@@ -1,80 +1,79 @@
 \select@language {english}
 \select@language {english}
 {\pdfbookmark [0]{Contents}{toc}}
-\contentsline {chapter}{List of figures}{xv}{chapter*.2}
-\contentsline {chapter}{List of tables}{xxv}{chapter*.3}
+\contentsline {chapter}{List of figures}{x}{chapter*.2}
+\contentsline {chapter}{List of tables}{xix}{chapter*.3}
 \contentsline {chapter}{\numberline {1}Introduction}{1}{chapter.1}
-\contentsline {chapter}{\numberline {2}Neutrinos}{3}{chapter.2}
-\contentsline {section}{\numberline {2.1}What are Neutrinos}{3}{section.2.1}
-\contentsline {section}{\numberline {2.2}History of Neutrinos}{4}{section.2.2}
-\contentsline {subsection}{\numberline {2.2.1}Solar Oscillations and the Solar Neutrino Problem}{5}{subsection.2.2.1}
-\contentsline {subsection}{\numberline {2.2.2}Atmospheric Oscillations and the Atmospheric Neutrino Anomaly}{7}{subsection.2.2.2}
-\contentsline {section}{\numberline {2.3}Neutrino Oscillations}{9}{section.2.3}
-\contentsline {subsection}{\numberline {2.3.1}Two Flavor Neutrino Oscillation Formulation}{9}{subsection.2.3.1}
-\contentsline {subsection}{\numberline {2.3.2}Three Flavor Neutrino Oscillation Formulation}{12}{subsection.2.3.2}
-\contentsline {subsection}{\numberline {2.3.3}Reactor Oscillation}{13}{subsection.2.3.3}
-\contentsline {chapter}{\numberline {3}The MicroBooNE Experiment}{15}{chapter.3}
-\contentsline {section}{\numberline {3.1}Liquid argon time projection chambers}{15}{section.3.1}
-\contentsline {section}{\numberline {3.2}The MicroBooNE Time Projection Chamber}{16}{section.3.2}
-\contentsline {section}{\numberline {3.3}MicroBooNE's Physics Goals}{18}{section.3.3}
-\contentsline {subsection}{\numberline {3.3.1}The low-energy excess}{18}{subsection.3.3.1}
-\contentsline {subsection}{\numberline {3.3.2}Cross sections}{19}{subsection.3.3.2}
-\contentsline {subsection}{\numberline {3.3.3}Liquid argon detector development}{20}{subsection.3.3.3}
-\contentsline {section}{\numberline {3.4}The Booster Neutrino Beam}{20}{section.3.4}
-\contentsline {subsection}{\numberline {3.4.1}Creating the Booster Neutrino Beam}{21}{subsection.3.4.1}
-\contentsline {section}{\numberline {3.5}Event Reconstruction}{22}{section.3.5}
-\contentsline {chapter}{\numberline {4}Neutrino Identification: Finding MicroBooNE's first Neutrinos}{25}{chapter.4}
-\contentsline {section}{\numberline {4.1}Flash Finding}{25}{section.4.1}
-\contentsline {subsection}{\numberline {4.1.1}Flash Reconstruction}{26}{subsection.4.1.1}
-\contentsline {subsection}{\numberline {4.1.2}Beam Timing}{27}{subsection.4.1.2}
-\contentsline {subsection}{\numberline {4.1.3}Event Rates}{28}{subsection.4.1.3}
-\contentsline {section}{\numberline {4.2}TPC Topology Selection}{28}{section.4.2}
-\contentsline {subsection}{\numberline {4.2.1}Cosmic Tagging}{29}{subsection.4.2.1}
-\contentsline {subsection}{\numberline {4.2.2}2D Cluster Selection}{29}{subsection.4.2.2}
-\contentsline {subsubsection}{\nonumberline Primary Cuts}{30}{section*.14}
-\contentsline {subsubsection}{\nonumberline Secondary Cuts}{30}{section*.15}
-\contentsline {subsection}{\numberline {4.2.3}3D Tracks and vertices Selection}{31}{subsection.4.2.3}
-\contentsline {subsection}{\numberline {4.2.4}TPC Updates}{33}{subsection.4.2.4}
-\contentsline {subsubsection}{\nonumberline 2D Filter Updates}{33}{section*.19}
-\contentsline {subsubsection}{\nonumberline 3D Filter Updates}{33}{section*.20}
-\contentsline {section}{\numberline {4.3}Conclusion}{34}{section.4.3}
-\contentsline {chapter}{\numberline {5}CC-Inclusive Cross Section Selection Filter}{37}{chapter.5}
-\contentsline {section}{\numberline {5.1}Data and MC Processing Chain}{38}{section.5.1}
-\contentsline {section}{\numberline {5.2}Normalization of data and MC}{39}{section.5.2}
-\contentsline {section}{\numberline {5.3}Optical Software Trigger and Reconstruction}{40}{section.5.3}
-\contentsline {subsection}{\numberline {5.3.1}Software Trigger}{40}{subsection.5.3.1}
-\contentsline {subsection}{\numberline {5.3.2}Flash Reconstruction}{41}{subsection.5.3.2}
-\contentsline {subsection}{\numberline {5.3.3}Beam Window}{42}{subsection.5.3.3}
-\contentsline {section}{\numberline {5.4}TPC Reconstruction}{44}{section.5.4}
-\contentsline {subsection}{\numberline {5.4.1}Hit Reconstruction}{45}{subsection.5.4.1}
-\contentsline {subsection}{\numberline {5.4.2}Clustering}{45}{subsection.5.4.2}
-\contentsline {subsection}{\numberline {5.4.3}Pandora}{46}{subsection.5.4.3}
-\contentsline {subsection}{\numberline {5.4.4}Trackkalmanhit}{46}{subsection.5.4.4}
-\contentsline {subsection}{\numberline {5.4.5}Cosmic Hit Removal}{46}{subsection.5.4.5}
-\contentsline {subsection}{\numberline {5.4.6}Projection Matching Algorithm}{47}{subsection.5.4.6}
-\contentsline {section}{\numberline {5.5}Event Selection}{47}{section.5.5}
-\contentsline {subsection}{\numberline {5.5.1}Expected Bakgrounds}{48}{subsection.5.5.1}
-\contentsline {subsection}{\numberline {5.5.2}Truth Distributions}{51}{subsection.5.5.2}
-\contentsline {chapter}{\numberline {6}Background on Convolutional Neural Networks}{59}{chapter.6}
-\contentsline {section}{\numberline {6.1}Image Classification}{59}{section.6.1}
-\contentsline {section}{\numberline {6.2}CNN Structure}{60}{section.6.2}
-\contentsline {subsection}{\numberline {6.2.1}Backpropagation}{63}{subsection.6.2.1}
-\contentsline {section}{\numberline {6.3}Choosing Hyperparameters}{64}{section.6.3}
-\contentsline {chapter}{\numberline {7}Training process of Convolutional Neural Networks}{67}{chapter.7}
-\contentsline {section}{\numberline {7.1}Hardware Configurations for Convolutional Neural Network Training}{67}{section.7.1}
-\contentsline {section}{\numberline {7.2}Creating images using LArTPC data for training/validation of CNNS}{68}{section.7.2}
-\contentsline {section}{\numberline {7.3}Convolutional Neural Network Training}{70}{section.7.3}
-\contentsline {subsection}{\numberline {7.3.1}Training CNN1075}{70}{subsection.7.3.1}
-\contentsline {subsection}{\numberline {7.3.2}Training CNN10000}{73}{subsection.7.3.2}
-\contentsline {subsection}{\numberline {7.3.3}Training CNN100000}{76}{subsection.7.3.3}
-\contentsline {chapter}{\numberline {8}Using Convolutional Neural Networks for $\mymath {\@Oldnu }\xspace _{\mymath {\@Oldmu }\xspace }$ CC event classification}{87}{chapter.8}
-\contentsline {section}{\numberline {8.1}Classification using CNN10000}{87}{section.8.1}
-\contentsline {subsection}{\numberline {8.1.1}Classification of MC data using Selection I CC-Inclusive Filter}{87}{subsection.8.1.1}
-\contentsline {subsection}{\numberline {8.1.2}Conclusions of CNN10000 classification of MC data}{95}{subsection.8.1.2}
-\contentsline {section}{\numberline {8.2}Classification using CNN100000}{96}{section.8.2}
-\contentsline {subsection}{\numberline {8.2.1}Classification of MC data using Selection I CC-Inclusive Filter}{96}{subsection.8.2.1}
-\contentsline {subsubsection}{\nonumberline Kinematic truth distributions of BNB+Cosmic events passing Selection I+CNN10000}{96}{section*.66}
-\contentsline {subsection}{\numberline {8.2.2}Classification of MicroBooNE data using Selection I CC-Inclusive Filter}{96}{subsection.8.2.2}
-\contentsline {subsection}{\numberline {8.2.3}Comparing two CC-Inclusive Cross Section Selection Filters}{96}{subsection.8.2.3}
-\contentsline {chapter}{\numberline {9}Conclusion}{107}{chapter.9}
-\contentsline {chapter}{Bibliography}{109}{chapter*.77}
+\contentsline {chapter}{\numberline {2}Neutrinos}{2}{chapter.2}
+\contentsline {section}{\numberline {2.1}What are Neutrinos}{2}{section.2.1}
+\contentsline {section}{\numberline {2.2}History of Neutrinos}{3}{section.2.2}
+\contentsline {subsection}{\numberline {2.2.1}Solar Oscillations and the Solar Neutrino Problem}{4}{subsection.2.2.1}
+\contentsline {subsection}{\numberline {2.2.2}Atmospheric Oscillations and the Atmospheric Neutrino Anomaly}{6}{subsection.2.2.2}
+\contentsline {section}{\numberline {2.3}Neutrino Oscillations}{8}{section.2.3}
+\contentsline {subsection}{\numberline {2.3.1}Two Flavor Neutrino Oscillation Formulation}{8}{subsection.2.3.1}
+\contentsline {subsection}{\numberline {2.3.2}Three Flavor Neutrino Oscillation Formulation}{11}{subsection.2.3.2}
+\contentsline {chapter}{\numberline {3}The MicroBooNE Experiment}{13}{chapter.3}
+\contentsline {section}{\numberline {3.1}Liquid argon time projection chambers}{13}{section.3.1}
+\contentsline {section}{\numberline {3.2}The MicroBooNE Time Projection Chamber}{14}{section.3.2}
+\contentsline {section}{\numberline {3.3}MicroBooNE's Physics Goals}{16}{section.3.3}
+\contentsline {subsection}{\numberline {3.3.1}The low-energy excess}{16}{subsection.3.3.1}
+\contentsline {subsection}{\numberline {3.3.2}Cross sections}{17}{subsection.3.3.2}
+\contentsline {subsection}{\numberline {3.3.3}Liquid argon detector development}{18}{subsection.3.3.3}
+\contentsline {section}{\numberline {3.4}The Booster Neutrino Beam}{18}{section.3.4}
+\contentsline {subsection}{\numberline {3.4.1}Creating the Booster Neutrino Beam}{19}{subsection.3.4.1}
+\contentsline {section}{\numberline {3.5}Event Reconstruction}{20}{section.3.5}
+\contentsline {chapter}{\numberline {4}Neutrino Identification: Finding MicroBooNE's first Neutrinos}{23}{chapter.4}
+\contentsline {section}{\numberline {4.1}Flash Finding}{23}{section.4.1}
+\contentsline {subsection}{\numberline {4.1.1}Flash Reconstruction}{24}{subsection.4.1.1}
+\contentsline {subsection}{\numberline {4.1.2}Beam Timing}{25}{subsection.4.1.2}
+\contentsline {subsection}{\numberline {4.1.3}Event Rates}{26}{subsection.4.1.3}
+\contentsline {section}{\numberline {4.2}TPC Topology Selection}{26}{section.4.2}
+\contentsline {subsection}{\numberline {4.2.1}Cosmic Tagging}{27}{subsection.4.2.1}
+\contentsline {subsection}{\numberline {4.2.2}2D Cluster Selection}{27}{subsection.4.2.2}
+\contentsline {subsubsection}{\nonumberline Primary Cuts}{28}{section*.15}
+\contentsline {subsubsection}{\nonumberline Secondary Cuts}{28}{section*.16}
+\contentsline {subsection}{\numberline {4.2.3}3D Tracks and vertices Selection}{29}{subsection.4.2.3}
+\contentsline {subsection}{\numberline {4.2.4}TPC Updates}{31}{subsection.4.2.4}
+\contentsline {subsubsection}{\nonumberline 2D Filter Updates}{31}{section*.20}
+\contentsline {subsubsection}{\nonumberline 3D Filter Updates}{31}{section*.21}
+\contentsline {section}{\numberline {4.3}Conclusion}{32}{section.4.3}
+\contentsline {chapter}{\numberline {5}CC-Inclusive Cross Section Selection Filter}{35}{chapter.5}
+\contentsline {section}{\numberline {5.1}Data and MC Processing Chain}{36}{section.5.1}
+\contentsline {section}{\numberline {5.2}Normalization of data and MC}{37}{section.5.2}
+\contentsline {section}{\numberline {5.3}Optical Software Trigger and Reconstruction}{38}{section.5.3}
+\contentsline {subsection}{\numberline {5.3.1}Software Trigger}{38}{subsection.5.3.1}
+\contentsline {subsection}{\numberline {5.3.2}Flash Reconstruction}{39}{subsection.5.3.2}
+\contentsline {subsection}{\numberline {5.3.3}Beam Window}{40}{subsection.5.3.3}
+\contentsline {section}{\numberline {5.4}TPC Reconstruction}{42}{section.5.4}
+\contentsline {subsection}{\numberline {5.4.1}Hit Reconstruction}{43}{subsection.5.4.1}
+\contentsline {subsection}{\numberline {5.4.2}Clustering}{43}{subsection.5.4.2}
+\contentsline {subsection}{\numberline {5.4.3}Pandora}{44}{subsection.5.4.3}
+\contentsline {subsection}{\numberline {5.4.4}Trackkalmanhit}{44}{subsection.5.4.4}
+\contentsline {subsection}{\numberline {5.4.5}Cosmic Hit Removal}{44}{subsection.5.4.5}
+\contentsline {subsection}{\numberline {5.4.6}Projection Matching Algorithm}{45}{subsection.5.4.6}
+\contentsline {section}{\numberline {5.5}Event Selection}{45}{section.5.5}
+\contentsline {subsection}{\numberline {5.5.1}Expected Bakgrounds}{46}{subsection.5.5.1}
+\contentsline {subsection}{\numberline {5.5.2}Truth Distributions}{49}{subsection.5.5.2}
+\contentsline {chapter}{\numberline {6}Background on Convolutional Neural Networks}{56}{chapter.6}
+\contentsline {section}{\numberline {6.1}Image Classification}{56}{section.6.1}
+\contentsline {section}{\numberline {6.2}CNN Structure}{57}{section.6.2}
+\contentsline {subsection}{\numberline {6.2.1}Backpropagation}{60}{subsection.6.2.1}
+\contentsline {section}{\numberline {6.3}Choosing Hyperparameters}{61}{section.6.3}
+\contentsline {chapter}{\numberline {7}Training process of Convolutional Neural Networks}{63}{chapter.7}
+\contentsline {section}{\numberline {7.1}Hardware Configurations for Convolutional Neural Network Training}{63}{section.7.1}
+\contentsline {section}{\numberline {7.2}Creating images using LArTPC data for training/validation of CNNS}{64}{section.7.2}
+\contentsline {section}{\numberline {7.3}Convolutional Neural Network Training}{66}{section.7.3}
+\contentsline {subsection}{\numberline {7.3.1}Training CNN1075}{66}{subsection.7.3.1}
+\contentsline {subsection}{\numberline {7.3.2}Training CNN10000}{69}{subsection.7.3.2}
+\contentsline {subsection}{\numberline {7.3.3}Training CNN100000}{72}{subsection.7.3.3}
+\contentsline {chapter}{\numberline {8}Using Convolutional Neural Networks for $\mymath {\@Oldnu }\xspace _{\mymath {\@Oldmu }\xspace }$ CC event classification}{82}{chapter.8}
+\contentsline {section}{\numberline {8.1}Classification using CNN10000}{82}{section.8.1}
+\contentsline {subsection}{\numberline {8.1.1}Classification of MC data using Selection I CC-Inclusive Filter}{82}{subsection.8.1.1}
+\contentsline {subsection}{\numberline {8.1.2}Conclusions of CNN10000 classification of MC data}{90}{subsection.8.1.2}
+\contentsline {section}{\numberline {8.2}Classification using CNN100000}{91}{section.8.2}
+\contentsline {subsection}{\numberline {8.2.1}Classification of MC data using Selection I CC-Inclusive Filter}{91}{subsection.8.2.1}
+\contentsline {subsubsection}{\nonumberline Kinematic truth distributions of BNB+Cosmic events passing Selection I+CNN10000}{91}{section*.67}
+\contentsline {subsection}{\numberline {8.2.2}Classification of MicroBooNE data using Selection I CC-Inclusive Filter}{91}{subsection.8.2.2}
+\contentsline {subsection}{\numberline {8.2.3}Comparing two CC-Inclusive Cross Section Selection Filters}{91}{subsection.8.2.3}
+\contentsline {chapter}{\numberline {9}Conclusion}{102}{chapter.9}
+\contentsline {chapter}{Bibliography}{103}{chapter*.78}
