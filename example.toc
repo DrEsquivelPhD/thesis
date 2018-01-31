@@ -12,6 +12,9 @@
 \contentsline {section}{\numberline {2.3}Neutrino Oscillations}{8}{section.2.3}
 \contentsline {subsection}{\numberline {2.3.1}Two Flavor Neutrino Oscillation Formulation}{8}{subsection.2.3.1}
 \contentsline {subsection}{\numberline {2.3.2}Three Flavor Neutrino Oscillation Formulation}{11}{subsection.2.3.2}
+\contentsline {section}{\numberline {2.4}Neutrino Interactions}{11}{section.2.4}
+\contentsline {subsection}{\numberline {2.4.1}Weak Interactions}{11}{subsection.2.4.1}
+\contentsline {subsection}{\numberline {2.4.2}Neutrino-Nucleon Interactions}{11}{subsection.2.4.2}
 \contentsline {chapter}{\numberline {3}The MicroBooNE Experiment}{13}{chapter.3}
 \contentsline {section}{\numberline {3.1}Liquid argon time projection chambers}{13}{section.3.1}
 \contentsline {section}{\numberline {3.2}The MicroBooNE Time Projection Chamber}{14}{section.3.2}
