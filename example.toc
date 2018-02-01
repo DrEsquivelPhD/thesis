@@ -74,9 +74,9 @@
 \contentsline {subsection}{\numberline {8.1.1}Classification of MC data using Selection I CC-Inclusive Filter}{82}{subsection.8.1.1}
 \contentsline {subsection}{\numberline {8.1.2}Conclusions of CNN10000 classification of MC data}{90}{subsection.8.1.2}
 \contentsline {section}{\numberline {8.2}Classification using CNN100000}{91}{section.8.2}
-\contentsline {subsection}{\numberline {8.2.1}Classification of MC data using Selection I CC-Inclusive Filter}{91}{subsection.8.2.1}
-\contentsline {subsubsection}{\nonumberline Kinematic truth distributions of BNB+Cosmic events passing Selection I+CNN10000}{91}{section*.67}
-\contentsline {subsection}{\numberline {8.2.2}Classification of MicroBooNE data using Selection I CC-Inclusive Filter}{91}{subsection.8.2.2}
-\contentsline {subsection}{\numberline {8.2.3}Comparing two CC-Inclusive Cross Section Selection Filters}{91}{subsection.8.2.3}
+\contentsline {subsection}{\numberline {8.2.1}Classification of MC data using Selection I CC-Inclusive Filter}{92}{subsection.8.2.1}
+\contentsline {subsubsection}{\nonumberline Kinematic truth distributions of BNB+Cosmic events passing Selection I+CNN10000}{92}{section*.67}
+\contentsline {subsection}{\numberline {8.2.2}Classification of MicroBooNE data using Selection I CC-Inclusive Filter}{92}{subsection.8.2.2}
+\contentsline {subsection}{\numberline {8.2.3}Comparing two CC-Inclusive Cross Section Selection Filters}{92}{subsection.8.2.3}
 \contentsline {chapter}{\numberline {9}Conclusion}{102}{chapter.9}
 \contentsline {chapter}{Bibliography}{103}{chapter*.78}
