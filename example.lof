@@ -106,7 +106,7 @@
 \contentsline {subfigure}{\numberline {\relax 8.6b}{\ignorespaces Pion recontructed track range is less than 75 cm and larger than muon reconstructed track\relax }}{88}{figure.caption.63}
 \contentsline {subfigure}{\numberline {\relax 8.6c}{\ignorespaces Pion reconstructed track range is greater than 75 cm and larger than muon reconstructed track\relax }}{88}{figure.caption.63}
 \contentsline {figure}{\numberline {\relax 8.7}{\ignorespaces CNN performance of classified muons and pions compared to the already implemented 75 cm track length cut\relax }}{91}{figure.caption.66}
-\contentsline {figure}{\numberline {\relax 8.8}{\ignorespaces $Cos(\mymath {\@Oldtheta }\xspace )$ distribution at CNN10000 $\geq 85\%$\relax }}{92}{figure.caption.68}
+\contentsline {figure}{\numberline {\relax 8.8}{\ignorespaces Image making steps used for classifying BNB+Cosmic events using CNN100000\relax }}{92}{figure.caption.67}
 \contentsline {figure}{\numberline {\relax 8.9}{\ignorespaces $Cos(\mymath {\@Oldtheta }\xspace )$ distribution at CNN10000 $\geq 85\%$\relax }}{93}{figure.caption.69}
 \contentsline {figure}{\numberline {\relax 8.10}{\ignorespaces $Cos(\mymath {\@Oldtheta }\xspace )$ distribution at CNN10000 $\geq 85\%$\relax }}{94}{figure.caption.70}
 \contentsline {figure}{\numberline {\relax 8.11}{\ignorespaces $Cos(\mymath {\@Oldtheta }\xspace )$ distribution at CNN10000 $\geq 85\%$\relax }}{95}{figure.caption.71}
