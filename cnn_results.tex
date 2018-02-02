@@ -332,62 +332,75 @@ After classifying all BNB+Cosmic and in time cosmic events, an efficiency vs pur
 
 \begin{figure}[htp!]
 \centering
-\includegraphics[width=.6\textwidth]{figs/roc_cnn_selI&II.png}
+\includegraphics[width=.5\textwidth]{figs/roc_cnn_selI&II.png}
 \caption{Efficiency vs Purity curve for various CNN100000 muon probabilities. At 85\% muon probability, the efficiency is 30\% and the purity is 70\%} 
 \label{fig:roc}
 \end{figure}
 
 \subsubsection{Kinematic truth distributions of BNB+Cosmic events passing Selection I+CNN10000}
-To classify cc-inclusive events, all images of a certain event were id'ed using CNN100000, if one image in an event was classified as an muon, that event would then be classified as a cc-inclusive event. If after running over all images in an event and none were id'ed as a muon, that event would then be classified as background. Figures \ref{fig:cnn85trackrange} to \ref{fig:cnn85phi} are the true kinematic distributions for the true cc-inclusive events that passed the CNN at 85\% muon probability as well as the cc-inclusive events that passed the selection I filter.  
-\begin{figure}[htp!]
-\centering
-\includegraphics[width=.9\textwidth]{../bnbcosmic_output/cnn_85_trackrangedist.png}
-\caption{Track range distribution for events passing CNN10000 $\geq 85\%$ and the Selection I filter} 
-\label{fig:cnn85trackrange}
-\end{figure}
+To classify cc-inclusive events, all images of a certain event were id'ed using CNN100000, if one image in an event was classified as an muon, that event would then be classified as a cc-inclusive event. If after running over all images in an event and none were id'ed as a muon, that event would then be classified as background. Figure \ref{fig:truthkinematics} are the true kinematic distributions for the true cc-inclusive events that passed the CNN at 85\% muon probability as well as the cc-inclusive events that passed the selection I filter.  
 
 \begin{figure}[htp!]
 \centering
-\includegraphics[width=.9\textwidth]{../bnbcosmic_output/cnn_85_truecosthetadist.png}
-\caption{$Cos(\theta)$ distribution for events passing CNN100000 $\geq 85\%$ and the Selection I filter} 
-\label{fig:cnn85costheta}
+	\begin{subfigure}[b]{.475\textwidth}
+	\centering
+		\includegraphics[width=.9\textwidth]{../bnbcosmic_output/cnn_85_trackrangedist.png}
+		\caption{Track range distribution for events passing CNN10000 $\geq 85\%$ and the Selection I filter.} 
+		\label{fig:cnn85trackrange}
+	\end{subfigure}
+	\quad
+	\begin{subfigure}[b]{.475\textwidth}
+	\centering
+		\includegraphics[width=.9\textwidth]{../bnbcosmic_output/cnn_85_truecosthetadist.png}
+		\caption{$Cos(\theta)$ distribution for events passing CNN100000 $\geq 85\%$ and the Selection I filter.} 
+		\label{fig:cnn85costheta}
+	\end{subfigure}
+	\quad
+	\begin{subfigure}[b]{.475\textwidth}
+	\centering
+		\includegraphics[width=.9\textwidth]{../bnbcosmic_output/cnn_85_truephidist.png}
+		\caption{$\phi$ distribution for events passing CNN100000 $\geq 85\%$ and the Selection I filter.} 
+		\label{fig:cnn85phi}
+	\end{subfigure}
+	\quad
+	\begin{subfigure}[b]{.475\textwidth}
+	\centering
+		\includegraphics[width=.9\textwidth]{../bnbcosmic_output/cnn_85_momentumdist.png}
+		\caption{Momentum distribution for events passing CNN100000 $\geq 85 \%$ and the Selection I filter.} 
+		\label{fig:cnn85momentum}
+	\end{subfigure}
+\caption{Truth kinematic distributions of events passing CNN100000 and Selection I. The red corresponds to the Selection I passing events and blue to the CNN100000 passing events.}
+\label{fig:truthkinematics}
 \end{figure}
 
-\begin{figure}[htp!]
-\centering
-\includegraphics[width=.9\textwidth]{../bnbcosmic_output/cnn_85_truephidist.png}
-\caption{$\phi$ distribution for events passing CNN100000 $\geq 85\%$ and the Selection I filter} 
-\label{fig:cnn85phi}
-\end{figure}
 The shapes of the true kinematic distributions are comparable for CNN100000 and Selection I, however the CNN100000 curve has more events passing at muon probability 85\% compared to the Selection I filter. This is due to the removal of the containment cut. You can also see entries for cc-inclusive events at the lowest track range bin for CNN100000 that isn't there for the Selection I filter. Although the muon probability is high, we are still able to recover events with low track candidate track range. 
-\begin{figure}[htp!]
-\centering
-\includegraphics[width=.9\textwidth]{../bnbcosmic_output/cnn_85_momentumdist.png}
-\caption{$Cos(\theta)$ distribution at CNN10000 $\geq 85\%$} 
-\label{fig:cnn85momentum}
-\end{figure}
+
 
 \begin{figure}[htp!]
 \centering
-\includegraphics[width=.9\textwidth]{../bnbcosmic_output/cnn_85_trackstartXdist.png}
-\caption{$Cos(\theta)$ distribution at CNN10000 $\geq 85\%$} 
-\label{fig:cnn85vertexX}
+	\begin{subfigure}[b]{.45\textwidth}
+	\centering
+		\includegraphics[width=.9\textwidth]{../bnbcosmic_output/cnn_85_trackstartXdist.png}
+		\caption{X Vertex Position} 
+		\label{fig:cnn85vertexX}
+	\end{subfigure}
+	\quad
+	\begin{subfigure}[b]{.45\textwidth}
+	\centering
+		\includegraphics[width=.9\textwidth]{../bnbcosmic_output/cnn_85_trackstartYdist.png}
+		\caption{Y Vertex Position} 
+		\label{fig:cnn85vertexY}
+	\end{subfigure}
+	\quad
+	\begin{subfigure}[b]{.45\textwidth}
+	\centering
+		\includegraphics[width=.9\textwidth]{../bnbcosmic_output/cnn_85_trackstartZdist.png}
+		\caption{Z Vertex Position} 
+		\label{fig:cnn85vertexZ}
+	\end{subfigure}
+\caption{Vertex position for X, Y and Z of true cc-inclusive events passing CNN100000 and Selection I}
+\label{fig:vertex}
 \end{figure}
-
-\begin{figure}[htp!]
-\centering
-\includegraphics[width=.9\textwidth]{../bnbcosmic_output/cnn_85_trackstartYdist.png}
-\caption{$Cos(\theta)$ distribution at CNN10000 $\geq 85\%$} 
-\label{fig:cnn85vertexY}
-\end{figure}
-
-\begin{figure}[htp!]
-\centering
-\includegraphics[width=.9\textwidth]{../bnbcosmic_output/cnn_85_trackstartZdist.png}
-\caption{$Cos(\theta)$ distribution at CNN10000 $\geq 85\%$} 
-\label{fig:cnn85vertexZ}
-\end{figure}
-
 \begin{figure}[htp!]
 \centering
 \includegraphics[width=.9\textwidth]{../bnbcosmic_output/2d85costhetaphi.png}
