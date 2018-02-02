@@ -318,7 +318,7 @@ Lastly, figure \ref{fig:sel1mod_cnnperformance} shows a more representative perf
 It was shown that even though CNN10000 was trained with single particle generated muons and pions, it performs fairly well at classifying track candidate images from BNB+Cosmic events. Events have been regained below the 75 cm track length cut and the momentum and track range distributions have similar shapes to the distributions of Selection I. Efficiencies and purities were calculated for selection I events before 75 cm track length cut  with the CNN at 83\% probability and are 14\% and 62\% respectively. Although the CNN doesn't have separation between muons and pions and although all particles passing CNN are classified as muon, increasing CNN probability allows us to increase the purity as well as maintain an efficiency comparable to the 75 cm track length cut all while recovering events below that 75 cm cut. Out of the 6142 events that passed the CNN @ 83\% 1470 events were below the 75 cm cut, a recovery of 3.3\% of data with an purity of 15\%. Although these numbers are low, it is an improvement from the selecion I in both total efficiency and purity and an increase in phase space by recovering these events. 
 
 \section{Classification using CNN100000}
-For classification of BNB+Cosmics and data using CNN100000, images were made from track candidates that passed the Selection I filter, however, unlike for classifying BNB+Cosmics using CNN10000, the classification of CNN100000 went further up Selection I's cut chain. For CNN100000, steps 5 through 8 seen in section \ref{section:eventselection} were removed. The image making algorithm would then create multiple images per event of pixels corresponding to each track associated to the flattest vertex candidate in the fiducial volume. One of the findings of CNN10000 was the possibility of recovering interesting events in which a pion from a cc-inclusive event is tagged as the track candidate of interest. This was the reason for trying to expand on what a convolutional neural network could accomplish. By allowing the CNN to particle ID all track associated with the vertex candidate, we allow the selection to contain the interesting events that were cut out in selection I due to the cc pion track being chosen as the track candidate. Figure \ref{fig:cnn100000_image} shows the image making algorithm for BNB+Cosmic images. The results of using CNN100000 to classify BNB+Cosmics will be outlined below. 
+For classification of BNB+Cosmics and data using CNN100000, images were made from track candidates that passed the Selection I filter, however, unlike for classifying BNB+Cosmics using CNN10000, the classification of CNN100000 went further up Selection I's cut chain. For CNN100000, steps 5 through 8 seen in section \ref{section:eventselection} were removed. The image making algorithm would then create multiple images per event of pixels corresponding to each track associated to the flattest vertex candidate in the fiducial volume. One of the findings of CNN10000 was the possibility of recovering interesting events in which a pion from a cc-inclusive event is tagged as the track candidate of interest. This was the reason for trying to expand on what a convolutional neural network could accomplish. By allowing the CNN to particle ID all track associated with the vertex candidate, we allow the selection to contain the interesting events that were cut out in selection I due to the cc pion track being chosen as the track candidate. Figure \ref{fig:cnn100000_image} shows the image making algorithm for BNB+Cosmic images. The results of using CNN100000 to classify BNB+Cosmics will be discussed in the next sections. 
 
 \begin{figure}[htp!]
 \centering
@@ -328,22 +328,38 @@ For classification of BNB+Cosmics and data using CNN100000, images were made fro
 \end{figure}
 
 \subsection{Classification of MC data using Selection I CC-Inclusive Filter}
+After classifying all BNB+Cosmic and in time cosmic events, an efficiency vs purity curve was created for various muon probabilites to choose a probability that would increase both efficieny and purity of Selection I. This is shown in figure \ref{fig:roc}. Selection I and Selection II are also shown on this curve. At 85\% probability, both the efficiency and purity is better than both Selection I and Selection II therefore is the chosen muon probability. 
+
+\begin{figure}[htp!]
+\centering
+\includegraphics[width=.6\textwidth]{figs/roc_cnn_selI&II.png}
+\caption{Efficiency vs Purity curve for various CNN100000 muon probabilities. At 85\% muon probability, the efficiency is 30\% and the purity is 70\%} 
+\label{fig:roc}
+\end{figure}
+
 \subsubsection{Kinematic truth distributions of BNB+Cosmic events passing Selection I+CNN10000}
+To classify cc-inclusive events, all images of a certain event were id'ed using CNN100000, if one image in an event was classified as an muon, that event would then be classified as a cc-inclusive event. If after running over all images in an event and none were id'ed as a muon, that event would then be classified as background. Figures \ref{fig:cnn85trackrange} to \ref{fig:cnn85phi} are the true kinematic distributions for the true cc-inclusive events that passed the CNN at 85\% muon probability as well as the cc-inclusive events that passed the selection I filter.  
+\begin{figure}[htp!]
+\centering
+\includegraphics[width=.9\textwidth]{../bnbcosmic_output/cnn_85_trackrangedist.png}
+\caption{Track range distribution for events passing CNN10000 $\geq 85\%$ and the Selection I filter} 
+\label{fig:cnn85trackrange}
+\end{figure}
+
+\begin{figure}[htp!]
+\centering
+\includegraphics[width=.9\textwidth]{../bnbcosmic_output/cnn_85_truecosthetadist.png}
+\caption{$Cos(\theta)$ distribution for events passing CNN100000 $\geq 85\%$ and the Selection I filter} 
+\label{fig:cnn85costheta}
+\end{figure}
 
 \begin{figure}[htp!]
 \centering
 \includegraphics[width=.9\textwidth]{../bnbcosmic_output/cnn_85_truephidist.png}
-\caption{$Cos(\theta)$ distribution at CNN10000 $\geq 85\%$} 
+\caption{$\phi$ distribution for events passing CNN100000 $\geq 85\%$ and the Selection I filter} 
 \label{fig:cnn85phi}
 \end{figure}
-
-\begin{figure}[htp!]
-\centering
-\includegraphics[width=.9\textwidth]{../bnbcosmic_output/cnn_85_trackrangedist.png}
-\caption{$Cos(\theta)$ distribution at CNN10000 $\geq 85\%$} 
-\label{fig:cnn85trackrange}
-\end{figure}
-
+The shapes of the true kinematic distributions are comparable for CNN100000 and Selection I, however the CNN100000 curve has more events passing at muon probability 85\% compared to the Selection I filter. This is due to the removal of the containment cut. You can also see entries for cc-inclusive events at the lowest track range bin for CNN100000 that isn't there for the Selection I filter. Although the muon probability is high, we are still able to recover events with low track candidate track range. 
 \begin{figure}[htp!]
 \centering
 \includegraphics[width=.9\textwidth]{../bnbcosmic_output/cnn_85_momentumdist.png}
