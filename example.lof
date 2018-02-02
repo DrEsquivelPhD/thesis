@@ -113,11 +113,23 @@
 \contentsline {subfigure}{\numberline {\relax 8.10b}{\ignorespaces $Cos(\mymath {\@Oldtheta }\xspace )$ distribution for events passing CNN100000 $\geq 85\%$ and the Selection I filter.\relax }}{94}{figure.caption.70}
 \contentsline {subfigure}{\numberline {\relax 8.10c}{\ignorespaces $\mymath {\@Oldphi }\xspace $ distribution for events passing CNN100000 $\geq 85\%$ and the Selection I filter.\relax }}{94}{figure.caption.70}
 \contentsline {subfigure}{\numberline {\relax 8.10d}{\ignorespaces Momentum distribution for events passing CNN100000 $\geq 85 \%$ and the Selection I filter.\relax }}{94}{figure.caption.70}
-\contentsline {figure}{\numberline {\relax 8.11}{\ignorespaces Vertex position for X, Y and Z of true cc-inclusive events passing CNN100000 and Selection I\relax }}{95}{figure.caption.71}
-\contentsline {subfigure}{\numberline {\relax 8.11a}{\ignorespaces X Vertex Position\relax }}{95}{figure.caption.71}
-\contentsline {subfigure}{\numberline {\relax 8.11b}{\ignorespaces Y Vertex Position\relax }}{95}{figure.caption.71}
-\contentsline {subfigure}{\numberline {\relax 8.11c}{\ignorespaces Z Vertex Position\relax }}{95}{figure.caption.71}
-\contentsline {figure}{\numberline {\relax 8.12}{\ignorespaces $Cos(\mymath {\@Oldtheta }\xspace )$ distribution at CNN10000 $\geq 85\%$\relax }}{96}{figure.caption.72}
-\contentsline {figure}{\numberline {\relax 8.13}{\ignorespaces $Cos(\mymath {\@Oldtheta }\xspace )$ distribution at CNN10000 $\geq 85\%$\relax }}{97}{figure.caption.73}
-\contentsline {figure}{\numberline {\relax 8.14}{\ignorespaces $Cos(\mymath {\@Oldtheta }\xspace )$ distribution at CNN10000 $\geq 85\%$\relax }}{98}{figure.caption.74}
+\contentsline {figure}{\numberline {\relax 8.11}{\ignorespaces Truth stacked event type track range distribution of events passing Selection I (left) and CNN100000 (right). Different event types are CCQE (green), CCRES (blue), CCDIS (yellow), CCCOH (red).\relax }}{95}{figure.caption.71}
+\contentsline {subfigure}{\numberline {\relax 8.11a}{\ignorespaces Track range distribution for events passing Selection I filter.\relax }}{95}{figure.caption.71}
+\contentsline {subfigure}{\numberline {\relax 8.11b}{\ignorespaces Track range distribution for events passing CNN100000 $\geq 85\%$.\relax }}{95}{figure.caption.71}
+\contentsline {figure}{\numberline {\relax 8.12}{\ignorespaces Truth stacked event type momentum distribution of events passing Selection I (left) and CNN100000 (right). Different event types are CCQE (green), CCRES (blue), CCDIS (yellow), CCCOH (red).\relax }}{95}{figure.caption.72}
+\contentsline {subfigure}{\numberline {\relax 8.12a}{\ignorespaces Momentum distribution for events passing Selection I.\relax }}{95}{figure.caption.72}
+\contentsline {subfigure}{\numberline {\relax 8.12b}{\ignorespaces Momentum distribution for events passing CNN100000 $\geq 85\%$.\relax }}{95}{figure.caption.72}
+\contentsline {figure}{\numberline {\relax 8.13}{\ignorespaces Truth stacked event type $cos(\mymath {\@Oldtheta }\xspace )$ distribution of events passing Selection I (left) and CNN100000 (right). Different event types are CCQE (green), CCRES (blue), CCDIS (yellow), CCCOH (red).\relax }}{96}{figure.caption.73}
+\contentsline {subfigure}{\numberline {\relax 8.13a}{\ignorespaces $Cos(\mymath {\@Oldtheta }\xspace )$ distribution for events passing Selection I filter.\relax }}{96}{figure.caption.73}
+\contentsline {subfigure}{\numberline {\relax 8.13b}{\ignorespaces $Cos(\mymath {\@Oldtheta }\xspace )$ distribution for events passing CNN100000 $\geq 85\%$.\relax }}{96}{figure.caption.73}
+\contentsline {figure}{\numberline {\relax 8.14}{\ignorespaces Truth stacked event type phi distribution of events passing Selection I (left) and CNN100000 (right). Different event types are CCQE (green), CCRES (blue), CCDIS (yellow), CCCOH (red).\relax }}{96}{figure.caption.74}
+\contentsline {subfigure}{\numberline {\relax 8.14a}{\ignorespaces $\mymath {\@Oldphi }\xspace $ distribution for events passing Selection I.\relax }}{96}{figure.caption.74}
+\contentsline {subfigure}{\numberline {\relax 8.14b}{\ignorespaces $\mymath {\@Oldphi }\xspace $ distribution for events passing CNN100000 $\geq 85\%$.\relax }}{96}{figure.caption.74}
+\contentsline {figure}{\numberline {\relax 8.15}{\ignorespaces Vertex position for X, Y and Z of true cc-inclusive events passing CNN100000 and Selection I\relax }}{98}{figure.caption.75}
+\contentsline {subfigure}{\numberline {\relax 8.15a}{\ignorespaces X Vertex Position\relax }}{98}{figure.caption.75}
+\contentsline {subfigure}{\numberline {\relax 8.15b}{\ignorespaces Y Vertex Position\relax }}{98}{figure.caption.75}
+\contentsline {subfigure}{\numberline {\relax 8.15c}{\ignorespaces Z Vertex Position\relax }}{98}{figure.caption.75}
+\contentsline {figure}{\numberline {\relax 8.16}{\ignorespaces $Cos(\mymath {\@Oldtheta }\xspace )$ distribution at CNN10000 $\geq 85\%$\relax }}{99}{figure.caption.76}
+\contentsline {figure}{\numberline {\relax 8.17}{\ignorespaces $Cos(\mymath {\@Oldtheta }\xspace )$ distribution at CNN10000 $\geq 85\%$\relax }}{100}{figure.caption.77}
+\contentsline {figure}{\numberline {\relax 8.18}{\ignorespaces $Cos(\mymath {\@Oldtheta }\xspace )$ distribution at CNN10000 $\geq 85\%$\relax }}{101}{figure.caption.78}
 \addvspace {10\p@ }

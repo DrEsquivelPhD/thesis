@@ -322,7 +322,7 @@ For classification of BNB+Cosmics and data using CNN100000, images were made fro
 
 \begin{figure}[htp!]
 \centering
-\includegraphics[width=.9\textwidth]{figs/cnn100000_image.png}
+\includegraphics[width=\textwidth]{figs/cnn100000_image.png}
 \caption{Image making steps used for classifying BNB+Cosmic events using CNN100000} 
 \label{fig:cnn100000_image}
 \end{figure}
@@ -338,34 +338,34 @@ After classifying all BNB+Cosmic and in time cosmic events, an efficiency vs pur
 \end{figure}
 
 \subsubsection{Kinematic truth distributions of BNB+Cosmic events passing Selection I+CNN10000}
-To classify cc-inclusive events, all images of a certain event were id'ed using CNN100000, if one image in an event was classified as an muon, that event would then be classified as a cc-inclusive event. If after running over all images in an event and none were id'ed as a muon, that event would then be classified as background. Figure \ref{fig:truthkinematics} are the true kinematic distributions for the true cc-inclusive events that passed the CNN at 85\% muon probability as well as the cc-inclusive events that passed the selection I filter.  
+To classify cc-inclusive events, all images of a certain event were id'ed using CNN100000, if one image in an event was classified as an muon, that event would then be classified as a cc-inclusive event. If after running over all images in an event and none were id'ed as a muon, that event would then be classified as background. Figure \ref{fig:truthkinematics} are the true kinematic distributions for the true cc-inclusive events that passed the CNN100000 (blue) at 85\% muon probability as well as the cc-inclusive events that passed the selection I filter (red).  
 
 \begin{figure}[htp!]
 \centering
 	\begin{subfigure}[b]{.475\textwidth}
 	\centering
-		\includegraphics[width=.9\textwidth]{../bnbcosmic_output/cnn_85_trackrangedist.png}
+		\includegraphics[width=\textwidth]{../bnbcosmic_output/cnn_85_trackrangedist.png}
 		\caption{Track range distribution for events passing CNN10000 $\geq 85\%$ and the Selection I filter.} 
 		\label{fig:cnn85trackrange}
 	\end{subfigure}
 	\quad
 	\begin{subfigure}[b]{.475\textwidth}
 	\centering
-		\includegraphics[width=.9\textwidth]{../bnbcosmic_output/cnn_85_truecosthetadist.png}
+		\includegraphics[width=\textwidth]{../bnbcosmic_output/cnn_85_truecosthetadist.png}
 		\caption{$Cos(\theta)$ distribution for events passing CNN100000 $\geq 85\%$ and the Selection I filter.} 
 		\label{fig:cnn85costheta}
 	\end{subfigure}
 	\quad
 	\begin{subfigure}[b]{.475\textwidth}
 	\centering
-		\includegraphics[width=.9\textwidth]{../bnbcosmic_output/cnn_85_truephidist.png}
+		\includegraphics[width=\textwidth]{../bnbcosmic_output/cnn_85_truephidist.png}
 		\caption{$\phi$ distribution for events passing CNN100000 $\geq 85\%$ and the Selection I filter.} 
 		\label{fig:cnn85phi}
 	\end{subfigure}
 	\quad
 	\begin{subfigure}[b]{.475\textwidth}
 	\centering
-		\includegraphics[width=.9\textwidth]{../bnbcosmic_output/cnn_85_momentumdist.png}
+		\includegraphics[width=\textwidth]{../bnbcosmic_output/cnn_85_momentumdist.png}
 		\caption{Momentum distribution for events passing CNN100000 $\geq 85 \%$ and the Selection I filter.} 
 		\label{fig:cnn85momentum}
 	\end{subfigure}
@@ -373,51 +373,130 @@ To classify cc-inclusive events, all images of a certain event were id'ed using 
 \label{fig:truthkinematics}
 \end{figure}
 
-The shapes of the true kinematic distributions are comparable for CNN100000 and Selection I, however the CNN100000 curve has more events passing at muon probability 85\% compared to the Selection I filter. This is due to the removal of the containment cut. You can also see entries for cc-inclusive events at the lowest track range bin for CNN100000 that isn't there for the Selection I filter. Although the muon probability is high, we are still able to recover events with low track candidate track range. 
-
+The shapes of the true kinematic distributions are mostly comparable for CNN100000 and Selection I, however the CNN100000 curve has more events passing at muon probability 85\% compared to the Selection I filter. This is due to the removal of the containment cut. You can also see entries for cc-inclusive events at the lowest track range bin for CNN100000 that isn't there for the Selection I filter. Although the muon probability is high, we are still able to recover events with low track candidate track range. Another thing to note in the track range plot is that the peak for CNN100000 is shifted to a higher track range compared to Selection I. This peak shift can also be seen in the momentum distribution plot. Again, a hypothesis for this shift is due to the lack of containment for the tracks, this has been explored and will be discussed. 
 
 \begin{figure}[htp!]
 \centering
-	\begin{subfigure}[b]{.45\textwidth}
+	\begin{subfigure}[b]{.475\textwidth}
 	\centering
-		\includegraphics[width=.9\textwidth]{../bnbcosmic_output/cnn_85_trackstartXdist.png}
+		\includegraphics[width=\textwidth]{../bnbcosmic_output/cc_trackrangedist_stacked.png}
+		\caption{Track range distribution for events passing Selection I filter.} 
+		\label{fig:cctrackstacked}
+	\end{subfigure}
+	\quad
+	\begin{subfigure}[b]{.475\textwidth}
+	\centering
+		\includegraphics[width=\textwidth]{../bnbcosmic_output/cnn_85_trackrangedist_stacked.png}
+		\caption{Track range distribution for events passing CNN100000 $\geq 85\%$.} 
+		\label{fig:cnn85trackstacked}
+	\end{subfigure}
+\caption{Truth stacked event type track range distribution of events passing Selection I (left) and CNN100000 (right). Different event types are CCQE (green), CCRES (blue), CCDIS (yellow), CCCOH (red).}
+\label{fig:trackstacked}
+\end{figure}
+
+\begin{figure}[htp!]
+\centering
+	\begin{subfigure}[b]{.475\textwidth}
+	\centering
+		\includegraphics[width=\textwidth]{../bnbcosmic_output/cc_momentumdist_stacked.png}
+		\caption{Momentum distribution for events passing Selection I.} 
+		\label{fig:ccmomentumstacked}
+	\end{subfigure}
+	\quad
+	\begin{subfigure}[b]{.475\textwidth}
+	\centering
+		\includegraphics[width=\textwidth]{../bnbcosmic_output/cnn_85_momentumdist_stacked.png}
+		\caption{Momentum distribution for events passing CNN100000 $\geq 85\%$.} 
+		\label{fig:cnn85momentumstacked}
+	\end{subfigure}
+\caption{Truth stacked event type momentum distribution of events passing Selection I (left) and CNN100000 (right). Different event types are CCQE (green), CCRES (blue), CCDIS (yellow), CCCOH (red).}
+\label{fig:momentumstacked}
+\end{figure}
+
+\begin{figure}[htp!]
+\centering
+	\begin{subfigure}[b]{.475\textwidth}
+	\centering
+		\includegraphics[width=\textwidth]{../bnbcosmic_output/cc_costhetadist_stacked.png}
+		\caption{$Cos(\theta)$ distribution for events passing Selection I filter.} 
+		\label{fig:cccosthetastacked}
+	\end{subfigure}
+	\quad
+	\begin{subfigure}[b]{.475\textwidth}
+	\centering
+		\includegraphics[width=\textwidth]{../bnbcosmic_output/cnn_85_costhetadist_stacked.png}
+		\caption{$Cos(\theta)$ distribution for events passing CNN100000 $\geq 85\%$.} 
+		\label{fig:cnn85costhetastacked}
+	\end{subfigure}
+\caption{Truth stacked event type $cos(\theta)$ distribution of events passing Selection I (left) and CNN100000 (right). Different event types are CCQE (green), CCRES (blue), CCDIS (yellow), CCCOH (red).}
+\label{fig:costhetastacked}
+\end{figure}
+
+\begin{figure}[htp!]
+\centering
+	\begin{subfigure}[b]{.475\textwidth}
+	\centering
+		\includegraphics[width=\textwidth]{../bnbcosmic_output/cc_phidist_stacked.png}
+		\caption{$\phi$ distribution for events passing Selection I.} 
+		\label{fig:ccphistacked}
+	\end{subfigure}
+	\quad
+	\begin{subfigure}[b]{.475\textwidth}
+	\centering
+		\includegraphics[width=\textwidth]{../bnbcosmic_output/cnn_85_phidist_stacked.png}
+		\caption{$\phi$ distribution for events passing CNN100000 $\geq 85\%$.} 
+		\label{fig:cnn85phistacked}
+	\end{subfigure}
+\caption{Truth stacked event type phi distribution of events passing Selection I (left) and CNN100000 (right). Different event types are CCQE (green), CCRES (blue), CCDIS (yellow), CCCOH (red).}
+\label{fig:phistacked}
+\end{figure}
+Figures \ref{fig:trackstacked} through \ref{fig:phistacked} compare the stacked event type distributions between the Selection I filter and the CNN100000. The percentage of CCQE events that passed Selection I is 51\% compared to 62\% for CNN100000. For CCRES, Selection I had a passing rate of 37\% compared to 29\% for CNN100000. The CCDIS passing rate was 11\% and 9\% for Selection I and CNN100000 respectively. Lastly, the CCCOH rate was 1\% and 0.9\% for Selection I and CNN100000 respectively. A larger percentage of CCQE events are passing the CNN100000 compared to Selection I, an increase of 9\%. CCQE is the dominant interaction for $\nu_{\mu}$ events with neutrino energy $<1$ GeV, so being able to recover events below the 75 cm track range cut may be the reason for the increase in CCQE events. 
+  
+Figure \ref{fig:vertex} shows the vertex positions for the true cc-inclusive events passing the CNN100000 (blue) and the Selection I (red) filter. Again, the shape distributions are comparable among the two selections other than a higher passing rate due to the lack of track containment for CNN100000.  
+\begin{figure}[htp!]
+\centering
+	\begin{subfigure}[b]{.55\textwidth}
+	\centering
+		\includegraphics[width=\textwidth]{../bnbcosmic_output/cnn_85_trackstartXdist.png}
 		\caption{X Vertex Position} 
 		\label{fig:cnn85vertexX}
 	\end{subfigure}
 	\quad
-	\begin{subfigure}[b]{.45\textwidth}
+	\begin{subfigure}[b]{.55\textwidth}
 	\centering
-		\includegraphics[width=.9\textwidth]{../bnbcosmic_output/cnn_85_trackstartYdist.png}
+		\includegraphics[width=\textwidth]{../bnbcosmic_output/cnn_85_trackstartYdist.png}
 		\caption{Y Vertex Position} 
 		\label{fig:cnn85vertexY}
 	\end{subfigure}
 	\quad
-	\begin{subfigure}[b]{.45\textwidth}
+	\begin{subfigure}[b]{.55\textwidth}
 	\centering
-		\includegraphics[width=.9\textwidth]{../bnbcosmic_output/cnn_85_trackstartZdist.png}
+		\includegraphics[width=\textwidth]{../bnbcosmic_output/cnn_85_trackstartZdist.png}
 		\caption{Z Vertex Position} 
 		\label{fig:cnn85vertexZ}
 	\end{subfigure}
 \caption{Vertex position for X, Y and Z of true cc-inclusive events passing CNN100000 and Selection I}
 \label{fig:vertex}
 \end{figure}
+
+
 \begin{figure}[htp!]
 \centering
-\includegraphics[width=.9\textwidth]{../bnbcosmic_output/2d85costhetaphi.png}
+\includegraphics[width=\textwidth]{../bnbcosmic_output/2d85costhetaphi.png}
 \caption{$Cos(\theta)$ distribution at CNN10000 $\geq 85\%$} 
 \label{fig:2d85costhetaphi}
 \end{figure}
 
 \begin{figure}[htp!]
 \centering
-\includegraphics[width=.9\textwidth]{../bnbcosmic_output/2d85trackrangecostheta.png}
+\includegraphics[width=\textwidth]{../bnbcosmic_output/2d85trackrangecostheta.png}
 \caption{$Cos(\theta)$ distribution at CNN10000 $\geq 85\%$} 
 \label{fig:2d85trackrangecostheta}
 \end{figure}
 
 \begin{figure}[htp!]
 \centering
-\includegraphics[width=.9\textwidth]{../bnbcosmic_output/2d85trackrangephi.png}
+\includegraphics[width=\textwidth]{../bnbcosmic_output/2d85trackrangephi.png}
 \caption{$Cos(\theta)$ distribution at CNN10000 $\geq 85\%$} 
 \label{fig:2d85trackrangephi}
 \end{figure}
