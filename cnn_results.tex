@@ -450,7 +450,7 @@ The shapes of the true kinematic distributions are mostly comparable for CNN1000
 \caption{Truth stacked event type phi distribution of events passing Selection I (left) and CNN100000 (right). Different event types are CCQE (green), CCRES (blue), CCDIS (yellow), CCCOH (red).}
 \label{fig:phistacked}
 \end{figure}
-Figures \ref{fig:trackstacked} through \ref{fig:phistacked} compare the stacked event type distributions between the Selection I filter and the CNN100000. The percentage of CCQE events that passed Selection I is 51\% compared to 62\% for CNN100000. For CCRES, Selection I had a passing rate of 37\% compared to 29\% for CNN100000. The CCDIS passing rate was 11\% and 9\% for Selection I and CNN100000 respectively. Lastly, the CCCOH rate was 1\% and 0.9\% for Selection I and CNN100000 respectively. A larger percentage of CCQE events are passing the CNN100000 compared to Selection I, an increase of 9\%. CCQE is the dominant interaction for $\nu_{\mu}$ events with neutrino energy $<1$ GeV, so being able to recover events below the 75 cm track range cut may be the reason for the increase in CCQE events. 
+Figures \ref{fig:trackstacked} through \ref{fig:phistacked} compare the stacked event type distributions between the Selection I filter and the CNN100000. The percentage of CCQE events that passed Selection I is 51\% compared to 62\% for CNN100000. For CCRES, Selection I had a passing rate of 37\% compared to 29\% for CNN100000. The CCDIS passing rate was 11\% and 9\% for Selection I and CNN100000 respectively. Lastly, the CCCOH rate was 1\% and 0.9\% for Selection I and CNN100000 respectively. A larger percentage of CCQE events are passing the CNN100000 compared to Selection I, an increase of 9\%. CCQE is the dominant interaction for $\nu_{\mu}$ events with neutrino energy $<1$ GeV, so being able to recover events below Selection I's 75 cm track range cut may be the reason for the increase in CCQE events. 
   
 Figure \ref{fig:vertex} shows the vertex positions for the true cc-inclusive events passing the CNN100000 (blue) and the Selection I (red) filter. Again, the shape distributions are comparable among the two selections other than a higher passing rate due to the lack of track containment for CNN100000.  
 \begin{figure}[htp!]
@@ -480,6 +480,52 @@ Figure \ref{fig:vertex} shows the vertex positions for the true cc-inclusive eve
 \end{figure}
 
 
+\subsection{Classification of MicroBooNE data using Selection I CC-Inclusive Filter}
+After checking to make sure CNN100000 truth kinematic distributions looked similar to Selection I, I moved on to use CNN100000 to classify on-beam and off-beam MicroBooNE data. 
+
+\begin{figure}[htp!]
+\centering
+\includegraphics[width=\textwidth]{../bnbcosmic_output/data85_trackrangedist.png}
+\caption{Track range distributioin for on-beam (blue) and off-beam (red) data at CNN10000 $\geq 85\%$} 
+\label{fig:datatrackrange}
+\end{figure}
+
+\begin{figure}[htp!]
+\centering
+\includegraphics[width=\textwidth]{../bnbcosmic_output/data85_Thetadist.png}
+\caption{$Cos(\theta)$ distributioin for on-beam (blue) and off-beam (red) data at CNN10000 $\geq 85\%$} 
+\label{fig:datatheta}
+\end{figure}
+
+\begin{figure}[htp!]
+\centering
+\includegraphics[width=\textwidth]{../bnbcosmic_output/data85_Phidist.png}
+\caption{$\phi$ distributioin for on-beam (blue) and off-beam (red) data at CNN10000 $\geq 85\%$} 
+\label{fig:dataphi}
+\end{figure}
+
+
+\begin{figure}[htp!]
+\centering
+\includegraphics[width=\textwidth]{../bnbcosmic_output/data85_trackstartXdist.png}
+\caption{Vertex X distributioin for on-beam (blue) and off-beam (red) data at CNN10000 $\geq 85\%$} 
+\label{fig:dataX}
+\end{figure}
+
+\begin{figure}[htp!]
+\centering
+\includegraphics[width=\textwidth]{../bnbcosmic_output/data85_trackstartYdist.png}
+\caption{Vertex Y distributioin for on-beam (blue) and off-beam (red) data at CNN10000 $\geq 85\%$} 
+\label{fig:dataY}
+\end{figure}
+
+\begin{figure}[htp!]
+\centering
+\includegraphics[width=\textwidth]{../bnbcosmic_output/data85_trackstartZdist.png}
+\caption{Vertex Z distributioin for on-beam (blue) and off-beam (red) data at CNN10000 $\geq 85\%$} 
+\label{fig:dataZ}
+\end{figure}
+
 \begin{figure}[htp!]
 \centering
 \includegraphics[width=\textwidth]{../bnbcosmic_output/2d85costhetaphi.png}
@@ -500,5 +546,4 @@ Figure \ref{fig:vertex} shows the vertex positions for the true cc-inclusive eve
 \caption{$Cos(\theta)$ distribution at CNN10000 $\geq 85\%$} 
 \label{fig:2d85trackrangephi}
 \end{figure}
-\subsection{Classification of MicroBooNE data using Selection I CC-Inclusive Filter}
 \subsection{Comparing two CC-Inclusive Cross Section Selection Filters}
