@@ -1,46 +1,301 @@
-\begin{thebibliography}{1}
+\begin{thebibliography}{10}
 
-\bibitem{neutrino}
-Wikipedia,
-\newblock Neutrino,
-\newblock \url{http://wikipedia.org/wiki/Neutrino}, 2013.
+\bibitem{bahcall2}
+J.~N. Bahcall,
+\newblock {\em {Solar neutrinos. I: Theoretical}},
+\newblock Phys. Rev. Lett. {\bf 12}, 300 (1964).
+%%CITATION = PRLTA,12,300;%%
 
-\bibitem{neutrinooscillation}
-Wikipedia,
-\newblock Neutrino oscillation,
-\newblock \url{http://en.wikipedia.org/wiki/Neutrino_oscillation}, 2013.
+\bibitem{raydavis}
+R.~Davis,
+\newblock {\em {Solar neutrinos. II: Experimental}},
+\newblock Phys. Rev. Lett. {\bf 12}, 303 (1964).
+%%CITATION = PRLTA,12,303;%%
 
-\bibitem{bnl}
-B.~N. Laboratory,
-\newblock Neutrinos and nuclear chemistry,
-\newblock \url{http://www.chemistry.bnl.gov/sciandtech/sn/default.htm}, 2010.
-
-\bibitem{fnal}
-K.~Heeger,
-\newblock Big world of small neutrinos,
-\newblock \url{http://conferences.fnal.gov/lp2003/forthepublic/neutrinos/}.
+\bibitem{kamiokande}
+Super-Kamiokande, Y.~Fukuda {\em et~al.},
+\newblock {\em {Evidence for oscillation of atmospheric neutrinos}},
+\newblock Phys. Rev. Lett. {\bf 81}, 1562 (1998), arXiv:hep-ex/9807003.
+%%CITATION = HEP-EX/9807003;%%
 
 \bibitem{Smirnov:2003da}
 A.~Y. Smirnov,
-\newblock p.~23 (2003), hep-ph/0305106.
+\newblock {\em {The MSW effect and solar neutrinos}},
+\newblock p.~23 (2003), arXiv:hep-ph/0305106.
+%%CITATION = HEP-PH/0305106;%%
+
+\bibitem{zellar}
+J.~A. Formaggio and G.~P. Zeller,
+\newblock {\em {From eV to EeV: Neutrino Cross Sections Across Energy Scales}},
+\newblock Rev. Mod. Phys. {\bf 84}, 1307 (2012), arXiv:1305.7513.
+%%CITATION = ARXIV:1305.7513;%%
+
+\bibitem{miniboone1}
+MiniBooNE, A.~A. Aguilar-Arevalo {\em et~al.},
+\newblock {\em {A Combined $\nu_\mu \rightarrow \nu_e$ and $\bar \nu_\mu
+  \rightarrow \bar \nu_e$ Oscillation Analysis of the MiniBooNE Excesses}},
+\newblock (2012), arXiv:1207.4809.
+%%CITATION = ARXIV:1207.4809;%%
+
+\bibitem{argoneut5}
+ArgoNeuT, R.~Acciarri {\em et~al.},
+\newblock {\em {First Observation of Low Energy Electron Neutrinos in a Liquid
+  Argon Time Projection Chamber}},
+\newblock Phys. Rev. {\bf D95}, 072005 (2017), arXiv:1610.04102,
+\newblock [Phys. Rev.D95,072005(2017)].
+%%CITATION = ARXIV:1610.04102;%%
+
+\bibitem{pdg}
+Particle Data Group, K.~A. Olive {\em et~al.},
+\newblock {\em {Review of Particle Physics}},
+\newblock Chin. Phys. {\bf C38}, 090001 (2014).
+%%CITATION = CHPHD,C38,090001;%%
+
+\bibitem{cc-inclusive}
+MicroBooNE, R.~e.~a. Acciari,
+\newblock {\em Selection and kinematic properties of $\nu_{\mu}$
+  charged-current inclusive events in $5 x 10^{19}$ POT of MicroBooNE data},
+\newblock  Report No. MICROBOONE-NOTE-1010-PUB, 2016 (unpublished).
+
+\bibitem{pauli}
+W.~Pauli,
+\newblock {\em {Dear radioactive ladies and gentlemen}},
+\newblock Phys. Today {\bf 31N9}, 27 (1978).
+%%CITATION = PHTOA,31N9,27;%%
+
+\bibitem{chadwick}
+J.~Chadwick,
+\newblock {\em {Possible Existence of a Neutron}},
+\newblock Nature {\bf 129}, 312 (1932).
+%%CITATION = NATUA,129,312;%%
+
+\bibitem{fermi}
+E.~Fermi,
+\newblock {\em {Trends to a Theory of beta Radiation. (In Italian)}},
+\newblock Nuovo Cim. {\bf 11}, 1 (1934),
+\newblock [,535(1934)].
+%%CITATION = NUCIA,11,1;%%
+
+\bibitem{cowan1}
+F.~Reines and C.~L. Cowan,
+\newblock {\em {Detection of the free neutrino}},
+\newblock Phys. Rev. {\bf 92}, 830 (1953).
+%%CITATION = PHRVA,92,830;%%
+
+\bibitem{cowan2}
+C.~L. Cowan, F.~Reines, F.~B. Harrison, H.~W. Kruse, and A.~D. McGuire,
+\newblock {\em {Detection of the free neutrino: A Confirmation}},
+\newblock Science {\bf 124}, 103 (1956).
+%%CITATION = SCIEA,124,103;%%
+
+\bibitem{leonlederman}
+G.~Danby {\em et~al.},
+\newblock {\em {Observation of High-Energy Neutrino Reactions and the Existence
+  of Two Kinds of Neutrinos}},
+\newblock Phys. Rev. Lett. {\bf 9}, 36 (1962).
+%%CITATION = PRLTA,9,36;%%
+
+\bibitem{donut}
+DONUT, K.~Kodama {\em et~al.},
+\newblock {\em {Observation of tau neutrino interactions}},
+\newblock Phys. Lett. {\bf B504}, 218 (2001), arXiv:hep-ex/0012035.
+%%CITATION = HEP-EX/0012035;%%
+
+\bibitem{bahcall1}
+J.~N. Bahcall and R.~Davis, Jr.,
+\newblock {\em {An Account of the development of the Solar Neutrino Problem}},
+\newblock (1981).
+%%CITATION = PRINT-81-0484 (IAS,PRINCETON);%%
+
+\bibitem{neutrinooscillation1}
+L.~Wolfenstein,
+\newblock {\em {Neutrino Oscillations in Matter}},
+\newblock Phys. Rev. {\bf D17}, 2369 (1978).
+%%CITATION = PHRVA,D17,2369;%%
+
+\bibitem{neutrinooscillation4}
+S.~P. Mikheev and A.~{\relax Yu}. Smirnov,
+\newblock {\em {Neutrino Oscillations in a Variable Density Medium and Neutrino
+  Bursts Due to the Gravitational Collapse of Stars}},
+\newblock Sov. Phys. JETP {\bf 64}, 4 (1986), arXiv:0706.0454,
+\newblock [Zh. Eksp. Teor. Fiz.91,7(1986)].
+%%CITATION = ARXIV:0706.0454;%%
+
+\bibitem{superk}
+Super-Kamiokande, Y.~Fukuda {\em et~al.},
+\newblock {\em {Evidence for oscillation of atmospheric neutrinos}},
+\newblock Phys. Rev. Lett. {\bf 81}, 1562 (1998), arXiv:hep-ex/9807003.
+%%CITATION = HEP-EX/9807003;%%
+
+\bibitem{pontecorvo}
+B.~Pontecorvo,
+\newblock {\em {Mesonium and anti-mesonium}},
+\newblock Sov. Phys. JETP {\bf 6}, 429 (1957),
+\newblock [Zh. Eksp. Teor. Fiz.33,549(1957)].
+%%CITATION = SPHJA,6,429;%%
+
+\bibitem{griffiths}
+D.~J. Griffiths,
+\newblock {\em {Introduction to elementary particles}}Physics textbook (Wiley,
+  New York, NY, 2008).
+
+\bibitem{nygren}
+D.~R. Nygren,
+\newblock {\em {The Time Projection Chamber: A New 4 pi Detector for Charged
+  Particles}},
+\newblock eConf {\bf C740805}, 58 (1974).
+%%CITATION = ECONF,C740805,58;%%
+
+\bibitem{rubbia}
+C.~Rubbia,
+\newblock {\em {The Liquid Argon Time Projection Chamber: A New Concept for
+  Neutrino Detectors}},
+\newblock (1977).
+%%CITATION = CERN-EP-INT-77-08;%%
+
+\bibitem{icarus}
+ICARUS, S.~Amerio {\em et~al.},
+\newblock {\em {Design, construction and tests of the ICARUS T600 detector}},
+\newblock Nucl. Instrum. Meth. {\bf A527}, 329 (2004).
+%%CITATION = NUIMA,A527,329;%%
+
+\bibitem{lartpc_cosmic}
+ICARUS, F.~Arneodo {\em et~al.},
+\newblock {\em {First observation of 140-cm drift ionizing tracks in the ICARUS
+  liquid-argon TPC}},
+\newblock Nucl. Instrum. Meth. {\bf A449}, 36 (2000).
+%%CITATION = NUIMA,A449,36;%%
+
+\bibitem{lartpc_solar}
+ICARUS, O.~Palamara,
+\newblock {\em {The atmospheric and solar neutrino experiment with the ICARUS
+  T600 detector}},
+\newblock Nucl. Phys. Proc. Suppl. {\bf 110}, 329 (2002).
+%%CITATION = NUPHZ,110,329;%%
+
+\bibitem{lartpc_accelerator}
+ICARUS, M.~Antonello {\em et~al.},
+\newblock {\em {Search for anomalies in the ${\nu}_e$ appearance from a
+  ${\nu}_{\mu}$ beam}},
+\newblock Eur. Phys. J. {\bf C73}, 2599 (2013), arXiv:1307.4699.
+%%CITATION = ARXIV:1307.4699;%%
+
+\bibitem{argoneut1}
+ArgoNeuT, R.~Acciarri {\em et~al.},
+\newblock {\em {First Measurement of Neutrino and Antineutrino Coherent Charged
+  Pion Production on Argon}},
+\newblock Phys. Rev. Lett. {\bf 113}, 261801 (2014), arXiv:1408.0598,
+\newblock [erratum: Phys. Rev. Lett.114,no.3,039901(2015)].
+%%CITATION = ARXIV:1408.0598;%%
+
+\bibitem{argoneut4}
+ArgoNeuT, C.~Anderson {\em et~al.},
+\newblock {\em {First Measurements of Inclusive Muon Neutrino Charged Current
+  Differential Cross Sections on Argon}},
+\newblock Phys. Rev. Lett. {\bf 108}, 161802 (2012), arXiv:1111.0103.
+%%CITATION = ARXIV:1111.0103;%%
+
+\bibitem{sbn}
+MicroBooNE, R.~et~al.,
+\newblock {\em A Proposal for a Three Detector Short-Baseline Neutrino
+  Oscillation Program in the Fermilab Booster Neutrino Beam},
+\newblock (2015),
+\newblock arXiv:1503.01520.
 
 \bibitem{dune}
-The MicroBooNE Collaboration, R.~e.~a. Acciari,
+MicroBooNE, R.~e.~a. Acciari,
+\newblock {\em Long-Baseline Neutrino Facility (LBNF) and Deep Underground
+  Neutrino Experiment (DUNE)},
 \newblock (2015),
 \newblock arXiv:1512.06148.
 
+\bibitem{sbnd}
+LArTPC, C.~Adams {\em et~al.},
+\newblock {\em {LAr1-ND: Testing Neutrino Anomalies with Multiple LArTPC
+  Detectors at Fermilab}},
+\newblock in {\em {Proceedings, 2013 Community Summer Study on the Future of
+  U.S. Particle Physics: Snowmass on the Mississippi (CSS2013): Minneapolis,
+  MN, USA, July 29-August 6, 2013}}, 2013, arXiv:1309.7987.
+%%CITATION = ARXIV:1309.7987;%%
+
+\bibitem{icarus_t600}
+M.~Antonello {\em et~al.},
+\newblock {\em {ICARUS at FNAL}},
+\newblock (2013), arXiv:1312.7252.
+%%CITATION = ARXIV:1312.7252;%%
+
+\bibitem{microboone}
+MicroBooNE, R.~e.~a. Acciari,
+\newblock {\em Design and Construction of the MicroBooNE Detector},
+\newblock JINST {\bf 12} (2017).
+
 \bibitem{noisechar}
-The MicroBooNE Collaboration, R.~e.~a. Acciari,
+MicroBooNE, R.~e.~a. Acciari,
+\newblock {\em Noise Characterization and Filtering in the MicroBooNE Liquid
+  Argon TPC},
 \newblock (2016),
 \newblock arXiv:1705.07341.
 
 \bibitem{michel}
-The MicroBooNE Collaboration, R.~e.~a. Acciari,
+MicroBooNE, R.~e.~a. Acciari,
+\newblock {\em Michel Electron Reconstruction Using Cosmic Ray Data from the
+  MicroBooNE LArTPC},
 \newblock (2017),
 \newblock arXiv:1704.02927.
 
-\bibitem{microboone}
-The MicroBooNE Collaboration, R.~e.~a. Acciari,
-\newblock JINST {\textbf 12} (2017).
+\bibitem{miniboone2}
+MiniBooNE, A.~A. Aguilar-Arevalo {\em et~al.},
+\newblock {\em {Event Excess in the MiniBooNE Search for $\bar \nu_\mu
+  \rightarrow \bar \nu_e$ Oscillations}},
+\newblock Phys. Rev. Lett. {\bf 105}, 181801 (2010), arXiv:1007.1150.
+%%CITATION = ARXIV:1007.1150;%%
+
+\bibitem{neutrinoid}
+MicroBooNE, R.~e.~a. Acciari,
+\newblock {\em First neutrino interactions observed with the MicroBooNE
+  Liquid-Argon TPC detector},
+\newblock  Report No. MICROBOONE-NOTE-1002-PUB, 2015 (unpublished).
+
+\bibitem{ILSVRC15}
+O.~Russakovsky {\em et~al.},
+\newblock {\em {ImageNet Large Scale Visual Recognition Challenge}},
+\newblock International Journal of Computer Vision (IJCV) {\bf 115}, 211
+  (2015).
+
+\bibitem{hubel}
+D.~Hubel and T.~Wiesel,
+\newblock {\em Receptive fields, binocular interaction, and functional
+  architecture in the cat's visual cortex},
+\newblock Journal of Physiology {\bf 160}, 106 (1962).
+
+\bibitem{optimization}
+J.~Snoek, H.~Larochelle, and R.~P. Adams,
+\newblock {\em Practical Bayesian Optimization of Machine Learning
+  Algorithms.},
+\newblock in {\em NIPS}, edited by P.~L. Bartlett, F.~C.~N. Pereira, C.~J.~C.
+  Burges, L.~Bottou, and K.~Q. Weinberger, pp. 2960--2968, 2012.
+
+\bibitem{alexnet}
+A.~Krizhevsky, I.~Sutskever, and G.~E. Hinton,
+\newblock {\em ImageNet Classification with Deep Convolutional Neural
+  Networks},
+\newblock in {\em Advances in Neural Information Processing Systems 25}, edited
+  by F.~Pereira, C.~J.~C. Burges, L.~Bottou, and K.~Q. Weinberger, pp.
+  1097--1105, Curran Associates, Inc., 2012.
+
+\bibitem{googlenet}
+C.~Szegedy {\em et~al.},
+\newblock {\em Going Deeper with Convolutions},
+\newblock CoRR {\bf abs/1409.4842} (2014), arXiv:1409.4842.
+
+\bibitem{caffe}
+Y.~Jia {\em et~al.},
+\newblock {\em Caffe: Convolutional Architecture for Fast Feature Embedding},
+\newblock arXiv preprint arXiv:1408.5093  (2014).
+
+\bibitem{tsne}
+L.~van~der Maaten and G.~Hinton,
+\newblock {\em Visualizing Data using {t-SNE}},
+\newblock Journal of Machine Learning Research {\bf 9}, 2579 (2008).
 
 \end{thebibliography}

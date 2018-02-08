@@ -1,54 +1,49 @@
 This is BibTeX, Version 0.99d (TeX Live 2015/Debian)
 Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
 The top-level auxiliary file: example.aux
-The style file: h-physrev.bst
+The style file: h-physrev5.bst
 Database file #1: example.bib
-Warning--I didn't find a database entry for "cc-inclusive"
-Warning--I didn't find a database entry for "SBN"
-Warning--I didn't find a database entry for "ccinclusive"
-Warning--I didn't find a database entry for "cnn"
-Warning--I didn't find a database entry for "mcccinclusive"
-Warning--I didn't find a database entry for "priorwork"
-Warning--I didn't find a database entry for "caffe"
-You've used 9 entries,
-            1946 wiz_defined-function locations,
-            646 strings with 5661 characters,
-and the built_in function-call counts, 1325 in all, are:
-= -- 101
-> -- 54
-< -- 1
-+ -- 18
-- -- 9
-* -- 56
-:= -- 196
-add.period$ -- 9
-call.type$ -- 9
-change.case$ -- 4
+Warning--empty institution in cc-inclusive
+Warning--empty institution in neutrinoid
+You've used 46 entries,
+            1982 wiz_defined-function locations,
+            914 strings with 12364 characters,
+and the built_in function-call counts, 10378 in all, are:
+= -- 775
+> -- 432
+< -- 5
++ -- 151
+- -- 87
+* -- 835
+:= -- 1381
+add.period$ -- 46
+call.type$ -- 46
+change.case$ -- 45
 chr.to.int$ -- 0
-cite$ -- 9
-duplicate$ -- 80
-empty$ -- 157
-format.name$ -- 18
-if$ -- 303
+cite$ -- 48
+duplicate$ -- 599
+empty$ -- 1125
+format.name$ -- 135
+if$ -- 2429
 int.to.chr$ -- 0
-int.to.str$ -- 9
-missing$ -- 5
-newline$ -- 46
-num.names$ -- 9
-pop$ -- 64
+int.to.str$ -- 46
+missing$ -- 45
+newline$ -- 272
+num.names$ -- 48
+pop$ -- 218
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 0
-skip$ -- 36
+skip$ -- 377
 stack$ -- 0
-substring$ -- 7
-swap$ -- 16
-text.length$ -- 1
+substring$ -- 402
+swap$ -- 188
+text.length$ -- 5
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 0
-warning$ -- 0
-while$ -- 10
-width$ -- 10
-write$ -- 87
-(There were 7 warnings)
+warning$ -- 2
+while$ -- 82
+width$ -- 48
+write$ -- 505
+(There were 2 warnings)
