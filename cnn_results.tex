@@ -221,13 +221,13 @@ Another check was to see if any true CC pions were passing through the cut right
 \centering
 	\begin{subfigure}[b]{.3\textwidth}
 	\includegraphics[width=\textwidth,height=2.5in]{figs/interesting_event.png}
-	\caption{Pion recontructed track range is less than 75 cm and longer than muon track due to dead wires}
+	\caption{Pion reconstructed track range is less than 75 cm and longer than muon track due to dead wires}
 	\label{fig:longer_muon_badreco}
 	\end{subfigure}
 	\quad
 	\begin{subfigure}[b]{.3\textwidth}
 	\includegraphics[width=\textwidth,height=2.5in]{figs/event2.png}
-	\caption{Pion recontructed track range is less than 75 cm and larger than muon reconstructed track}
+	\caption{Pion reconstructed track range is less than 75 cm and larger than muon reconstructed track}
 	\label{fig:longer_pion}
 	\end{subfigure}
 	\quad
@@ -484,46 +484,46 @@ After checking to make sure CNN100000 truth kinematic distributions looked simil
 \begin{figure}[htp!]
 \centering
 \includegraphics[width=.6\textwidth]{../bnbcosmic_output/data85_trackrangedist.png}
-\caption{Track range distributioin for on-beam (blue) and off-beam (red) data at CNN10000 $\geq 85\%$} 
+\caption{Track range distribution for on-beam (blue) and off-beam (red) data at CNN10000 $\geq 85\%$} 
 \label{fig:datatrackrange}
 \end{figure}
 
 \begin{figure}[htp!]
 \centering
 \includegraphics[width=.6\textwidth]{../bnbcosmic_output/data85_Thetadist.png}
-\caption{$Cos(\theta)$ distributioin for on-beam (blue) and off-beam (red) data at CNN10000 $\geq 85\%$} 
+\caption{$Cos(\theta)$ distribution for on-beam (blue) and off-beam (red) data at CNN10000 $\geq 85\%$} 
 \label{fig:datatheta}
 \end{figure}
 
 \begin{figure}[htp!]
 \centering
 \includegraphics[width=.6\textwidth]{../bnbcosmic_output/data85_Phidist.png}
-\caption{$\phi$ distributioin for on-beam (blue) and off-beam (red) data at CNN10000 $\geq 85\%$} 
+\caption{$\phi$ distribution for on-beam (blue) and off-beam (red) data at CNN10000 $\geq 85\%$} 
 \label{fig:dataphi}
 \end{figure}
 
 \begin{figure}[htp!]
 \centering
 \includegraphics[width=.6\textwidth]{../bnbcosmic_output/data85_trackstartXdist.png}
-\caption{Vertex X distributioin for on-beam (blue) and off-beam (red) data at CNN10000 $\geq 85\%$} 
+\caption{Vertex X distribution for on-beam (blue) and off-beam (red) data at CNN10000 $\geq 85\%$} 
 \label{fig:dataX}
 \end{figure}
 
 \begin{figure}[htp!]
 \centering
 \includegraphics[width=.6\textwidth]{../bnbcosmic_output/data85_trackstartYdist.png}
-\caption{Vertex Y distributioin for on-beam (blue) and off-beam (red) data at CNN10000 $\geq 85\%$} 
+\caption{Vertex Y distribution for on-beam (blue) and off-beam (red) data at CNN10000 $\geq 85\%$} 
 \label{fig:dataY}
 \end{figure}
 
 \begin{figure}[htp!]
 \centering
 \includegraphics[width=.6\textwidth]{../bnbcosmic_output/data85_trackstartZdist.png}
-\caption{Vertex Z distributioin for on-beam (blue) and off-beam (red) data at CNN10000 $\geq 85\%$} 
+\caption{Vertex Z distribution for on-beam (blue) and off-beam (red) data at CNN10000 $\geq 85\%$} 
 \label{fig:dataZ}
 \end{figure}
 
-To compare MC to data, figures \ref{fig:pottrack} through \ref{fig:potphi} show BNB+Cosmic MC events and off-beam data subtracted from on-beam data that passed CNN100000. On-beam minus off-beam subtracts off the events triggered from cosmics with no beam related interactions which makes it comparable to BNB+Cosmic. The red boxes in the figures correspond to selected $\nu_{\mu}$ CC signal and background. The backgrounds also depicted in various colors as well. From shape, it is visible that there is a decrease in NC background events (green curve) from Selection I to CNN100000, however, there also seems to be a excess in cosmic background events. The cosmic background curve (blue) are cosmic background events in the BNB+Cosmic MC sample that passed a corresponding selection filter. In time cosmics generated with CORSIKA aren't plotted and are just used for purity calculations. The percentage of NC background events for Selection I was 3.5\%, and for CNN100000 it was 1\%, a decrease of 2.5\%. The CNN is doing a good job at removing NC background while still recovering low track range $\nu_{\mu}$ CC events which was the main goal of this analysis. The percentage of cosmic background from BNB+Cosmic MC dataset for Selection I was 6.6\%, while for CNN100000, it was 23\%, an increase of 16.5\%. This is a large increase from Selection I and CNN100000. One of the reasons this may be is due to the fact that the CNN was trained on single generated isotropic particles, therefore muons from cosmics would in fact pass the CNN even with a high muon probability. Figure \ref{fig:potphi} shows an excess of events in the cosmic enriched sample $\pm\pi/2$, more so than in Selection I. A way to try and combat this would be to add an additional particle class which would consist of muons from cosmics during training to see if the CNN could learn to differentiate beam induced muons from cosmic induces muons. Another way to combat this is to have a more sophisticated flash matching algorithm that could reduce the locality of where the neutrino interaction occured. You can also see the excess of cosmics in figure \ref{fig:potcostheta}, another way you try and reduce this background is by employing more traditional cuts after the CNN for example cutting on $cos(\theta)$ or $\phi$, but cuts like these affect phase space. 
+To compare MC to data, figures \ref{fig:pottrack} through \ref{fig:potphi} show BNB+Cosmic MC events and off-beam data subtracted from on-beam data that passed CNN100000. On-beam minus off-beam subtracts off the events triggered from cosmics with no beam related interactions which makes it comparable to BNB+Cosmic. The red boxes in the figures correspond to selected $\nu_{\mu}$ CC signal and background. The backgrounds also depicted in various colors as well. From shape, it is visible that there is a decrease in NC background events (green curve) from Selection I to CNN100000, however, there also seems to be a excess in cosmic background events. The cosmic background curve (blue) are cosmic background events in the BNB+Cosmic MC sample that passed a corresponding selection filter. In time cosmics generated with CORSIKA aren't plotted and are just used for purity calculations. The percentage of NC background events for Selection I was 3.5\%, and for CNN100000 it was 1\%, a decrease of 2.5\%. The CNN is doing a good job at removing NC background while still recovering low track range $\nu_{\mu}$ CC events which was the main goal of this analysis. The percentage of cosmic background from BNB+Cosmic MC dataset for Selection I was 6.6\%, while for CNN100000, it was 23\%, an increase of 16.5\%. This is a large increase from Selection I and CNN100000. One of the reasons this may be is due to the fact that the CNN was trained on single generated isotropic particles, therefore muons from cosmics would in fact pass the CNN even with a high muon probability. Figure \ref{fig:potphi} shows an excess of events in the cosmic enriched sample $\pm\pi/2$, more so than in Selection I. A way to try and combat this would be to add an additional particle class which would consist of muons from cosmics during training to see if the CNN could learn to differentiate beam induced muons from cosmic induces muons. Another way to combat this is to have a more sophisticated flash matching algorithm that could reduce the locality of where the neutrino interaction occurred. You can also see the excess of cosmics in figure \ref{fig:potcostheta}, another way you try and reduce this background is by employing more traditional cuts after the CNN for example cutting on $cos(\theta)$ or $\phi$, but cuts like these affect phase space. 
 
 
 \begin{figure}[htp!]
@@ -580,7 +580,7 @@ To compare MC to data, figures \ref{fig:pottrack} through \ref{fig:potphi} show 
 Although in time cosmics aren't shown in figures \ref{fig:pottrack} through \ref{fig:potphi} an interesting thing to note is that there is a decrease in in time cosmic background from Selection I to CNN100000. Selection I had a in time cosmic passing percentage of 33.4\% while CNN100000 had a passing percentage of 5.49\%, a decrease of 27.91\%. For reference, in time cosmic background was scaled to match BNB+Cosmic MC event rate per section \ref{section:normalize}. This explains why there was a large drop in off-beam data that passed CNN100000. 
 
 
-Another thing that was checked was if the MC/Data difference between the selections were similar. Although it was already stated that CNN100000 was letting in more cosmics from the BNB+Cosmic MC dataset, there was a substantial decrease in in time cosmics. Figure \ref{fig:diff} shows the MC/Data difference for Selection I (red) and CNN100000 (blue). In figure \ref{fig:difftrack} we see the MC/Data difference versus the track range. At higher track ranges there are more MC/Data disagreements from Selection I and CNN100000 than in lower track range bins. This can be attributed to the removal of the track containment cut in CNN100000, which also explains why there are only CNN100000 entries in track ranges greater than 800 cm. When looking at figure \ref{fig:diffcostheta} there are also MC/Data differences between Selection I and CNN100000, at $cos(\theta) = -0.75$ and $ 0.5<cos(\theta)<1$, although these differences are small in comparisson to the track range differences. Another thing to note is the fact that the MC/Data difference is negative for figure \ref{fig:diffcostheta}, this is due to there being a data excess for both Selection I and CNN100000. Lastly, in figure \ref{fig:diffphi} you can see an MC/Data difference between Selection I and CNN100000 at the cosmic enriched area around $\phi=\pm\pi/2$. This again is because of the CNN letting more cosmic muons pass than Selection I does. 
+Another thing that was checked was if the MC/Data difference between the selections were similar. Although it was already stated that CNN100000 was letting in more cosmics from the BNB+Cosmic MC dataset, there was a substantial decrease in in time cosmics. Figure \ref{fig:diff} shows the MC/Data difference for Selection I (red) and CNN100000 (blue). In figure \ref{fig:difftrack} we see the MC/Data difference versus the track range. At higher track ranges there are more MC/Data disagreements from Selection I and CNN100000 than in lower track range bins. This can be attributed to the removal of the track containment cut in CNN100000, which also explains why there are only CNN100000 entries in track ranges greater than 800 cm. When looking at figure \ref{fig:diffcostheta} there are also MC/Data differences between Selection I and CNN100000, at $cos(\theta) = -0.75$ and $ 0.5<cos(\theta)<1$, although these differences are small in comparison to the track range differences. Another thing to note is the fact that the MC/Data difference is negative for figure \ref{fig:diffcostheta}, this is due to there being a data excess for both Selection I and CNN100000. Lastly, in figure \ref{fig:diffphi} you can see an MC/Data difference between Selection I and CNN100000 at the cosmic enriched area around $\phi=\pm\pi/2$. This again is because of the CNN letting more cosmic muons pass than Selection I does. 
 \begin{figure}[htp!]
 \centering
 	\begin{subfigure}[t]{.475\textwidth}
