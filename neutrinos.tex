@@ -28,7 +28,7 @@ The standard solar model (SSM) is a mathematical model developed by John Bahcall
 \label{fig:solarmodel}
 \end{figure}
 
-The first experiment to detect the effects of neutrino oscillation was the Ray Davis's Homestake Experiment \cite{raydavis}. The detector was stationed in the Homestake Gold Mine in Lead, South Dakota. It was 1,478 meters underground and was 380 $\text{m}^3$. The detector was filled with perchloroethylene. Perchloroethylene was chosen because of its high concentrations of chlorine. When an $\nu_{e}$ interacted with a chlorine-37 atom, the atom would transform to argon-37 which was then extracted and counted. The neutrino capture reaction is shown in equation \ref{eq:capture}. Davis observed a deficit of about $1/3$ the flux of solar neutrinos that was predicted by Bahcall's Standard Solar Model. The unexplained difference between the measured solar neutrino flux and model predictions led to the Solar Neutrino Problem.
+The first experiment to detect the effects of neutrino oscillation was Ray Davis's Homestake Experiment \cite{raydavis}. The detector was stationed in the Homestake Gold Mine in Lead, South Dakota. It was 1,478 meters underground and was 380 $\text{m}^3$. The detector was filled with perchloroethylene. Perchloroethylene was chosen because of its high concentrations of chlorine. When an $\nu_{e}$ interacted with a chlorine-37 atom, the atom would transform to argon-37 which was then extracted and counted. The neutrino capture reaction is shown in equation \ref{eq:capture}. Davis observed a deficit of about $1/3$ the flux of solar neutrinos that was predicted by Bahcall's Standard Solar Model. The unexplained difference between the measured solar neutrino flux and model predictions led to the Solar Neutrino Problem.
 
 \begin{equation}
 \label{eq:capture}
@@ -37,7 +37,7 @@ The first experiment to detect the effects of neutrino oscillation was the Ray D
 
 While it is now known that the Homestake Experiment results were indicating neutrino flavor oscillation, some physicists were weary of the results. Conclusive evidence of the Solar Neutrino Problem was provided by the Kamiokande-II experiment \cite{kamiokande}, a water cherenkov detector with a low enough energy threshold to detect neutrinos through neutrino-electron elastic scattering. In the elastic scattering interaction the electrons coming out of the point of reaction strongly point in the direction that the neutrino was traveling, away from the sun. While the neutrinos observed in Kamiokande-II were clearly from the sun, there was still a discrepancy between Kamiokande-II and Homestake; The Kamiokande-II experiment measured about 1/2 the predicted flux, rather than the 1/3 that the Homestake Experiment saw.
 
-The solution to the solar neutrino problem was finally experimentally determined by the Sudbury Neutrino Observatory(SNO). The Ray Davis's Homestake Experiment was only sensitive to electron neutrinos, and the Kamiokande-II Experiment was dominated by the electron neutrino signal. The SNO experiment had the capability to see all three neutrino flavors. Because of this, it was possible to measure the electron neutrinos and total neutrino flux. The experiment demonstrated that the deficit was due to the MSW effect \cite{Smirnov:2003da}, the conversion of electron neutrinos from their pure flavor state into the second neutrino mass eigenstate as they passed through a resonance due to the changing density of the sun. The resonance is energy dependent, and is visible near 2 MeV. The water cherenkov detectors only detect neutrinos above about 5 MeV, while the radiochemical experiments were sensitive to lower energy (0.8 MeV for chlorine, 0.2 MeV for gallium), and this turned out to be the source of the difference in the observed neutrino rates at the two types of experiments. Figure \ref{fig:solarexperiments} shows Homestake, Kamiokande-II and SNO experiments. 
+The solution to the solar neutrino problem was finally experimentally determined by the Sudbury Neutrino Observatory(SNO). Ray Davis's Homestake Experiment was only sensitive to electron neutrinos, and the Kamiokande-II Experiment was dominated by the electron neutrino signal. The SNO experiment had the capability to see all three neutrino flavors. Because of this, it was possible to measure the electron neutrinos and total neutrino flux. The experiment demonstrated that the deficit was due to the Mikheyev-Smirnov-Wolfenstein (MSW) effect \cite{Smirnov:2003da}, the conversion of electron neutrinos from their pure flavor state into the second neutrino mass eigenstate as they passed through a resonance due to the changing density of the sun. The resonance is energy dependent, and is visible near 2 MeV. The water cherenkov detectors only detect neutrinos above about 5 MeV, while the radiochemical experiments were sensitive to lower energy (0.8 MeV for chlorine, 0.2 MeV for gallium), and this turned out to be the source of the difference in the observed neutrino rates at the two types of experiments. Figure \ref{fig:solarexperiments} shows Homestake, Kamiokande-II and SNO experiments. 
 \begin{figure}[htp]
 \centering
 	\begin{subfigure}[b]{.3\textwidth}
@@ -146,14 +146,12 @@ cos\theta & sin\theta \\
 \caption{The flavor eigenstates are rotated by an angle $\theta$ with respect to the mass eigenstates}
 \label{fig:mixing}
 \end{figure}
-
 Applying the time evolution operator to $\nu_{\mu}$:
 \begin{equation}
 \centering
 \label{eq:timeevol}
 |\nu_{\mu}(t)> = -sin\theta|\nu_{1}>e^{-i\frac{E_{1}t}{\hbar}} + cos\theta|\nu_{2}>e^{-i\frac{E_{2}t}{\hbar}}
 \end{equation}
-
 where $E_{1} = \sqrt{p^2 c^2 + m^2_{1} c^4}$ and $E_{2} = \sqrt{p^2 c^2 + m^2_{2} c^4}$ and $p_{1}=p_{2}$. For the time being, let us assume $\hbar=c=1$. 
 With this assumption:
 $E_{1}=\sqrt{p^2+m^2_{1}}$ and $E_{2} = \sqrt{p^2 + m^2_{2}}$.
@@ -172,7 +170,6 @@ p \gg m_{o}
 \centering
 E = \sqrt{p^2 + m^2_{o}}=p\sqrt{1+m^2_{o}/p^2}\simeq p + \frac{1}{2}\frac{m^2_{o}}{p}
 \end{equation}
-
 where the binomial expansion is used. Now $E_{1}$ and $E_{2}$ can be written as:
 \begin{equation}
 \centering
@@ -187,12 +184,11 @@ Now applying all these assumptions back into equation \ref{eq:timeevol} gives us
 \centering
 |\nu_{\mu}(t)> = e^{-i \left( p+\frac{1}{2}\frac{m^2_{1}-m^2_{2}}{p} \right) t} \left( -sin\theta|\nu_{1}> + cos\theta|\nu_{2}> \right)
 \end{equation}
- Substituting $\Delta m^2 = m^2_{1}-m^2_{2}$ and $t = \frac{x}{c} =x$ and $e^{-iz}= e^{-i \left( p+\frac{1}{2}\frac{m^2_{1}}{p} \right) t}$ gives us:
+Substituting $\Delta m^2 = m^2_{1}-m^2_{2}$ and $t = \frac{x}{c} =x$ and $e^{-iz}= e^{-i \left( p+\frac{1}{2}\frac{m^2_{1}}{p} \right) t}$ gives us:
  \begin{equation}
  \centering
  |\nu_{\mu}(t)> = e^{-iz} \left( -sin\theta|\nu_{1}> + cos\theta|\nu_{2}>e^{+ix \left(\frac{1}{2}\frac{\Delta m^2}{p}\right)}\right)
  \end{equation}
-
 Finding the Probability for a $\nu_{\mu} \rightarrow \nu_{e}$:
 \begin{equation}
 \centering
@@ -209,20 +205,18 @@ Taking the absolute value squared gives us:
 \centering
 P(\nu_{\mu} \rightarrow \nu_{e}) = |<\nu_{e}|\nu_{\mu}(t)>|^2 = e^{+iz}e^{-iz}sin^{2}\theta cos^{2}\theta\left( -1 + e^{\frac{i \Delta m^2 x}{p}}\right)\left(-1 + e^{\frac{i \Delta m^2 x}{p}}\right)
 \end{equation}
-
 Since the neutrino is relativistic we can set $p= E_{\nu}$ and change $x=L$. Also recognizing the trigonometric relation $(1 - cos2\theta)/2 = sin^{2}\theta$ the above equation becomes:
 \begin{equation}
 \centering
 P(\nu_{\mu} \rightarrow \nu_{e}) = sin^{2}2\theta sin^2\left(\frac{\Delta m^2 L}{4 E_{\nu}}\right)
 \end{equation}
- 
- All that's left to do now is re-introduce $\hbar$ and $c$ doing this we get:
+All that's left to do now is re-introduce $\hbar$ and $c$ doing this we get:
  \begin{equation}
  \centering
  P_{\nu_{\mu} \rightarrow \nu_{e}} (L,E) = sin^{2}2\theta sin^2\left(1.27 \Delta m^2 \frac{L}{E_{\nu}}\right)
  \end{equation}
  
- This equations has three important variables. 
+This equations has three important variables. 
  \begin{itemize}
  \item The angle $\theta$: This angle, as mentioned before, is called the mixing angle. It defines the difference between the flavor and the mass eigenstates. When $\theta = 0$ the mass and flavor eigenstates are identical and no oscillations occur. 
  \item The mass squared difference, $\Delta m^2$: Again $\Delta m^2 = m^2_{1}-m^2_{2}$. The reason this is an important variable is because it implies that for neutrinos to oscillate, neutrinos must have mass. Furthermore, the mass squared difference also tells us that the neutrino mass eigenstates must be different. 
@@ -245,17 +239,16 @@ e^{i \alpha_{1}/2} & 0 & 0\\
 \end{pmatrix}
 \end{equation} 
 where $c_{ij}=cos\theta_{ij}$ and $s_{ij}=sin\theta_{ij}$
-
 Following the same steps as before we get:
 \begin{equation}
 \centering
 P_{\alpha \rightarrow \beta}= \delta_{\alpha \beta} - 4 \Sigma Re(U^{*}_{\alpha i} U_{\beta i} U{\alpha j} U^{*}_{\beta j})sin^{2}\left(\frac{\Delta m^{2}_{ij} L}{4E}\right) 2 \Sigma Im(U^{*}_{\alpha i} U_{\beta i} U{\alpha j} U^{*}_{\beta j})sin\left(\frac{\Delta m^{2}_{ij} L}{2E}\right)
 \end{equation}
 
-The main things to notice here are $\delta_{ij}$ which is the CP violating term and has not been measured yet, and $\theta_{13}$ which has just been measured. CP violation is a violation of the postulated CP-symmetry. CP-symmetry states that the laws of physics should be the same if a particle were to be exchanged with its antiparticle and then if the left hand side of a decay were switched with the right hand side. Table \ref{table:measurements} shows the current world knowledge of the values of all the fundamental parameters for neutrino oscillations \cite{pdg}. 
+The main things to notice here are $\delta_{ij}$ which is the CP violating term and has not been measured yet, and $\theta_{13}$ which has just been measured. CP violation is a violation of the postulated CP-symmetry. CP-symmetry states that the laws of physics should be the same if a particle were to be exchanged with its antiparticle and then if the left hand side of a decay were switched with the right hand side. Table \ref{table:measurements} shows the current knowledge of the values of all the fundamental parameters for neutrino oscillations \cite{pdg}. 
 \begin{table}[htp!]
 \centering
-\caption{Current world knowledge of neutrino oscillation parameters \cite{pdg}}
+\caption{Current knowledge of neutrino oscillation parameters \cite{pdg}}
 \label{table:measurements}
 \resizebox{0.5\textwidth}{!}{\begin{tabular}{c c}
 \hline
@@ -271,7 +264,7 @@ $\delta_{cp}$ & unknown\\
 \end{table}
 
 \section{Neutrino Interactions}
-As stated previously, neutrinos interact via the weak force, because of this, we don't directly see the path of the neutrino through a detector. It is important to understand neutrino interactions, and hence cross-sections before precision measurements of neutrino oscillations can be determined. 
+As stated previously, neutrinos interact via the weak force, because of this, we do not directly see the path of the neutrino through a detector. It is important to understand neutrino interactions, and hence cross-sections before precision measurements of neutrino oscillations can be determined. 
 \subsection{Weak Interactions}
 The weak force has two forms, charged-current (CC) interactions which are mediated by the $W^{\pm}$ boson, and neutral-current (NC) which are mediated by the $Z^0$ boson. These bosons are very heavy \cite{griffiths}. Their masses have been measured to be \ref{eq:masses}.
 \begin{equation}

@@ -8,7 +8,7 @@ The 30 year development of the ICARUS detector has led to LArTPCs being used to 
 
 The next phases of the liquid argon neutrino program are under way and are the Fermilab Short Baseline Neutrino (SBN) program \cite{sbn} and the Deep Underground Neutrino Experiment (DUNE) \cite{dune}. The SBN program will include three LArTPC detectors, including the MicroBooNE detector, on the Booster Neutrino Beam (BNB) to do multiple-baseline oscillation measurements. The detector closest to the beam will be the \sim 100 ton Short Baseline Neutrino Detector (SBND)\cite{sbnd} at 150 m and the detector furthest is the 600 ton ICARUS T600 \cite{icarus_t600} detector positioned at 600 m. The DUNE collaboration will deliver a neutrino beam 1300 km from Fermilab to the DUNE LArTPC detector at Homestake, SD. DUNE will study the leptonic CP phase, $\delta_{cp}$, as well as measure neutrino and anti-neutrino oscillations. 
 \section{The MicroBooNE Time Projection Chamber}
-MicroBooNE \cite{microboone}(Micro Booster Neutrino Experiment) is a ~89 ton active volume (180 ton total mass) LArTPC which is then inserted into a cylindrical cryostat on axis of the BNB stationed at Fermilab in Batavia, Illinois. Understanding LArTPC technology and detector physics is necessary to build a LArTPC the size of DUNE, and MicroBooNE has made many advances in developing this technology\cite{noisechar} \cite{michel}. 
+MicroBooNE \cite{microboone}(Micro Booster Neutrino Experiment) is a ~89 ton active volume (180 ton total mass) LArTPC which is then inserted into a cylindrical cryostat. MicroBooNE is on the BNB line axis stationed at Fermilab in Batavia, Illinois. Understanding LArTPC technology and detector physics is necessary to build a LArTPC the size of DUNE, and MicroBooNE has made many advances in developing this technology\cite{noisechar} \cite{michel}. 
 
 MicroBooNE's Time Projection Chamber (TPC) is 10.3 m long (beam-line direction), 2.3 m high and 2.5 m wide (which corresponds to the drift distance). The TPC is shown in figure \ref{fig:tpc}. MicroBooNE is the largest LArTPC currently running in the world. This LArTPC has 3 wire planes: 1 plane that collects the ionization in the wires and is $0^{\circ}$ to the vertical with 3456 wires spaced 3 mm apart, and 2 planes where the ionization drifts past and induces a signal on the wires which are $\pm 60^{\circ}$ to the vertical. Each induction plane has 2400 wires also spaced 3 mm apart. Each plane has a spacing also of 3 mm from each-other. The first two planes are the induction planes and the last is the collection. The 270 V/cm electric field of the TPC is created using 64 stainless steel tubes shaped into rectangles around the TPC and held in place by G10 to form a field cage. The cathode is biased at a high voltage of -70 kV and this voltage is stepped down across the field cage tubes using a voltage divider chain with an equivalent resistance of 240 $\text{M}\ohm$ between the tubes. The field cage tubes are separated by 4 cm from center to center. The electron drift distance is 2.5 m in the $\hat{x}$ direction with a drift time of 2.3 ms. Maintaining high charge yield is done by continuously recirculating and purifying the argon. 
 \begin{figure}[htp!]
@@ -76,21 +76,21 @@ It's at this point that the protons are directed towards the beryllium target. T
 
 The beryllium target is 71.1 cm long, 1.7 proton interaction lengths, and is 0.51 cm in radius. The target is located inside a larger focusing electromagnet called the horn. The horn is an aluminum alloy pulsed toroidal electromagnet. The pulsed current peaks at 170 kA with a time-width of 143 $\micro s$ which coincides with the protons arriving on the target. The current flows from the inner conductor to the outer conductor with a maximum magnetic field of 1.5 Tesla. The magnetic field focuses the charged secondary particles produced by the p-Be interactions. The direction of current can be switched to changed to polarity of the secondary particles being focused creating a beam of either primarily neutrinos, with positively charged secondary particles, or anti-neutrinos. 
 
-Further down the beam-line is a concrete collimator which absorbs particles not necessary to the neutrino flux. The collimator is 214 cm long and ~ 30 cm in radius. After the collimator comes a 45 meter long, 1 meter radius, air-filled cylindrical decay region which then ends in a beam-stop made of steam and concrete. The beam-stop contains an array of gas proportional counters to detect muons. The BNB is shown in figure \ref{fig:bnb}.      
+Further down the beam-line is a concrete collimator which absorbs particles not necessary to the neutrino flux. The collimator is 214 cm long and \sim 30 cm in radius. After the collimator comes a 45 meter long, 1 meter radius, air-filled cylindrical decay region which then ends in a beam-stop made of steam and concrete. The beam-stop contains an array of gas proportional counters to detect muons. The BNB is shown in figure \ref{fig:bnb}.      
 
 \begin{figure}[htp!]
 \centering
-\includegraphics[width=.6\textwidth]{figs/BNB_layout.jpg}
-\caption{Arial view of the Main Injector and the Booster Neutrino Beam at Fermilab}
+\includegraphics[width=.9\textwidth]{figs/BNB_layout.jpg}
+\caption{Depiction of how the Booster Neutrino Beam is made.}
 \label{fig:bnb}
 \end{figure}
 
-The neutrino flux through MicroBooNE was modeled using Geant4 MC simulation of the beam-line, focusing horn, and decay region. The BNB flux is shown in figure \ref{fig:bnbflux}. 
+The neutrino flux through MicroBooNE was modeled using Geant4 MC simulation of the beam-line, focusing horn, and decay region. The BNB flux is shown in figure \ref{fig:bnbflux} \cite{neutrinoflux}. 
 
 \begin{figure}[htp!]
 \centering
 \includegraphics[width=.6\textwidth]{figs/bnbflux.png}
-\caption{Energy spectrum of the Booster Neutrino Beam at Fermi National Laboratories}
+\caption{Energy spectrum of the Booster Neutrino Beam at Fermi National Laboratories \cite{neutrinoflux}}
 \label{fig:bnbflux}
 \end{figure}
 
