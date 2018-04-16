@@ -4,7 +4,7 @@
 
 %% For short draft builds (breaks citations by necessity)
 %\documentclass[hyperpdf,nobind,draft,hidefrontback]{hepthesis}
-\documentclass[hyperpdf,bindnopdf,usenames,dvipsnames,svgnames,table,longbibliography]{hepthesis}
+\documentclass[hyperpdf,oneside,bindnopdf,usenames,dvipsnames,svgnames,table,longbibliography]{hepthesis}
 
 %%For Cambridge soft-bound version \documentclass[hyperpdf,bindnopdf,usenames,dvipsnames,svgnames,table]{hepthesis}
 %% For Cambridge hard-bound version (must be one-sided)
@@ -20,6 +20,8 @@
 \usepackage{subcaption}
 \usepackage{caption}
 \usepackage{verbatim}
+\usepackage{atbegshi}
+\usepacakge{pdfpages}
 %---------------Add line numbers--------------%
 %\linenumbers
 %---------------Add line numbers--------------%
@@ -58,24 +60,27 @@
 }}{}
 \makeatother
 
+%\AtBeginDocument{\AtBeginShipoutNext{\AtBeginShipoutDiscard}}
 
 %% Start the document
 \begin{document}
 
 \begin{frontmatter}
 
-\let\cleardoublepage\clearpage
+  \thispagestyle{empty}
+  \let\cleardoublepage\clearpage
 \begin{abstract}%[\smaller \thetitle\\ \vspace*{1cm} \smaller {\theauthor}]
   \thispagestyle{empty}
 The purpose of this thesis was to use Convolutional Neural Networks (CNN) to separate $\mu'{s}$ and $\pi'{s}$ for use in increasing the acceptance rate of $\mu'{s}$ below the implemented 75cm track length cut in the Charged Current Inclusive (CC-Inclusive) event selection for the CC-Inclusive Cross-Section Measurement. In doing this, we increase acceptance rate for CC-Inclusive events below a specific momentum range.
 \end{abstract}
 \let\cleardoublepage\clearpage
 \newpage
+
 \begin{center}
 \vspace*{0.2cm}
 \noindent\makebox[\linewidth]{\rule{\textwidth}{0.3pt}}
 {\huge %[Update Title]\\
-$\mu/\pi$ separation using\\ Convolutional Neural Networks \\for the MicroBooNE\\Charged Current Inclusive Cross Section Measurement 
+$\mu/\pi$ separation using \\Convolutional Neural Networks for the \\MicroBooNE Charged Current Inclusive \\Cross Section Measurement 
 %Muon/Pion separation using Convolutional Neural Networks for the MicroBooNE Charged Current Inclusive Cross Section Measurement 
 %Put in your Title\\[-0.3cm]
 %in titlepage.tex\\[0.4cm]
@@ -106,6 +111,7 @@ SYRACUSE UNIVERSITY\\
 Syracuse, New York\\
 
 \end{center}
+
 %\setcounter{page}{2}
 \thispagestyle{empty}
 %\clearpage
@@ -148,16 +154,17 @@ Syracuse, New York\\
   %\input{chap4}
 \end{mainmatter}
 
-%% Produce the appendices
-%\begin{appendices}
-%  \input{appendices}
-%\end{appendices}
 
 %% Produce the un-numbered back matter (e.g. colophon,
 %% bibliography, tables of figures etc., index...)
 \begin{backmatter}
   \input{backmatter}
 \end{backmatter}
+
+%% Produce the appendices
+\begin{appendices}
+  \input{appendices}
+\end{appendices}
 
 %% Close
 \end{document}
