@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2017.8.22)  16 APR 2018 03:38
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2017.8.22)  16 APR 2018 04:09
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -459,96 +459,26 @@ Package: atbegshi 2011/10/05 v1.16 At begin shipout hook (HO)
 Package: ifpdf 2011/01/30 v2.3 Provides the ifpdf switch (HO)
 Package ifpdf Info: pdfTeX in PDF mode is detected.
 ))
-! Undefined control sequence.
-<recently read> \usepacakge 
-                            
-l.24 \usepacakge
-                {pdfpages}
-? 
+(/usr/share/texlive/texmf-dist/tex/latex/pdfpages/pdfpages.sty
+Package: pdfpages 2015/09/18 v0.5d Insert pages of external PDF documents (AM)
 
-! LaTeX Error: Missing \begin{document}.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.24 \usepacakge{p
-                  dfpages}
-? 
-(./preamble.tex (/usr/share/texlive/texmf-dist/tex/latex/tools/xspace.sty
-Package: xspace 2014/10/28 v1.13 Space after command names (DPC,MH)
+(/usr/share/texlive/texmf-dist/tex/latex/tools/calc.sty
+Package: calc 2014/10/28 v4.3 Infix arithmetic (KKT,FJ)
+\calc@Acount=\count132
+\calc@Bcount=\count133
+\calc@Adimen=\dimen151
+\calc@Bdimen=\dimen152
+\calc@Askip=\skip85
+\calc@Bskip=\skip86
+LaTeX Info: Redefining \setlength on input line 80.
+LaTeX Info: Redefining \addtolength on input line 81.
+\calc@Ccount=\count134
+\calc@Cskip=\skip87
 )
-(/usr/share/texlive/texmf-dist/tex/latex/pgf/frontendlayer/tikz.sty
-(/usr/share/texlive/texmf-dist/tex/latex/pgf/basiclayer/pgf.sty
-(/usr/share/texlive/texmf-dist/tex/latex/pgf/utilities/pgfrcs.sty
-(/usr/share/texlive/texmf-dist/tex/generic/pgf/utilities/pgfutil-common.tex
-\pgfutil@everybye=\toks26
-\pgfutil@tempdima=\dimen151
-\pgfutil@tempdimb=\dimen152
+(/usr/share/texlive/texmf-dist/tex/latex/eso-pic/eso-pic.sty
+Package: eso-pic 2015/07/21 v2.0g eso-pic (RN)
 
-(/usr/share/texlive/texmf-dist/tex/generic/pgf/utilities/pgfutil-common-lists.t
-ex)) (/usr/share/texlive/texmf-dist/tex/generic/pgf/utilities/pgfutil-latex.def
-\pgfutil@abb=\box60
-(/usr/share/texlive/texmf-dist/tex/latex/ms/everyshi.sty
-Package: everyshi 2001/05/15 v3.00 EveryShipout Package (MS)
-))
-(/usr/share/texlive/texmf-dist/tex/generic/pgf/utilities/pgfrcs.code.tex
-Package: pgfrcs 2015/08/07 v3.0.1a (rcs-revision 1.31)
-))
-Package: pgf 2015/08/07 v3.0.1a (rcs-revision 1.15)
-
-(/usr/share/texlive/texmf-dist/tex/latex/pgf/basiclayer/pgfcore.sty
-(/usr/share/texlive/texmf-dist/tex/latex/pgf/systemlayer/pgfsys.sty
-(/usr/share/texlive/texmf-dist/tex/generic/pgf/systemlayer/pgfsys.code.tex
-Package: pgfsys 2014/07/09 v3.0.1a (rcs-revision 1.48)
-
-(/usr/share/texlive/texmf-dist/tex/generic/pgf/utilities/pgfkeys.code.tex
-\pgfkeys@pathtoks=\toks27
-\pgfkeys@temptoks=\toks28
-
-(/usr/share/texlive/texmf-dist/tex/generic/pgf/utilities/pgfkeysfiltered.code.t
-ex
-\pgfkeys@tmptoks=\toks29
-))
-\pgf@x=\dimen153
-\pgf@y=\dimen154
-\pgf@xa=\dimen155
-\pgf@ya=\dimen156
-\pgf@xb=\dimen157
-\pgf@yb=\dimen158
-\pgf@xc=\dimen159
-\pgf@yc=\dimen160
-\w@pgf@writea=\write4
-\r@pgf@reada=\read2
-\c@pgf@counta=\count132
-\c@pgf@countb=\count133
-\c@pgf@countc=\count134
-\c@pgf@countd=\count135
-\t@pgf@toka=\toks30
-\t@pgf@tokb=\toks31
-\t@pgf@tokc=\toks32
- (/usr/share/texlive/texmf-dist/tex/generic/pgf/systemlayer/pgf.cfg
-File: pgf.cfg 2008/05/14  (rcs-revision 1.7)
-)
-Driver file for pgf: pgfsys-pdftex.def
-
-(/usr/share/texlive/texmf-dist/tex/generic/pgf/systemlayer/pgfsys-pdftex.def
-File: pgfsys-pdftex.def 2014/10/11  (rcs-revision 1.35)
-
-(/usr/share/texlive/texmf-dist/tex/generic/pgf/systemlayer/pgfsys-common-pdf.de
-f
-File: pgfsys-common-pdf.def 2013/10/10  (rcs-revision 1.13)
-)))
-(/usr/share/texlive/texmf-dist/tex/generic/pgf/systemlayer/pgfsyssoftpath.code.
-tex
-File: pgfsyssoftpath.code.tex 2013/09/09  (rcs-revision 1.9)
-\pgfsyssoftpath@smallbuffer@items=\count136
-\pgfsyssoftpath@bigbuffer@items=\count137
-)
-(/usr/share/texlive/texmf-dist/tex/generic/pgf/systemlayer/pgfsysprotocol.code.
-tex
-File: pgfsysprotocol.code.tex 2006/10/16  (rcs-revision 1.4)
-)) (/usr/share/texlive/texmf-dist/tex/latex/xcolor/xcolor.sty
+(/usr/share/texlive/texmf-dist/tex/latex/xcolor/xcolor.sty
 Package: xcolor 2007/01/21 v2.11 LaTeX color extensions (UK)
 
 (/usr/share/texlive/texmf-dist/tex/latex/latexconfig/color.cfg
@@ -561,16 +491,16 @@ Package: colortbl 2012/02/13 v1.0a Color table columns (DPC)
 
 (/usr/share/texlive/texmf-dist/tex/latex/tools/array.sty
 Package: array 2014/10/28 v2.4c Tabular extension package (FMi)
-\col@sep=\dimen161
-\extrarowheight=\dimen162
-\NC@list=\toks33
-\extratabsurround=\skip85
-\backup@length=\skip86
+\col@sep=\dimen153
+\extrarowheight=\dimen154
+\NC@list=\toks26
+\extratabsurround=\skip88
+\backup@length=\skip89
 )
-\everycr=\toks34
-\minrowclearance=\skip87
+\everycr=\toks27
+\minrowclearance=\skip90
 )
-\rownum=\count138
+\rownum=\count135
 Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1337.
 Package xcolor Info: Model `hsb' substituted by `rgb' on input line 1341.
 Package xcolor Info: Model `RGB' extended on input line 1353.
@@ -586,6 +516,91 @@ File: dvipsnam.def 2015/12/30 v3.0k Driver-dependent file (DPC,SPQR)
 )
 (/usr/share/texlive/texmf-dist/tex/latex/xcolor/svgnam.def
 File: svgnam.def 2007/01/21 v2.11 Predefined colors according to SVG 1.1 (UK)
+)))
+\AM@pagewidth=\dimen155
+\AM@pageheight=\dimen156
+
+(/usr/share/texlive/texmf-dist/tex/latex/pdfpages/pppdftex.def
+File: pppdftex.def 2015/09/18 v0.5d Pdfpages driver for pdfTeX (AM)
+)
+\AM@pagebox=\box60
+\AM@toc@title=\toks28
+\c@AM@survey=\count136
+\AM@templatesizebox=\box61
+)
+(./preamble.tex (/usr/share/texlive/texmf-dist/tex/latex/tools/xspace.sty
+Package: xspace 2014/10/28 v1.13 Space after command names (DPC,MH)
+)
+(/usr/share/texlive/texmf-dist/tex/latex/pgf/frontendlayer/tikz.sty
+(/usr/share/texlive/texmf-dist/tex/latex/pgf/basiclayer/pgf.sty
+(/usr/share/texlive/texmf-dist/tex/latex/pgf/utilities/pgfrcs.sty
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/utilities/pgfutil-common.tex
+\pgfutil@everybye=\toks29
+\pgfutil@tempdima=\dimen157
+\pgfutil@tempdimb=\dimen158
+
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/utilities/pgfutil-common-lists.t
+ex)) (/usr/share/texlive/texmf-dist/tex/generic/pgf/utilities/pgfutil-latex.def
+\pgfutil@abb=\box62
+(/usr/share/texlive/texmf-dist/tex/latex/ms/everyshi.sty
+Package: everyshi 2001/05/15 v3.00 EveryShipout Package (MS)
+))
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/utilities/pgfrcs.code.tex
+Package: pgfrcs 2015/08/07 v3.0.1a (rcs-revision 1.31)
+))
+Package: pgf 2015/08/07 v3.0.1a (rcs-revision 1.15)
+
+(/usr/share/texlive/texmf-dist/tex/latex/pgf/basiclayer/pgfcore.sty
+(/usr/share/texlive/texmf-dist/tex/latex/pgf/systemlayer/pgfsys.sty
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/systemlayer/pgfsys.code.tex
+Package: pgfsys 2014/07/09 v3.0.1a (rcs-revision 1.48)
+
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/utilities/pgfkeys.code.tex
+\pgfkeys@pathtoks=\toks30
+\pgfkeys@temptoks=\toks31
+
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/utilities/pgfkeysfiltered.code.t
+ex
+\pgfkeys@tmptoks=\toks32
+))
+\pgf@x=\dimen159
+\pgf@y=\dimen160
+\pgf@xa=\dimen161
+\pgf@ya=\dimen162
+\pgf@xb=\dimen163
+\pgf@yb=\dimen164
+\pgf@xc=\dimen165
+\pgf@yc=\dimen166
+\w@pgf@writea=\write4
+\r@pgf@reada=\read2
+\c@pgf@counta=\count137
+\c@pgf@countb=\count138
+\c@pgf@countc=\count139
+\c@pgf@countd=\count140
+\t@pgf@toka=\toks33
+\t@pgf@tokb=\toks34
+\t@pgf@tokc=\toks35
+ (/usr/share/texlive/texmf-dist/tex/generic/pgf/systemlayer/pgf.cfg
+File: pgf.cfg 2008/05/14  (rcs-revision 1.7)
+)
+Driver file for pgf: pgfsys-pdftex.def
+
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/systemlayer/pgfsys-pdftex.def
+File: pgfsys-pdftex.def 2014/10/11  (rcs-revision 1.35)
+
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/systemlayer/pgfsys-common-pdf.de
+f
+File: pgfsys-common-pdf.def 2013/10/10  (rcs-revision 1.13)
+)))
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/systemlayer/pgfsyssoftpath.code.
+tex
+File: pgfsyssoftpath.code.tex 2013/09/09  (rcs-revision 1.9)
+\pgfsyssoftpath@smallbuffer@items=\count141
+\pgfsyssoftpath@bigbuffer@items=\count142
+)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/systemlayer/pgfsysprotocol.code.
+tex
+File: pgfsysprotocol.code.tex 2006/10/16  (rcs-revision 1.4)
 ))
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcore.code.tex
 Package: pgfcore 2010/04/11 v3.0.1a (rcs-revision 1.7)
@@ -594,12 +609,12 @@ Package: pgfcore 2010/04/11 v3.0.1a (rcs-revision 1.7)
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathcalc.code.tex
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathutil.code.tex)
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathparser.code.tex
-\pgfmath@dimen=\dimen163
-\pgfmath@count=\count139
-\pgfmath@box=\box61
-\pgfmath@toks=\toks35
-\pgfmath@stack@operand=\toks36
-\pgfmath@stack@operation=\toks37
+\pgfmath@dimen=\dimen167
+\pgfmath@count=\count143
+\pgfmath@box=\box63
+\pgfmath@toks=\toks36
+\pgfmath@stack@operand=\toks37
+\pgfmath@stack@operation=\toks38
 )
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.code.tex
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.basic.code
@@ -619,57 +634,57 @@ tex)
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.integerari
 thmetics.code.tex)))
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfloat.code.tex
-\c@pgfmathroundto@lastzeros=\count140
+\c@pgfmathroundto@lastzeros=\count144
 ))
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepoints.code.te
 x
 File: pgfcorepoints.code.tex 2013/10/07  (rcs-revision 1.27)
-\pgf@picminx=\dimen164
-\pgf@picmaxx=\dimen165
-\pgf@picminy=\dimen166
-\pgf@picmaxy=\dimen167
-\pgf@pathminx=\dimen168
-\pgf@pathmaxx=\dimen169
-\pgf@pathminy=\dimen170
-\pgf@pathmaxy=\dimen171
-\pgf@xx=\dimen172
-\pgf@xy=\dimen173
-\pgf@yx=\dimen174
-\pgf@yy=\dimen175
-\pgf@zx=\dimen176
-\pgf@zy=\dimen177
+\pgf@picminx=\dimen168
+\pgf@picmaxx=\dimen169
+\pgf@picminy=\dimen170
+\pgf@picmaxy=\dimen171
+\pgf@pathminx=\dimen172
+\pgf@pathmaxx=\dimen173
+\pgf@pathminy=\dimen174
+\pgf@pathmaxy=\dimen175
+\pgf@xx=\dimen176
+\pgf@xy=\dimen177
+\pgf@yx=\dimen178
+\pgf@yy=\dimen179
+\pgf@zx=\dimen180
+\pgf@zy=\dimen181
 )
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathconstruct.
 code.tex
 File: pgfcorepathconstruct.code.tex 2013/10/07  (rcs-revision 1.29)
-\pgf@path@lastx=\dimen178
-\pgf@path@lasty=\dimen179
+\pgf@path@lastx=\dimen182
+\pgf@path@lasty=\dimen183
 )
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathusage.code
 .tex
 File: pgfcorepathusage.code.tex 2014/11/02  (rcs-revision 1.24)
-\pgf@shorten@end@additional=\dimen180
-\pgf@shorten@start@additional=\dimen181
+\pgf@shorten@end@additional=\dimen184
+\pgf@shorten@start@additional=\dimen185
 )
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorescopes.code.te
 x
 File: pgfcorescopes.code.tex 2015/05/08  (rcs-revision 1.46)
-\pgfpic=\box62
-\pgf@hbox=\box63
-\pgf@layerbox@main=\box64
-\pgf@picture@serial@count=\count141
+\pgfpic=\box64
+\pgf@hbox=\box65
+\pgf@layerbox@main=\box66
+\pgf@picture@serial@count=\count145
 )
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcoregraphicstate.c
 ode.tex
 File: pgfcoregraphicstate.code.tex 2014/11/02  (rcs-revision 1.12)
-\pgflinewidth=\dimen182
+\pgflinewidth=\dimen186
 )
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcoretransformation
 s.code.tex
 File: pgfcoretransformations.code.tex 2015/08/07  (rcs-revision 1.20)
-\pgf@pt@x=\dimen183
-\pgf@pt@y=\dimen184
-\pgf@pt@temp=\dimen185
+\pgf@pt@x=\dimen187
+\pgf@pt@y=\dimen188
+\pgf@pt@temp=\dimen189
 )
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorequick.code.tex
 File: pgfcorequick.code.tex 2008/10/09  (rcs-revision 1.3)
@@ -685,12 +700,12 @@ File: pgfcorepathprocessing.code.tex 2013/09/09  (rcs-revision 1.9)
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorearrows.code.te
 x
 File: pgfcorearrows.code.tex 2015/05/14  (rcs-revision 1.43)
-\pgfarrowsep=\dimen186
+\pgfarrowsep=\dimen190
 )
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreshade.code.tex
 File: pgfcoreshade.code.tex 2013/07/15  (rcs-revision 1.15)
-\pgf@max=\dimen187
-\pgf@sys@shading@range@num=\count142
+\pgf@max=\dimen191
+\pgf@sys@shading@range@num=\count146
 )
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreimage.code.tex
 File: pgfcoreimage.code.tex 2013/07/15  (rcs-revision 1.18)
@@ -698,7 +713,7 @@ File: pgfcoreimage.code.tex 2013/07/15  (rcs-revision 1.18)
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreexternal.code.
 tex
 File: pgfcoreexternal.code.tex 2014/07/09  (rcs-revision 1.21)
-\pgfexternal@startupbox=\box65
+\pgfexternal@startupbox=\box67
 ))
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorelayers.code.te
 x
@@ -714,15 +729,15 @@ File: pgfcorepatterns.code.tex 2013/11/07  (rcs-revision 1.5)
 )))
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/modules/pgfmoduleshapes.code.tex
 File: pgfmoduleshapes.code.tex 2014/03/21  (rcs-revision 1.35)
-\pgfnodeparttextbox=\box66
+\pgfnodeparttextbox=\box68
 ) (/usr/share/texlive/texmf-dist/tex/generic/pgf/modules/pgfmoduleplot.code.tex
 File: pgfmoduleplot.code.tex 2015/08/03  (rcs-revision 1.13)
 )
 (/usr/share/texlive/texmf-dist/tex/latex/pgf/compatibility/pgfcomp-version-0-65
 .sty
 Package: pgfcomp-version-0-65 2007/07/03 v3.0.1a (rcs-revision 1.7)
-\pgf@nodesepstart=\dimen188
-\pgf@nodesepend=\dimen189
+\pgf@nodesepstart=\dimen192
+\pgf@nodesepend=\dimen193
 )
 (/usr/share/texlive/texmf-dist/tex/latex/pgf/compatibility/pgfcomp-version-1-18
 .sty
@@ -736,10 +751,10 @@ Package: pgfcomp-version-1-18 2007/07/23 v3.0.1a (rcs-revision 1.1)
 Package: pgffor 2013/12/13 v3.0.1a (rcs-revision 1.25)
 
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmath.code.tex)
-\pgffor@iter=\dimen190
-\pgffor@skip=\dimen191
-\pgffor@stack=\toks38
-\pgffor@toks=\toks39
+\pgffor@iter=\dimen194
+\pgffor@skip=\dimen195
+\pgffor@stack=\toks39
+\pgffor@toks=\toks40
 ))
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/tikz.code.tex
 Package: tikz 2015/08/07 v3.0.1a (rcs-revision 1.151)
@@ -747,31 +762,31 @@ Package: tikz 2015/08/07 v3.0.1a (rcs-revision 1.151)
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/libraries/pgflibraryplothandlers
 .code.tex
 File: pgflibraryplothandlers.code.tex 2013/08/31 v3.0.1a (rcs-revision 1.20)
-\pgf@plot@mark@count=\count143
-\pgfplotmarksize=\dimen192
+\pgf@plot@mark@count=\count147
+\pgfplotmarksize=\dimen196
 )
-\tikz@lastx=\dimen193
-\tikz@lasty=\dimen194
-\tikz@lastxsaved=\dimen195
-\tikz@lastysaved=\dimen196
-\tikzleveldistance=\dimen197
-\tikzsiblingdistance=\dimen198
-\tikz@figbox=\box67
-\tikz@figbox@bg=\box68
-\tikz@tempbox=\box69
-\tikz@tempbox@bg=\box70
-\tikztreelevel=\count144
-\tikznumberofchildren=\count145
-\tikznumberofcurrentchild=\count146
-\tikz@fig@count=\count147
+\tikz@lastx=\dimen197
+\tikz@lasty=\dimen198
+\tikz@lastxsaved=\dimen199
+\tikz@lastysaved=\dimen256
+\tikzleveldistance=\dimen257
+\tikzsiblingdistance=\dimen258
+\tikz@figbox=\box69
+\tikz@figbox@bg=\box70
+\tikz@tempbox=\box71
+\tikz@tempbox@bg=\box72
+\tikztreelevel=\count148
+\tikznumberofchildren=\count149
+\tikznumberofcurrentchild=\count150
+\tikz@fig@count=\count151
 
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/modules/pgfmodulematrix.code.tex
 File: pgfmodulematrix.code.tex 2013/09/17  (rcs-revision 1.8)
-\pgfmatrixcurrentrow=\count148
-\pgfmatrixcurrentcolumn=\count149
-\pgf@matrix@numberofcolumns=\count150
+\pgfmatrixcurrentrow=\count152
+\pgfmatrixcurrentcolumn=\count153
+\pgf@matrix@numberofcolumns=\count154
 )
-\tikz@expandcount=\count151
+\tikz@expandcount=\count155
 
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tik
 zlibrarytopaths.code.tex
@@ -808,21 +823,21 @@ Package: mathrsfs 1996/01/01 Math RSFS package v1.0 (jk)
 \symrsfs=\mathgroup5
 )
 (/usr/share/texlive/texmf-dist/tex/latex/wrapfig/wrapfig.sty
-\wrapoverhang=\dimen199
-\WF@size=\dimen256
-\c@WF@wrappedlines=\count152
-\WF@box=\box71
-\WF@everypar=\toks40
+\wrapoverhang=\dimen259
+\WF@size=\dimen260
+\c@WF@wrappedlines=\count156
+\WF@box=\box73
+\WF@everypar=\toks41
 Package: wrapfig 2003/01/31  v 3.6
 )
 (/usr/share/texlive/texmf-dist/tex/latex/sidecap/sidecap.sty
 Package: sidecap 2003/06/06 v1.6f SideCap Package (RN/HjG)
-\SC@BOXWD=\dimen257
-\SC@CAPWD=\dimen258
-\SC@tempdima=\dimen259
-\SC@tempdimb=\dimen260
-\c@SC@C=\count153
-\SC@BOX=\box72
+\SC@BOXWD=\dimen261
+\SC@CAPWD=\dimen262
+\SC@tempdima=\dimen263
+\SC@tempdimb=\dimen264
+\c@SC@C=\count157
+\SC@BOX=\box74
 )
 (/usr/share/texlive/texmf-dist/tex/latex/pgfgantt/pgfgantt.sty
 Package: pgfgantt 2013/06/01 v4.0 Draw Gantt diagrams with TikZ
@@ -834,13 +849,13 @@ File: tikzlibraryarrows.code.tex 2008/01/09 v3.0.1a (rcs-revision 1.1)
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/libraries/pgflibraryarrows.code.
 tex
 File: pgflibraryarrows.code.tex 2013/09/23 v3.0.1a (rcs-revision 1.16)
-\arrowsize=\dimen261
+\arrowsize=\dimen265
 ))
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tik
 zlibrarybackgrounds.code.tex
 File: tikzlibrarybackgrounds.code.tex 2013/07/18 v3.0.1a (rcs-revision 1.3)
-\pgf@layerbox@background=\box73
-\pgf@layerboxsaved@background=\box74
+\pgf@layerbox@background=\box75
+\pgf@layerboxsaved@background=\box76
 )
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tik
 zlibrarycalc.code.tex
@@ -871,22 +886,22 @@ File: pgflibraryshapes.geometric.code.tex 2008/06/26 v3.0.1a (rcs-revision 1.1)
 (/usr/share/texlive/texmf-dist/tex/latex/pgf/utilities/pgfcalendar.sty
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/utilities/pgfcalendar.code.tex
 File: pgfcalendar.code.tex 2007/07/23 v3.0.1a (rcs-revision 1.11)
-\pgfcalendarcurrentjulian=\count154
+\pgfcalendarcurrentjulian=\count158
 ))
-\gtt@currentline=\count155
-\gtt@lasttitleline=\count156
-\gtt@currgrid=\count157
-\gtt@chartwidth=\count158
-\gtt@lasttitleslot=\count159
-\gtt@elementid=\count160
-\gtt@today@slot=\count161
-\gtt@startjulian=\count162
-\gtt@endjulian=\count163
-\gtt@calendar@slots=\count164
-\gtt@calendar@weeknumber=\count165
-\gtt@calendar@startofweek=\count166
-\gtt@left@slot=\count167
-\gtt@right@slot=\count168
+\gtt@currentline=\count159
+\gtt@lasttitleline=\count160
+\gtt@currgrid=\count161
+\gtt@chartwidth=\count162
+\gtt@lasttitleslot=\count163
+\gtt@elementid=\count164
+\gtt@today@slot=\count165
+\gtt@startjulian=\count166
+\gtt@endjulian=\count167
+\gtt@calendar@slots=\count168
+\gtt@calendar@weeknumber=\count169
+\gtt@calendar@startofweek=\count170
+\gtt@left@slot=\count171
+\gtt@right@slot=\count172
 ) (/usr/share/texlive/texmf-dist/tex/generic/babel/babel.sty
 Package: babel 2016/02/24 3.9q The Babel package
 
@@ -895,8 +910,8 @@ Language: english 2012/08/20 v3.3p English support from the babel system
 
 (/usr/share/texlive/texmf-dist/tex/generic/babel/babel.def
 File: babel.def 2016/02/24 3.9q Babel common definitions
-\babel@savecnt=\count169
-\U@D=\dimen262
+\babel@savecnt=\count173
+\U@D=\dimen266
 )
 \l@british = a dialect from \language\l@english 
 \l@UKenglish = a dialect from \language\l@english 
@@ -981,7 +996,7 @@ Package: SIunits 2007/12/02 v1.36 Support for the International System of units
  (MH)
 
 
-\@qskwidth=\skip88
+\@qskwidth=\skip91
 \symgreek=\mathgroup10
 
 Package SIunits Warning: You have no `SIunits.cfg' file installed. 
@@ -999,7 +1014,7 @@ Option `thickqspace' provided!
 Option `textstyle' provided!
 Option `squaren' provided!
 ))
-\CKMPairWidth=\skip89
+\CKMPairWidth=\skip92
 LaTeX Font Info:    Try loading font information for OT1+ppl on input line 157.
 
  (/usr/share/texlive/texmf-dist/tex/latex/psnfss/ot1ppl.fd
@@ -1052,10 +1067,10 @@ Package: xkeyval 2014/12/03 v2.7a package option processing (HA)
 
 (/usr/share/texlive/texmf-dist/tex/generic/xkeyval/xkeyval.tex
 (/usr/share/texlive/texmf-dist/tex/generic/xkeyval/xkvutils.tex
-\XKV@toks=\toks41
-\XKV@tempa@toks=\toks42
+\XKV@toks=\toks42
+\XKV@tempa@toks=\toks43
 )
-\XKV@depth=\count170
+\XKV@depth=\count174
 File: xkeyval.tex 2014/12/03 v2.7a key=value parser (HA)
 ))
 (/usr/share/texlive/texmf-dist/tex/latex/adjustbox/adjcalc.sty
@@ -1067,74 +1082,74 @@ Package: trimclip 2012/05/16 v1.0 Trim and clip general TeX material
 
 (/usr/share/texlive/texmf-dist/tex/latex/collectbox/collectbox.sty
 Package: collectbox 2012/05/17 v0.4b Collect macro arguments as boxes
-\collectedbox=\box75
+\collectedbox=\box77
 )
-\tc@llx=\dimen263
-\tc@lly=\dimen264
-\tc@urx=\dimen265
-\tc@ury=\dimen266
+\tc@llx=\dimen267
+\tc@lly=\dimen268
+\tc@urx=\dimen269
+\tc@ury=\dimen270
 Package trimclip Info: Using driver 'tc-pdftex.def'.
 
 (/usr/share/texlive/texmf-dist/tex/latex/adjustbox/tc-pdftex.def
 File: tc-pdftex.def 2012/05/13 v1.0 Clipping driver for pdftex
 ))
-\adjbox@Width=\dimen267
-\adjbox@Height=\dimen268
-\adjbox@Depth=\dimen269
-\adjbox@Totalheight=\dimen270
+\adjbox@Width=\dimen271
+\adjbox@Height=\dimen272
+\adjbox@Depth=\dimen273
+\adjbox@Totalheight=\dimen274
 
 (/usr/share/texlive/texmf-dist/tex/latex/ifoddpage/ifoddpage.sty
 Package: ifoddpage 2011/09/13 v1.0 Conditionals for odd/even page detection
-\c@checkoddpage=\count171
+\c@checkoddpage=\count175
 LaTeX Info: Redefining \checkoddpage on input line 25.
 )))
 (/usr/share/texlive/texmf-dist/tex/latex/floatrow/floatrow.sty
 Package: floatrow 2008/08/02 v0.3b floatrow: float package extension
-\c@float@type=\count172
-\float@exts=\toks43
-\float@box=\box76
-\@floatcapt=\box77
+\c@float@type=\count176
+\float@exts=\toks44
+\float@box=\box78
+\@floatcapt=\box79
 Package floatrow Info: Modified float package code loaded on input line 455.
 Package floatrow Info: Modified rotfloat package code loaded on input line 473.
 
-\FR@everyfloat=\toks44
+\FR@everyfloat=\toks45
 \flrow@foot=\insert252
-\FB@wd=\dimen271
-\FBo@wd=\dimen272
-\FBc@wd=\dimen273
-\FBo@ht=\skip90
-\FBc@ht=\skip91
-\FBf@ht=\skip92
-\FBo@max=\skip93
-\FBc@max=\skip94
-\FBf@max=\skip95
-\c@FBl@b=\count173
-\floatbox@depth=\count174
-\c@FRobj=\count175
-\c@FRsobj=\count176
-\Xhsize=\skip96
-\sXhsize=\skip97
-\Zhsize=\skip98
-\sZhsize=\skip99
-\flrow@rowbox=\box78
-\FR@Zunitlength=\dimen274
-\c@FBcnt=\count177
-\FPOScnt=\count178
-\LTleft=\skip100
-\LTright=\skip101
-\LTleft=\skip102
-\LTright=\skip103
-\flrow@types=\toks45
+\FB@wd=\dimen275
+\FBo@wd=\dimen276
+\FBc@wd=\dimen277
+\FBo@ht=\skip93
+\FBc@ht=\skip94
+\FBf@ht=\skip95
+\FBo@max=\skip96
+\FBc@max=\skip97
+\FBf@max=\skip98
+\c@FBl@b=\count177
+\floatbox@depth=\count178
+\c@FRobj=\count179
+\c@FRsobj=\count180
+\Xhsize=\skip99
+\sXhsize=\skip100
+\Zhsize=\skip101
+\sZhsize=\skip102
+\flrow@rowbox=\box80
+\FR@Zunitlength=\dimen278
+\c@FBcnt=\count181
+\FPOScnt=\count182
+\LTleft=\skip103
+\LTright=\skip104
+\LTleft=\skip105
+\LTright=\skip106
+\flrow@types=\toks46
 )
 (/usr/share/texlive/texmf-dist/tex/latex/csquotes/csquotes.sty
 Package: csquotes 2016/01/31 v5.1g context-sensitive quotations (JAW)
-\csq@reset=\count179
-\csq@gtype=\count180
-\csq@glevel=\count181
-\csq@qlevel=\count182
-\csq@maxlvl=\count183
-\csq@tshold=\count184
-\csq@ltx@everypar=\toks46
+\csq@reset=\count183
+\csq@gtype=\count184
+\csq@glevel=\count185
+\csq@qlevel=\count186
+\csq@maxlvl=\count187
+\csq@tshold=\count188
+\csq@ltx@everypar=\toks47
 
 (/usr/share/texlive/texmf-dist/tex/latex/csquotes/csquotes.def
 File: csquotes.def 2016/01/31 v5.1g csquotes generic definitions (JAW)
@@ -1194,14 +1209,14 @@ Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
 (/usr/share/texlive/texmf-dist/tex/latex/oberdiek/auxhook.sty
 Package: auxhook 2011/03/04 v1.3 Hooks for auxiliary files (HO)
 )
-\@linkdim=\dimen275
-\Hy@linkcounter=\count185
-\Hy@pagecounter=\count186
+\@linkdim=\dimen279
+\Hy@linkcounter=\count189
+\Hy@pagecounter=\count190
 
 (/usr/share/texlive/texmf-dist/tex/latex/hyperref/pd1enc.def
 File: pd1enc.def 2012/11/06 v6.83m Hyperref: PDFDocEncoding definition (HO)
 )
-\Hy@SavedSpaceFactor=\count187
+\Hy@SavedSpaceFactor=\count191
 
 (/usr/share/texlive/texmf-dist/tex/latex/latexconfig/hyperref.cfg
 File: hyperref.cfg 2002/06/06 v1.2 hyperref configuration of TeXLive
@@ -1216,17 +1231,17 @@ Package hyperref Info: Plain pages OFF on input line 4458.
 Package hyperref Info: Backreferencing OFF on input line 4463.
 Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
 Package hyperref Info: Bookmarks ON on input line 4688.
-\c@Hy@tempcnt=\count188
+\c@Hy@tempcnt=\count192
 
 (/usr/share/texlive/texmf-dist/tex/latex/url/url.sty
 \Urlmuskip=\muskip11
 Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
 )
 LaTeX Info: Redefining \url on input line 5041.
-\XeTeXLinkMargin=\dimen276
-\Fld@menulength=\count189
-\Field@Width=\dimen277
-\Fld@charsize=\dimen278
+\XeTeXLinkMargin=\dimen280
+\Fld@menulength=\count193
+\Field@Width=\dimen281
+\Fld@charsize=\dimen282
 Package hyperref Info: Hyper figures OFF on input line 6295.
 Package hyperref Info: Link nesting OFF on input line 6300.
 Package hyperref Info: Hyper index ON on input line 6303.
@@ -1236,24 +1251,24 @@ Package hyperref Info: Link coloring with OCG OFF on input line 6320.
 Package hyperref Info: PDF/A mode OFF on input line 6325.
 LaTeX Info: Redefining \ref on input line 6365.
 LaTeX Info: Redefining \pageref on input line 6369.
-\Hy@abspage=\count190
-\c@Item=\count191
-\c@Hfootnote=\count192
+\Hy@abspage=\count194
+\c@Item=\count195
+\c@Hfootnote=\count196
 )
 
 Package hyperref Message: Driver (autodetected): hpdftex.
 
 (/usr/share/texlive/texmf-dist/tex/latex/hyperref/hpdftex.def
 File: hpdftex.def 2012/11/06 v6.83m Hyperref driver for pdfTeX
-\Fld@listcount=\count193
-\c@bookmark@seq@number=\count194
+\Fld@listcount=\count197
+\c@bookmark@seq@number=\count198
 
 (/usr/share/texlive/texmf-dist/tex/latex/oberdiek/rerunfilecheck.sty
 Package: rerunfilecheck 2011/04/15 v1.7 Rerun checks for auxiliary files (HO)
 Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
 82.
 )
-\Hy@SectionHShift=\skip104
+\Hy@SectionHShift=\skip107
 )
 
 LaTeX Warning: Unused global option(s):
@@ -1303,17 +1318,17 @@ File: mt-ppl.cfg 2005/11/16 v1.6 microtype config. file: Palatino (RS)
 )
 (/usr/share/texlive/texmf-dist/tex/context/base/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count195
-\scratchdimen=\dimen279
-\scratchbox=\box79
-\nofMPsegments=\count196
-\nofMParguments=\count197
-\everyMPshowfont=\toks47
-\MPscratchCnt=\count198
-\MPscratchDim=\dimen280
-\MPnumerator=\count199
-\makeMPintoPDFobject=\count266
-\everyMPtoPDFconversion=\toks48
+\scratchcounter=\count199
+\scratchdimen=\dimen283
+\scratchbox=\box81
+\nofMPsegments=\count266
+\nofMParguments=\count267
+\everyMPshowfont=\toks48
+\MPscratchCnt=\count268
+\MPscratchDim=\dimen284
+\MPnumerator=\count269
+\makeMPintoPDFobject=\count270
+\everyMPtoPDFconversion=\toks49
 ) (/usr/share/texlive/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
 Package: epstopdf-base 2010/02/09 v2.5 Base part for package epstopdf
 
@@ -1337,8 +1352,16 @@ Package caption Info: hyperref package is loaded.
 Package caption Info: sidecap package is loaded.
 Package caption Info: wrapfig package is loaded.
 Package caption Info: End \AtBeginDocument code.
-\AtBeginShipoutBox=\box80
+\AtBeginShipoutBox=\box82
 
+(/usr/share/texlive/texmf-dist/tex/latex/oberdiek/pdflscape.sty
+Package: pdflscape 2008/08/11 v0.10 Display of landscape pages in PDF (HO)
+
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/lscape.sty
+Package: lscape 2000/10/22 v3.01 Landscape Pages (DPC)
+)
+Package pdflscape Info: Auto-detected driver: pdftex on input line 80.
+)
 ABD: EveryShipout initializing macros
 (/usr/share/texlive/texmf-dist/tex/latex/ms/ragged2e.sty
 Package: ragged2e 2009/05/21 v2.1 ragged2e Package (MS)
@@ -1349,20 +1372,20 @@ Package: everysel 2011/10/28 v1.2 EverySelectfont Package (MS)
 ABD: EverySelectfont initializing macros
 LaTeX Info: Redefining \selectfont on input line 126.
 )
-\CenteringLeftskip=\skip105
-\RaggedLeftLeftskip=\skip106
-\RaggedRightLeftskip=\skip107
-\CenteringRightskip=\skip108
-\RaggedLeftRightskip=\skip109
-\RaggedRightRightskip=\skip110
-\CenteringParfillskip=\skip111
-\RaggedLeftParfillskip=\skip112
-\RaggedRightParfillskip=\skip113
-\JustifyingParfillskip=\skip114
-\CenteringParindent=\skip115
-\RaggedLeftParindent=\skip116
-\RaggedRightParindent=\skip117
-\JustifyingParindent=\skip118
+\CenteringLeftskip=\skip108
+\RaggedLeftLeftskip=\skip109
+\RaggedRightLeftskip=\skip110
+\CenteringRightskip=\skip111
+\RaggedLeftRightskip=\skip112
+\RaggedRightRightskip=\skip113
+\CenteringParfillskip=\skip114
+\RaggedLeftParfillskip=\skip115
+\RaggedRightParfillskip=\skip116
+\JustifyingParfillskip=\skip117
+\CenteringParindent=\skip118
+\RaggedLeftParindent=\skip119
+\RaggedRightParindent=\skip120
+\JustifyingParindent=\skip121
 )
 Option `squaren' provided! 
  Command \squaren defined by SIunits package!
@@ -1375,7 +1398,7 @@ Package: nameref 2012/10/27 v2.43 Cross-referencing by name of section
 (/usr/share/texlive/texmf-dist/tex/generic/oberdiek/gettitlestring.sty
 Package: gettitlestring 2010/12/03 v1.4 Cleanup title references (HO)
 )
-\c@section@level=\count267
+\c@section@level=\count271
 )
 LaTeX Info: Redefining \ref on input line 66.
 LaTeX Info: Redefining \pageref on input line 66.
@@ -1386,9 +1409,17 @@ LaTeX Info: Redefining \nameref on input line 66.
 \openout5 = `example.out'.
 
  Processing 'frontmatter' comment.
-\c@iterlist=\count268
-LaTeX Font Info:    Font shape `T1/ppl/bx/n' in size <12> not available
-(Font)              Font shape `T1/ppl/b/n' tried instead on input line 68.
+\c@iterlist=\count272
+\openout3 = `comment.cut'.
+
+
+Comment 'frontmatter' writing to comment.cut. Straight input of comment.cut.
+(./comment.cut [1
+
+
+]
+LaTeX Font Info:    Font shape `T1/ppl/bx/n' in size <20.74> not available
+(Font)              Font shape `T1/ppl/b/n' tried instead on input line 5.
 Package microtype Info: Loading generic settings for font family
 (microtype)             `zplm' (encoding: OT1).
 (microtype)             For optimal results, create family-specific settings.
@@ -1396,40 +1427,31 @@ Package microtype Info: Loading generic settings for font family
 
 (/usr/share/texlive/texmf-dist/tex/latex/microtype/mt-eur.cfg
 File: mt-eur.cfg 2006/07/31 v1.1 microtype config. file: AMS Euler Roman (RS)
-) [1
+) [2
 
-{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}]
-\openout3 = `comment.cut'.
-
-
-Comment 'frontmatter' writing to comment.cut. Straight input of comment.cut.
-(./comment.cut [1
-
-]
-LaTeX Font Info:    Font shape `T1/ppl/bx/n' in size <20.74> not available
-(Font)              Font shape `T1/ppl/b/n' tried instead on input line 5.
- [2
-
-] [3] (./seals.tex
-<figs/seal_bw2.pdf, id=335, 229.61578pt x 290.686pt>
+{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}] [3] (./seals.tex
+<figs/seal_bw2.pdf, id=330, 229.61578pt x 290.686pt>
 File: figs/seal_bw2.pdf Graphic file (type pdf)
  <use figs/seal_bw2.pdf>
 Package pdftex.def Info: figs/seal_bw2.pdf used on input line 4.
 (pdftex.def)             Requested size: 298.50047pt x 377.89174pt.
 
-<figs/uboone.png, id=336, 326.21875pt x 102.3825pt>
+<figs/uboone.png, id=331, 326.21875pt x 102.3825pt>
 File: figs/uboone.png Graphic file (type png)
  <use figs/uboone.png>
 Package pdftex.def Info: figs/uboone.png used on input line 4.
 (pdftex.def)             Requested size: 97.86636pt x 30.71498pt.
 
-<figs/nsf2.pdf, id=338, 614.295pt x 794.97pt>
+<figs/nsf2.pdf, id=333, 614.295pt x 794.97pt>
 File: figs/nsf2.pdf Graphic file (type pdf)
  <use figs/nsf2.pdf>
 Package pdftex.def Info: figs/nsf2.pdf used on input line 4.
 (pdftex.def)             Requested size: 92.14026pt x 119.24036pt.
  [4 <./figs/seal_bw2.pdf> <./figs/uboone.png> <./figs/nsf2.pdf>]) (./frontmatte
-r.tex [5
+r.tex
+LaTeX Font Info:    Font shape `T1/ppl/bx/n' in size <12> not available
+(Font)              Font shape `T1/ppl/b/n' tried instead on input line 31.
+ [5
 
 
 ]
@@ -1597,12 +1619,7 @@ Class scrbook Warning: \float@addtolists detected!
 (scrbook)              a package that still implements the
 (scrbook)              deprecated \float@addtolist interface .
 
-) (./neutrinos.texpdfTeX warning (ext4): destination with the same identifier (
-name{page.1}) has been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.1 \chapter
-            {Neutrinos}\label{ch:neutrinos} [1
+) (./neutrinos.tex [1
 
 ] [2]
 chapter 2.
@@ -1613,7 +1630,7 @@ LaTeX Font Info:    Font shape `T1/ppl/bx/n' in size <17.28> not available
 ]
 LaTeX Font Info:    Font shape `T1/ppl/bx/n' in size <14.4> not available
 (Font)              Font shape `T1/ppl/b/n' tried instead on input line 18.
- [4] <figs/solarmodel.jpg, id=1124, 469.00218pt x 362.10281pt>
+ [4] <figs/solarmodel.jpg, id=1119, 469.00218pt x 362.10281pt>
 File: figs/solarmodel.jpg Graphic file (type jpg)
 
 <use figs/solarmodel.jpg>
@@ -1622,13 +1639,13 @@ Package pdftex.def Info: figs/solarmodel.jpg used on input line 26.
 LaTeX Font Info:    Font shape `T1/ppl/bx/n' in size <10.95> not available
 (Font)              Font shape `T1/ppl/b/n' tried instead on input line 27.
  [5 <./figs/solarmodel.jpg>]
-<figs/homestake.jpg, id=1140, 680.3016pt x 539.616pt>
+<figs/homestake.jpg, id=1136, 680.3016pt x 539.616pt>
 File: figs/homestake.jpg Graphic file (type jpg)
  <use figs/homestake.jpg>
 Package pdftex.def Info: figs/homestake.jpg used on input line 44.
 (pdftex.def)             Requested size: 134.4235pt x 106.62033pt.
 
-<figs/kamiokande.jpg, id=1143, 276.03125pt x 184.69pt>
+<figs/kamiokande.jpg, id=1139, 276.03125pt x 184.69pt>
 File: figs/kamiokande.jpg Graphic file (type jpg)
 
 <use figs/kamiokande.jpg>
@@ -1639,7 +1656,7 @@ Underfull \hbox (badness 6188) in paragraph at lines 51--51
 [][]|\T1/ppl/m/n/10.95 (+20) Kamiokande-II Ex-per-i-
  []
 
-<figs/sno.jpg, id=1146, 176.66pt x 235.88126pt>
+<figs/sno.jpg, id=1142, 176.66pt x 235.88126pt>
 File: figs/sno.jpg Graphic file (type jpg)
  <use figs/sno.jpg>
 Package pdftex.def Info: figs/sno.jpg used on input line 56.
@@ -1647,7 +1664,7 @@ Package pdftex.def Info: figs/sno.jpg used on input line 56.
 Package hyperref Info: bookmark level for unknown subfigure defaults to 0 on in
 put line 60.
  [6] [7 <./figs/homestake.jpg> <./figs/kamiokande.jpg> <./figs/sno.jpg>] [8]
-<figs/mixingangle.jpg, id=1175, 224.33812pt x 142.28156pt>
+<figs/mixingangle.jpg, id=1171, 224.33812pt x 142.28156pt>
 File: figs/mixingangle.jpg Graphic file (type jpg)
 
 <use figs/mixingangle.jpg>
@@ -1667,7 +1684,7 @@ Overfull \hbox (0.82588pt too wide) in paragraph at lines 244--244
 [] 
  []
 
-[12] [13] [14] <figs/cc_inclusive_nu.png, id=1241, 569.12625pt x 385.44pt>
+[12] [13] [14] <figs/cc_inclusive_nu.png, id=1236, 569.12625pt x 385.44pt>
 File: figs/cc_inclusive_nu.png Graphic file (type png)
 
 <use figs/cc_inclusive_nu.png>
@@ -1677,46 +1694,46 @@ Package pdftex.def Info: figs/cc_inclusive_nu.png used on input line 312.
 chapter 3.
 [16
 
-] <figs/detector1.png, id=1272, 267.24844pt x 216.05719pt>
+] <figs/detector1.png, id=1267, 267.24844pt x 216.05719pt>
 File: figs/detector1.png Graphic file (type png)
 
 <use figs/detector1.png>
 Package pdftex.def Info: figs/detector1.png used on input line 16.
 (pdftex.def)             Requested size: 224.03688pt x 181.13072pt.
  [17] [18 <./figs/detector1.png (PNG copy)>] [19]
-<figs/lee.png, id=1301, 569.12625pt x 680.5425pt>
+<figs/lee.png, id=1297, 569.12625pt x 680.5425pt>
 File: figs/lee.png Graphic file (type png)
  <use figs/lee.png>
 Package pdftex.def Info: figs/lee.png used on input line 34.
 (pdftex.def)             Requested size: 224.03688pt x 267.90271pt.
 
-<figs/gamma.png, id=1304, 796.9775pt x 597.23125pt>
+<figs/gamma.png, id=1300, 796.9775pt x 597.23125pt>
 File: figs/gamma.png Graphic file (type png)
  <use figs/gamma.png>
 Package pdftex.def Info: figs/gamma.png used on input line 42.
 (pdftex.def)             Requested size: 212.83777pt x 159.48666pt.
 
-<figs/electron.png, id=1305, 796.9775pt x 597.23125pt>
+<figs/electron.png, id=1301, 796.9775pt x 597.23125pt>
 File: figs/electron.png Graphic file (type png)
  <use figs/electron.png>
 Package pdftex.def Info: figs/electron.png used on input line 47.
 (pdftex.def)             Requested size: 212.83777pt x 159.48666pt.
 
 [20] [21 <./figs/lee.png> <./figs/gamma.png> <./figs/electron.png>]
-<figs/fnal.png, id=1323, 934.49126pt x 578.16pt>
+<figs/fnal.png, id=1319, 934.49126pt x 578.16pt>
 File: figs/fnal.png Graphic file (type png)
  <use figs/fnal.png>
 Package pdftex.def Info: figs/fnal.png used on input line 68.
 (pdftex.def)             Requested size: 448.07378pt x 277.22252pt.
  [22]
 [23 <./figs/fnal.png>]
-<figs/BNB_layout.jpg, id=1334, 852.93657pt x 527.72156pt>
+<figs/BNB_layout.jpg, id=1330, 852.93657pt x 527.72156pt>
 File: figs/BNB_layout.jpg Graphic file (type jpg)
 
 <use figs/BNB_layout.jpg>
 Package pdftex.def Info: figs/BNB_layout.jpg used on input line 83.
 (pdftex.def)             Requested size: 403.26366pt x 249.5108pt.
- <figs/bnbflux.png, id=1337, 471.7625pt x 431.6125pt>
+ <figs/bnbflux.png, id=1333, 471.7625pt x 431.6125pt>
 File: figs/bnbflux.png Graphic file (type png)
 
 <use figs/bnbflux.png>
@@ -1724,14 +1741,14 @@ Package pdftex.def Info: figs/bnbflux.png used on input line 92.
 (pdftex.def)             Requested size: 268.847pt x 245.96898pt.
 ) (./neutrinoID.tex [24 <./figs/BNB_layout.jpg>] [25 <./figs/bnbflux.png>]
 chapter 4.
-<figs/totalpecut.png, id=1349, 725.71124pt x 503.8825pt>
+<figs/totalpecut.png, id=1345, 725.71124pt x 503.8825pt>
 File: figs/totalpecut.png Graphic file (type png)
 
 <use figs/totalpecut.png>
 Package pdftex.def Info: figs/totalpecut.png used on input line 9.
 (pdftex.def)             Requested size: 268.847pt x 186.67195pt.
 
-<figs/totalpe_zoomed.png, id=1350, 713.66624pt x 496.85625pt>
+<figs/totalpe_zoomed.png, id=1346, 713.66624pt x 496.85625pt>
 File: figs/totalpe_zoomed.png Graphic file (type png)
 
 <use figs/totalpe_zoomed.png>
@@ -1740,14 +1757,14 @@ Package pdftex.def Info: figs/totalpe_zoomed.png used on input line 13.
  [26
 
 ]
-<figs/flashrate_sim.png, id=1357, 586.19pt x 399.4925pt>
+<figs/flashrate_sim.png, id=1353, 586.19pt x 399.4925pt>
 File: figs/flashrate_sim.png Graphic file (type png)
 
 <use figs/flashrate_sim.png>
 Package pdftex.def Info: figs/flashrate_sim.png used on input line 26.
 (pdftex.def)             Requested size: 268.847pt x 183.22015pt.
 
-<figs/flashrate.png, id=1358, 651.43375pt x 414.54875pt>
+<figs/flashrate.png, id=1354, 651.43375pt x 414.54875pt>
 File: figs/flashrate.png Graphic file (type png)
 
 <use figs/flashrate.png>
@@ -1786,21 +1803,21 @@ Package microtype Warning: Unknown slot number of character
 
 [27 <./figs/totalpecut.png> <./figs/totalpe_zoomed.png>] [28 <./figs/flashrate_
 sim.png> <./figs/flashrate.png>] [29] [30] [31]
-<figs/2dprimarycut.png, id=1389, 1318.9275pt x 671.50874pt>
+<figs/2dprimarycut.png, id=1385, 1318.9275pt x 671.50874pt>
 File: figs/2dprimarycut.png Graphic file (type png)
 
 <use figs/2dprimarycut.png>
 Package pdftex.def Info: figs/2dprimarycut.png used on input line 96.
 (pdftex.def)             Requested size: 448.07378pt x 228.12552pt.
 
-<figs/2dsecondarycut.png, id=1390, 1312.905pt x 689.57625pt>
+<figs/2dsecondarycut.png, id=1386, 1312.905pt x 689.57625pt>
 File: figs/2dsecondarycut.png Graphic file (type png)
 
 <use figs/2dsecondarycut.png>
 Package pdftex.def Info: figs/2dsecondarycut.png used on input line 103.
 (pdftex.def)             Requested size: 448.07378pt x 235.33667pt.
  [32 <./figs/2dprimarycut.png>] [33 <./figs/2dsecondarycut.png>] [34]
-<figs/first_neutrino_pdfs/run3469_subrun574_event28734_col.pdf, id=1408, 1445.4
+<figs/first_neutrino_pdfs/run3469_subrun574_event28734_col.pdf, id=1403, 1445.4
 pt x 867.24pt>
 File: figs/first_neutrino_pdfs/run3469_subrun574_event28734_col.pdf Graphic fil
 e (type pdf)
@@ -1810,7 +1827,7 @@ Package pdftex.def Info: figs/first_neutrino_pdfs/run3469_subrun574_event28734_
 col.pdf used on input line 134.
 (pdftex.def)             Requested size: 358.46039pt x 215.07594pt.
 
-<figs/first_neutrino_pdfs/run3469_subrun574_event28734_ind0.pdf, id=1409, 1445.
+<figs/first_neutrino_pdfs/run3469_subrun574_event28734_ind0.pdf, id=1404, 1445.
 4pt x 867.24pt>
 File: figs/first_neutrino_pdfs/run3469_subrun574_event28734_ind0.pdf Graphic fi
 le (type pdf)
@@ -1820,7 +1837,7 @@ Package pdftex.def Info: figs/first_neutrino_pdfs/run3469_subrun574_event28734_
 ind0.pdf used on input line 138.
 (pdftex.def)             Requested size: 358.46039pt x 215.07594pt.
 
-<figs/first_neutrino_pdfs/run3469_subrun574_event28734_ind1.pdf, id=1410, 1445.
+<figs/first_neutrino_pdfs/run3469_subrun574_event28734_ind1.pdf, id=1405, 1445.
 4pt x 867.24pt>
 File: figs/first_neutrino_pdfs/run3469_subrun574_event28734_ind1.pdf Graphic fi
 le (type pdf)
@@ -1834,7 +1851,7 @@ ind1.pdf used on input line 142.
 LaTeX Warning: Float too large for page by 20.39783pt on input line 147.
 
 
-<figs/first_neutrino_pdfs/run3493_subrun821_event41075_col.pdf, id=1411, 1445.4
+<figs/first_neutrino_pdfs/run3493_subrun821_event41075_col.pdf, id=1406, 1445.4
 pt x 867.24pt>
 File: figs/first_neutrino_pdfs/run3493_subrun821_event41075_col.pdf Graphic fil
 e (type pdf)
@@ -1844,7 +1861,7 @@ Package pdftex.def Info: figs/first_neutrino_pdfs/run3493_subrun821_event41075_
 col.pdf used on input line 152.
 (pdftex.def)             Requested size: 358.46039pt x 215.07594pt.
 
-<figs/first_neutrino_pdfs/run3493_subrun821_event41075_ind0.pdf, id=1412, 1445.
+<figs/first_neutrino_pdfs/run3493_subrun821_event41075_ind0.pdf, id=1407, 1445.
 4pt x 867.24pt>
 File: figs/first_neutrino_pdfs/run3493_subrun821_event41075_ind0.pdf Graphic fi
 le (type pdf)
@@ -1854,7 +1871,7 @@ Package pdftex.def Info: figs/first_neutrino_pdfs/run3493_subrun821_event41075_
 ind0.pdf used on input line 156.
 (pdftex.def)             Requested size: 358.46039pt x 215.07594pt.
 
-<figs/first_neutrino_pdfs/run3493_subrun821_event41075_ind1.pdf, id=1413, 1445.
+<figs/first_neutrino_pdfs/run3493_subrun821_event41075_ind1.pdf, id=1408, 1445.
 4pt x 867.24pt>
 File: figs/first_neutrino_pdfs/run3493_subrun821_event41075_ind1.pdf Graphic fi
 le (type pdf)
@@ -1897,20 +1914,20 @@ chapter 5.
 LaTeX Font Info:    Font shape `T1/ppl/bx/it' in size <12> not available
 (Font)              Font shape `T1/ppl/b/it' tried instead on input line 9.
  [39] [40] [41]
-<figs/opticaltrigger.png, id=1544, 892.33376pt x 566.115pt>
+<figs/opticaltrigger.png, id=1540, 892.33376pt x 566.115pt>
 File: figs/opticaltrigger.png Graphic file (type png)
 
 <use figs/opticaltrigger.png>
 Package pdftex.def Info: figs/opticaltrigger.png used on input line 69.
 (pdftex.def)             Requested size: 268.847pt x 170.56142pt.
  [42]
-<figs/flashdist.png, id=1550, 1660.2025pt x 979.66pt>
+<figs/flashdist.png, id=1546, 1660.2025pt x 979.66pt>
 File: figs/flashdist.png Graphic file (type png)
  <use figs/flashdist.png>
 Package pdftex.def Info: figs/flashdist.png used on input line 78.
 (pdftex.def)             Requested size: 448.07378pt x 264.39215pt.
 
-<figs/reconstructionchain.png, id=1552, 1313.90875pt x 829.0975pt>
+<figs/reconstructionchain.png, id=1548, 1313.90875pt x 829.0975pt>
 File: figs/reconstructionchain.png Graphic file (type png)
 
 <use figs/reconstructionchain.png>
@@ -1918,35 +1935,35 @@ Package pdftex.def Info: figs/reconstructionchain.png used on input line 96.
 (pdftex.def)             Requested size: 448.07378pt x 282.73705pt.
  [43 <./figs/opticaltrigger.png>] [44 <./figs/flashdist.png>] [45 <./figs/recon
 structionchain.png>] [46] [47] [48]
-<figs/selection.png, id=1584, 741.77126pt x 1007.765pt>
+<figs/selection.png, id=1580, 741.77126pt x 1007.765pt>
 File: figs/selection.png Graphic file (type png)
 
 <use figs/selection.png>
 Package pdftex.def Info: figs/selection.png used on input line 149.
 (pdftex.def)             Requested size: 403.26366pt x 547.87553pt.
  [49] [50 <./figs/selection.png>] [51] [52]
-<figs/truth_mumomentum.png, id=1616, 1133.23375pt x 1061.9675pt>
+<figs/truth_mumomentum.png, id=1611, 1133.23375pt x 1061.9675pt>
 File: figs/truth_mumomentum.png Graphic file (type png)
 
 <use figs/truth_mumomentum.png>
 Package pdftex.def Info: figs/truth_mumomentum.png used on input line 209.
 (pdftex.def)             Requested size: 448.07378pt x 419.88577pt.
 
-<figs/truth_mucostheta.png, id=1617, 981.6675pt x 1063.975pt>
+<figs/truth_mucostheta.png, id=1612, 981.6675pt x 1063.975pt>
 File: figs/truth_mucostheta.png Graphic file (type png)
 
 <use figs/truth_mucostheta.png>
 Package pdftex.def Info: figs/truth_mucostheta.png used on input line 215.
 (pdftex.def)             Requested size: 448.07378pt x 485.63547pt.
 
-<figs/truth_muphi.png, id=1618, 967.615pt x 1054.94125pt>
+<figs/truth_muphi.png, id=1613, 967.615pt x 1054.94125pt>
 File: figs/truth_muphi.png Graphic file (type png)
 
 <use figs/truth_muphi.png>
 Package pdftex.def Info: figs/truth_muphi.png used on input line 221.
 (pdftex.def)             Requested size: 448.07378pt x 488.51439pt.
 
-<figs/truth_stackedmumomentum.png, id=1619, 1001.7425pt x 1047.915pt>
+<figs/truth_stackedmumomentum.png, id=1614, 1001.7425pt x 1047.915pt>
 File: figs/truth_stackedmumomentum.png Graphic file (type png)
 
 <use figs/truth_stackedmumomentum.png>
@@ -1954,7 +1971,7 @@ Package pdftex.def Info: figs/truth_stackedmumomentum.png used on input line 22
 7.
 (pdftex.def)             Requested size: 448.07378pt x 468.72717pt.
 
-<figs/truth_stackedmucostheta.png, id=1620, 982.67125pt x 1055.945pt>
+<figs/truth_stackedmucostheta.png, id=1615, 982.67125pt x 1055.945pt>
 File: figs/truth_stackedmucostheta.png Graphic file (type png)
 
 <use figs/truth_stackedmucostheta.png>
@@ -1962,7 +1979,7 @@ Package pdftex.def Info: figs/truth_stackedmucostheta.png used on input line 23
 3.
 (pdftex.def)             Requested size: 448.07378pt x 481.48692pt.
 
-<figs/truth_stackedmuphi.png, id=1621, 948.54375pt x 1018.80624pt>
+<figs/truth_stackedmuphi.png, id=1616, 948.54375pt x 1018.80624pt>
 File: figs/truth_stackedmuphi.png Graphic file (type png)
 
 <use figs/truth_stackedmuphi.png>
@@ -1975,28 +1992,28 @@ g>] [55 <./figs/truth_muphi.png>] [56 <./figs/truth_stackedmumomentum.png>] [57
 chapter 6.
 [59
 
-] <figs/curvedetector.png, id=1657, 469.755pt x 209.28188pt>
+] <figs/curvedetector.png, id=1653, 469.755pt x 209.28188pt>
 File: figs/curvedetector.png Graphic file (type png)
 
 <use figs/curvedetector.png>
 Package pdftex.def Info: figs/curvedetector.png used on input line 11.
 (pdftex.def)             Requested size: 268.847pt x 119.7741pt.
 
-<figs/conv1vis.png, id=1658, 203.25937pt x 208.52907pt>
+<figs/conv1vis.png, id=1654, 203.25937pt x 208.52907pt>
 File: figs/conv1vis.png Graphic file (type png)
 
 <use figs/conv1vis.png>
 Package pdftex.def Info: figs/conv1vis.png used on input line 18.
 (pdftex.def)             Requested size: 112.01843pt x 114.92043pt.
  [60]
-<figs/convolution.png, id=1666, 610.28pt x 592.2125pt>
+<figs/convolution.png, id=1662, 610.28pt x 592.2125pt>
 File: figs/convolution.png Graphic file (type png)
 
 <use figs/convolution.png>
 Package pdftex.def Info: figs/convolution.png used on input line 27.
 (pdftex.def)             Requested size: 215.07349pt x 208.70523pt.
 
-<figs/facialDetection.png, id=1667, 469.755pt x 164.11313pt>
+<figs/facialDetection.png, id=1663, 469.755pt x 164.11313pt>
 File: figs/facialDetection.png Graphic file (type png)
 
 <use figs/facialDetection.png>
@@ -2008,13 +2025,13 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 [61 <./figs/curvedetector.png> <./figs/conv1vis.png>] [62 <./figs/convolution.p
 ng> <./figs/facialDetection.png>] [63]
-<figs/alexnet.png, id=1691, 956.57375pt x 323.2075pt>
+<figs/alexnet.png, id=1687, 956.57375pt x 323.2075pt>
 File: figs/alexnet.png Graphic file (type png)
  <use figs/alexnet.png>
 Package pdftex.def Info: figs/alexnet.png used on input line 63.
 (pdftex.def)             Requested size: 403.26366pt x 136.2542pt.
 
-<figs/googlenet.png, id=1692, 1221.56375pt x 382.42876pt>
+<figs/googlenet.png, id=1688, 1221.56375pt x 382.42876pt>
 File: figs/googlenet.png Graphic file (type png)
 
 <use figs/googlenet.png>
@@ -2026,21 +2043,21 @@ chapter 7.
 [66
 
 ] [67] [68]
-<figs/acc_loss_CNN1075.png, id=1719, 1148.03906pt x 769.37437pt>
+<figs/acc_loss_CNN1075.png, id=1715, 1148.03906pt x 769.37437pt>
 File: figs/acc_loss_CNN1075.png Graphic file (type png)
 
 <use figs/acc_loss_CNN1075.png>
 Package pdftex.def Info: figs/acc_loss_CNN1075.png used on input line 56.
 (pdftex.def)             Requested size: 448.07378pt x 300.27785pt.
 
-<figs/confusion1_train.png, id=1720, 585.18625pt x 514.92375pt>
+<figs/confusion1_train.png, id=1716, 585.18625pt x 514.92375pt>
 File: figs/confusion1_train.png Graphic file (type png)
 
 <use figs/confusion1_train.png>
 Package pdftex.def Info: figs/confusion1_train.png used on input line 65.
 (pdftex.def)             Requested size: 304.70041pt x 216.80864pt.
 
-<figs/confusion1_test.png, id=1721, 523.9575pt x 514.92375pt>
+<figs/confusion1_test.png, id=1717, 523.9575pt x 514.92375pt>
 File: figs/confusion1_test.png Graphic file (type png)
 
 <use figs/confusion1_test.png>
@@ -2048,7 +2065,7 @@ Package pdftex.def Info: figs/confusion1_test.png used on input line 70.
 (pdftex.def)             Requested size: 268.85374pt x 216.80864pt.
  [69] [70 <./figs/acc_loss_CNN1075.png (PNG copy)>] [71 <./figs/confusion1_trai
 n.png> <./figs/confusion1_test.png>]
-<figs/acc_loss_10000_062117.png, id=1736, 619.31375pt x 472.76625pt>
+<figs/acc_loss_10000_062117.png, id=1732, 619.31375pt x 472.76625pt>
 File: figs/acc_loss_10000_062117.png Graphic file (type png)
 
 <use figs/acc_loss_10000_062117.png>
@@ -2061,21 +2078,21 @@ Overfull \hbox (1.5892pt too wide) in paragraph at lines 108--109
 was em-ployed on CNN10000,
  []
 
-<figs/train_confusion.pdf, id=1739, 578.16pt x 578.16pt>
+<figs/train_confusion.pdf, id=1735, 578.16pt x 578.16pt>
 File: figs/train_confusion.pdf Graphic file (type pdf)
 
 <use figs/train_confusion.pdf>
 Package pdftex.def Info: figs/train_confusion.pdf used on input line 113.
 (pdftex.def)             Requested size: 313.64856pt x 252.94437pt.
 
-<figs/val_confusion.pdf, id=1740, 578.16pt x 578.16pt>
+<figs/val_confusion.pdf, id=1736, 578.16pt x 578.16pt>
 File: figs/val_confusion.pdf Graphic file (type pdf)
 
 <use figs/val_confusion.pdf>
 Package pdftex.def Info: figs/val_confusion.pdf used on input line 119.
 (pdftex.def)             Requested size: 313.64856pt x 252.94437pt.
 
-<figs/mitch_hw.png, id=1741, 1672.2475pt x 673.51625pt>
+<figs/mitch_hw.png, id=1737, 1672.2475pt x 673.51625pt>
 File: figs/mitch_hw.png Graphic file (type png)
 
 <use figs/mitch_hw.png>
@@ -2087,7 +2104,7 @@ Package pdftex.def Info: figs/mitch_hw.png used on input line 128.
 pdfTeX warning: pdflatex (file ./figs/val_confusion.pdf): PDF inclusion: multip
 le pdfs with page group included in a single page
 >]
-<../images/GPU_9010split_hires_iterations_alldata_allparticle.png, id=1862, 481
+<../images/GPU_9010split_hires_iterations_alldata_allparticle.png, id=1858, 481
 .8pt x 361.35pt>
 File: ../images/GPU_9010split_hires_iterations_alldata_allparticle.png Graphic 
 file (type png)
@@ -2097,7 +2114,7 @@ Package pdftex.def Info: ../images/GPU_9010split_hires_iterations_alldata_allpa
 rticle.png used on input line 162.
 (pdftex.def)             Requested size: 358.46039pt x 268.85045pt.
 
-<../images/GPU_9010split_hires_iterations_alldata_allparticle_loss.png, id=1863
+<../images/GPU_9010split_hires_iterations_alldata_allparticle_loss.png, id=1859
 , 481.8pt x 361.35pt>
 File: ../images/GPU_9010split_hires_iterations_alldata_allparticle_loss.png Gra
 phic file (type png)
@@ -2107,7 +2124,7 @@ Package pdftex.def Info: ../images/GPU_9010split_hires_iterations_alldata_allpa
 rticle_loss.png used on input line 169.
 (pdftex.def)             Requested size: 358.46039pt x 268.85045pt.
 
-<../images/confusion_allparticle_v3.pdf, id=1866, 867.24pt x 578.16pt>
+<../images/confusion_allparticle_v3.pdf, id=1862, 867.24pt x 578.16pt>
 File: ../images/confusion_allparticle_v3.pdf Graphic file (type pdf)
 
 <use ../images/confusion_allparticle_v3.pdf>
@@ -2117,7 +2134,7 @@ ine 179.
  [75 <./figs/mitch_hw.png>]
 [76 <../images/GPU_9010split_hires_iterations_alldata_allparticle.png> <../imag
 es/GPU_9010split_hires_iterations_alldata_allparticle_loss.png>]
-<../csv_output/true_labels_1102.png, id=1880, 1004.75375pt x 1005.7575pt>
+<../csv_output/true_labels_1102.png, id=1875, 1004.75375pt x 1005.7575pt>
 File: ../csv_output/true_labels_1102.png Graphic file (type png)
 
 <use ../csv_output/true_labels_1102.png>
@@ -2126,42 +2143,42 @@ Package pdftex.def Info: ../csv_output/true_labels_1102.png used on input line
 (pdftex.def)             Requested size: 358.46039pt x 358.81894pt.
  [77 <../images/confusion_allparticle_v3.pdf>] [78 <../csv_output/true_labels_1
 102.png>]
-<../csv_output/muon_prob.png, id=1933, 1218.5525pt x 926.46124pt>
+<../csv_output/muon_prob.png, id=1929, 1218.5525pt x 926.46124pt>
 File: ../csv_output/muon_prob.png Graphic file (type png)
 
 <use ../csv_output/muon_prob.png>
 Package pdftex.def Info: ../csv_output/muon_prob.png used on input line 200.
 (pdftex.def)             Requested size: 212.83777pt x 161.808pt.
 
-<../csv_output/pi_prob.png, id=1934, 1215.54124pt x 904.37875pt>
+<../csv_output/pi_prob.png, id=1930, 1215.54124pt x 904.37875pt>
 File: ../csv_output/pi_prob.png Graphic file (type png)
 
 <use ../csv_output/pi_prob.png>
 Package pdftex.def Info: ../csv_output/pi_prob.png used on input line 206.
 (pdftex.def)             Requested size: 212.83777pt x 158.35144pt.
 
-<../csv_output/proton_prob.png, id=1935, 1196.47pt x 911.405pt>
+<../csv_output/proton_prob.png, id=1931, 1196.47pt x 911.405pt>
 File: ../csv_output/proton_prob.png Graphic file (type png)
 
 <use ../csv_output/proton_prob.png>
 Package pdftex.def Info: ../csv_output/proton_prob.png used on input line 212.
 (pdftex.def)             Requested size: 212.83777pt x 162.12666pt.
 
-<../csv_output/eminus_prob.png, id=1936, 793.96625pt x 622.325pt>
+<../csv_output/eminus_prob.png, id=1932, 793.96625pt x 622.325pt>
 File: ../csv_output/eminus_prob.png Graphic file (type png)
 
 <use ../csv_output/eminus_prob.png>
 Package pdftex.def Info: ../csv_output/eminus_prob.png used on input line 218.
 (pdftex.def)             Requested size: 212.83777pt x 166.824pt.
 
-<../csv_output/gamma_prob.png, id=1937, 1191.45125pt x 919.435pt>
+<../csv_output/gamma_prob.png, id=1933, 1191.45125pt x 919.435pt>
 File: ../csv_output/gamma_prob.png Graphic file (type png)
 
 <use ../csv_output/gamma_prob.png>
 Package pdftex.def Info: ../csv_output/gamma_prob.png used on input line 224.
 (pdftex.def)             Requested size: 212.83777pt x 164.24254pt.
 
-<../csv_output/prob_allparticle_normalized.pdf, id=1939, 462.52798pt x 346.8960
+<../csv_output/prob_allparticle_normalized.pdf, id=1935, 462.52798pt x 346.8960
 1pt>
 File: ../csv_output/prob_allparticle_normalized.pdf Graphic file (type pdf)
  <use ../csv_output/prob_allparticle_normalized.pdf>
@@ -2169,7 +2186,7 @@ Package pdftex.def Info: ../csv_output/prob_allparticle_normalized.pdf used on
 input line 237.
 (pdftex.def)             Requested size: 358.46039pt x 268.8575pt.
 
-<../csv_output/mu_pi_acc_tracklength_all.pdf, id=1943, 462.52798pt x 346.89601p
+<../csv_output/mu_pi_acc_tracklength_all.pdf, id=1939, 462.52798pt x 346.89601p
 t>
 File: ../csv_output/mu_pi_acc_tracklength_all.pdf Graphic file (type pdf)
  <use ../csv_output/mu_pi_acc_tracklength_all.pdf>
@@ -2177,7 +2194,7 @@ Package pdftex.def Info: ../csv_output/mu_pi_acc_tracklength_all.pdf used on in
 put line 248.
 (pdftex.def)             Requested size: 212.83777pt x 159.62703pt.
 
-<../csv_output/mu_pi_acc_tracklength_75.pdf, id=1944, 462.52798pt x 346.89601pt
+<../csv_output/mu_pi_acc_tracklength_75.pdf, id=1940, 462.52798pt x 346.89601pt
 >
 File: ../csv_output/mu_pi_acc_tracklength_75.pdf Graphic file (type pdf)
  <use ../csv_output/mu_pi_acc_tracklength_75.pdf>
@@ -2185,7 +2202,7 @@ Package pdftex.def Info: ../csv_output/mu_pi_acc_tracklength_75.pdf used on inp
 ut line 254.
 (pdftex.def)             Requested size: 212.83777pt x 159.62703pt.
 
-<../csv_output/mu_pi_acc_momentum.pdf, id=1945, 462.52798pt x 346.89601pt>
+<../csv_output/mu_pi_acc_momentum.pdf, id=1941, 462.52798pt x 346.89601pt>
 File: ../csv_output/mu_pi_acc_momentum.pdf Graphic file (type pdf)
 
 <use ../csv_output/mu_pi_acc_momentum.pdf>
@@ -2193,7 +2210,7 @@ Package pdftex.def Info: ../csv_output/mu_pi_acc_momentum.pdf used on input lin
 e 260.
 (pdftex.def)             Requested size: 212.83777pt x 159.62703pt.
 
-<../csv_output/mu_p_acc_tracklength_all.pdf, id=1946, 462.52798pt x 346.89601pt
+<../csv_output/mu_p_acc_tracklength_all.pdf, id=1942, 462.52798pt x 346.89601pt
 >
 File: ../csv_output/mu_p_acc_tracklength_all.pdf Graphic file (type pdf)
  <use ../csv_output/mu_p_acc_tracklength_all.pdf>
@@ -2206,14 +2223,14 @@ Underfull \hbox (badness 1454) in paragraph at lines 273--273
  []
 
 
-<../csv_output/mu_p_acc_tracklength_75.pdf, id=1947, 462.52798pt x 346.89601pt>
+<../csv_output/mu_p_acc_tracklength_75.pdf, id=1943, 462.52798pt x 346.89601pt>
 File: ../csv_output/mu_p_acc_tracklength_75.pdf Graphic file (type pdf)
 <use ../csv_output/mu_p_acc_tracklength_75.pdf>
 Package pdftex.def Info: ../csv_output/mu_p_acc_tracklength_75.pdf used on inpu
 t line 278.
 (pdftex.def)             Requested size: 212.83777pt x 159.62703pt.
 
-<../csv_output/mu_p_acc_momentum.pdf, id=1948, 462.52798pt x 346.89601pt>
+<../csv_output/mu_p_acc_momentum.pdf, id=1944, 462.52798pt x 346.89601pt>
 File: ../csv_output/mu_p_acc_momentum.pdf Graphic file (type pdf)
 
 <use ../csv_output/mu_p_acc_momentum.pdf>
@@ -2226,7 +2243,7 @@ Underfull \hbox (badness 2608) in paragraph at lines 285--285
  []
 
 
-<../csv_output/mu_e_acc_tracklength_all.pdf, id=1949, 462.52798pt x 346.89601pt
+<../csv_output/mu_e_acc_tracklength_all.pdf, id=1945, 462.52798pt x 346.89601pt
 >
 File: ../csv_output/mu_e_acc_tracklength_all.pdf Graphic file (type pdf)
  <use ../csv_output/mu_e_acc_tracklength_all.pdf>
@@ -2234,14 +2251,14 @@ Package pdftex.def Info: ../csv_output/mu_e_acc_tracklength_all.pdf used on inp
 ut line 296.
 (pdftex.def)             Requested size: 212.83777pt x 159.62703pt.
 
-<../csv_output/mu_e_acc_tracklength_75.pdf, id=1950, 462.52798pt x 346.89601pt>
+<../csv_output/mu_e_acc_tracklength_75.pdf, id=1946, 462.52798pt x 346.89601pt>
 File: ../csv_output/mu_e_acc_tracklength_75.pdf Graphic file (type pdf)
 <use ../csv_output/mu_e_acc_tracklength_75.pdf>
 Package pdftex.def Info: ../csv_output/mu_e_acc_tracklength_75.pdf used on inpu
 t line 302.
 (pdftex.def)             Requested size: 212.83777pt x 159.62703pt.
 
-<../csv_output/mu_e_acc_momentum.pdf, id=1951, 462.52798pt x 346.89601pt>
+<../csv_output/mu_e_acc_momentum.pdf, id=1947, 462.52798pt x 346.89601pt>
 File: ../csv_output/mu_e_acc_momentum.pdf Graphic file (type pdf)
 
 <use ../csv_output/mu_e_acc_momentum.pdf>
@@ -2249,7 +2266,7 @@ Package pdftex.def Info: ../csv_output/mu_e_acc_momentum.pdf used on input line
  308.
 (pdftex.def)             Requested size: 212.83777pt x 159.62703pt.
 
-<../csv_output/mu_g_acc_tracklength_all.pdf, id=1952, 462.52798pt x 346.89601pt
+<../csv_output/mu_g_acc_tracklength_all.pdf, id=1948, 462.52798pt x 346.89601pt
 >
 File: ../csv_output/mu_g_acc_tracklength_all.pdf Graphic file (type pdf)
  <use ../csv_output/mu_g_acc_tracklength_all.pdf>
@@ -2262,14 +2279,14 @@ Underfull \hbox (badness 1424) in paragraph at lines 321--321
  []
 
 
-<../csv_output/mu_g_acc_tracklength_75.pdf, id=1953, 462.52798pt x 346.89601pt>
+<../csv_output/mu_g_acc_tracklength_75.pdf, id=1949, 462.52798pt x 346.89601pt>
 File: ../csv_output/mu_g_acc_tracklength_75.pdf Graphic file (type pdf)
 <use ../csv_output/mu_g_acc_tracklength_75.pdf>
 Package pdftex.def Info: ../csv_output/mu_g_acc_tracklength_75.pdf used on inpu
 t line 326.
 (pdftex.def)             Requested size: 212.83777pt x 159.62703pt.
 
-<../csv_output/mu_g_acc_momentum.pdf, id=1954, 462.52798pt x 346.89601pt>
+<../csv_output/mu_g_acc_momentum.pdf, id=1950, 462.52798pt x 346.89601pt>
 File: ../csv_output/mu_g_acc_momentum.pdf Graphic file (type pdf)
 
 <use ../csv_output/mu_g_acc_momentum.pdf>
@@ -2344,7 +2361,7 @@ Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 
 [86
 
-] <figs/sel1mod_confusion_wrongnorm.png, id=2575, 614.295pt x 639.38875pt>
+] <figs/sel1mod_confusion_wrongnorm.png, id=2571, 614.295pt x 639.38875pt>
 File: figs/sel1mod_confusion_wrongnorm.png Graphic file (type png)
 
 <use figs/sel1mod_confusion_wrongnorm.png>
@@ -2356,7 +2373,7 @@ Overfull \hbox (15.17433pt too wide) in paragraph at lines 91--92
 [][] 
  []
 
-<figs/probplot_wrongnorm_selImod.png, id=2576, 733.74126pt x 582.175pt>
+<figs/probplot_wrongnorm_selImod.png, id=2572, 733.74126pt x 582.175pt>
 File: figs/probplot_wrongnorm_selImod.png Graphic file (type png)
 
 <use figs/probplot_wrongnorm_selImod.png>
@@ -2369,7 +2386,7 @@ Overfull \hbox (15.17824pt too wide) in paragraph at lines 97--98
  []
 
 
-<figs/sel1mod_trackrange_wrongnorm_acc70_0706.png, id=2577, 741.77126pt x 573.1
+<figs/sel1mod_trackrange_wrongnorm_acc70_0706.png, id=2573, 741.77126pt x 573.1
 4125pt>
 File: figs/sel1mod_trackrange_wrongnorm_acc70_0706.png Graphic file (type png)
  <use figs/sel1mod_trackrange_wrongnorm_acc70_0706.png>
@@ -2377,7 +2394,7 @@ Package pdftex.def Info: figs/sel1mod_trackrange_wrongnorm_acc70_0706.png used
 on input line 110.
 (pdftex.def)             Requested size: 289.08589pt x 180.67163pt.
 
-<figs/sel1mod_cnn_stackedevent_0707.png, id=2578, 739.76375pt x 565.11125pt>
+<figs/sel1mod_cnn_stackedevent_0707.png, id=2574, 739.76375pt x 565.11125pt>
 File: figs/sel1mod_cnn_stackedevent_0707.png Graphic file (type png)
 
 <use figs/sel1mod_cnn_stackedevent_0707.png>
@@ -2385,7 +2402,7 @@ Package pdftex.def Info: figs/sel1mod_cnn_stackedevent_0707.png used on input l
 ine 116.
 (pdftex.def)             Requested size: 201.62395pt x 144.53691pt.
 
-<figs/sel1mod_original_stackedevents_0707.png, id=2579, 733.74126pt x 559.08875
+<figs/sel1mod_original_stackedevents_0707.png, id=2575, 733.74126pt x 559.08875
 pt>
 File: figs/sel1mod_original_stackedevents_0707.png Graphic file (type png)
  <use figs/sel1mod_original_stackedevents_0707.png>
@@ -2393,7 +2410,7 @@ Package pdftex.def Info: figs/sel1mod_original_stackedevents_0707.png used on i
 nput line 122.
 (pdftex.def)             Requested size: 201.62833pt x 144.54066pt.
 
-<figs/sel1mod_cnn_trackrange_mupi_acc70_0707.png, id=2580, 737.75626pt x 571.13
+<figs/sel1mod_cnn_trackrange_mupi_acc70_0707.png, id=2576, 737.75626pt x 571.13
 374pt>
 File: figs/sel1mod_cnn_trackrange_mupi_acc70_0707.png Graphic file (type png)
  <use figs/sel1mod_cnn_trackrange_mupi_acc70_0707.png>
@@ -2401,7 +2418,7 @@ Package pdftex.def Info: figs/sel1mod_cnn_trackrange_mupi_acc70_0707.png used o
 n input line 128.
 (pdftex.def)             Requested size: 201.62842pt x 144.53476pt.
 
-<figs/sel1mod_original_trackrange_mupi_acc70_0707.png, id=2581, 734.745pt x 551
+<figs/sel1mod_original_trackrange_mupi_acc70_0707.png, id=2577, 734.745pt x 551
 .05875pt>
 File: figs/sel1mod_original_trackrange_mupi_acc70_0707.png Graphic file (type p
 ng)
@@ -2410,7 +2427,7 @@ Package pdftex.def Info: figs/sel1mod_original_trackrange_mupi_acc70_0707.png u
 sed on input line 134.
 (pdftex.def)             Requested size: 201.62386pt x 144.54156pt.
 
-<figs/sel1mod_cnn_trackrange_acc75_0707.png, id=2582, 738.76pt x 551.05875pt>
+<figs/sel1mod_cnn_trackrange_acc75_0707.png, id=2578, 738.76pt x 551.05875pt>
 File: figs/sel1mod_cnn_trackrange_acc75_0707.png Graphic file (type png)
 
 <use figs/sel1mod_cnn_trackrange_acc75_0707.png>
@@ -2418,7 +2435,7 @@ Package pdftex.def Info: figs/sel1mod_cnn_trackrange_acc75_0707.png used on inp
 ut line 148.
 (pdftex.def)             Requested size: 201.63219pt x 180.67276pt.
 
-<figs/sel1mod_cnn_trackrange_acc80_0707.png, id=2583, 734.745pt x 550.055pt>
+<figs/sel1mod_cnn_trackrange_acc80_0707.png, id=2579, 734.745pt x 550.055pt>
 File: figs/sel1mod_cnn_trackrange_acc80_0707.png Graphic file (type png)
 
 <use figs/sel1mod_cnn_trackrange_acc80_0707.png>
@@ -2426,7 +2443,7 @@ Package pdftex.def Info: figs/sel1mod_cnn_trackrange_acc80_0707.png used on inp
 ut line 154.
 (pdftex.def)             Requested size: 201.62386pt x 180.67099pt.
 
-<figs/sel1mod_cnn_trackrange_acc85_0707.png, id=2584, 732.7375pt x 564.1075pt>
+<figs/sel1mod_cnn_trackrange_acc85_0707.png, id=2580, 732.7375pt x 564.1075pt>
 File: figs/sel1mod_cnn_trackrange_acc85_0707.png Graphic file (type png)
 
 <use figs/sel1mod_cnn_trackrange_acc85_0707.png>
@@ -2434,14 +2451,14 @@ Package pdftex.def Info: figs/sel1mod_cnn_trackrange_acc85_0707.png used on inp
 ut line 160.
 (pdftex.def)             Requested size: 201.632pt x 180.67302pt.
 
-<figs/sel1mod_cnn_trackrange_acc90_0707.png, id=2585, 739.76375pt x 564.1075pt>
+<figs/sel1mod_cnn_trackrange_acc90_0707.png, id=2581, 739.76375pt x 564.1075pt>
 File: figs/sel1mod_cnn_trackrange_acc90_0707.png Graphic file (type png)
 <use figs/sel1mod_cnn_trackrange_acc90_0707.png>
 Package pdftex.def Info: figs/sel1mod_cnn_trackrange_acc90_0707.png used on inp
 ut line 166.
 (pdftex.def)             Requested size: 201.62395pt x 180.67302pt.
 
-<figs/sel1mod_parP_wrongnorm_acc70_0706.png, id=2586, 726.715pt x 560.0925pt>
+<figs/sel1mod_parP_wrongnorm_acc70_0706.png, id=2582, 726.715pt x 560.0925pt>
 File: figs/sel1mod_parP_wrongnorm_acc70_0706.png Graphic file (type png)
 
 <use figs/sel1mod_parP_wrongnorm_acc70_0706.png>
@@ -2449,7 +2466,7 @@ Package pdftex.def Info: figs/sel1mod_parP_wrongnorm_acc70_0706.png used on inp
 ut line 180.
 (pdftex.def)             Requested size: 403.27615pt x 252.9452pt.
 
-<figs/sel1mod_cnn_parP_stackedevents_0707.png, id=2587, 731.73375pt x 555.07375
+<figs/sel1mod_cnn_parP_stackedevents_0707.png, id=2583, 731.73375pt x 555.07375
 pt>
 File: figs/sel1mod_cnn_parP_stackedevents_0707.png Graphic file (type png)
  <use figs/sel1mod_cnn_parP_stackedevents_0707.png>
@@ -2457,7 +2474,7 @@ Package pdftex.def Info: figs/sel1mod_cnn_parP_stackedevents_0707.png used on i
 nput line 186.
 (pdftex.def)             Requested size: 201.63493pt x 180.67632pt.
 
-<figs/sel1mod_original_parP_stackedevents_0707.png, id=2588, 731.73375pt x 563.
+<figs/sel1mod_original_parP_stackedevents_0707.png, id=2584, 731.73375pt x 563.
 10374pt>
 File: figs/sel1mod_original_parP_stackedevents_0707.png Graphic file (type png)
 
@@ -2482,7 +2499,7 @@ Package pdftex.def Info: figs/sel1mod_cnn_trackrange_mupi_acc70_0707.png used o
 n input line 206.
 (pdftex.def)             Requested size: 201.62842pt x 180.67497pt.
 
-<figs/sel1mod_mupi_trackrange_acc70.png, id=2625, 740.7675pt x 561.09625pt>
+<figs/sel1mod_mupi_trackrange_acc70.png, id=2621, 740.7675pt x 561.09625pt>
 File: figs/sel1mod_mupi_trackrange_acc70.png Graphic file (type png)
 
 <use figs/sel1mod_mupi_trackrange_acc70.png>
@@ -2490,20 +2507,20 @@ Package pdftex.def Info: figs/sel1mod_mupi_trackrange_acc70.png used on input l
 ine 211.
 (pdftex.def)             Requested size: 201.62625pt x 180.66748pt.
 
-<figs/interesting_event.png, id=2626, 500.87125pt x 344.28625pt>
+<figs/interesting_event.png, id=2622, 500.87125pt x 344.28625pt>
 File: figs/interesting_event.png Graphic file (type png)
 
 <use figs/interesting_event.png>
 Package pdftex.def Info: figs/interesting_event.png used on input line 224.
 (pdftex.def)             Requested size: 134.41927pt x 180.67418pt.
 
-<figs/event2.png, id=2627, 516.93124pt x 442.65375pt>
+<figs/event2.png, id=2623, 516.93124pt x 442.65375pt>
 File: figs/event2.png Graphic file (type png)
  <use figs/event2.png>
 Package pdftex.def Info: figs/event2.png used on input line 230.
 (pdftex.def)             Requested size: 134.4226pt x 180.67868pt.
 
-<figs/mupievent.png, id=2628, 585.18625pt x 400.49625pt>
+<figs/mupievent.png, id=2624, 585.18625pt x 400.49625pt>
 File: figs/mupievent.png Graphic file (type png)
 
 <use figs/mupievent.png>
@@ -2511,14 +2528,14 @@ Package pdftex.def Info: figs/mupievent.png used on input line 236.
 (pdftex.def)             Requested size: 134.42035pt x 180.67386pt.
  [91] [92 <./figs/sel1mod_mupi_trackrange_acc70.png> <./figs/interesting_event.
 png> <./figs/event2.png> <./figs/mupievent.png>]
-[93] <figs/cnn_performance.png, id=2652, 746.79pt x 576.1525pt>
+[93] <figs/cnn_performance.png, id=2648, 746.79pt x 576.1525pt>
 File: figs/cnn_performance.png Graphic file (type png)
 
 <use figs/cnn_performance.png>
 Package pdftex.def Info: figs/cnn_performance.png used on input line 312.
 (pdftex.def)             Requested size: 216.80284pt x 180.67139pt.
 
-<figs/sel1mod_trackrange_acc83.png, id=2653, 739.76375pt x 570.13pt>
+<figs/sel1mod_trackrange_acc83.png, id=2649, 739.76375pt x 570.13pt>
 File: figs/sel1mod_trackrange_acc83.png Graphic file (type png)
 
 <use figs/sel1mod_trackrange_acc83.png>
@@ -2526,28 +2543,28 @@ Package pdftex.def Info: figs/sel1mod_trackrange_acc83.png used on input line 3
 19.
 (pdftex.def)             Requested size: 216.80614pt x 180.67064pt.
  [94] [95 <./figs/cnn_performance.png> <./figs/sel1mod_trackrange_acc83.png>]
-<figs/cnn100000_image.png, id=2667, 1124.2pt x 693.59125pt>
+<figs/cnn100000_image.png, id=2663, 1124.2pt x 693.59125pt>
 File: figs/cnn100000_image.png Graphic file (type png)
 
 <use figs/cnn100000_image.png>
 Package pdftex.def Info: figs/cnn100000_image.png used on input line 332.
 (pdftex.def)             Requested size: 448.07378pt x 276.44733pt.
  [96]
-<figs/roc_cnn_selI&II.png, id=2673, 567.11874pt x 473.77pt>
+<figs/roc_cnn_selI&II.png, id=2669, 567.11874pt x 473.77pt>
 File: figs/roc_cnn_selI&II.png Graphic file (type png)
 
 <use figs/roc_cnn_selI&II.png>
 Package pdftex.def Info: figs/roc_cnn_selI&II.png used on input line 342.
 (pdftex.def)             Requested size: 224.03688pt x 187.1624pt.
 
-<../bnbcosmic_output/cnn_85_trackrangedist.png, id=2675, 462.528pt x 346.896pt>
+<../bnbcosmic_output/cnn_85_trackrangedist.png, id=2671, 462.528pt x 346.896pt>
 File: ../bnbcosmic_output/cnn_85_trackrangedist.png Graphic file (type png)
 <use ../bnbcosmic_output/cnn_85_trackrangedist.png>
 Package pdftex.def Info: ../bnbcosmic_output/cnn_85_trackrangedist.png used on 
 input line 353.
 (pdftex.def)             Requested size: 212.83777pt x 159.62701pt.
 
-<../bnbcosmic_output/cnn_85_truecosthetadist.png, id=2676, 462.528pt x 346.896p
+<../bnbcosmic_output/cnn_85_truecosthetadist.png, id=2672, 462.528pt x 346.896p
 t>
 File: ../bnbcosmic_output/cnn_85_truecosthetadist.png Graphic file (type png)
  <use ../bnbcosmic_output/cnn_85_truecosthetadist.png>
@@ -2555,7 +2572,7 @@ Package pdftex.def Info: ../bnbcosmic_output/cnn_85_truecosthetadist.png used o
 n input line 360.
 (pdftex.def)             Requested size: 212.83777pt x 159.62701pt.
 
-<../bnbcosmic_output/cnn_85_truephidist.png, id=2677, 462.528pt x 346.896pt>
+<../bnbcosmic_output/cnn_85_truephidist.png, id=2673, 462.528pt x 346.896pt>
 File: ../bnbcosmic_output/cnn_85_truephidist.png Graphic file (type png)
 
 <use ../bnbcosmic_output/cnn_85_truephidist.png>
@@ -2568,7 +2585,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 368--368
 nts pass-ing
  []
 
-<../bnbcosmic_output/cnn_85_momentumdist.png, id=2678, 462.528pt x 346.896pt>
+<../bnbcosmic_output/cnn_85_momentumdist.png, id=2674, 462.528pt x 346.896pt>
 File: ../bnbcosmic_output/cnn_85_momentumdist.png Graphic file (type png)
 
 <use ../bnbcosmic_output/cnn_85_momentumdist.png>
@@ -2582,7 +2599,7 @@ ostly com-pa-ra-ble for CNN100000
  []
 
 [97 <./figs/cnn100000_image.png>]
-<../bnbcosmic_output/cc_trackrangedist_stacked.png, id=2683, 642.4pt x 391.4625
+<../bnbcosmic_output/cc_trackrangedist_stacked.png, id=2679, 642.4pt x 391.4625
 pt>
 File: ../bnbcosmic_output/cc_trackrangedist_stacked.png Graphic file (type png)
 
@@ -2591,7 +2608,7 @@ Package pdftex.def Info: ../bnbcosmic_output/cc_trackrangedist_stacked.png used
  on input line 388.
 (pdftex.def)             Requested size: 212.83777pt x 129.69672pt.
 
-<../bnbcosmic_output/cnn_85_trackrangedist_stacked.png, id=2684, 642.4pt x 394.
+<../bnbcosmic_output/cnn_85_trackrangedist_stacked.png, id=2680, 642.4pt x 394.
 47375pt>
 File: ../bnbcosmic_output/cnn_85_trackrangedist_stacked.png Graphic file (type 
 png)
@@ -2600,7 +2617,7 @@ Package pdftex.def Info: ../bnbcosmic_output/cnn_85_trackrangedist_stacked.png
 used on input line 395.
 (pdftex.def)             Requested size: 212.83777pt x 130.69438pt.
 
-<../bnbcosmic_output/cc_momentumdist_stacked.png, id=2685, 642.4pt x 393.47pt>
+<../bnbcosmic_output/cc_momentumdist_stacked.png, id=2681, 642.4pt x 393.47pt>
 File: ../bnbcosmic_output/cc_momentumdist_stacked.png Graphic file (type png)
 
 <use ../bnbcosmic_output/cc_momentumdist_stacked.png>
@@ -2608,7 +2625,7 @@ Package pdftex.def Info: ../bnbcosmic_output/cc_momentumdist_stacked.png used o
 n input line 407.
 (pdftex.def)             Requested size: 212.83777pt x 130.36182pt.
 
-<../bnbcosmic_output/cnn_85_momentumdist_stacked.png, id=2686, 642.4pt x 392.46
+<../bnbcosmic_output/cnn_85_momentumdist_stacked.png, id=2682, 642.4pt x 392.46
 625pt>
 File: ../bnbcosmic_output/cnn_85_momentumdist_stacked.png Graphic file (type pn
 g)
@@ -2617,7 +2634,7 @@ Package pdftex.def Info: ../bnbcosmic_output/cnn_85_momentumdist_stacked.png us
 ed on input line 414.
 (pdftex.def)             Requested size: 212.83777pt x 130.02927pt.
 
-<../bnbcosmic_output/cc_costhetadist_stacked.png, id=2687, 642.4pt x 393.47pt>
+<../bnbcosmic_output/cc_costhetadist_stacked.png, id=2683, 642.4pt x 393.47pt>
 File: ../bnbcosmic_output/cc_costhetadist_stacked.png Graphic file (type png)
 
 <use ../bnbcosmic_output/cc_costhetadist_stacked.png>
@@ -2625,7 +2642,7 @@ Package pdftex.def Info: ../bnbcosmic_output/cc_costhetadist_stacked.png used o
 n input line 426.
 (pdftex.def)             Requested size: 212.83777pt x 130.36182pt.
 
-<../bnbcosmic_output/cnn_85_costhetadist_stacked.png, id=2688, 642.4pt x 389.45
+<../bnbcosmic_output/cnn_85_costhetadist_stacked.png, id=2684, 642.4pt x 389.45
 5pt>
 File: ../bnbcosmic_output/cnn_85_costhetadist_stacked.png Graphic file (type pn
 g)
@@ -2634,7 +2651,7 @@ Package pdftex.def Info: ../bnbcosmic_output/cnn_85_costhetadist_stacked.png us
 ed on input line 433.
 (pdftex.def)             Requested size: 212.83777pt x 129.0316pt.
 
-<../bnbcosmic_output/cc_phidist_stacked.png, id=2689, 642.4pt x 394.47375pt>
+<../bnbcosmic_output/cc_phidist_stacked.png, id=2685, 642.4pt x 394.47375pt>
 File: ../bnbcosmic_output/cc_phidist_stacked.png Graphic file (type png)
 
 <use ../bnbcosmic_output/cc_phidist_stacked.png>
@@ -2642,7 +2659,7 @@ Package pdftex.def Info: ../bnbcosmic_output/cc_phidist_stacked.png used on inp
 ut line 445.
 (pdftex.def)             Requested size: 212.83777pt x 130.69438pt.
 
-<../bnbcosmic_output/cnn_85_phidist_stacked.png, id=2690, 642.4pt x 394.47375pt
+<../bnbcosmic_output/cnn_85_phidist_stacked.png, id=2686, 642.4pt x 394.47375pt
 >
 File: ../bnbcosmic_output/cnn_85_phidist_stacked.png Graphic file (type png)
  <use ../bnbcosmic_output/cnn_85_phidist_stacked.png>
@@ -2656,7 +2673,7 @@ nts pass-ing
  []
 
 
-<../bnbcosmic_output/cnn_85_trackstartXdist.png, id=2694, 462.528pt x 346.896pt
+<../bnbcosmic_output/cnn_85_trackstartXdist.png, id=2690, 462.528pt x 346.896pt
 >
 File: ../bnbcosmic_output/cnn_85_trackstartXdist.png Graphic file (type png)
  <use ../bnbcosmic_output/cnn_85_trackstartXdist.png>
@@ -2664,7 +2681,7 @@ Package pdftex.def Info: ../bnbcosmic_output/cnn_85_trackstartXdist.png used on
  input line 466.
 (pdftex.def)             Requested size: 246.44194pt x 184.83324pt.
 
-<../bnbcosmic_output/cnn_85_trackstartYdist.png, id=2695, 462.528pt x 346.896pt
+<../bnbcosmic_output/cnn_85_trackstartYdist.png, id=2691, 462.528pt x 346.896pt
 >
 File: ../bnbcosmic_output/cnn_85_trackstartYdist.png Graphic file (type png)
  <use ../bnbcosmic_output/cnn_85_trackstartYdist.png>
@@ -2672,7 +2689,7 @@ Package pdftex.def Info: ../bnbcosmic_output/cnn_85_trackstartYdist.png used on
  input line 473.
 (pdftex.def)             Requested size: 246.44194pt x 184.83324pt.
 
-<../bnbcosmic_output/cnn_85_trackstartZdist.png, id=2696, 462.528pt x 346.896pt
+<../bnbcosmic_output/cnn_85_trackstartZdist.png, id=2692, 462.528pt x 346.896pt
 >
 File: ../bnbcosmic_output/cnn_85_trackstartZdist.png Graphic file (type png)
  <use ../bnbcosmic_output/cnn_85_trackstartZdist.png>
@@ -2692,14 +2709,14 @@ bnbcosmic_output/cnn_85_momentumdist_stacked.png>] [101 <../bnbcosmic_output/cc
 _costhetadist_stacked.png> <../bnbcosmic_output/cnn_85_costhetadist_stacked.png
 > <../bnbcosmic_output/cc_phidist_stacked.png> <../bnbcosmic_output/cnn_85_phid
 ist_stacked.png>]
-<../bnbcosmic_output/data85_trackrangedist.png, id=2730, 462.528pt x 346.896pt>
+<../bnbcosmic_output/data85_trackrangedist.png, id=2726, 462.528pt x 346.896pt>
 File: ../bnbcosmic_output/data85_trackrangedist.png Graphic file (type png)
 <use ../bnbcosmic_output/data85_trackrangedist.png>
 Package pdftex.def Info: ../bnbcosmic_output/data85_trackrangedist.png used on 
 input line 493.
 (pdftex.def)             Requested size: 268.847pt x 201.64444pt.
 
-<../bnbcosmic_output/data85_Thetadist.png, id=2731, 462.528pt x 346.896pt>
+<../bnbcosmic_output/data85_Thetadist.png, id=2727, 462.528pt x 346.896pt>
 File: ../bnbcosmic_output/data85_Thetadist.png Graphic file (type png)
 
 <use ../bnbcosmic_output/data85_Thetadist.png>
@@ -2707,7 +2724,7 @@ Package pdftex.def Info: ../bnbcosmic_output/data85_Thetadist.png used on input
  line 500.
 (pdftex.def)             Requested size: 268.847pt x 201.64444pt.
 
-<../bnbcosmic_output/data85_Phidist.png, id=2732, 462.528pt x 346.896pt>
+<../bnbcosmic_output/data85_Phidist.png, id=2728, 462.528pt x 346.896pt>
 File: ../bnbcosmic_output/data85_Phidist.png Graphic file (type png)
 
 <use ../bnbcosmic_output/data85_Phidist.png>
@@ -2715,7 +2732,7 @@ Package pdftex.def Info: ../bnbcosmic_output/data85_Phidist.png used on input l
 ine 507.
 (pdftex.def)             Requested size: 268.847pt x 201.64444pt.
 
-<../bnbcosmic_output/data85_trackstartXdist.png, id=2733, 462.528pt x 346.896pt
+<../bnbcosmic_output/data85_trackstartXdist.png, id=2729, 462.528pt x 346.896pt
 >
 File: ../bnbcosmic_output/data85_trackstartXdist.png Graphic file (type png)
  <use ../bnbcosmic_output/data85_trackstartXdist.png>
@@ -2723,7 +2740,7 @@ Package pdftex.def Info: ../bnbcosmic_output/data85_trackstartXdist.png used on
  input line 514.
 (pdftex.def)             Requested size: 268.847pt x 201.64444pt.
 
-<../bnbcosmic_output/data85_trackstartYdist.png, id=2734, 462.528pt x 346.896pt
+<../bnbcosmic_output/data85_trackstartYdist.png, id=2730, 462.528pt x 346.896pt
 >
 File: ../bnbcosmic_output/data85_trackstartYdist.png Graphic file (type png)
  <use ../bnbcosmic_output/data85_trackstartYdist.png>
@@ -2731,7 +2748,7 @@ Package pdftex.def Info: ../bnbcosmic_output/data85_trackstartYdist.png used on
  input line 521.
 (pdftex.def)             Requested size: 268.847pt x 201.64444pt.
 
-<../bnbcosmic_output/data85_trackstartZdist.png, id=2735, 462.528pt x 346.896pt
+<../bnbcosmic_output/data85_trackstartZdist.png, id=2731, 462.528pt x 346.896pt
 >
 File: ../bnbcosmic_output/data85_trackstartZdist.png Graphic file (type png)
  <use ../bnbcosmic_output/data85_trackstartZdist.png>
@@ -2745,7 +2762,7 @@ a85_Thetadist.png>]
 [105 <../bnbcosmic_output/data85_Phidist.png> <../bnbcosmic_output/data85_track
 startXdist.png>] [106 <../bnbcosmic_output/data85_trackstartYdist.png> <../bnbc
 osmic_output/data85_trackstartZdist.png>]
-<../bnbcosmic_output/final_pot_cc.png, id=2770, 462.528pt x 346.896pt>
+<../bnbcosmic_output/final_pot_cc.png, id=2765, 462.528pt x 346.896pt>
 File: ../bnbcosmic_output/final_pot_cc.png Graphic file (type png)
 
 <use ../bnbcosmic_output/final_pot_cc.png>
@@ -2753,7 +2770,7 @@ Package pdftex.def Info: ../bnbcosmic_output/final_pot_cc.png used on input lin
 e 539.
 (pdftex.def)             Requested size: 212.83777pt x 159.62701pt.
 
-<../bnbcosmic_output/final85_pot.png, id=2771, 462.528pt x 346.896pt>
+<../bnbcosmic_output/final85_pot.png, id=2766, 462.528pt x 346.896pt>
 File: ../bnbcosmic_output/final85_pot.png Graphic file (type png)
 
 <use ../bnbcosmic_output/final85_pot.png>
@@ -2761,7 +2778,7 @@ Package pdftex.def Info: ../bnbcosmic_output/final85_pot.png used on input line
  545.
 (pdftex.def)             Requested size: 212.83777pt x 159.62701pt.
 
-<../bnbcosmic_output/finaleventcosthetadist_pot_cc.png, id=2772, 462.528pt x 34
+<../bnbcosmic_output/finaleventcosthetadist_pot_cc.png, id=2767, 462.528pt x 34
 6.896pt>
 File: ../bnbcosmic_output/finaleventcosthetadist_pot_cc.png Graphic file (type 
 png)
@@ -2770,7 +2787,7 @@ Package pdftex.def Info: ../bnbcosmic_output/finaleventcosthetadist_pot_cc.png
 used on input line 556.
 (pdftex.def)             Requested size: 212.83777pt x 159.62701pt.
 
-<../bnbcosmic_output/finaleventcosthetadist85_pot.png, id=2773, 462.528pt x 346
+<../bnbcosmic_output/finaleventcosthetadist85_pot.png, id=2768, 462.528pt x 346
 .896pt>
 File: ../bnbcosmic_output/finaleventcosthetadist85_pot.png Graphic file (type p
 ng)
@@ -2779,7 +2796,7 @@ Package pdftex.def Info: ../bnbcosmic_output/finaleventcosthetadist85_pot.png u
 sed on input line 562.
 (pdftex.def)             Requested size: 212.83777pt x 159.62701pt.
 
-<../bnbcosmic_output/finaleventphi_pot_cc.png, id=2774, 462.528pt x 346.896pt>
+<../bnbcosmic_output/finaleventphi_pot_cc.png, id=2769, 462.528pt x 346.896pt>
 File: ../bnbcosmic_output/finaleventphi_pot_cc.png Graphic file (type png)
 
 <use ../bnbcosmic_output/finaleventphi_pot_cc.png>
@@ -2787,7 +2804,7 @@ Package pdftex.def Info: ../bnbcosmic_output/finaleventphi_pot_cc.png used on i
 nput line 573.
 (pdftex.def)             Requested size: 212.83777pt x 159.62701pt.
 
-<../bnbcosmic_output/finaleventphi85_pot.png, id=2775, 462.528pt x 346.896pt>
+<../bnbcosmic_output/finaleventphi85_pot.png, id=2770, 462.528pt x 346.896pt>
 File: ../bnbcosmic_output/finaleventphi85_pot.png Graphic file (type png)
 
 <use ../bnbcosmic_output/finaleventphi85_pot.png>
@@ -2795,7 +2812,7 @@ Package pdftex.def Info: ../bnbcosmic_output/finaleventphi85_pot.png used on in
 put line 579.
 (pdftex.def)             Requested size: 212.83777pt x 159.62701pt.
 
-<../bnbcosmic_output/mc85dataratio_trackrange.png, id=2784, 462.528pt x 346.896
+<../bnbcosmic_output/mc85dataratio_trackrange.png, id=2779, 462.528pt x 346.896
 pt>
 File: ../bnbcosmic_output/mc85dataratio_trackrange.png Graphic file (type png)
  <use ../bnbcosmic_output/mc85dataratio_trackrange.png>
@@ -2813,7 +2830,7 @@ Underfull \hbox (badness 1275) in paragraph at lines 595--595
  []
 
 
-<../bnbcosmic_output/mc85dataratio_costheta.png, id=2785, 462.528pt x 346.896pt
+<../bnbcosmic_output/mc85dataratio_costheta.png, id=2780, 462.528pt x 346.896pt
 >
 File: ../bnbcosmic_output/mc85dataratio_costheta.png Graphic file (type png)
  <use ../bnbcosmic_output/mc85dataratio_costheta.png>
@@ -2821,7 +2838,7 @@ Package pdftex.def Info: ../bnbcosmic_output/mc85dataratio_costheta.png used on
  input line 600.
 (pdftex.def)             Requested size: 212.83777pt x 159.62701pt.
 
-<../bnbcosmic_output/mc85dataratio_Phi.png, id=2786, 462.528pt x 346.896pt>
+<../bnbcosmic_output/mc85dataratio_Phi.png, id=2781, 462.528pt x 346.896pt>
 File: ../bnbcosmic_output/mc85dataratio_Phi.png Graphic file (type png)
 
 <use ../bnbcosmic_output/mc85dataratio_Phi.png>
@@ -2833,7 +2850,7 @@ ng>] [108 <../bnbcosmic_output/finaleventcosthetadist_pot_cc.png> <../bnbcosmic
 _output/finaleventcosthetadist85_pot.png> <../bnbcosmic_output/finaleventphi_po
 t_cc.png> <../bnbcosmic_output/finaleventphi85_pot.png>] [109 <../bnbcosmic_out
 put/mc85dataratio_trackrange.png> <../bnbcosmic_output/mc85dataratio_costheta.p
-ng> <../bnbcosmic_output/mc85dataratio_Phi.png>] <figs/roc.png, id=2810, 970.62
+ng> <../bnbcosmic_output/mc85dataratio_Phi.png>] <figs/roc.png, id=2806, 970.62
 625pt x 760.8425pt>
 File: figs/roc.png Graphic file (type png)
 
@@ -2841,7 +2858,7 @@ File: figs/roc.png Graphic file (type png)
 Package pdftex.def Info: figs/roc.png used on input line 645.
 (pdftex.def)             Requested size: 224.03688pt x 175.617pt.
 
-<../bnbcosmic_output_contained/cnn_60_trackrangedist.png, id=2813, 462.528pt x 
+<../bnbcosmic_output_contained/cnn_60_trackrangedist.png, id=2809, 462.528pt x 
 346.896pt>
 File: ../bnbcosmic_output_contained/cnn_60_trackrangedist.png Graphic file (typ
 e png)
@@ -2850,7 +2867,7 @@ Package pdftex.def Info: ../bnbcosmic_output_contained/cnn_60_trackrangedist.pn
 g used on input line 656.
 (pdftex.def)             Requested size: 212.83777pt x 159.62701pt.
 
-<../bnbcosmic_output_contained/cnn_60_truecosthetadist.png, id=2814, 462.528pt 
+<../bnbcosmic_output_contained/cnn_60_truecosthetadist.png, id=2810, 462.528pt 
 x 346.896pt>
 File: ../bnbcosmic_output_contained/cnn_60_truecosthetadist.png Graphic file (t
 ype png)
@@ -2859,7 +2876,7 @@ Package pdftex.def Info: ../bnbcosmic_output_contained/cnn_60_truecosthetadist.
 png used on input line 663.
 (pdftex.def)             Requested size: 212.83777pt x 159.62701pt.
 
-<../bnbcosmic_output_contained/cnn_60_truephidist.png, id=2815, 462.528pt x 346
+<../bnbcosmic_output_contained/cnn_60_truephidist.png, id=2811, 462.528pt x 346
 .896pt>
 File: ../bnbcosmic_output_contained/cnn_60_truephidist.png Graphic file (type p
 ng)
@@ -2868,7 +2885,7 @@ Package pdftex.def Info: ../bnbcosmic_output_contained/cnn_60_truephidist.png u
 sed on input line 670.
 (pdftex.def)             Requested size: 212.83777pt x 159.62701pt.
 
-<../bnbcosmic_output_contained/cnn_60_momentumdist.png, id=2816, 462.528pt x 34
+<../bnbcosmic_output_contained/cnn_60_momentumdist.png, id=2812, 462.528pt x 34
 6.896pt>
 File: ../bnbcosmic_output_contained/cnn_60_momentumdist.png Graphic file (type 
 png)
@@ -2880,7 +2897,7 @@ used on input line 677.
 st.png> <../bnbcosmic_output_contained/cnn_60_truecosthetadist.png> <../bnbcosm
 ic_output_contained/cnn_60_truephidist.png> <../bnbcosmic_output_contained/cnn_
 60_momentumdist.png>]
-<../bnbcosmic_output_contained/cc_trackrangedist_stacked.png, id=2831, 462.528p
+<../bnbcosmic_output_contained/cc_trackrangedist_stacked.png, id=2827, 462.528p
 t x 346.896pt>
 File: ../bnbcosmic_output_contained/cc_trackrangedist_stacked.png Graphic file 
 (type png)
@@ -2890,7 +2907,7 @@ Package pdftex.def Info: ../bnbcosmic_output_contained/cc_trackrangedist_stacke
 d.png used on input line 691.
 (pdftex.def)             Requested size: 212.83777pt x 159.62701pt.
 
-<../bnbcosmic_output_contained/cnn_60_trackrangedist_stacked.png, id=2832, 462.
+<../bnbcosmic_output_contained/cnn_60_trackrangedist_stacked.png, id=2828, 462.
 528pt x 346.896pt>
 File: ../bnbcosmic_output_contained/cnn_60_trackrangedist_stacked.png Graphic f
 ile (type png)
@@ -2900,7 +2917,7 @@ Package pdftex.def Info: ../bnbcosmic_output_contained/cnn_60_trackrangedist_st
 acked.png used on input line 698.
 (pdftex.def)             Requested size: 212.83777pt x 159.62701pt.
 
-<../bnbcosmic_output_contained/cc_momentumdist_stacked.png, id=2833, 462.528pt 
+<../bnbcosmic_output_contained/cc_momentumdist_stacked.png, id=2829, 462.528pt 
 x 346.896pt>
 File: ../bnbcosmic_output_contained/cc_momentumdist_stacked.png Graphic file (t
 ype png)
@@ -2909,7 +2926,7 @@ Package pdftex.def Info: ../bnbcosmic_output_contained/cc_momentumdist_stacked.
 png used on input line 710.
 (pdftex.def)             Requested size: 212.83777pt x 159.62701pt.
 
-<../bnbcosmic_output_contained/cnn_60_momentumdist_stacked.png, id=2834, 462.52
+<../bnbcosmic_output_contained/cnn_60_momentumdist_stacked.png, id=2830, 462.52
 8pt x 346.896pt>
 File: ../bnbcosmic_output_contained/cnn_60_momentumdist_stacked.png Graphic fil
 e (type png)
@@ -2919,7 +2936,7 @@ Package pdftex.def Info: ../bnbcosmic_output_contained/cnn_60_momentumdist_stac
 ked.png used on input line 717.
 (pdftex.def)             Requested size: 212.83777pt x 159.62701pt.
 
-<../bnbcosmic_output_contained/cc_costhetadist_stacked.png, id=2835, 462.528pt 
+<../bnbcosmic_output_contained/cc_costhetadist_stacked.png, id=2831, 462.528pt 
 x 346.896pt>
 File: ../bnbcosmic_output_contained/cc_costhetadist_stacked.png Graphic file (t
 ype png)
@@ -2928,7 +2945,7 @@ Package pdftex.def Info: ../bnbcosmic_output_contained/cc_costhetadist_stacked.
 png used on input line 729.
 (pdftex.def)             Requested size: 212.83777pt x 159.62701pt.
 
-<../bnbcosmic_output_contained/cnn_60_costhetadist_stacked.png, id=2836, 462.52
+<../bnbcosmic_output_contained/cnn_60_costhetadist_stacked.png, id=2832, 462.52
 8pt x 346.896pt>
 File: ../bnbcosmic_output_contained/cnn_60_costhetadist_stacked.png Graphic fil
 e (type png)
@@ -2938,7 +2955,7 @@ Package pdftex.def Info: ../bnbcosmic_output_contained/cnn_60_costhetadist_stac
 ked.png used on input line 736.
 (pdftex.def)             Requested size: 212.83777pt x 159.62701pt.
 
-<../bnbcosmic_output_contained/cc_phidist_stacked.png, id=2837, 462.528pt x 346
+<../bnbcosmic_output_contained/cc_phidist_stacked.png, id=2833, 462.528pt x 346
 .896pt>
 File: ../bnbcosmic_output_contained/cc_phidist_stacked.png Graphic file (type p
 ng)
@@ -2947,7 +2964,7 @@ Package pdftex.def Info: ../bnbcosmic_output_contained/cc_phidist_stacked.png u
 sed on input line 748.
 (pdftex.def)             Requested size: 212.83777pt x 159.62701pt.
 
-<../bnbcosmic_output_contained/cnn_60_phidist_stacked.png, id=2838, 462.528pt x
+<../bnbcosmic_output_contained/cnn_60_phidist_stacked.png, id=2834, 462.528pt x
  346.896pt>
 File: ../bnbcosmic_output_contained/cnn_60_phidist_stacked.png Graphic file (ty
 pe png)
@@ -2956,7 +2973,7 @@ Package pdftex.def Info: ../bnbcosmic_output_contained/cnn_60_phidist_stacked.p
 ng used on input line 755.
 (pdftex.def)             Requested size: 212.83777pt x 159.62701pt.
 
-<../bnbcosmic_output_contained/final_pot_cc.png, id=2841, 462.528pt x 346.896pt
+<../bnbcosmic_output_contained/final_pot_cc.png, id=2837, 462.528pt x 346.896pt
 >
 File: ../bnbcosmic_output_contained/final_pot_cc.png Graphic file (type png)
  <use ../bnbcosmic_output_contained/final_pot_cc.png>
@@ -2964,7 +2981,7 @@ Package pdftex.def Info: ../bnbcosmic_output_contained/final_pot_cc.png used on
  input line 768.
 (pdftex.def)             Requested size: 212.83777pt x 159.62701pt.
 
-<../bnbcosmic_output_contained/final60_pot.png, id=2842, 462.528pt x 346.896pt>
+<../bnbcosmic_output_contained/final60_pot.png, id=2838, 462.528pt x 346.896pt>
 File: ../bnbcosmic_output_contained/final60_pot.png Graphic file (type png)
 <use ../bnbcosmic_output_contained/final60_pot.png>
 Package pdftex.def Info: ../bnbcosmic_output_contained/final60_pot.png used on 
@@ -2978,7 +2995,7 @@ tumdist_stacked.png>]
 output_contained/cnn_60_costhetadist_stacked.png> <../bnbcosmic_output_containe
 d/cc_phidist_stacked.png> <../bnbcosmic_output_contained/cnn_60_phidist_stacked
 .png>]
-<../bnbcosmic_output_contained/finaleventcosthetadist_pot_cc.png, id=2860, 462.
+<../bnbcosmic_output_contained/finaleventcosthetadist_pot_cc.png, id=2856, 462.
 528pt x 346.896pt>
 File: ../bnbcosmic_output_contained/finaleventcosthetadist_pot_cc.png Graphic f
 ile (type png)
@@ -2988,7 +3005,7 @@ Package pdftex.def Info: ../bnbcosmic_output_contained/finaleventcosthetadist_p
 ot_cc.png used on input line 785.
 (pdftex.def)             Requested size: 212.83777pt x 159.62701pt.
 
-<../bnbcosmic_output_contained/finaleventcosthetadist60_pot.png, id=2861, 462.5
+<../bnbcosmic_output_contained/finaleventcosthetadist60_pot.png, id=2857, 462.5
 28pt x 346.896pt>
 File: ../bnbcosmic_output_contained/finaleventcosthetadist60_pot.png Graphic fi
 le (type png)
@@ -2998,7 +3015,7 @@ Package pdftex.def Info: ../bnbcosmic_output_contained/finaleventcosthetadist60
 _pot.png used on input line 791.
 (pdftex.def)             Requested size: 212.83777pt x 159.62701pt.
 
-<../bnbcosmic_output_contained/finaleventphi_pot_cc.png, id=2862, 462.528pt x 3
+<../bnbcosmic_output_contained/finaleventphi_pot_cc.png, id=2858, 462.528pt x 3
 46.896pt>
 File: ../bnbcosmic_output_contained/finaleventphi_pot_cc.png Graphic file (type
  png)
@@ -3007,7 +3024,7 @@ Package pdftex.def Info: ../bnbcosmic_output_contained/finaleventphi_pot_cc.png
  used on input line 802.
 (pdftex.def)             Requested size: 212.83777pt x 159.62701pt.
 
-<../bnbcosmic_output_contained/finaleventphi60_pot.png, id=2863, 462.528pt x 34
+<../bnbcosmic_output_contained/finaleventphi60_pot.png, id=2859, 462.528pt x 34
 6.896pt>
 File: ../bnbcosmic_output_contained/finaleventphi60_pot.png Graphic file (type 
 png)
@@ -3016,7 +3033,7 @@ Package pdftex.def Info: ../bnbcosmic_output_contained/finaleventphi60_pot.png
 used on input line 808.
 (pdftex.def)             Requested size: 212.83777pt x 159.62701pt.
 
-<../bnbcosmic_output_contained/mc60dataratio_trackrange.png, id=2869, 462.528pt
+<../bnbcosmic_output_contained/mc60dataratio_trackrange.png, id=2865, 462.528pt
  x 346.896pt>
 File: ../bnbcosmic_output_contained/mc60dataratio_trackrange.png Graphic file (
 type png)
@@ -3030,7 +3047,7 @@ Underfull \hbox (badness 1648) in paragraph at lines 822--822
  []
 
 
-<../bnbcosmic_output_contained/mc60dataratio_costheta.png, id=2870, 462.528pt x
+<../bnbcosmic_output_contained/mc60dataratio_costheta.png, id=2866, 462.528pt x
  346.896pt>
 File: ../bnbcosmic_output_contained/mc60dataratio_costheta.png Graphic file (ty
 pe png)
@@ -3044,7 +3061,7 @@ Underfull \hbox (badness 6173) in paragraph at lines 828--828
  []
 
 
-<../bnbcosmic_output_contained/mc60dataratio_Phi.png, id=2871, 462.528pt x 346.
+<../bnbcosmic_output_contained/mc60dataratio_Phi.png, id=2867, 462.528pt x 346.
 896pt>
 File: ../bnbcosmic_output_contained/mc60dataratio_Phi.png Graphic file (type pn
 g)
@@ -3069,6 +3086,12 @@ Overfull \hbox (52.24728pt too wide) in paragraph at lines 850--856
                 $
 l.888 V_{fid} & 46.6E^
                       {6}\\
+? pd
+Type <return> to proceed, S to scroll future error messages,
+R to run without stopping, Q to run quietly,
+I to insert something, E to edit your file,
+1 or ... or 9 to ignore the next 1 to 9 tokens of input,
+H for help, X to quit.
 ? 
 ! Missing $ inserted.
 <inserted text> 
@@ -3100,14 +3123,14 @@ l.890 M_{Ar} & 6.63E^
 l.891 \#
         _{\text{Ar nucleons}} & 40\\
 ? 
-<figs/bnbflux.pdf, id=2902, 569.12625pt x 542.025pt>
+<figs/bnbflux.pdf, id=2898, 569.12625pt x 542.025pt>
 File: figs/bnbflux.pdf Graphic file (type pdf)
  <use figs/bnbflux.pdf>
 Package pdftex.def Info: figs/bnbflux.pdf used on input line 897.
 (pdftex.def)             Requested size: 268.847pt x 256.05853pt.
 
 [118 <./figs/bnbflux.pdf, page is rotated 90 degrees>]
-<figs/c_data_PDB_02_contained.png, id=2953, 1859.94875pt x 1154.3125pt>
+<figs/c_data_PDB_02_contained.png, id=2948, 1859.94875pt x 1154.3125pt>
 File: figs/c_data_PDB_02_contained.png Graphic file (type png)
 
 <use figs/c_data_PDB_02_contained.png>
@@ -3568,49 +3591,186 @@ Class scrbook Warning: Usage of deprecated font command `\bf'!
 
 
 Comment 'appendices' writing to comment.cut. Straight input of comment.cut.
-(./comment.cut (./appendices.tex [126]
+(./comment.cut (./cv.tex [126]
 chapter A.
-! Undefined control sequence.
-l.5 \includepdf
-               [pages=-]{../post\_doc\_applications/cv\_7/esquivel\_cv\_wpub...
 
-? 
-)) [127
+<../post_doc_applications/cv_7/esquivel_cv_wpublications.pdf, id=2990, 597.5082
+9pt x 845.0471pt>
+File: ../post_doc_applications/cv_7/esquivel_cv_wpublications.pdf Graphic file 
+(type pdf)
+
+<use ../post_doc_applications/cv_7/esquivel_cv_wpublications.pdf>
+Package pdftex.def Info: ../post_doc_applications/cv_7/esquivel_cv_wpublication
+s.pdf used on input line 2.
+(pdftex.def)             Requested size: 597.50682pt x 845.04504pt.
+File: ../post_doc_applications/cv_7/esquivel_cv_wpublications.pdf Graphic file 
+(type pdf)
+
+<use ../post_doc_applications/cv_7/esquivel_cv_wpublications.pdf>
+Package pdftex.def Info: ../post_doc_applications/cv_7/esquivel_cv_wpublication
+s.pdf used on input line 2.
+(pdftex.def)             Requested size: 597.50682pt x 845.04504pt.
+
+<../post_doc_applications/cv_7/esquivel_cv_wpublications.pdf, id=2993, page=1, 
+597.50829pt x 845.0471pt>
+File: ../post_doc_applications/cv_7/esquivel_cv_wpublications.pdf Graphic file 
+(type pdf)
+
+<use ../post_doc_applications/cv_7/esquivel_cv_wpublications.pdf, page 1>
+Package pdftex.def Info: ../post_doc_applications/cv_7/esquivel_cv_wpublication
+s.pdf, page1 used on input line 2.
+(pdftex.def)             Requested size: 597.50682pt x 845.04504pt.
+File: ../post_doc_applications/cv_7/esquivel_cv_wpublications.pdf Graphic file 
+(type pdf)
+
+<use ../post_doc_applications/cv_7/esquivel_cv_wpublications.pdf, page 1>
+Package pdftex.def Info: ../post_doc_applications/cv_7/esquivel_cv_wpublication
+s.pdf, page1 used on input line 2.
+(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
+
+[127
 
 ]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 170.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 170.
- (./example.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 170.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 170.
+File: ../post_doc_applications/cv_7/esquivel_cv_wpublications.pdf Graphic file 
+(type pdf)
+
+<use ../post_doc_applications/cv_7/esquivel_cv_wpublications.pdf, page 1>
+Package pdftex.def Info: ../post_doc_applications/cv_7/esquivel_cv_wpublication
+s.pdf, page1 used on input line 2.
+(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
+File: ../post_doc_applications/cv_7/esquivel_cv_wpublications.pdf Graphic file 
+(type pdf)
+
+<use ../post_doc_applications/cv_7/esquivel_cv_wpublications.pdf, page 1>
+Package pdftex.def Info: ../post_doc_applications/cv_7/esquivel_cv_wpublication
+s.pdf, page1 used on input line 2.
+(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
+File: ../post_doc_applications/cv_7/esquivel_cv_wpublications.pdf Graphic file 
+(type pdf)
+
+<use ../post_doc_applications/cv_7/esquivel_cv_wpublications.pdf, page 1>
+Package pdftex.def Info: ../post_doc_applications/cv_7/esquivel_cv_wpublication
+s.pdf, page1 used on input line 2.
+(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
+
+[128 <../post_doc_applications/cv_7/esquivel_cv_wpublications.pdf>]
+<../post_doc_applications/cv_7/esquivel_cv_wpublications.pdf, id=3059, page=2, 
+597.50829pt x 845.0471pt>
+File: ../post_doc_applications/cv_7/esquivel_cv_wpublications.pdf Graphic file 
+(type pdf)
+
+<use ../post_doc_applications/cv_7/esquivel_cv_wpublications.pdf, page 2>
+Package pdftex.def Info: ../post_doc_applications/cv_7/esquivel_cv_wpublication
+s.pdf, page2 used on input line 2.
+(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
+File: ../post_doc_applications/cv_7/esquivel_cv_wpublications.pdf Graphic file 
+(type pdf)
+
+<use ../post_doc_applications/cv_7/esquivel_cv_wpublications.pdf, page 2>
+Package pdftex.def Info: ../post_doc_applications/cv_7/esquivel_cv_wpublication
+s.pdf, page2 used on input line 2.
+(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
+File: ../post_doc_applications/cv_7/esquivel_cv_wpublications.pdf Graphic file 
+(type pdf)
+
+<use ../post_doc_applications/cv_7/esquivel_cv_wpublications.pdf, page 2>
+Package pdftex.def Info: ../post_doc_applications/cv_7/esquivel_cv_wpublication
+s.pdf, page2 used on input line 2.
+(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
+
+[129 <../post_doc_applications/cv_7/esquivel_cv_wpublications.pdf>]
+<../post_doc_applications/cv_7/esquivel_cv_wpublications.pdf, id=3069, page=3, 
+597.50829pt x 845.0471pt>
+File: ../post_doc_applications/cv_7/esquivel_cv_wpublications.pdf Graphic file 
+(type pdf)
+
+<use ../post_doc_applications/cv_7/esquivel_cv_wpublications.pdf, page 3>
+Package pdftex.def Info: ../post_doc_applications/cv_7/esquivel_cv_wpublication
+s.pdf, page3 used on input line 2.
+(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
+File: ../post_doc_applications/cv_7/esquivel_cv_wpublications.pdf Graphic file 
+(type pdf)
+
+<use ../post_doc_applications/cv_7/esquivel_cv_wpublications.pdf, page 3>
+Package pdftex.def Info: ../post_doc_applications/cv_7/esquivel_cv_wpublication
+s.pdf, page3 used on input line 2.
+(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
+File: ../post_doc_applications/cv_7/esquivel_cv_wpublications.pdf Graphic file 
+(type pdf)
+
+<use ../post_doc_applications/cv_7/esquivel_cv_wpublications.pdf, page 3>
+Package pdftex.def Info: ../post_doc_applications/cv_7/esquivel_cv_wpublication
+s.pdf, page3 used on input line 2.
+(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
+
+[130 <../post_doc_applications/cv_7/esquivel_cv_wpublications.pdf>]
+<../post_doc_applications/cv_7/esquivel_cv_wpublications.pdf, id=3079, page=4, 
+597.50829pt x 845.0471pt>
+File: ../post_doc_applications/cv_7/esquivel_cv_wpublications.pdf Graphic file 
+(type pdf)
+
+<use ../post_doc_applications/cv_7/esquivel_cv_wpublications.pdf, page 4>
+Package pdftex.def Info: ../post_doc_applications/cv_7/esquivel_cv_wpublication
+s.pdf, page4 used on input line 2.
+(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
+File: ../post_doc_applications/cv_7/esquivel_cv_wpublications.pdf Graphic file 
+(type pdf)
+
+<use ../post_doc_applications/cv_7/esquivel_cv_wpublications.pdf, page 4>
+Package pdftex.def Info: ../post_doc_applications/cv_7/esquivel_cv_wpublication
+s.pdf, page4 used on input line 2.
+(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
+File: ../post_doc_applications/cv_7/esquivel_cv_wpublications.pdf Graphic file 
+(type pdf)
+
+<use ../post_doc_applications/cv_7/esquivel_cv_wpublications.pdf, page 4>
+Package pdftex.def Info: ../post_doc_applications/cv_7/esquivel_cv_wpublication
+s.pdf, page4 used on input line 2.
+(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
+
+[131 <../post_doc_applications/cv_7/esquivel_cv_wpublications.pdf>]))
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 171.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 171.
+
+(./example.aux)
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 171.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 171.
 Package rerunfilecheck Info: File `example.out' has not changed.
 (rerunfilecheck)             Checksum: 382C348F2023C01758F6F565555E1830;5783.
  ) 
 Here is how much of TeX's memory you used:
- 31723 strings out of 494953
- 572625 string characters out of 6180977
- 805897 words of memory out of 5000000
- 33285 multiletter control sequences out of 15000+600000
+ 32443 strings out of 494953
+ 585153 string characters out of 6180977
+ 818822 words of memory out of 5000000
+ 33976 multiletter control sequences out of 15000+600000
  126001 words of font info for 528 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
- 75i,23n,80p,2575b,986s stack positions out of 5000i,500n,10000p,200000b,80000s
-{/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc}{/usr/share/texmf/
-fonts/enc/dvips/cm-super/cm-super-t1.enc}</usr/share/texlive/texmf-dist/fonts/t
-ype1/public/amsfonts/cm/cmex10.pfb></usr/share/texlive/texmf-dist/fonts/type1/p
-ublic/amsfonts/cm/cmmi10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/
-amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfont
-s/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/mathpazo/fplm
-bi.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/mathpazo/fplmr.pfb></u
-sr/share/texlive/texmf-dist/fonts/type1/public/mathpazo/fplmri.pfb></usr/share/
-texmf/fonts/type1/public/cm-super/sfrm1200.pfb></usr/share/texlive/texmf-dist/f
-onts/type1/urw/palatino/uplb8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/u
-rw/palatino/uplbi8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/palatino
-/uplr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/palatino/uplr8a.pfb>
-</usr/share/texlive/texmf-dist/fonts/type1/urw/palatino/uplri8a.pfb>
-Output written on example.pdf (154 pages, 11921773 bytes).
+ 67i,23n,80p,2575b,1020s stack positions out of 5000i,500n,10000p,200000b,80000s
+{/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/share/texliv
+e/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texlive/texm
+f-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texlive/texmf-dist
+/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/
+type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/
+public/mathpazo/fplmbi.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/ma
+thpazo/fplmr.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/mathpazo/fpl
+mri.pfb></usr/share/texmf/fonts/type1/public/lm/lmbx10.pfb></usr/share/texmf/fo
+nts/type1/public/lm/lmbxi10.pfb></usr/share/texmf/fonts/type1/public/lm/lmcsc10
+.pfb></usr/share/texmf/fonts/type1/public/lm/lmmi10.pfb></usr/share/texmf/fonts
+/type1/public/lm/lmmi8.pfb></usr/share/texmf/fonts/type1/public/lm/lmr10.pfb></
+usr/share/texmf/fonts/type1/public/lm/lmr12.pfb></usr/share/texmf/fonts/type1/p
+ublic/lm/lmr17.pfb></usr/share/texmf/fonts/type1/public/lm/lmr8.pfb></usr/share
+/texmf/fonts/type1/public/lm/lmri10.pfb></usr/share/texmf/fonts/type1/public/lm
+/lmro10.pfb></usr/share/texmf/fonts/type1/public/lm/lmro17.pfb></usr/share/texm
+f/fonts/type1/public/lm/lmtt10.pfb></usr/share/texlive/texmf-dist/fonts/type1/p
+ublic/marvosym/marvosym.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/pala
+tino/uplb8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/palatino/uplbi8a
+.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/palatino/uplr8a.pfb></usr/s
+hare/texlive/texmf-dist/fonts/type1/urw/palatino/uplr8a.pfb></usr/share/texlive
+/texmf-dist/fonts/type1/urw/palatino/uplri8a.pfb>
+Output written on example.pdf (157 pages, 12210622 bytes).
 PDF statistics:
- 3137 PDF objects out of 3580 (max. 8388607)
- 2020 compressed objects within 21 object streams
- 420 named destinations out of 1000 (max. 500000)
- 66390 words of extra memory for PDF output out of 74296 (max. 10000000)
+ 3239 PDF objects out of 3580 (max. 8388607)
+ 2099 compressed objects within 21 object streams
+ 424 named destinations out of 1000 (max. 500000)
+ 66425 words of extra memory for PDF output out of 74296 (max. 10000000)
 
