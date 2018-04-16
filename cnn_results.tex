@@ -638,12 +638,12 @@ Another thing that was checked was if the MC/Data difference between the selecti
 \newpage
 
 \section{Classification using a modified CNN100000}
-To try and reduce the cosmic muon background from the BNB+Cosmic dataset, I reintroduced the track containment cut from the Selection I filter, however, instead of a containment on the longest track, the track with the highest probability of being a muon from an event is chosen and then the track containment is applied. By applying a containment cut, we can possibly reduce the cosmic contamination. Figure \ref{fig:roc_modified} shows the efficiency and purity for various muon probabilities of the modified CNN100000. The efficiency of using a modified CNN100000 is lower than using CNN100000 without containment, however, it is still a higher efficiency than Selection I and there is a vast improvement in the purity compared to both Selection I and Selection II. Comparing a modified CNN100000 to Selection I, at 60\% muon probability, we get an increase of 27\% increase in purity and comparing the CNN to Selection II, a 16\% increase in purity. 
+To try and reduce the cosmic muon background from the BNB+Cosmic dataset, I reintroduced the track containment cut from the Selection I filter, however, instead of a containment on the longest track, the track with the highest probability of being a muon from an event is chosen and then the track containment is applied. By applying a containment cut, we can possibly reduce the cosmic contamination. Figure \ref{fig:roc_modified} shows the efficiency and purity for various muon probabilities of the modified CNN100000. The efficiency of using a modified CNN100000 is lower than using CNN100000 without containment, however, it is still a higher efficiency than Selection I and there is a vast improvement in the purity compared to both Selection I and Selection II. Comparing a modified CNN100000 to Selection I, at 60\% muon probability, we get an increase of 27\% in purity and comparing the CNN to Selection II, a 16\% increase in purity. 
 
 \begin{figure}[htp!]
 \centering
-\includegraphics[width=.5\textwidth]{../bnbcosmic_output_contained/roc.png}
-\caption{Efficiency vs Purity curve for various modified CNN100000 muon probabilities. At 60\% muon probability, the efficiency is 13.9\% and the purity is 81\%} 
+\includegraphics[width=.5\textwidth]{figs/roc.png}
+\caption{Efficiency vs Purity curve for various modified CNN100000 muon probabilities. Selections I, II and the original CNN100000 at 85\% are shown as well. At 60\% muon probability, the efficiency is 13.9\% and the purity is 81\%} 
 \label{fig:roc_modified}
 \end{figure}
 
@@ -761,7 +761,7 @@ Figures \ref{fig:trackstacked_modified} through \ref{fig:phistacked_modified} co
 \end{figure}
 
 
-The final event distributions are shown in figures \ref{fig:pottrack_modified} through \ref{fig:potphi_modified}. There is still an MC/Data difference. The BNB+Cosmic cosmics passing the modified CNN100000 is 6\%, a reduction of 17\% from the CNN100000 without containment and only a 0.6\% difference from Selection I. The NC passing percentage for modified CNN100000 is 6\%, higher than both the un-contained CNN and Selection I. Although the cosmic muon rate is reduced by re-introducing the track containment, reducing the muon probability allows for NC pions to seep in to the selection. Also, reducing the muon probability is necessary because a containment cut affects efficiency so to recover a reasonable efficiency, the muon probability cut needs to be less strict. The in time cosmics passing rate for the modified CNN100000 is 6\%, comparable to the un-contained CNN100000 and lower than Selection I by 27\%. 
+The final event distributions are shown in figures \ref{fig:pottrack_modified} through \ref{fig:potphi_modified}. The red blocks are all MC. There is still an MC/Data difference. The BNB+Cosmic cosmics passing the modified CNN100000 is 6\%, a reduction of 17\% from the CNN100000 without containment and only a 0.6\% difference from Selection I. The NC passing percentage for modified CNN100000 is 6\%, higher than both the un-contained CNN and Selection I. Although the cosmic muon rate is reduced by re-introducing the track containment, reducing the muon probability allows for NC pions to seep in to the selection. Also, reducing the muon probability is necessary because a containment cut affects efficiency so to recover a reasonable efficiency, the muon probability cut needs to be less strict. The in time cosmics passing rate for the modified CNN100000 is 6\%, comparable to the un-contained CNN100000 and lower than Selection I by 27\%. 
 \begin{figure}[htp!]
 \centering
 	\begin{subfigure}[t]{.475\textwidth}
@@ -841,7 +841,7 @@ Figure \ref{fig:diff_modified} shows the MC/Data difference for Selection I (red
 
 
 \section{Calculating preliminary cc-inclusive cross-sections for each selection}
-For reference purposes, the cc-inclusive cross-sections were calculated for Selection I, Selection I, CNN100000, and modified CNN100000. The cc-inclusive equation is shown in \ref{eq:crosssection}.
+For reference purposes, the cc-inclusive cross-sections were calculated for Selection I, Selection II, CNN100000, and modified CNN100000. The cc-inclusive equation is shown in \ref{eq:crosssection}.
 \begin{equation}
 \sigma = \frac{N_{meas}-N_{Bkg}}{\epsilon*N_{target}*\Phi_{\nu_{\mu}}}
 \label{eq:crosssection}
@@ -910,7 +910,7 @@ These selection cross-sections are plotted in figure \ref{fig:xsec} with the res
 
 \begin{figure}[htp!]
 \centering
-\includegraphics[width=.8\textwidth]{figs/c_data_PDB_02_contained.png}
-\caption{World data of neutrino cross-section measurements with MicroBooNE Selection I (pink), Selection II (cyan), CNN100000 (blue), and modified CNN100000 (green) datapoints.}
+\includegraphics[angle=90,width=.8\textwidth]{figs/c_data_PDB_02_contained.png}
+\caption{World data of neutrino cross-section measurements with MicroBooNE Selection I (pink), Selection II (cyan), uB CNN selection is CNN100000 (blue), and CNN selection contained is modified CNN100000 (green) datapoints.}
 \label{fig:xsec}
 \end{figure}
