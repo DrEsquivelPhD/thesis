@@ -62,8 +62,15 @@
 %% Start the document
 \begin{document}
 
-\let\cleardoublepage\clearpage
 \begin{frontmatter}
+
+\let\cleardoublepage\clearpage
+\begin{abstract}%[\smaller \thetitle\\ \vspace*{1cm} \smaller {\theauthor}]
+  \thispagestyle{empty}
+The purpose of this thesis was to use Convolutional Neural Networks (CNN) to separate $\mu'{s}$ and $\pi'{s}$ for use in increasing the acceptance rate of $\mu'{s}$ below the implemented 75cm track length cut in the Charged Current Inclusive (CC-Inclusive) event selection for the CC-Inclusive Cross-Section Measurement. In doing this, we increase acceptance rate for CC-Inclusive events below a specific momentum range.
+\end{abstract}
+\let\cleardoublepage\clearpage
+\newpage
 \begin{center}
 \vspace*{0.2cm}
 \noindent\makebox[\linewidth]{\rule{\textwidth}{0.3pt}}
@@ -94,14 +101,15 @@ of the requirements for the degree\\
 {
 \vspace{1.5cm}
 }
-February, 2018\\
+May, 2018\\
 SYRACUSE UNIVERSITY\\ 
 Syracuse, New York\\
 
 \end{center}
 %\setcounter{page}{2}
-%\thispagestyle{empty}
+\thispagestyle{empty}
 %\clearpage
+\let\cleardoublepage\clearpage
 
 \vspace*{5cm}
 \begin{center}
@@ -110,13 +118,14 @@ Syracuse, New York\\
     All Rights Reserved\\
     Syracuse University\\
 \end{center}
-%\thispagestyle{empty}
-%\setcounter{page}{3}
+\thispagestyle{empty}
+\let\cleardoublepage\clearpage
 
  \input{seals}
 %% Define the un-numbered front matter (cover pages, rubrik and table of contents)
   \input{frontmatter}
 \end{frontmatter}
+%\setcounter{page}{6}
 
 %% Start the content body of the thesis
 \begin{mainmatter}

@@ -15,67 +15,67 @@
 \contentsline {section}{\numberline {2.4}Neutrino Interactions}{12}{section.2.4}
 \contentsline {subsection}{\numberline {2.4.1}Weak Interactions}{13}{subsection.2.4.1}
 \contentsline {subsection}{\numberline {2.4.2}Neutrino-Nucleon Interactions}{14}{subsection.2.4.2}
-\contentsline {chapter}{\numberline {3}The MicroBooNE Experiment}{16}{chapter.3}
-\contentsline {section}{\numberline {3.1}Liquid argon time projection chambers}{16}{section.3.1}
-\contentsline {section}{\numberline {3.2}The MicroBooNE Time Projection Chamber}{17}{section.3.2}
-\contentsline {section}{\numberline {3.3}MicroBooNE's Physics Goals}{20}{section.3.3}
-\contentsline {subsection}{\numberline {3.3.1}The low-energy excess}{20}{subsection.3.3.1}
-\contentsline {subsection}{\numberline {3.3.2}Cross sections}{20}{subsection.3.3.2}
-\contentsline {subsection}{\numberline {3.3.3}Liquid argon detector development}{22}{subsection.3.3.3}
-\contentsline {section}{\numberline {3.4}The Booster Neutrino Beam}{22}{section.3.4}
-\contentsline {subsection}{\numberline {3.4.1}Creating the Booster Neutrino Beam}{23}{subsection.3.4.1}
-\contentsline {chapter}{\numberline {4}Neutrino Identification: Finding MicroBooNE's first Neutrinos}{26}{chapter.4}
-\contentsline {section}{\numberline {4.1}Flash Finding}{26}{section.4.1}
-\contentsline {subsection}{\numberline {4.1.1}Flash Reconstruction}{27}{subsection.4.1.1}
-\contentsline {subsection}{\numberline {4.1.2}Beam Timing}{28}{subsection.4.1.2}
-\contentsline {subsection}{\numberline {4.1.3}Event Rates}{29}{subsection.4.1.3}
-\contentsline {section}{\numberline {4.2}TPC Topology Selection}{29}{section.4.2}
-\contentsline {subsection}{\numberline {4.2.1}Cosmic Tagging}{29}{subsection.4.2.1}
-\contentsline {subsection}{\numberline {4.2.2}2D Cluster Selection}{30}{subsection.4.2.2}
-\contentsline {subsubsection}{\nonumberline Primary Cuts}{31}{section*.18}
-\contentsline {subsubsection}{\nonumberline Secondary Cuts}{31}{section*.19}
-\contentsline {subsection}{\numberline {4.2.3}3D Tracks and vertices Selection}{33}{subsection.4.2.3}
-\contentsline {subsection}{\numberline {4.2.4}TPC Updates}{34}{subsection.4.2.4}
-\contentsline {subsubsection}{\nonumberline 2D Filter Updates}{34}{section*.23}
-\contentsline {subsubsection}{\nonumberline 3D Filter Updates}{34}{section*.24}
-\contentsline {section}{\numberline {4.3}Conclusion}{34}{section.4.3}
-\contentsline {chapter}{\numberline {5}CC-Inclusive Cross Section Selection Filter}{38}{chapter.5}
-\contentsline {section}{\numberline {5.1}Data and MC Processing Chain}{39}{section.5.1}
-\contentsline {section}{\numberline {5.2}Normalization of data and MC}{40}{section.5.2}
-\contentsline {section}{\numberline {5.3}Optical Software Trigger and Reconstruction}{41}{section.5.3}
-\contentsline {subsection}{\numberline {5.3.1}Software Trigger}{41}{subsection.5.3.1}
-\contentsline {subsection}{\numberline {5.3.2}Flash Reconstruction}{42}{subsection.5.3.2}
-\contentsline {subsection}{\numberline {5.3.3}Beam Window}{43}{subsection.5.3.3}
-\contentsline {section}{\numberline {5.4}TPC Reconstruction}{45}{section.5.4}
-\contentsline {subsection}{\numberline {5.4.1}Hit Reconstruction}{45}{subsection.5.4.1}
-\contentsline {subsection}{\numberline {5.4.2}Clustering}{46}{subsection.5.4.2}
-\contentsline {subsection}{\numberline {5.4.3}Pandora}{46}{subsection.5.4.3}
-\contentsline {subsection}{\numberline {5.4.4}Trackkalmanhit}{47}{subsection.5.4.4}
-\contentsline {subsection}{\numberline {5.4.5}Cosmic Hit Removal}{47}{subsection.5.4.5}
-\contentsline {subsection}{\numberline {5.4.6}Projection Matching Algorithm}{47}{subsection.5.4.6}
-\contentsline {section}{\numberline {5.5}Event Selection}{48}{section.5.5}
-\contentsline {subsection}{\numberline {5.5.1}Expected Backgrounds}{52}{subsection.5.5.1}
-\contentsline {subsection}{\numberline {5.5.2}Truth Distributions}{52}{subsection.5.5.2}
-\contentsline {chapter}{\numberline {6}Background on Convolutional Neural Networks}{59}{chapter.6}
-\contentsline {section}{\numberline {6.1}Image Classification}{59}{section.6.1}
-\contentsline {section}{\numberline {6.2}CNN Structure}{60}{section.6.2}
-\contentsline {subsection}{\numberline {6.2.1}Backpropagation}{63}{subsection.6.2.1}
-\contentsline {section}{\numberline {6.3}Choosing Hyperparameters}{64}{section.6.3}
-\contentsline {chapter}{\numberline {7}Training process of Convolutional Neural Networks}{66}{chapter.7}
-\contentsline {section}{\numberline {7.1}Hardware Configurations for Convolutional Neural Network Training}{66}{section.7.1}
-\contentsline {section}{\numberline {7.2}Creating images using LArTPC data for training/validation of CNNS}{67}{section.7.2}
-\contentsline {section}{\numberline {7.3}Convolutional Neural Network Training}{69}{section.7.3}
-\contentsline {subsection}{\numberline {7.3.1}Training CNN1075}{69}{subsection.7.3.1}
-\contentsline {subsection}{\numberline {7.3.2}Training CNN10000}{72}{subsection.7.3.2}
-\contentsline {subsection}{\numberline {7.3.3}Training CNN100000}{75}{subsection.7.3.3}
-\contentsline {chapter}{\numberline {8}Using Convolutional Neural Networks for $\mymath {\@Oldnu }\xspace _{\mymath {\@Oldmu }\xspace }$ CC event classification}{86}{chapter.8}
-\contentsline {section}{\numberline {8.1}Classification using CNN10000}{86}{section.8.1}
-\contentsline {subsection}{\numberline {8.1.1}Classification of MC data using Selection I CC-Inclusive Filter}{86}{subsection.8.1.1}
-\contentsline {subsection}{\numberline {8.1.2}Conclusions of CNN10000 classification of MC data}{94}{subsection.8.1.2}
-\contentsline {section}{\numberline {8.2}Classification using CNN100000}{96}{section.8.2}
-\contentsline {subsection}{\numberline {8.2.1}Classification of MC data using Selection I CC-Inclusive Filter}{97}{subsection.8.2.1}
-\contentsline {subsection}{\numberline {8.2.2}Classification of MicroBooNE data using Selection I CC-Inclusive Filter}{102}{subsection.8.2.2}
-\contentsline {section}{\numberline {8.3}Classification using a modified CNN100000}{110}{section.8.3}
-\contentsline {section}{\numberline {8.4}Calculating preliminary cc-inclusive cross-sections for each selection}{117}{section.8.4}
-\contentsline {chapter}{\numberline {9}Conclusion}{121}{chapter.9}
-\contentsline {chapter}{Bibliography}{123}{chapter*.101}
+\contentsline {chapter}{\numberline {3}The MicroBooNE Experiment}{17}{chapter.3}
+\contentsline {section}{\numberline {3.1}Liquid argon time projection chambers}{17}{section.3.1}
+\contentsline {section}{\numberline {3.2}The MicroBooNE Time Projection Chamber}{18}{section.3.2}
+\contentsline {section}{\numberline {3.3}MicroBooNE's Physics Goals}{21}{section.3.3}
+\contentsline {subsection}{\numberline {3.3.1}The low-energy excess}{21}{subsection.3.3.1}
+\contentsline {subsection}{\numberline {3.3.2}Cross sections}{21}{subsection.3.3.2}
+\contentsline {subsection}{\numberline {3.3.3}Liquid argon detector development}{23}{subsection.3.3.3}
+\contentsline {section}{\numberline {3.4}The Booster Neutrino Beam}{23}{section.3.4}
+\contentsline {subsection}{\numberline {3.4.1}Creating the Booster Neutrino Beam}{24}{subsection.3.4.1}
+\contentsline {chapter}{\numberline {4}Neutrino Identification: Finding MicroBooNE's first Neutrinos}{27}{chapter.4}
+\contentsline {section}{\numberline {4.1}Flash Finding}{27}{section.4.1}
+\contentsline {subsection}{\numberline {4.1.1}Flash Reconstruction}{28}{subsection.4.1.1}
+\contentsline {subsection}{\numberline {4.1.2}Beam Timing}{29}{subsection.4.1.2}
+\contentsline {subsection}{\numberline {4.1.3}Event Rates}{30}{subsection.4.1.3}
+\contentsline {section}{\numberline {4.2}TPC Topology Selection}{30}{section.4.2}
+\contentsline {subsection}{\numberline {4.2.1}Cosmic Tagging}{30}{subsection.4.2.1}
+\contentsline {subsection}{\numberline {4.2.2}2D Cluster Selection}{31}{subsection.4.2.2}
+\contentsline {subsubsection}{\nonumberline Primary Cuts}{32}{section*.18}
+\contentsline {subsubsection}{\nonumberline Secondary Cuts}{32}{section*.19}
+\contentsline {subsection}{\numberline {4.2.3}3D Tracks and vertices Selection}{34}{subsection.4.2.3}
+\contentsline {subsection}{\numberline {4.2.4}TPC Updates}{35}{subsection.4.2.4}
+\contentsline {subsubsection}{\nonumberline 2D Filter Updates}{35}{section*.23}
+\contentsline {subsubsection}{\nonumberline 3D Filter Updates}{35}{section*.24}
+\contentsline {section}{\numberline {4.3}Conclusion}{35}{section.4.3}
+\contentsline {chapter}{\numberline {5}CC-Inclusive Cross Section Selection Filter}{39}{chapter.5}
+\contentsline {section}{\numberline {5.1}Data and MC Processing Chain}{40}{section.5.1}
+\contentsline {section}{\numberline {5.2}Normalization of data and MC}{41}{section.5.2}
+\contentsline {section}{\numberline {5.3}Optical Software Trigger and Reconstruction}{42}{section.5.3}
+\contentsline {subsection}{\numberline {5.3.1}Software Trigger}{42}{subsection.5.3.1}
+\contentsline {subsection}{\numberline {5.3.2}Flash Reconstruction}{43}{subsection.5.3.2}
+\contentsline {subsection}{\numberline {5.3.3}Beam Window}{44}{subsection.5.3.3}
+\contentsline {section}{\numberline {5.4}TPC Reconstruction}{46}{section.5.4}
+\contentsline {subsection}{\numberline {5.4.1}Hit Reconstruction}{46}{subsection.5.4.1}
+\contentsline {subsection}{\numberline {5.4.2}Clustering}{47}{subsection.5.4.2}
+\contentsline {subsection}{\numberline {5.4.3}Pandora}{47}{subsection.5.4.3}
+\contentsline {subsection}{\numberline {5.4.4}Trackkalmanhit}{48}{subsection.5.4.4}
+\contentsline {subsection}{\numberline {5.4.5}Cosmic Hit Removal}{48}{subsection.5.4.5}
+\contentsline {subsection}{\numberline {5.4.6}Projection Matching Algorithm}{48}{subsection.5.4.6}
+\contentsline {section}{\numberline {5.5}Event Selection}{49}{section.5.5}
+\contentsline {subsection}{\numberline {5.5.1}Expected Backgrounds}{53}{subsection.5.5.1}
+\contentsline {subsection}{\numberline {5.5.2}Truth Distributions}{53}{subsection.5.5.2}
+\contentsline {chapter}{\numberline {6}Background on Convolutional Neural Networks}{61}{chapter.6}
+\contentsline {section}{\numberline {6.1}Image Classification}{61}{section.6.1}
+\contentsline {section}{\numberline {6.2}CNN Structure}{62}{section.6.2}
+\contentsline {subsection}{\numberline {6.2.1}Backpropagation}{65}{subsection.6.2.1}
+\contentsline {section}{\numberline {6.3}Choosing Hyperparameters}{66}{section.6.3}
+\contentsline {chapter}{\numberline {7}Training process of Convolutional Neural Networks}{69}{chapter.7}
+\contentsline {section}{\numberline {7.1}Hardware Configurations for Convolutional Neural Network Training}{69}{section.7.1}
+\contentsline {section}{\numberline {7.2}Creating images using LArTPC data for training/validation of CNNS}{70}{section.7.2}
+\contentsline {section}{\numberline {7.3}Convolutional Neural Network Training}{72}{section.7.3}
+\contentsline {subsection}{\numberline {7.3.1}Training CNN1075}{72}{subsection.7.3.1}
+\contentsline {subsection}{\numberline {7.3.2}Training CNN10000}{75}{subsection.7.3.2}
+\contentsline {subsection}{\numberline {7.3.3}Training CNN100000}{78}{subsection.7.3.3}
+\contentsline {chapter}{\numberline {8}Using Convolutional Neural Networks for $\mymath {\@Oldnu }\xspace _{\mymath {\@Oldmu }\xspace }$ CC event classification}{89}{chapter.8}
+\contentsline {section}{\numberline {8.1}Classification using CNN10000}{89}{section.8.1}
+\contentsline {subsection}{\numberline {8.1.1}Classification of MC data using Selection I CC-Inclusive Filter}{89}{subsection.8.1.1}
+\contentsline {subsection}{\numberline {8.1.2}Conclusions of CNN10000 classification of MC data}{97}{subsection.8.1.2}
+\contentsline {section}{\numberline {8.2}Classification using CNN100000}{99}{section.8.2}
+\contentsline {subsection}{\numberline {8.2.1}Classification of MC data using Selection I CC-Inclusive Filter}{100}{subsection.8.2.1}
+\contentsline {subsection}{\numberline {8.2.2}Classification of MicroBooNE data using Selection I CC-Inclusive Filter}{105}{subsection.8.2.2}
+\contentsline {section}{\numberline {8.3}Classification using a modified CNN100000}{113}{section.8.3}
+\contentsline {section}{\numberline {8.4}Calculating preliminary cc-inclusive cross-sections for each selection}{120}{section.8.4}
+\contentsline {chapter}{\numberline {9}Conclusion}{125}{chapter.9}
+\contentsline {chapter}{Bibliography}{127}{chapter*.101}
