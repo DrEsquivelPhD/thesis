@@ -72,10 +72,10 @@
 \contentsline {section}{\numberline {8.1}Classification using CNN10000}{86}{section.8.1}
 \contentsline {subsection}{\numberline {8.1.1}Classification of MC data using Selection I CC-Inclusive Filter}{86}{subsection.8.1.1}
 \contentsline {subsection}{\numberline {8.1.2}Conclusions of CNN10000 classification of MC data}{94}{subsection.8.1.2}
-\contentsline {section}{\numberline {8.2}Classification using CNN100000}{95}{section.8.2}
-\contentsline {subsection}{\numberline {8.2.1}Classification of MC data using Selection I CC-Inclusive Filter}{96}{subsection.8.2.1}
-\contentsline {subsection}{\numberline {8.2.2}Classification of MicroBooNE data using Selection I CC-Inclusive Filter}{101}{subsection.8.2.2}
+\contentsline {section}{\numberline {8.2}Classification using CNN100000}{96}{section.8.2}
+\contentsline {subsection}{\numberline {8.2.1}Classification of MC data using Selection I CC-Inclusive Filter}{97}{subsection.8.2.1}
+\contentsline {subsection}{\numberline {8.2.2}Classification of MicroBooNE data using Selection I CC-Inclusive Filter}{102}{subsection.8.2.2}
 \contentsline {section}{\numberline {8.3}Classification using a modified CNN100000}{110}{section.8.3}
 \contentsline {section}{\numberline {8.4}Calculating preliminary cc-inclusive cross-sections for each selection}{117}{section.8.4}
 \contentsline {chapter}{\numberline {9}Conclusion}{120}{chapter.9}
-\contentsline {chapter}{Bibliography}{122}{chapter*.100}
+\contentsline {chapter}{Bibliography}{122}{chapter*.101}
