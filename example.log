@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2017.8.22)  16 APR 2018 04:09
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2017.8.22)  20 APR 2018 13:29
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -3086,12 +3086,6 @@ Overfull \hbox (52.24728pt too wide) in paragraph at lines 850--856
                 $
 l.888 V_{fid} & 46.6E^
                       {6}\\
-? pd
-Type <return> to proceed, S to scroll future error messages,
-R to run without stopping, Q to run quietly,
-I to insert something, E to edit your file,
-1 or ... or 9 to ignore the next 1 to 9 tokens of input,
-H for help, X to quit.
 ? 
 ! Missing $ inserted.
 <inserted text> 
@@ -3130,14 +3124,13 @@ Package pdftex.def Info: figs/bnbflux.pdf used on input line 897.
 (pdftex.def)             Requested size: 268.847pt x 256.05853pt.
 
 [118 <./figs/bnbflux.pdf, page is rotated 90 degrees>]
-<figs/c_data_PDB_02_contained.png, id=2948, 1859.94875pt x 1154.3125pt>
-File: figs/c_data_PDB_02_contained.png Graphic file (type png)
+<figs/c_data_PDB_02.png, id=2949, 1859.94875pt x 1154.3125pt>
+File: figs/c_data_PDB_02.png Graphic file (type png)
 
-<use figs/c_data_PDB_02_contained.png>
-Package pdftex.def Info: figs/c_data_PDB_02_contained.png used on input line 91
-3.
+<use figs/c_data_PDB_02.png>
+Package pdftex.def Info: figs/c_data_PDB_02.png used on input line 913.
 (pdftex.def)             Requested size: 1859.94423pt x 1154.3097pt.
-) (./conclusion.tex [119] [120 <./figs/c_data_PDB_02_contained.png>]
+) (./conclusion.tex [119] [120 <./figs/c_data_PDB_02.png>]
 chapter 9.
 [121
 
@@ -3740,8 +3733,8 @@ Package rerunfilecheck Info: File `example.out' has not changed.
  ) 
 Here is how much of TeX's memory you used:
  32443 strings out of 494953
- 585153 string characters out of 6180977
- 818822 words of memory out of 5000000
+ 585103 string characters out of 6180977
+ 818823 words of memory out of 5000000
  33976 multiletter control sequences out of 15000+600000
  126001 words of font info for 528 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
@@ -3767,10 +3760,10 @@ tino/uplb8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/palatino/uplbi8a
 .pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/palatino/uplr8a.pfb></usr/s
 hare/texlive/texmf-dist/fonts/type1/urw/palatino/uplr8a.pfb></usr/share/texlive
 /texmf-dist/fonts/type1/urw/palatino/uplri8a.pfb>
-Output written on example.pdf (157 pages, 12210622 bytes).
+Output written on example.pdf (157 pages, 12200296 bytes).
 PDF statistics:
  3239 PDF objects out of 3580 (max. 8388607)
- 2099 compressed objects within 21 object streams
+ 2100 compressed objects within 21 object streams
  424 named destinations out of 1000 (max. 500000)
  66425 words of extra memory for PDF output out of 74296 (max. 10000000)
 
