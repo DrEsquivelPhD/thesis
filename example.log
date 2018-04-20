@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2017.8.22)  20 APR 2018 13:29
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2017.8.22)  20 APR 2018 13:57
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -3124,7 +3124,7 @@ Package pdftex.def Info: figs/bnbflux.pdf used on input line 897.
 (pdftex.def)             Requested size: 268.847pt x 256.05853pt.
 
 [118 <./figs/bnbflux.pdf, page is rotated 90 degrees>]
-<figs/c_data_PDB_02.png, id=2949, 1859.94875pt x 1154.3125pt>
+<figs/c_data_PDB_02.png, id=2950, 1859.94875pt x 1154.3125pt>
 File: figs/c_data_PDB_02.png Graphic file (type png)
 
 <use figs/c_data_PDB_02.png>
@@ -3236,7 +3236,7 @@ Class scrbook Warning: Usage of deprecated font command `\bf'!
 (scrbook)              Note also, that KOMA-Script will remove the definition
 (scrbook)              of `\bf' anytime until release of about version 3.20.
 (scrbook)              But for now, KOMA-Script will replace deprecated `\bf'
-(scrbook)              by `\normalfont \bfseries ' on input line 63.
+(scrbook)              by `\normalfont \bfseries ' on input line 56.
 
 
 Class scrbook Warning: Usage of deprecated font command `\bf'!
@@ -3250,7 +3250,7 @@ Class scrbook Warning: Usage of deprecated font command `\bf'!
 (scrbook)              Note also, that KOMA-Script will remove the definition
 (scrbook)              of `\bf' anytime until release of about version 3.20.
 (scrbook)              But for now, KOMA-Script will replace deprecated `\bf'
-(scrbook)              by `\normalfont \bfseries ' on input line 69.
+(scrbook)              by `\normalfont \bfseries ' on input line 68.
 
 
 Class scrbook Warning: Usage of deprecated font command `\bf'!
@@ -3264,7 +3264,7 @@ Class scrbook Warning: Usage of deprecated font command `\bf'!
 (scrbook)              Note also, that KOMA-Script will remove the definition
 (scrbook)              of `\bf' anytime until release of about version 3.20.
 (scrbook)              But for now, KOMA-Script will replace deprecated `\bf'
-(scrbook)              by `\normalfont \bfseries ' on input line 75.
+(scrbook)              by `\normalfont \bfseries ' on input line 74.
 
 
 Class scrbook Warning: Usage of deprecated font command `\bf'!
@@ -3278,7 +3278,7 @@ Class scrbook Warning: Usage of deprecated font command `\bf'!
 (scrbook)              Note also, that KOMA-Script will remove the definition
 (scrbook)              of `\bf' anytime until release of about version 3.20.
 (scrbook)              But for now, KOMA-Script will replace deprecated `\bf'
-(scrbook)              by `\normalfont \bfseries ' on input line 82.
+(scrbook)              by `\normalfont \bfseries ' on input line 80.
 
 [123
 
@@ -3295,7 +3295,7 @@ Class scrbook Warning: Usage of deprecated font command `\bf'!
 (scrbook)              Note also, that KOMA-Script will remove the definition
 (scrbook)              of `\bf' anytime until release of about version 3.20.
 (scrbook)              But for now, KOMA-Script will replace deprecated `\bf'
-(scrbook)              by `\normalfont \bfseries ' on input line 88.
+(scrbook)              by `\normalfont \bfseries ' on input line 87.
 
 
 Class scrbook Warning: Usage of deprecated font command `\bf'!
@@ -3309,7 +3309,7 @@ Class scrbook Warning: Usage of deprecated font command `\bf'!
 (scrbook)              Note also, that KOMA-Script will remove the definition
 (scrbook)              of `\bf' anytime until release of about version 3.20.
 (scrbook)              But for now, KOMA-Script will replace deprecated `\bf'
-(scrbook)              by `\normalfont \bfseries ' on input line 95.
+(scrbook)              by `\normalfont \bfseries ' on input line 93.
 
 
 Class scrbook Warning: Usage of deprecated font command `\bf'!
@@ -3323,7 +3323,7 @@ Class scrbook Warning: Usage of deprecated font command `\bf'!
 (scrbook)              Note also, that KOMA-Script will remove the definition
 (scrbook)              of `\bf' anytime until release of about version 3.20.
 (scrbook)              But for now, KOMA-Script will replace deprecated `\bf'
-(scrbook)              by `\normalfont \bfseries ' on input line 101.
+(scrbook)              by `\normalfont \bfseries ' on input line 100.
 
 
 Class scrbook Warning: Usage of deprecated font command `\bf'!
@@ -3337,7 +3337,7 @@ Class scrbook Warning: Usage of deprecated font command `\bf'!
 (scrbook)              Note also, that KOMA-Script will remove the definition
 (scrbook)              of `\bf' anytime until release of about version 3.20.
 (scrbook)              But for now, KOMA-Script will replace deprecated `\bf'
-(scrbook)              by `\normalfont \bfseries ' on input line 113.
+(scrbook)              by `\normalfont \bfseries ' on input line 106.
 
 
 Class scrbook Warning: Usage of deprecated font command `\bf'!
@@ -3351,7 +3351,7 @@ Class scrbook Warning: Usage of deprecated font command `\bf'!
 (scrbook)              Note also, that KOMA-Script will remove the definition
 (scrbook)              of `\bf' anytime until release of about version 3.20.
 (scrbook)              But for now, KOMA-Script will replace deprecated `\bf'
-(scrbook)              by `\normalfont \bfseries ' on input line 120.
+(scrbook)              by `\normalfont \bfseries ' on input line 118.
 
 
 Class scrbook Warning: Usage of deprecated font command `\bf'!
@@ -3365,7 +3365,7 @@ Class scrbook Warning: Usage of deprecated font command `\bf'!
 (scrbook)              Note also, that KOMA-Script will remove the definition
 (scrbook)              of `\bf' anytime until release of about version 3.20.
 (scrbook)              But for now, KOMA-Script will replace deprecated `\bf'
-(scrbook)              by `\normalfont \bfseries ' on input line 127.
+(scrbook)              by `\normalfont \bfseries ' on input line 125.
 
 
 Class scrbook Warning: Usage of deprecated font command `\bf'!
@@ -3379,7 +3379,7 @@ Class scrbook Warning: Usage of deprecated font command `\bf'!
 (scrbook)              Note also, that KOMA-Script will remove the definition
 (scrbook)              of `\bf' anytime until release of about version 3.20.
 (scrbook)              But for now, KOMA-Script will replace deprecated `\bf'
-(scrbook)              by `\normalfont \bfseries ' on input line 133.
+(scrbook)              by `\normalfont \bfseries ' on input line 132.
 
 
 Class scrbook Warning: Usage of deprecated font command `\bf'!
@@ -3393,7 +3393,7 @@ Class scrbook Warning: Usage of deprecated font command `\bf'!
 (scrbook)              Note also, that KOMA-Script will remove the definition
 (scrbook)              of `\bf' anytime until release of about version 3.20.
 (scrbook)              But for now, KOMA-Script will replace deprecated `\bf'
-(scrbook)              by `\normalfont \bfseries ' on input line 146.
+(scrbook)              by `\normalfont \bfseries ' on input line 138.
 
 
 Class scrbook Warning: Usage of deprecated font command `\bf'!
@@ -3407,7 +3407,7 @@ Class scrbook Warning: Usage of deprecated font command `\bf'!
 (scrbook)              Note also, that KOMA-Script will remove the definition
 (scrbook)              of `\bf' anytime until release of about version 3.20.
 (scrbook)              But for now, KOMA-Script will replace deprecated `\bf'
-(scrbook)              by `\normalfont \bfseries ' on input line 159.
+(scrbook)              by `\normalfont \bfseries ' on input line 151.
 
 
 Class scrbook Warning: Usage of deprecated font command `\bf'!
@@ -3421,7 +3421,7 @@ Class scrbook Warning: Usage of deprecated font command `\bf'!
 (scrbook)              Note also, that KOMA-Script will remove the definition
 (scrbook)              of `\bf' anytime until release of about version 3.20.
 (scrbook)              But for now, KOMA-Script will replace deprecated `\bf'
-(scrbook)              by `\normalfont \bfseries ' on input line 166.
+(scrbook)              by `\normalfont \bfseries ' on input line 164.
 
 
 Class scrbook Warning: Usage of deprecated font command `\bf'!
@@ -3435,7 +3435,7 @@ Class scrbook Warning: Usage of deprecated font command `\bf'!
 (scrbook)              Note also, that KOMA-Script will remove the definition
 (scrbook)              of `\bf' anytime until release of about version 3.20.
 (scrbook)              But for now, KOMA-Script will replace deprecated `\bf'
-(scrbook)              by `\normalfont \bfseries ' on input line 173.
+(scrbook)              by `\normalfont \bfseries ' on input line 171.
 
 
 Class scrbook Warning: Usage of deprecated font command `\bf'!
@@ -3449,7 +3449,7 @@ Class scrbook Warning: Usage of deprecated font command `\bf'!
 (scrbook)              Note also, that KOMA-Script will remove the definition
 (scrbook)              of `\bf' anytime until release of about version 3.20.
 (scrbook)              But for now, KOMA-Script will replace deprecated `\bf'
-(scrbook)              by `\normalfont \bfseries ' on input line 180.
+(scrbook)              by `\normalfont \bfseries ' on input line 178.
 
 [124]
 
@@ -3464,7 +3464,7 @@ Class scrbook Warning: Usage of deprecated font command `\bf'!
 (scrbook)              Note also, that KOMA-Script will remove the definition
 (scrbook)              of `\bf' anytime until release of about version 3.20.
 (scrbook)              But for now, KOMA-Script will replace deprecated `\bf'
-(scrbook)              by `\normalfont \bfseries ' on input line 187.
+(scrbook)              by `\normalfont \bfseries ' on input line 185.
 
 
 Class scrbook Warning: Usage of deprecated font command `\bf'!
@@ -3478,7 +3478,7 @@ Class scrbook Warning: Usage of deprecated font command `\bf'!
 (scrbook)              Note also, that KOMA-Script will remove the definition
 (scrbook)              of `\bf' anytime until release of about version 3.20.
 (scrbook)              But for now, KOMA-Script will replace deprecated `\bf'
-(scrbook)              by `\normalfont \bfseries ' on input line 195.
+(scrbook)              by `\normalfont \bfseries ' on input line 192.
 
 
 Class scrbook Warning: Usage of deprecated font command `\bf'!
@@ -3492,7 +3492,7 @@ Class scrbook Warning: Usage of deprecated font command `\bf'!
 (scrbook)              Note also, that KOMA-Script will remove the definition
 (scrbook)              of `\bf' anytime until release of about version 3.20.
 (scrbook)              But for now, KOMA-Script will replace deprecated `\bf'
-(scrbook)              by `\normalfont \bfseries ' on input line 230.
+(scrbook)              by `\normalfont \bfseries ' on input line 200.
 
 
 Class scrbook Warning: Usage of deprecated font command `\bf'!
@@ -3506,7 +3506,7 @@ Class scrbook Warning: Usage of deprecated font command `\bf'!
 (scrbook)              Note also, that KOMA-Script will remove the definition
 (scrbook)              of `\bf' anytime until release of about version 3.20.
 (scrbook)              But for now, KOMA-Script will replace deprecated `\bf'
-(scrbook)              by `\normalfont \bfseries ' on input line 250.
+(scrbook)              by `\normalfont \bfseries ' on input line 235.
 
 
 Class scrbook Warning: Usage of deprecated font command `\bf'!
@@ -3520,7 +3520,7 @@ Class scrbook Warning: Usage of deprecated font command `\bf'!
 (scrbook)              Note also, that KOMA-Script will remove the definition
 (scrbook)              of `\bf' anytime until release of about version 3.20.
 (scrbook)              But for now, KOMA-Script will replace deprecated `\bf'
-(scrbook)              by `\normalfont \bfseries ' on input line 256.
+(scrbook)              by `\normalfont \bfseries ' on input line 255.
 
 
 Class scrbook Warning: Usage of deprecated font command `\bf'!
@@ -3587,7 +3587,7 @@ Comment 'appendices' writing to comment.cut. Straight input of comment.cut.
 (./comment.cut (./cv.tex [126]
 chapter A.
 
-<../post_doc_applications/cv_7/esquivel_cv_wpublications.pdf, id=2990, 597.5082
+<../post_doc_applications/cv_7/esquivel_cv_wpublications.pdf, id=2992, 597.5082
 9pt x 845.0471pt>
 File: ../post_doc_applications/cv_7/esquivel_cv_wpublications.pdf Graphic file 
 (type pdf)
@@ -3604,7 +3604,7 @@ Package pdftex.def Info: ../post_doc_applications/cv_7/esquivel_cv_wpublication
 s.pdf used on input line 2.
 (pdftex.def)             Requested size: 597.50682pt x 845.04504pt.
 
-<../post_doc_applications/cv_7/esquivel_cv_wpublications.pdf, id=2993, page=1, 
+<../post_doc_applications/cv_7/esquivel_cv_wpublications.pdf, id=2995, page=1, 
 597.50829pt x 845.0471pt>
 File: ../post_doc_applications/cv_7/esquivel_cv_wpublications.pdf Graphic file 
 (type pdf)
@@ -3647,7 +3647,7 @@ s.pdf, page1 used on input line 2.
 (pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
 
 [128 <../post_doc_applications/cv_7/esquivel_cv_wpublications.pdf>]
-<../post_doc_applications/cv_7/esquivel_cv_wpublications.pdf, id=3059, page=2, 
+<../post_doc_applications/cv_7/esquivel_cv_wpublications.pdf, id=3061, page=2, 
 597.50829pt x 845.0471pt>
 File: ../post_doc_applications/cv_7/esquivel_cv_wpublications.pdf Graphic file 
 (type pdf)
@@ -3672,7 +3672,7 @@ s.pdf, page2 used on input line 2.
 (pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
 
 [129 <../post_doc_applications/cv_7/esquivel_cv_wpublications.pdf>]
-<../post_doc_applications/cv_7/esquivel_cv_wpublications.pdf, id=3069, page=3, 
+<../post_doc_applications/cv_7/esquivel_cv_wpublications.pdf, id=3071, page=3, 
 597.50829pt x 845.0471pt>
 File: ../post_doc_applications/cv_7/esquivel_cv_wpublications.pdf Graphic file 
 (type pdf)
@@ -3697,7 +3697,7 @@ s.pdf, page3 used on input line 2.
 (pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
 
 [130 <../post_doc_applications/cv_7/esquivel_cv_wpublications.pdf>]
-<../post_doc_applications/cv_7/esquivel_cv_wpublications.pdf, id=3079, page=4, 
+<../post_doc_applications/cv_7/esquivel_cv_wpublications.pdf, id=3081, page=4, 
 597.50829pt x 845.0471pt>
 File: ../post_doc_applications/cv_7/esquivel_cv_wpublications.pdf Graphic file 
 (type pdf)
@@ -3732,11 +3732,11 @@ Package rerunfilecheck Info: File `example.out' has not changed.
 (rerunfilecheck)             Checksum: 382C348F2023C01758F6F565555E1830;5783.
  ) 
 Here is how much of TeX's memory you used:
- 32443 strings out of 494953
- 585103 string characters out of 6180977
- 818823 words of memory out of 5000000
- 33976 multiletter control sequences out of 15000+600000
- 126001 words of font info for 528 fonts, out of 8000000 for 9000
+ 32454 strings out of 494953
+ 585224 string characters out of 6180977
+ 818867 words of memory out of 5000000
+ 33977 multiletter control sequences out of 15000+600000
+ 126470 words of font info for 534 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
  67i,23n,80p,2575b,1020s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/share/texliv
@@ -3760,10 +3760,10 @@ tino/uplb8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/palatino/uplbi8a
 .pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/palatino/uplr8a.pfb></usr/s
 hare/texlive/texmf-dist/fonts/type1/urw/palatino/uplr8a.pfb></usr/share/texlive
 /texmf-dist/fonts/type1/urw/palatino/uplri8a.pfb>
-Output written on example.pdf (157 pages, 12200296 bytes).
+Output written on example.pdf (157 pages, 12201317 bytes).
 PDF statistics:
- 3239 PDF objects out of 3580 (max. 8388607)
- 2100 compressed objects within 21 object streams
- 424 named destinations out of 1000 (max. 500000)
+ 3242 PDF objects out of 3580 (max. 8388607)
+ 2102 compressed objects within 22 object streams
+ 425 named destinations out of 1000 (max. 500000)
  66425 words of extra memory for PDF output out of 74296 (max. 10000000)
 
