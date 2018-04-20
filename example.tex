@@ -60,7 +60,7 @@
 }}{}
 \makeatother
 
-%\AtBeginDocument{\AtBeginShipoutNext{\AtBeginShipoutDiscard}}
+\AtBeginDocument{\AtBeginShipoutNext{\AtBeginShipoutDiscard}}
 
 %% Start the document
 \begin{document}
@@ -88,12 +88,10 @@ $\mu/\pi$ separation using \\Convolutional Neural Networks for the \\MicroBooNE 
 \noindent\makebox[\linewidth]{\rule{\textwidth}{0.3pt}}\\ % fix spacing here
 \vspace{0.5cm}
 %by (fix spacing above and at top)\\
-\vspace{0.5cm}
+\vspace{0.6cm}
 \tracked{\large Jessica Nicole Esquivel}\\[6pt]
-Bachelor of Science in Electrical Engineering and Applied Physics\\
-St. Mary's University\\
-San Antonio, TX, USA 2011\\
-\vspace{1.3cm}
+B.S., Saint Mary's University, 2011\\
+\vspace{1.6cm}
 \tracked{\large DISSERTATION}\\[6pt]
 Submitted in partial fulfillment\\
 of the requirements for the degree\\
@@ -106,28 +104,25 @@ of the requirements for the degree\\
 {
 \vspace{1.5cm}
 }
-May, 2018\\
 SYRACUSE UNIVERSITY\\ 
-Syracuse, New York\\
+May, 2018\\
 
 \end{center}
-
 %\setcounter{page}{2}
 \thispagestyle{empty}
 %\clearpage
 \let\cleardoublepage\clearpage
 
-\vspace*{5cm}
+\vspace*{8cm}
 \begin{center}
-    Copyright 2018\\
-    Jessica Nicole Esquivel\\
+    Copyright $\textsuperscript{\textcopyright}$ Jessica Nicole Esquivel\\
+    2018\\
     All Rights Reserved\\
-    Syracuse University\\
 \end{center}
 \thispagestyle{empty}
 \let\cleardoublepage\clearpage
 
- \input{seals}
+% \input{seals}
 %% Define the un-numbered front matter (cover pages, rubrik and table of contents)
   \input{frontmatter}
 \end{frontmatter}
@@ -161,11 +156,18 @@ Syracuse, New York\\
   \input{backmatter}
 \end{backmatter}
 
+
+
+
 %% Produce the appendices
 \begin{appendices}
-%  \input{appendices}
-\input{cv}
+ \setcounter{Curriculum Vitae}{126}
+  \chapter{Curriculum Vitae}
+  \renewcommand{\thechapter}{Curriculum Vitae}
+  \input{cv}
+\renewcommand{\thechapter}{Curriculum Vitae}
 \end{appendices}
+%  \input{appendices}
 
 %% Close
 \end{document}

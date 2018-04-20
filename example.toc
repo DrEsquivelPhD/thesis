@@ -1,5 +1,3 @@
-\select@language {english}
-\select@language {english}
 {\pdfbookmark [0]{Contents}{toc}}
 \contentsline {chapter}{List of figures}{x}{chapter*.2}
 \contentsline {chapter}{List of tables}{xxiv}{chapter*.3}

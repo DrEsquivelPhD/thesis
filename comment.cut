@@ -1,2 +1,5 @@
-%  \input{appendices}
-\input{cv}
+ \setcounter{Curriculum Vitae}{126}
+  \chapter{Curriculum Vitae}
+  \renewcommand{\thechapter}{Curriculum Vitae}
+  \input{cv}
+\renewcommand{\thechapter}{Curriculum Vitae}
