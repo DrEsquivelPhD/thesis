@@ -1,3 +1,5 @@
+\select@language {english}
+\select@language {english}
 \addvspace {10\p@ }
 \addvspace {10\p@ }
 \contentsline {figure}{\numberline {\relax 2.1}{\ignorespaces The Standard Solar Model \cite {bahcall2}\relax }}{5}{figure.caption.4}
@@ -182,5 +184,4 @@
 \contentsline {subfigure}{\numberline {\relax 8.36c}{\ignorespaces MC/Data percent difference vs $\mymath {\@Oldphi }\xspace $ for Selection I (red) and modified CNN100000 (blue)\relax }}{116}{figure.caption.97}
 \contentsline {figure}{\numberline {\relax 8.37}{\ignorespaces BNB $\mymath {\@Oldnu }\xspace _{\mymath {\@Oldmu }\xspace }$ flux versus $E_{\mymath {\@Oldnu }\xspace }$ scaled to 5e19 POT. The black line is the mean neutrino energy with the red dotted lines showing $1\mymath {\@Oldsigma }\xspace $ energy range. For plotting cross-section on world data plot, the mean neutrino energy is at $679.3^{+545}_{-543}$\relax }}{118}{figure.caption.99}
 \contentsline {figure}{\numberline {\relax 8.38}{\ignorespaces World data of neutrino cross-section measurements with MicroBooNE Selection I (pink), Selection II (cyan), uB CNN selection is CNN100000 (blue), and CNN selection contained is modified CNN100000 (green) datapoints.\relax }}{120}{figure.caption.100}
-\addvspace {10\p@ }
 \addvspace {10\p@ }

@@ -1,3 +1,5 @@
+\select@language {english}
+\select@language {english}
 {\pdfbookmark [0]{Contents}{toc}}
 \contentsline {chapter}{List of figures}{x}{chapter*.2}
 \contentsline {chapter}{List of tables}{xxiv}{chapter*.3}
@@ -77,4 +79,3 @@
 \contentsline {section}{\numberline {8.4}Calculating preliminary cc-inclusive cross-sections for each selection}{117}{section.8.4}
 \contentsline {chapter}{\numberline {9}Conclusion}{121}{chapter.9}
 \contentsline {chapter}{Bibliography}{123}{chapter*.101}
-\contentsline {chapter}{\numberline {A}Curriculum Vitae}{127}{appendix.A}

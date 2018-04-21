@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2017.8.22)  20 APR 2018 18:35
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2017.8.22)  20 APR 2018 18:51
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1414,18 +1414,20 @@ LaTeX Info: Redefining \nameref on input line 66.
 
 
 Comment 'frontmatter' writing to comment.cut. Straight input of comment.cut.
-(./comment.cut
-Package atbegshi Info: Shipout page discarded.
+(./comment.cut [1
+
+
+]
 LaTeX Font Info:    Font shape `T1/ppl/bx/n' in size <20.74> not available
 (Font)              Font shape `T1/ppl/b/n' tried instead on input line 5.
 Package microtype Info: Loading generic settings for font family
 (microtype)             `zplm' (encoding: OT1).
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
- (/usr/share/texlive/texmf-dist/tex/latex/microtype/mt-eur.cfg
+
+(/usr/share/texlive/texmf-dist/tex/latex/microtype/mt-eur.cfg
 File: mt-eur.cfg 2006/07/31 v1.1 microtype config. file: AMS Euler Roman (RS)
-)
-[2
+) [2
 
 {/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}] [3]
 LaTeX Font Info:    Try loading font information for OMS+ppl on input line 50.
@@ -1460,7 +1462,7 @@ Package tocbasic Info: character protrusion at toc deactivated on input line 54
 (./example.toc [7
 
 ] [8]
-Overfull \hbox (0.24399pt too wide) in paragraph at lines 75--75
+Overfull \hbox (0.24399pt too wide) in paragraph at lines 77--77
  [][] [][][]\T1/ppl/m/n/12 (-20) Classification of Mi-cro-BooNE data us-ing Se-
 lec-tion I CC-Inclusive 
  []
@@ -1472,7 +1474,7 @@ lec-tion I CC-Inclusive
  [9] (./example.lof [10
 
 ]
-LaTeX Font Info:    Try loading font information for TS1+ppl on input line 22.
+LaTeX Font Info:    Try loading font information for TS1+ppl on input line 24.
 
 (/usr/share/texlive/texmf-dist/tex/latex/psnfss/ts1ppl.fd
 File: ts1ppl.fd 2001/06/04 font definitions for TS1/ppl.
@@ -1508,65 +1510,65 @@ Package microtype Warning: Unknown slot number of character
 (microtype)                `ppl-textcomp'.
 
 [11] [12]
-Overfull \hbox (9.09358pt too wide) in paragraph at lines 47--47
+Overfull \hbox (9.09358pt too wide) in paragraph at lines 49--49
  [][] [][][]\T1/ppl/m/n/12 (-20) Description of con-fu-sion ma-trix vari-ables:
  False pion rate = $\OML/zplm/m/it/12 false^^Y\OT1/zplm/m/n/12 /\OML/zplm/m/it/
 12 total^^Y$ 
  []
 
 [13]
-Overfull \hbox (10.53358pt too wide) in paragraph at lines 51--51
+Overfull \hbox (10.53358pt too wide) in paragraph at lines 53--53
  [][] [][][]\T1/ppl/m/n/12 (-20) Description of con-fu-sion ma-trix vari-ables:
  False pion rate = $\OML/zplm/m/it/12 false^^Y\OT1/zplm/m/n/12 /\OML/zplm/m/it/
 12 total^^Y$\T1/ppl/m/n/12 (-20) ; 
  []
 
 
-Overfull \hbox (0.16397pt too wide) in paragraph at lines 51--51
+Overfull \hbox (0.16397pt too wide) in paragraph at lines 53--53
  \T1/ppl/m/n/12 (-20) Pion pre-dic-tion value = $\OML/zplm/m/it/12 true^^Y\OT1/
 zplm/m/n/12 /(\OML/zplm/m/it/12 true^^Y \OT1/zplm/m/n/12 + \OML/zplm/m/it/12 fa
 lse^^Y\OT1/zplm/m/n/12 )$\T1/ppl/m/n/12 (-20) ; Muon pre-dic-tion value 
  []
 
 [14] [15] [16] [17] [18]
-Overfull \hbox (20.07895pt too wide) in paragraph at lines 134--134
+Overfull \hbox (20.07895pt too wide) in paragraph at lines 136--136
  [][] [][][]$\OML/zplm/m/it/12 Cos\OT1/zplm/m/n/12 (\OML/zplm/m/it/12 ^^R\OT1/z
 plm/m/n/12 )$ \T1/ppl/m/n/12 (-20) dis-tri-bu-tion for on-beam (blue) and off-b
 eam (red) data at CNN10000 
  []
 
 [19] [20]
-Overfull \hbox (23.594pt too wide) in paragraph at lines 151--151
+Overfull \hbox (23.594pt too wide) in paragraph at lines 153--153
  [][] [][][]\T1/ppl/m/n/12 (-20) MC/Data per-cent dif-fer-ence vs $\OML/zplm/m/
 it/12 ^^^$ \T1/ppl/m/n/12 (-20) for Se-lec-tion I (red) and CNN100000 
  []
 
 
-Overfull \hbox (2.32117pt too wide) in paragraph at lines 157--157
+Overfull \hbox (2.32117pt too wide) in paragraph at lines 159--159
  [][] [][][]\T1/ppl/m/n/12 (-20) Momentum dis-tri-bu-tion for events pass-ing m
 od-i-fied CNN100000 
  []
 
 
-Overfull \hbox (0.84pt too wide) in paragraph at lines 160--160
+Overfull \hbox (0.84pt too wide) in paragraph at lines 162--162
  [][] [][][]\T1/ppl/m/n/12 (-20) Track range dis-tri-bu-tion for events pass-in
 g mod-i-fied CNN100000 
  []
 
 
-Overfull \hbox (2.32117pt too wide) in paragraph at lines 163--163
+Overfull \hbox (2.32117pt too wide) in paragraph at lines 165--165
  [][] [][][]\T1/ppl/m/n/12 (-20) Momentum dis-tri-bu-tion for events pass-ing m
 od-i-fied CNN100000 
  []
 
 [21]
-Overfull \hbox (31.5409pt too wide) in paragraph at lines 172--172
+Overfull \hbox (31.5409pt too wide) in paragraph at lines 174--174
  [][] [][][]\T1/ppl/m/n/12 (-20) POT nor-mal-ized track range dis-tri-bu-tion p
 lot for mod-i-fied CNN100000 
  []
 
 [22]
-Overfull \hbox (12.79013pt too wide) in paragraph at lines 178--178
+Overfull \hbox (12.79013pt too wide) in paragraph at lines 180--180
  [][] [][][]\T1/ppl/m/n/12 (-20) POT nor-mal-ized $\OML/zplm/m/it/12 ^^^$ \T1/p
 pl/m/n/12 (-20) range dis-tri-bu-tion plot for mod-i-fied CNN100000 
  []
@@ -1625,13 +1627,13 @@ Package pdftex.def Info: figs/solarmodel.jpg used on input line 26.
 LaTeX Font Info:    Font shape `T1/ppl/bx/n' in size <10.95> not available
 (Font)              Font shape `T1/ppl/b/n' tried instead on input line 27.
  [5 <./figs/solarmodel.jpg>]
-<figs/homestake.jpg, id=1114, 680.3016pt x 539.616pt>
+<figs/homestake.jpg, id=1115, 680.3016pt x 539.616pt>
 File: figs/homestake.jpg Graphic file (type jpg)
  <use figs/homestake.jpg>
 Package pdftex.def Info: figs/homestake.jpg used on input line 44.
 (pdftex.def)             Requested size: 134.4235pt x 106.62033pt.
 
-<figs/kamiokande.jpg, id=1117, 276.03125pt x 184.69pt>
+<figs/kamiokande.jpg, id=1118, 276.03125pt x 184.69pt>
 File: figs/kamiokande.jpg Graphic file (type jpg)
 
 <use figs/kamiokande.jpg>
@@ -1642,7 +1644,7 @@ Underfull \hbox (badness 6188) in paragraph at lines 51--51
 [][]|\T1/ppl/m/n/10.95 (+20) Kamiokande-II Ex-per-i-
  []
 
-<figs/sno.jpg, id=1120, 176.66pt x 235.88126pt>
+<figs/sno.jpg, id=1121, 176.66pt x 235.88126pt>
 File: figs/sno.jpg Graphic file (type jpg)
  <use figs/sno.jpg>
 Package pdftex.def Info: figs/sno.jpg used on input line 56.
@@ -1674,7 +1676,7 @@ Package pdftex.def Info: figs/cc_inclusive_nu.png used on input line 312.
 chapter 3.
 [16
 
-] <figs/detector1.png, id=1246, 267.24844pt x 216.05719pt>
+] <figs/detector1.png, id=1247, 267.24844pt x 216.05719pt>
 File: figs/detector1.png Graphic file (type png)
 
 <use figs/detector1.png>
@@ -1707,13 +1709,13 @@ Package pdftex.def Info: figs/fnal.png used on input line 68.
 (pdftex.def)             Requested size: 448.07378pt x 277.22252pt.
  [22]
 [23 <./figs/fnal.png>]
-<figs/BNB_layout.jpg, id=1310, 852.93657pt x 527.72156pt>
+<figs/BNB_layout.jpg, id=1311, 852.93657pt x 527.72156pt>
 File: figs/BNB_layout.jpg Graphic file (type jpg)
 
 <use figs/BNB_layout.jpg>
 Package pdftex.def Info: figs/BNB_layout.jpg used on input line 83.
 (pdftex.def)             Requested size: 403.26366pt x 249.5108pt.
- <figs/bnbflux.png, id=1313, 471.7625pt x 431.6125pt>
+ <figs/bnbflux.png, id=1314, 471.7625pt x 431.6125pt>
 File: figs/bnbflux.png Graphic file (type png)
 
 <use figs/bnbflux.png>
@@ -1894,7 +1896,7 @@ chapter 5.
 LaTeX Font Info:    Font shape `T1/ppl/bx/it' in size <12> not available
 (Font)              Font shape `T1/ppl/b/it' tried instead on input line 9.
  [39] [40] [41]
-<figs/opticaltrigger.png, id=1520, 892.33376pt x 566.115pt>
+<figs/opticaltrigger.png, id=1521, 892.33376pt x 566.115pt>
 File: figs/opticaltrigger.png Graphic file (type png)
 
 <use figs/opticaltrigger.png>
@@ -1972,14 +1974,14 @@ g>] [55 <./figs/truth_muphi.png>] [56 <./figs/truth_stackedmumomentum.png>] [57
 chapter 6.
 [59
 
-] <figs/curvedetector.png, id=1633, 469.755pt x 209.28188pt>
+] <figs/curvedetector.png, id=1634, 469.755pt x 209.28188pt>
 File: figs/curvedetector.png Graphic file (type png)
 
 <use figs/curvedetector.png>
 Package pdftex.def Info: figs/curvedetector.png used on input line 11.
 (pdftex.def)             Requested size: 268.847pt x 119.7741pt.
 
-<figs/conv1vis.png, id=1634, 203.25937pt x 208.52907pt>
+<figs/conv1vis.png, id=1635, 203.25937pt x 208.52907pt>
 File: figs/conv1vis.png Graphic file (type png)
 
 <use figs/conv1vis.png>
@@ -2045,7 +2047,7 @@ Package pdftex.def Info: figs/confusion1_test.png used on input line 70.
 (pdftex.def)             Requested size: 268.85374pt x 216.80864pt.
  [69] [70 <./figs/acc_loss_CNN1075.png (PNG copy)>] [71 <./figs/confusion1_trai
 n.png> <./figs/confusion1_test.png>]
-<figs/acc_loss_10000_062117.png, id=1712, 619.31375pt x 472.76625pt>
+<figs/acc_loss_10000_062117.png, id=1713, 619.31375pt x 472.76625pt>
 File: figs/acc_loss_10000_062117.png Graphic file (type png)
 
 <use figs/acc_loss_10000_062117.png>
@@ -2058,21 +2060,21 @@ Overfull \hbox (1.5892pt too wide) in paragraph at lines 108--109
 was em-ployed on CNN10000,
  []
 
-<figs/train_confusion.pdf, id=1715, 578.16pt x 578.16pt>
+<figs/train_confusion.pdf, id=1716, 578.16pt x 578.16pt>
 File: figs/train_confusion.pdf Graphic file (type pdf)
 
 <use figs/train_confusion.pdf>
 Package pdftex.def Info: figs/train_confusion.pdf used on input line 113.
 (pdftex.def)             Requested size: 313.64856pt x 252.94437pt.
 
-<figs/val_confusion.pdf, id=1716, 578.16pt x 578.16pt>
+<figs/val_confusion.pdf, id=1717, 578.16pt x 578.16pt>
 File: figs/val_confusion.pdf Graphic file (type pdf)
 
 <use figs/val_confusion.pdf>
 Package pdftex.def Info: figs/val_confusion.pdf used on input line 119.
 (pdftex.def)             Requested size: 313.64856pt x 252.94437pt.
 
-<figs/mitch_hw.png, id=1717, 1672.2475pt x 673.51625pt>
+<figs/mitch_hw.png, id=1718, 1672.2475pt x 673.51625pt>
 File: figs/mitch_hw.png Graphic file (type png)
 
 <use figs/mitch_hw.png>
@@ -2523,7 +2525,7 @@ Package pdftex.def Info: figs/sel1mod_trackrange_acc83.png used on input line 3
 19.
 (pdftex.def)             Requested size: 216.80614pt x 180.67064pt.
  [94] [95 <./figs/cnn_performance.png> <./figs/sel1mod_trackrange_acc83.png>]
-<figs/cnn100000_image.png, id=2643, 1124.2pt x 693.59125pt>
+<figs/cnn100000_image.png, id=2644, 1124.2pt x 693.59125pt>
 File: figs/cnn100000_image.png Graphic file (type png)
 
 <use figs/cnn100000_image.png>
@@ -2689,14 +2691,14 @@ bnbcosmic_output/cnn_85_momentumdist_stacked.png>] [101 <../bnbcosmic_output/cc
 _costhetadist_stacked.png> <../bnbcosmic_output/cnn_85_costhetadist_stacked.png
 > <../bnbcosmic_output/cc_phidist_stacked.png> <../bnbcosmic_output/cnn_85_phid
 ist_stacked.png>]
-<../bnbcosmic_output/data85_trackrangedist.png, id=2706, 462.528pt x 346.896pt>
+<../bnbcosmic_output/data85_trackrangedist.png, id=2707, 462.528pt x 346.896pt>
 File: ../bnbcosmic_output/data85_trackrangedist.png Graphic file (type png)
 <use ../bnbcosmic_output/data85_trackrangedist.png>
 Package pdftex.def Info: ../bnbcosmic_output/data85_trackrangedist.png used on 
 input line 493.
 (pdftex.def)             Requested size: 268.847pt x 201.64444pt.
 
-<../bnbcosmic_output/data85_Thetadist.png, id=2707, 462.528pt x 346.896pt>
+<../bnbcosmic_output/data85_Thetadist.png, id=2708, 462.528pt x 346.896pt>
 File: ../bnbcosmic_output/data85_Thetadist.png Graphic file (type png)
 
 <use ../bnbcosmic_output/data85_Thetadist.png>
@@ -2704,7 +2706,7 @@ Package pdftex.def Info: ../bnbcosmic_output/data85_Thetadist.png used on input
  line 500.
 (pdftex.def)             Requested size: 268.847pt x 201.64444pt.
 
-<../bnbcosmic_output/data85_Phidist.png, id=2708, 462.528pt x 346.896pt>
+<../bnbcosmic_output/data85_Phidist.png, id=2709, 462.528pt x 346.896pt>
 File: ../bnbcosmic_output/data85_Phidist.png Graphic file (type png)
 
 <use ../bnbcosmic_output/data85_Phidist.png>
@@ -2712,7 +2714,7 @@ Package pdftex.def Info: ../bnbcosmic_output/data85_Phidist.png used on input l
 ine 507.
 (pdftex.def)             Requested size: 268.847pt x 201.64444pt.
 
-<../bnbcosmic_output/data85_trackstartXdist.png, id=2709, 462.528pt x 346.896pt
+<../bnbcosmic_output/data85_trackstartXdist.png, id=2710, 462.528pt x 346.896pt
 >
 File: ../bnbcosmic_output/data85_trackstartXdist.png Graphic file (type png)
  <use ../bnbcosmic_output/data85_trackstartXdist.png>
@@ -2720,7 +2722,7 @@ Package pdftex.def Info: ../bnbcosmic_output/data85_trackstartXdist.png used on
  input line 514.
 (pdftex.def)             Requested size: 268.847pt x 201.64444pt.
 
-<../bnbcosmic_output/data85_trackstartYdist.png, id=2710, 462.528pt x 346.896pt
+<../bnbcosmic_output/data85_trackstartYdist.png, id=2711, 462.528pt x 346.896pt
 >
 File: ../bnbcosmic_output/data85_trackstartYdist.png Graphic file (type png)
  <use ../bnbcosmic_output/data85_trackstartYdist.png>
@@ -2728,7 +2730,7 @@ Package pdftex.def Info: ../bnbcosmic_output/data85_trackstartYdist.png used on
  input line 521.
 (pdftex.def)             Requested size: 268.847pt x 201.64444pt.
 
-<../bnbcosmic_output/data85_trackstartZdist.png, id=2711, 462.528pt x 346.896pt
+<../bnbcosmic_output/data85_trackstartZdist.png, id=2712, 462.528pt x 346.896pt
 >
 File: ../bnbcosmic_output/data85_trackstartZdist.png Graphic file (type png)
  <use ../bnbcosmic_output/data85_trackstartZdist.png>
@@ -2975,7 +2977,7 @@ tumdist_stacked.png>]
 output_contained/cnn_60_costhetadist_stacked.png> <../bnbcosmic_output_containe
 d/cc_phidist_stacked.png> <../bnbcosmic_output_contained/cnn_60_phidist_stacked
 .png>]
-<../bnbcosmic_output_contained/finaleventcosthetadist_pot_cc.png, id=2836, 462.
+<../bnbcosmic_output_contained/finaleventcosthetadist_pot_cc.png, id=2837, 462.
 528pt x 346.896pt>
 File: ../bnbcosmic_output_contained/finaleventcosthetadist_pot_cc.png Graphic f
 ile (type png)
@@ -2985,7 +2987,7 @@ Package pdftex.def Info: ../bnbcosmic_output_contained/finaleventcosthetadist_p
 ot_cc.png used on input line 785.
 (pdftex.def)             Requested size: 212.83777pt x 159.62701pt.
 
-<../bnbcosmic_output_contained/finaleventcosthetadist60_pot.png, id=2837, 462.5
+<../bnbcosmic_output_contained/finaleventcosthetadist60_pot.png, id=2838, 462.5
 28pt x 346.896pt>
 File: ../bnbcosmic_output_contained/finaleventcosthetadist60_pot.png Graphic fi
 le (type png)
@@ -2995,7 +2997,7 @@ Package pdftex.def Info: ../bnbcosmic_output_contained/finaleventcosthetadist60
 _pot.png used on input line 791.
 (pdftex.def)             Requested size: 212.83777pt x 159.62701pt.
 
-<../bnbcosmic_output_contained/finaleventphi_pot_cc.png, id=2838, 462.528pt x 3
+<../bnbcosmic_output_contained/finaleventphi_pot_cc.png, id=2839, 462.528pt x 3
 46.896pt>
 File: ../bnbcosmic_output_contained/finaleventphi_pot_cc.png Graphic file (type
  png)
@@ -3004,7 +3006,7 @@ Package pdftex.def Info: ../bnbcosmic_output_contained/finaleventphi_pot_cc.png
  used on input line 802.
 (pdftex.def)             Requested size: 212.83777pt x 159.62701pt.
 
-<../bnbcosmic_output_contained/finaleventphi60_pot.png, id=2839, 462.528pt x 34
+<../bnbcosmic_output_contained/finaleventphi60_pot.png, id=2840, 462.528pt x 34
 6.896pt>
 File: ../bnbcosmic_output_contained/finaleventphi60_pot.png Graphic file (type 
 png)
@@ -3013,7 +3015,7 @@ Package pdftex.def Info: ../bnbcosmic_output_contained/finaleventphi60_pot.png
 used on input line 808.
 (pdftex.def)             Requested size: 212.83777pt x 159.62701pt.
 
-<../bnbcosmic_output_contained/mc60dataratio_trackrange.png, id=2845, 462.528pt
+<../bnbcosmic_output_contained/mc60dataratio_trackrange.png, id=2846, 462.528pt
  x 346.896pt>
 File: ../bnbcosmic_output_contained/mc60dataratio_trackrange.png Graphic file (
 type png)
@@ -3027,7 +3029,7 @@ Underfull \hbox (badness 1648) in paragraph at lines 822--822
  []
 
 
-<../bnbcosmic_output_contained/mc60dataratio_costheta.png, id=2846, 462.528pt x
+<../bnbcosmic_output_contained/mc60dataratio_costheta.png, id=2847, 462.528pt x
  346.896pt>
 File: ../bnbcosmic_output_contained/mc60dataratio_costheta.png Graphic file (ty
 pe png)
@@ -3041,7 +3043,7 @@ Underfull \hbox (badness 6173) in paragraph at lines 828--828
  []
 
 
-<../bnbcosmic_output_contained/mc60dataratio_Phi.png, id=2847, 462.528pt x 346.
+<../bnbcosmic_output_contained/mc60dataratio_Phi.png, id=2848, 462.528pt x 346.
 896pt>
 File: ../bnbcosmic_output_contained/mc60dataratio_Phi.png Graphic file (type pn
 g)
@@ -3564,23 +3566,8 @@ Class scrbook Warning: Usage of deprecated font command `\bf'!
 
 
 Comment 'appendices' writing to comment.cut. Straight input of comment.cut.
-(./comment.cut
-
-! LaTeX Error: No counter 'Curriculum Vitae' defined.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.1  \setcounter{Curriculum Vitae}{126}
-                                       
-? 
-[126]
-chapter A.
-(./cv.tex [127
-
-]
-<../post_doc_applications/cv_7/esquivel_cv_wpublications.pdf, id=2977, 597.5082
+(./comment.cut (./cv.tex [126]
+<../post_doc_applications/cv_7/esquivel_cv_wpublications.pdf, id=2973, 597.5082
 9pt x 845.0471pt>
 File: ../post_doc_applications/cv_7/esquivel_cv_wpublications.pdf Graphic file 
 (type pdf)
@@ -3597,7 +3584,7 @@ Package pdftex.def Info: ../post_doc_applications/cv_7/esquivel_cv_wpublication
 s.pdf used on input line 2.
 (pdftex.def)             Requested size: 597.50682pt x 845.04504pt.
 
-<../post_doc_applications/cv_7/esquivel_cv_wpublications.pdf, id=2980, page=1, 
+<../post_doc_applications/cv_7/esquivel_cv_wpublications.pdf, id=2976, page=1, 
 597.50829pt x 845.0471pt>
 File: ../post_doc_applications/cv_7/esquivel_cv_wpublications.pdf Graphic file 
 (type pdf)
@@ -3614,7 +3601,7 @@ Package pdftex.def Info: ../post_doc_applications/cv_7/esquivel_cv_wpublication
 s.pdf, page1 used on input line 2.
 (pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
 
-[128
+[127
 
 ]
 File: ../post_doc_applications/cv_7/esquivel_cv_wpublications.pdf Graphic file 
@@ -3639,8 +3626,8 @@ Package pdftex.def Info: ../post_doc_applications/cv_7/esquivel_cv_wpublication
 s.pdf, page1 used on input line 2.
 (pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
 
-[129 <../post_doc_applications/cv_7/esquivel_cv_wpublications.pdf>]
-<../post_doc_applications/cv_7/esquivel_cv_wpublications.pdf, id=3047, page=2, 
+[128 <../post_doc_applications/cv_7/esquivel_cv_wpublications.pdf>]
+<../post_doc_applications/cv_7/esquivel_cv_wpublications.pdf, id=3043, page=2, 
 597.50829pt x 845.0471pt>
 File: ../post_doc_applications/cv_7/esquivel_cv_wpublications.pdf Graphic file 
 (type pdf)
@@ -3662,35 +3649,35 @@ File: ../post_doc_applications/cv_7/esquivel_cv_wpublications.pdf Graphic file
 <use ../post_doc_applications/cv_7/esquivel_cv_wpublications.pdf, page 2>
 Package pdftex.def Info: ../post_doc_applications/cv_7/esquivel_cv_wpublication
 s.pdf, page2 used on input line 2.
+(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
+
+[129 <../post_doc_applications/cv_7/esquivel_cv_wpublications.pdf>]
+<../post_doc_applications/cv_7/esquivel_cv_wpublications.pdf, id=3053, page=3, 
+597.50829pt x 845.0471pt>
+File: ../post_doc_applications/cv_7/esquivel_cv_wpublications.pdf Graphic file 
+(type pdf)
+
+<use ../post_doc_applications/cv_7/esquivel_cv_wpublications.pdf, page 3>
+Package pdftex.def Info: ../post_doc_applications/cv_7/esquivel_cv_wpublication
+s.pdf, page3 used on input line 2.
+(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
+File: ../post_doc_applications/cv_7/esquivel_cv_wpublications.pdf Graphic file 
+(type pdf)
+
+<use ../post_doc_applications/cv_7/esquivel_cv_wpublications.pdf, page 3>
+Package pdftex.def Info: ../post_doc_applications/cv_7/esquivel_cv_wpublication
+s.pdf, page3 used on input line 2.
+(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
+File: ../post_doc_applications/cv_7/esquivel_cv_wpublications.pdf Graphic file 
+(type pdf)
+
+<use ../post_doc_applications/cv_7/esquivel_cv_wpublications.pdf, page 3>
+Package pdftex.def Info: ../post_doc_applications/cv_7/esquivel_cv_wpublication
+s.pdf, page3 used on input line 2.
 (pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
 
 [130 <../post_doc_applications/cv_7/esquivel_cv_wpublications.pdf>]
-<../post_doc_applications/cv_7/esquivel_cv_wpublications.pdf, id=3057, page=3, 
-597.50829pt x 845.0471pt>
-File: ../post_doc_applications/cv_7/esquivel_cv_wpublications.pdf Graphic file 
-(type pdf)
-
-<use ../post_doc_applications/cv_7/esquivel_cv_wpublications.pdf, page 3>
-Package pdftex.def Info: ../post_doc_applications/cv_7/esquivel_cv_wpublication
-s.pdf, page3 used on input line 2.
-(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
-File: ../post_doc_applications/cv_7/esquivel_cv_wpublications.pdf Graphic file 
-(type pdf)
-
-<use ../post_doc_applications/cv_7/esquivel_cv_wpublications.pdf, page 3>
-Package pdftex.def Info: ../post_doc_applications/cv_7/esquivel_cv_wpublication
-s.pdf, page3 used on input line 2.
-(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
-File: ../post_doc_applications/cv_7/esquivel_cv_wpublications.pdf Graphic file 
-(type pdf)
-
-<use ../post_doc_applications/cv_7/esquivel_cv_wpublications.pdf, page 3>
-Package pdftex.def Info: ../post_doc_applications/cv_7/esquivel_cv_wpublication
-s.pdf, page3 used on input line 2.
-(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
-
-[131 <../post_doc_applications/cv_7/esquivel_cv_wpublications.pdf>]
-<../post_doc_applications/cv_7/esquivel_cv_wpublications.pdf, id=3067, page=4, 
+<../post_doc_applications/cv_7/esquivel_cv_wpublications.pdf, id=3063, page=4, 
 597.50829pt x 845.0471pt>
 File: ../post_doc_applications/cv_7/esquivel_cv_wpublications.pdf Graphic file 
 (type pdf)
@@ -3714,22 +3701,22 @@ Package pdftex.def Info: ../post_doc_applications/cv_7/esquivel_cv_wpublication
 s.pdf, page4 used on input line 2.
 (pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
 
-[132 <../post_doc_applications/cv_7/esquivel_cv_wpublications.pdf>]))
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 173.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 173.
+[131 <../post_doc_applications/cv_7/esquivel_cv_wpublications.pdf>]))
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 170.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 170.
 
 (./example.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 173.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 173.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 170.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 170.
 Package rerunfilecheck Info: File `example.out' has not changed.
-(rerunfilecheck)             Checksum: 382C348F2023C01758F6F565555E1830;5783.
+(rerunfilecheck)             Checksum: A16150640BD193EB40DF379528FAAC65;5730.
  ) 
 Here is how much of TeX's memory you used:
- 32440 strings out of 494953
- 585002 string characters out of 6180977
- 818707 words of memory out of 5000000
- 33968 multiletter control sequences out of 15000+600000
- 126725 words of font info for 535 fonts, out of 8000000 for 9000
+ 32423 strings out of 494953
+ 584843 string characters out of 6180977
+ 818451 words of memory out of 5000000
+ 33966 multiletter control sequences out of 15000+600000
+ 125950 words of font info for 525 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
  67i,23n,80p,2575b,1020s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/share/texliv
@@ -3754,10 +3741,10 @@ lb8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/palatino/uplbi8a.pfb></
 usr/share/texlive/texmf-dist/fonts/type1/urw/palatino/uplr8a.pfb></usr/share/te
 xlive/texmf-dist/fonts/type1/urw/palatino/uplr8a.pfb></usr/share/texlive/texmf-
 dist/fonts/type1/urw/palatino/uplri8a.pfb>
-Output written on example.pdf (157 pages, 12141468 bytes).
+Output written on example.pdf (157 pages, 12140981 bytes).
 PDF statistics:
- 3230 PDF objects out of 3580 (max. 8388607)
- 2096 compressed objects within 21 object streams
+ 3226 PDF objects out of 3580 (max. 8388607)
+ 2092 compressed objects within 21 object streams
  425 named destinations out of 1000 (max. 500000)
- 66410 words of extra memory for PDF output out of 74296 (max. 10000000)
+ 66402 words of extra memory for PDF output out of 74296 (max. 10000000)
 

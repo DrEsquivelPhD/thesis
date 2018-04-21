@@ -60,7 +60,7 @@
 }}{}
 \makeatother
 
-\AtBeginDocument{\AtBeginShipoutNext{\AtBeginShipoutDiscard}}
+%\AtBeginDocument{\AtBeginShipoutNext{\AtBeginShipoutDiscard}}
 
 %% Start the document
 \begin{document}
@@ -160,12 +160,9 @@ May, 2018\\
 
 
 %% Produce the appendices
+\renewcommand{\appendixname}{Curriculum Vitae}
 \begin{appendices}
- \setcounter{Curriculum Vitae}{126}
-  \chapter{Curriculum Vitae}
-  \renewcommand{\thechapter}{Curriculum Vitae}
   \input{cv}
-\renewcommand{\thechapter}{Curriculum Vitae}
 \end{appendices}
 %  \input{appendices}
 
