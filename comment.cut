@@ -1,1 +1,3 @@
-  \input{cv}
+\chapter*{Curriculum Vitae}
+  \includepdf[pages=-]{../post_doc_applications/cv_7/esquivel_cv_wpublications.pdf}
+%  \input{cv}

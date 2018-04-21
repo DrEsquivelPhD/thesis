@@ -79,3 +79,4 @@
 \contentsline {section}{\numberline {8.4}Calculating preliminary cc-inclusive cross-sections for each selection}{117}{section.8.4}
 \contentsline {chapter}{\numberline {9}Conclusion}{121}{chapter.9}
 \contentsline {chapter}{Bibliography}{123}{chapter*.101}
+\contentsline {Curriculum Vitae}{Curriculum Vitae}{127}{chapter*.101}

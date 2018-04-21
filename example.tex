@@ -61,19 +61,17 @@
 \makeatother
 
 %\AtBeginDocument{\AtBeginShipoutNext{\AtBeginShipoutDiscard}}
-
 %% Start the document
 \begin{document}
-
 \begin{frontmatter}
-
+\pagenumbering{roman}
   \thispagestyle{empty}
-  \let\cleardoublepage\clearpage
+  %\let\cleardoublepage\clearpage
 \begin{abstract}%[\smaller \thetitle\\ \vspace*{1cm} \smaller {\theauthor}]
   \thispagestyle{empty}
 The purpose of this thesis was to use Convolutional Neural Networks (CNN) to separate $\mu'{s}$ and $\pi'{s}$ for use in increasing the acceptance rate of $\mu'{s}$ below the implemented 75cm track length cut in the Charged Current Inclusive (CC-Inclusive) event selection for the CC-Inclusive Cross-Section Measurement. In doing this, we increase acceptance rate for CC-Inclusive events below a specific momentum range.
 \end{abstract}
-\let\cleardoublepage\clearpage
+%\let\cleardoublepage\clearpage
 \newpage
 
 \begin{center}
@@ -161,14 +159,16 @@ May, 2018\\
 
 %% Produce the appendices
 \renewcommand{\appendixname}{Curriculum Vitae}
-\setcounter{chapter}{0}
-\setcounter{page}{127}
 %\renewcommand{\appendixname}{}
 \renewcommand{\thechapter}{}
-\renewcommand\thesection{\arabic{section}}
+%\renewcommand\thesection{\arabic{section}}
+\setcounter{page}{127}
 %\addcontentsline{toc}{chapter}{Curriculum Vitae}
+\addcontentsline{toc}{\appendixname}{Curriculum Vitae}
 \begin{appendices}
-  \input{cv}
+\chapter*{Curriculum Vitae}
+  \includepdf[pages=-]{../post_doc_applications/cv_7/esquivel_cv_wpublications.pdf}
+%  \input{cv}
 \end{appendices}
 %  \input{appendices}
 
